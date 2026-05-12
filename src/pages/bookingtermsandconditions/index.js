@@ -319,7 +319,7 @@ const PrivacyPage = () => {
                 display: "inline-block",
               }}
             />
-            Legal Information
+            Legal Informationssssssssssss
           </div>
 
           <h1 style={titleStyle}>Terms and Conditions</h1>
