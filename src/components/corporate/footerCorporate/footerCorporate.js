@@ -9,6 +9,8 @@ import Footerimg from "../../../../public/img/corporate/footerimg.png";
 import Image from "next/image";
 import Link from "next/link";
 import iata from "../../../../public/img/IATA.png";
+import brandLogo from "../../../../public/img/brand_logo_white.png";
+
 
 export default function Footer1() {
   const [showEmailInput, setShowEmailInput] = useState(false);
@@ -34,13 +36,11 @@ export default function Footer1() {
     <div className={styles["footer-container"]}>
       <footer className={styles.footer}>
         <div className={styles.column + " " + styles["logo-column"]}>
-          <h3>About QuGo</h3>
-          <Image src={Footerimg} alt="Company Logo" className={styles.logo} />
-          <p className={styles.poweredLine}>
-            Qugo Travel Technologies Pvt. Ltd.
-          </p>
+          <h3>About WeynGo</h3>
+          <Image src={brandLogo} alt="Company Logo" className={styles.logo} />
+          <p className={styles.poweredLine}>WeynGo Travels.</p>
           <p className={styles["company-description"]}>
-            QuGo .Corporate manages business travel to
+            WeynGo .Corporate manages business travel to
             <br />
             ensure a smooth experience. It handles <br />
             everything from employee onboarding to
@@ -156,11 +156,17 @@ export default function Footer1() {
         <div className={styles.column + " " + styles.social}>
           <h4 className={styles["column-heading"]}>Get in touch!</h4>
           <div className={styles["contact-info"]}>
-            <a href="tel:+917204186969">+917204186969</a>
+            <a href="tel:+971XXXXXXXXX">+971 XX XXX XXXX</a>
             <br />
-            <a href="mailto:info@qugo.io">info@qugo.io</a>
+            <a href="mailto:info@weyngo.io">info@weyngo.io</a>
+            <br />
+            <a>WeynGo Travel & Tourism LLC</a>
+            <br />
+            <a>Business Bay, Dubai</a>
+            <br />
+            <a>United Arab Emirates</a>
           </div>
-          <div className={styles["social-mobile"]}>
+          {/* <div className={styles["social-mobile"]}>
             <ul className={styles["icons-mobile"]}>
               <li>
                 <a
@@ -189,19 +195,6 @@ export default function Footer1() {
                   />
                 </a>{" "}
               </li>
-              {/* <li>
-                <a
-                  href="https://twitter.com/QugoTrips"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ color: "white" }}
-                >
-                  <FontAwesomeIcon
-                    icon={faXTwitter}
-                    style={{ maxHeight: "18px", height: "16px" }}
-                  />
-                </a>{" "}
-              </li> */}
             </ul>
           </div>
           <div className={styles["social-icons"]}>
@@ -227,17 +220,6 @@ export default function Footer1() {
                 style={{ maxHeight: "18px", height: "16px" }}
               />
             </a>{" "}
-            {/* <a
-              href="https://twitter.com/QugoTrips"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ color: "white" }}
-            >
-              <FontAwesomeIcon
-                icon={faXTwitter}
-                style={{ maxHeight: "18px", height: "16px" }}
-              />
-            </a>{" "} */}
             <a
               href="https://www.linkedin.com/company/qugotrips/"
               target="_blank"
@@ -249,18 +231,7 @@ export default function Footer1() {
                 style={{ maxHeight: "18px", height: "16px" }}
               />
             </a>{" "}
-            {/* <a
-              href="https://www.youtube.com/@qugotrips/"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ color: "white" }}
-            >
-              <FontAwesomeIcon
-                icon={faYoutube}
-                style={{ maxHeight: "18px", height: "16px" }}
-              />
-            </a> */}
-          </div>
+          </div> */}
           <Image
             src={iata}
             alt="IATA Logo"
@@ -270,16 +241,6 @@ export default function Footer1() {
             height={80}
             style={{ marginTop: "10px" }}
           />
-          {/* <div className={styles.maincontainer}>
-          <div style={{display:"flex"}}>
-          <span className={styles.demo}>Send request for demo</span>
-          </div>
-          <div style={{display:"flex"}}>
-          <input type="text" placeholder="Enter your email Id" className={styles.emailid}></input>
-          <input type="text" className={styles.demos1} placeholder="Demo"></input>
-          </div>
-          </div>
-         */}
         </div>
 
         {/* <div className={styles.column}>

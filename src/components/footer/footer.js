@@ -9,7 +9,8 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Image from "next/image";
 import Link from "next/link";
 import iata from "../../../public/img/IATA.png";
-import { getTabSpecificData, setTabSpecificData } from "@/utils/axios/axios";
+import brandLogo from "../../../public/img/brand_logo_white.png";
+import { setTabSpecificData } from "@/utils/axios/axios";
 
 export default function Footer() {
   const [showEmailInput, setShowEmailInput] = useState(false);
@@ -19,11 +20,10 @@ export default function Footer() {
 
   useEffect(() => {
     // Check if running on the client
-    if (typeof window !== 'undefined') {
-      setIsHomePage(window.location.pathname === '/CIT-95');
+    if (typeof window !== "undefined") {
+      setIsHomePage(window.location.pathname === "/CIT-95");
     }
   }, []);
-
 
   const handleSubscribeClick = () => {
     setShowEmailInput(true);
@@ -42,22 +42,24 @@ export default function Footer() {
     setShowEmailInput(false);
   };
   return (
-    <div className={isHomePage?styles["footer-container1"]: styles["footer-container"]}>
+    <div
+      className={
+        isHomePage ? styles["footer-container1"] : styles["footer-container"]
+      }
+    >
       <footer className={styles.footer}>
         <div className={styles.column + " " + styles["logo-column"]}>
-          <h3>About QuGo</h3>
+          <h3>About WeynGo</h3>
           <Image
-            src="/img/Qugo Logo white-01.png"
+            src={brandLogo}
             alt="Company Logo"
             className={styles.logo}
             width={300}
             height={300}
           />
-          <p className={styles.poweredLine}>
-            Qugo Travel Technologies Pvt. Ltd.
-          </p>
+          <p className={styles.poweredLine}>WeynGo Travels</p>
           <p className={styles["company-description"]}>
-            QuGo is revolutionising how you experience this beautiful planet.
+            WeynGo is revolutionising how you experience this beautiful planet.
             With our on ground expertise and cutting edge technology, we provide
             the right way to travel and explore the beauty that this earth
             bears.
@@ -72,9 +74,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <Link href="/" 
-              onClick={() => handleLinkClick("hotels")}
-              >
+              <Link href="/" onClick={() => handleLinkClick("hotels")}>
                 Hotels
               </Link>
             </li>
@@ -82,24 +82,19 @@ export default function Footer() {
               <a href="#">Flights</a>
             </li>  */}
             <li>
-              <Link href="/" 
-              onClick={() => handleLinkClick("flights")}
-              >
+              <Link href="/" onClick={() => handleLinkClick("flights")}>
                 Flights
               </Link>
             </li>
             <li>
-              <Link href="/" 
-              onClick={() => handleLinkClick("packages")}
-              >
+              <Link href="/" onClick={() => handleLinkClick("packages")}>
                 Packages
               </Link>
             </li>
             <li>
-              <Link href="/blogs" target="_blank">Blogs</Link>
-            </li>
-            <li>
-              <Link href="/corporate/Careers" target="_blank">Careers</Link>
+              <Link href="/blogs" target="_blank">
+                Blogs
+              </Link>
             </li>
             {/* <li>
               <a href="#">Blog</a>
@@ -132,18 +127,17 @@ export default function Footer() {
         <div className={styles.column + " " + styles.social}>
           <h4 className={styles["column-heading"]}>Contact Us</h4>
           <div className={styles["contact-info"]}>
-            <a href="tel:+917204186969">+917204186969</a>
+            <a href="tel:+971XXXXXXXXX">+971 XX XXX XXXX</a>
             <br />
-            <a href="mailto:info@qugo.io">info@qugo.io</a>
+            <a href="mailto:info@weyngo.io">info@weyngo.io</a>
             <br />
-            <a> GST:29AAACQ9610R1ZP</a>
+            <a>WeynGo Travel & Tourism LLC</a>
             <br />
-            <a>Jeet Dynasty,</a> <br/> 
-            {/* <a> Old Madras Road,</a><br/>  */}
-            <a> Nagavarapalya, Bengaluru</a><br/> 
-            <a> Karnataka 560093</a>
+            <a>Business Bay, Dubai</a>
+            <br />
+            <a>United Arab Emirates</a>
           </div>
-          <div className={styles["social-mobile"]}>
+          {/* <div className={styles["social-mobile"]}>
             <ul className={styles["icons-mobile"]}>
               <li>
                 <a
@@ -221,11 +215,11 @@ export default function Footer() {
                 style={{ maxHeight: "25px", height: "25px" }}
               />
             </a>{" "}
-          </div>
+          </div> */}
         </div>
         <div className={styles.column}>
           <h4 className={styles["column-heading"]}>Join Our Blog</h4>
-          <a href="#">qugoblog.com</a>
+          <a href="#">weyngoblog.com</a>
           {!showEmailInput ? (
             <div className={styles.subscribeButton}>
               <button onClick={handleSubscribeClick}>Subscribe</button>
@@ -260,12 +254,7 @@ export default function Footer() {
       </footer>
       <div className={styles["endlogo-mobile"]}>
         <center>
-          <Image
-            src="/img/qugo-footer-logo-mobile.png"
-            alt=""
-            width={80}
-            height={40}
-          />
+          <Image src={brandLogo} alt="" width={80} height={40} />
         </center>
       </div>
     </div>

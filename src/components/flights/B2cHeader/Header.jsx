@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import headLogo from "../../../../public/img/Qugo Logo resize 2-01.png";
-import qugoLogo from "../../../../public/img/Qugo Logo mobile.png";
+import headLogo from "../../../../public/img/brand_logo.png";
+import qugoLogo from "../../../../public/img/brand_logo_mobile.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import config from "@/config";
@@ -18,7 +18,8 @@ import { useLogin } from "@/store/context/LoginContext";
 import FlightsPriceChangedPopup from "@/components/pricechangedpopup/flightspricechangedpopup";
 import walletImg from "../../../../public/img/wallet.png";
 import LoginModal from "@/components/PosiflexLogin/LoginOtp";
-import corporate from "../../../../public/img/Qugo Corporate black.png";
+// import corporate from "../../../../public/img/Qugo Corporate black.png";
+import corporate from "../../../../public/img/brand_corporate.png";
 import { switchToCorporate } from "@/utils/common";
 import ProfileSheet from "@/components/b2c/common/ProfileSheet";
 import { usePathname } from "next/navigation";
@@ -243,7 +244,7 @@ export default function CommonHeader(props) {
     const userId = getTabSpecificData("userID");
     try {
       const response = await axios.get(
-        `${config.EVENTS_REGISTRATION_DETAILS}?user_id=${userId}`
+        `${config.EVENTS_REGISTRATION_DETAILS}?user_id=${userId}`,
       );
       return response.data;
     } catch (error) {
@@ -300,7 +301,7 @@ export default function CommonHeader(props) {
       <div className="hidden md:flex justify-between pt-2 pb-2 pr-4">
         <div className="mt-2 pl-4">
           <Image
-            className="w-[60px] h-[25px] cursor-pointer"
+            className="w-[90px] h-auto cursor-pointer"
             src={isHome ? qugoLogo : headLogo}
             alt="headLogo"
             onClick={goToHome}
@@ -395,7 +396,7 @@ export default function CommonHeader(props) {
           <div className="flex-shrink-0">
             <Image
               className="w-[50px] h-[23px] cursor-pointer"
-              src={isHome ? qugoLogo : headLogo}
+              src={headLogo}
               alt="headLogo"
               onClick={goToHome}
             />

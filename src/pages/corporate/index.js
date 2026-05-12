@@ -100,7 +100,7 @@ export default function Home() {
           <div className="w-full h-96 flex p-10">
             <div className="flex flex-col justify-end w-full items-center sm:items-start sm:w-1/2 pl-0 sm:pl-10">
               <span className="text-lg font-light text-[#D5b300] mb-3">
-                QuGo.Corporate for Business Travel
+                WeynGo.Corporate for Business Travel
               </span>
               <span className="text-3xl text-nowrap sm:text-4xl font-extralight text-white mb-2">
                 Easy . Quick . Managed

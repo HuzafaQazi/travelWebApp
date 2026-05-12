@@ -551,7 +551,7 @@ export default function Signup() {
               </div>
               <div className="flex flex-col justify-center w-full ml-0 sm:-ml-[10%] items-center sm:items-start">
                 <span className="text-lg font-light text-[#D5b300] mb-3">
-                  QuGo.Corporate for Business Travel
+                  WeynGo.Corporate for Business Travel
                 </span>
                 <span className="text-xl sm:text-4xl font-extralight text-white  mb-2">
                   Easy . Quick . Managed

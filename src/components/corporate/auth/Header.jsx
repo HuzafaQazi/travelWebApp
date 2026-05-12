@@ -1,9 +1,9 @@
 import "tailwindcss/tailwind.css";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import corpLogo from "../../../images/corporate/qugocorpadminlogo.png";
-import emplLogo from "../../../images/corporate/empllogo.png";
-import qugoLogo from "../../../images/corporate/qugoLogo1.png";
-import qugoCorpLogo from "../../../images/corporate/qugocorpadminlogo.png";
+import corporateEmployee from "../../../images/corporate/corporate_employee.png";
+import corporateAdmin from "../../../images/corporate/corporate_admin.png";
+import qugoLogo from "../../../images/corporate/brand_logo.png";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -188,14 +188,14 @@ const Header = () => {
 
     // Get the module based on the route
     const matchedModule = Object.values(MODULE_ROUTES).find(
-      (m) => m.route === route
+      (m) => m.route === route,
     );
 
     // Check if current path matches main route or any nested routes
     return (
       currentPath === route ||
       (matchedModule?.nestedRoutes || []).some(
-        (nestedRoute) => currentPath === nestedRoute
+        (nestedRoute) => currentPath === nestedRoute,
       )
     );
   };
@@ -257,7 +257,7 @@ const Header = () => {
                     ) : (
                       <Image
                         onClick={redirectBooking}
-                        src={emplLogo}
+                        src={corporateEmployee}
                         alt="Logo"
                         style={{ width }}
                         className="cursor-pointer"
@@ -280,7 +280,7 @@ const Header = () => {
                             onClick={() => handlePageRedirect(route)}
                             className={clsx(
                               "cursor-pointer no-underline hover:text-[#028fa3]",
-                              { "text-[#028fa3]": isActive }
+                              { "text-[#028fa3]": isActive },
                             )}
                           >
                             <span className="inline-block pb-1 relative">
@@ -469,7 +469,7 @@ const Header = () => {
                               }}
                               className={clsx(
                                 "cursor-pointer no-underline hover:text-[#028fa3]",
-                                { "text-[#028fa3]": isActive }
+                                { "text-[#028fa3]": isActive },
                               )}
                             >
                               {name}
@@ -542,7 +542,7 @@ const Header = () => {
                       </div>
                     </ul>
                   </div>,
-                  document.body
+                  document.body,
                 )}
               </>
             )}
@@ -554,7 +554,7 @@ const Header = () => {
             <div className="w-2/12 sm:w-1/5 h-3/5 sm:h-1/5">
               <Image
                 onClick={redirectBooking}
-                src={qugoCorpLogo}
+                src={corporateAdmin}
                 alt="Company Logo"
                 className="h-3/5 sm:h-1/5 mt-2 sm:!mt-0 -ml-1 sm:ml-0  cursor-pointer"
               />

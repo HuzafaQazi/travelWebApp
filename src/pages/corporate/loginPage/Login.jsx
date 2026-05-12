@@ -642,7 +642,7 @@ export default function Login() {
               </div>
               <div className="flex flex-col justify-center items-center sm:items-start w-full sm:w-fit">
                 <span className="text-lg font-light text-[#D5b300] mb-3">
-                  QuGo.Corporate for Business Travel
+                  WeynGo.Corporate for Business Travel
                 </span>
                 <span className="text-xl sm:text-4xl font-extralight text-white mb-1 sm:mb-2">
                   Easy . Quick . Managed
