@@ -1,0 +1,58 @@
+.walletDetails {
+  padding-bottom: 0%;
+  padding-top: 1px;
+  /* width: 95%; */
+  margin-left: 1%;
+  margin-top: 14px;
+  color: #878786;
+  font-size: 12px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(145, 178, 228, 0.15);
+}
+
+.walletText {
+  color: #028fa3;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 28.13px;
+  text-align: left;
+}
+.walletText1 {
+  color: #878786;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 28.13px;
+  text-align: left;
+}
+
+.walletDetail {
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 1.5%;
+  margin-top: 1%;
+}
+.walletInfo {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.balance {
+  margin: 5px 0px 5px 20px;
+  color: rgba(150, 163, 2, 1);
+}
+
+.recharge {
+  height: 40px;
+  width: 120px;
+  font-size: 12px;
+  background: #96a302;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}

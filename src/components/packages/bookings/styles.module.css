@@ -1,0 +1,384 @@
+.roombrief {
+  width: -webkit-fill-available;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.address {
+  text-align: left;
+  line-height: 1.2;
+  display: block;
+  width: 400px;
+}
+
+.customername {
+  color: grey;
+}
+
+.completedButton {
+  background-color: rgba(70, 131, 22, 0.1);
+  color: #468316;
+  padding: 5px 21px;
+  font-weight: bold;
+  border: none;
+  cursor: not-allowed;
+  display: flex;
+  width: 90%;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-right: 5%;
+  margin-left: auto;
+  border-radius: 8px;
+}
+
+.reservedButton {
+  background-color: rgba(233, 70, 0, 0.1);
+  color: #e94600;
+  padding: 5px 21px;
+  border: none;
+  cursor: not-allowed;
+  display: flex;
+  width: 20%;
+  height: 45px;
+  align-items: center;
+  margin-top: 2%;
+  margin-right: 7%;
+  margin-left: auto;
+  border-radius: 8px;
+}
+
+.cancelledButton {
+  background-color: rgba(207, 26, 26, 0.1);
+  color: #cf1a1a;
+  padding: 5px 21px;
+  font-weight: bold;
+  border: none;
+  cursor: not-allowed;
+  display: flex;
+  width: 90%;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-right: 25%;
+  margin-left: auto;
+  border-radius: 8px;
+}
+
+.bookingitem {
+  border-radius: 12px;
+  /* max-height: 180px; */
+  background-color: rgb(235, 248, 250);
+  padding: 8px;
+  padding-left: 0px;
+  padding-bottom: 2%;
+  /* display: flex; */
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 12px;
+}
+
+.bookinglistitem {
+  border-radius: 12px;
+  max-height: 180px;
+  background-color: rgb(235, 248, 250);
+  padding: 8px;
+  padding-left: 24px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 12px;
+}
+
+.profilePopup {
+  position: relative;
+}
+
+.Popupicon {
+  font-size: 40px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.popup {
+  position: absolute;
+  width: max-content;
+  top: 3px;
+  right: 22px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 7px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.popupOption {
+  padding: 5px;
+  cursor: pointer;
+  color: #878786;
+}
+
+.cancellationPopup {
+  position: absolute;
+  width: max-content;
+  top: 55%;
+  right: 8px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  list-style-type: "&#x2713";
+  z-index: 99999;
+}
+
+.feeTable {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  padding: 3%;
+  border: 1px dotted #ccc;
+  border-radius: 10px;
+}
+
+.feeColumn {
+  flex: 1;
+}
+
+.feeColumns {
+  flex: 1 1;
+  margin-left: 5%;
+}
+
+.feeColumns p {
+  margin-bottom: 2.5rem;
+}
+
+.anotherStyle {
+  margin-left: 5%;
+}
+
+.anotherStyle p {
+  margin-bottom: 2.5rem;
+}
+
+.smallText {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.checkboxLabel {
+  display: block;
+  margin-top: 10px;
+}
+
+.checkboxLabel input {
+  margin-right: 2%;
+}
+
+.cancelButton {
+  margin-top: 15px;
+  margin-left: 35%;
+  background-color: rgb(54, 170, 39);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.cancelButton:disabled {
+  margin-top: 15px;
+  margin-left: 35%;
+  background-color: grey;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.customHr {
+  width: 95%;
+  margin-left: 3%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.reserveOption {
+  padding-left: 24px;
+}
+
+.amountExpiry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Center items vertically */
+}
+
+.amountToBePaid {
+  margin-right: 10px;
+  color: #028fa3;
+  /* Adjust margin as needed */
+}
+
+.expiryDetails {
+  display: flex;
+  color: #cf1a1a;
+  align-items: center;
+  /* Center items vertically */
+}
+
+.buttonRow {
+  margin-top: 2%;
+}
+
+.cancelOption {
+  padding: 2%;
+  color: #028fa3;
+  background-color: #ffffff;
+  margin-right: 3%;
+  border-radius: 16px;
+  border: 1px solid #028fa3;
+}
+
+.payButton {
+  padding: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  color: #ffffff;
+  background-color: #028fa3;
+  border: none;
+  border-radius: 16px;
+  background: var(--Primary-colour, #028fa3);
+  box-shadow: 0px 4px 4px 0px rgba(35, 31, 32, 0.35);
+}
+
+.refundstatus {
+  padding-top: 8%;
+  width: 100%;
+  color: #20854a;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  padding-left: 10px;
+}
+
+.container {
+  position: relative;
+}
+
+.popup {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.popupContent {
+  padding: 20px;
+}
+
+.popupContent button {
+  background: #028fa3;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.success {
+  color: #028fa3;
+}
+
+.bookingstatus {
+  width: 20%;
+}
+
+.amountPaid {
+  margin-right: 10px;
+  color: #028fa3;
+  /* Adjust margin as needed */
+}
+
+.clockIcon {
+  margin-right: 5px;
+}
+
+.retryPayment {
+  color: #20854a;
+  font-size: 1.2vw;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: underline;
+  text-wrap: nowrap;
+}
+
+.bookingstatus {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .bookinglistitem {
+    flex-direction: row;
+    align-items: center;
+    max-width: fit-content;
+    height: fit-content;
+    max-height: fit-content;
+    padding-left: 6px;
+  }
+
+  .roombrief {
+    width: fit-content;
+    height: auto;
+  }
+
+  .address {
+    width: fit-content;
+  }
+
+  .bold {
+    font-size: 12px;
+  }
+
+  .customername {
+    font-size: 2.2vw;
+  }
+
+  .bookingstatus {
+    width: 30%;
+  }
+
+  .cancelledButton {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .completedButton {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .date {
+    font-size: 12px;
+    font-weight: 600px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .retryPayment {
+    font-size: 0.8vw;
+  }
+}

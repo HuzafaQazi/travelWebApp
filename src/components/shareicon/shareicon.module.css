@@ -1,0 +1,27 @@
+.whatsappcontainer {
+  width: fit-content;
+  position: static;
+  top: 15%;
+  right: 10%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.whatsappIcon {
+  color: #878786;
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+}
+
+@media (max-width: 550px) {
+  .whatsappIcon {
+    width: 15px;
+    height: 15px;
+    margin-top: 0px;
+    margin-left: 2px;
+  }
+}

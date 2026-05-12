@@ -1,0 +1,97 @@
+.offersCarousel {
+  margin-bottom: 0px;
+}
+
+.promotions {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 30px;
+  line-height: 72px;
+
+  /* Text colour */
+
+  color: #030b09;
+}
+
+.keenSlider1 {
+  background: #f2f2f2;
+  /* background-color: #000; */
+  /* box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.05); */
+  border-radius: 18px;
+  position: relative;
+  width: 100%;
+}
+
+.keenSliderImage1 {
+  width: 100%;
+  object-fit: fill;
+  /* This is the height of an individual image */
+  height: 100%;
+  background: rgba(3, 11, 9, 0.05);
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.05);
+  border-radius: 18px;
+  /* max-height: 400px; */
+}
+
+.sliderPromotionsText {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 25px;
+  position: absolute;
+  top: 220px;
+  color: #030b09;
+}
+
+.couponCodeDiv {
+  background: #ffffff;
+  backdrop-filter: blur(2px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 10px;
+  width: 93%;
+  /* position: absolute;  */
+  position: absolute;
+  top: 260px;
+}
+
+.couponCodeDiv p {
+  display: inline-block;
+  margin: 0;
+}
+
+.couponCodeId {
+  margin: 0;
+}
+
+.couponCodeId {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 15px;
+  line-height: 24px;
+  color: #028fa3;
+}
+
+.couponCode {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 15px;
+  line-height: 24px;
+  color: #028fa3;
+  float: right;
+}
+
+.dots {
+  display: flex;
+  padding: 10px 0;
+  justify-content: center;
+}
+
+.slider {
+  min-width: 100% !important;
+  max-width: 100% !important;
+}

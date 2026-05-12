@@ -1,0 +1,152 @@
+.gridcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  /* grid-template-rows: repeat(2, 1fr); 2 rows */
+  gap: 0px; /* Gap between columns */
+  padding: 10px; /* Padding inside the grid */
+  /* background-image: url("https://www.petfinder.com/wp-content/uploads/2012/11/91615172-find-a-lump-on-cats-skin-632x475.jpg"); */
+}
+
+.griditem {
+  display: flex;
+  border: 0.5px solid white; /* Border around each grid item */
+  padding: 10px; /* Padding inside each grid item */
+  justify-content: center;
+  align-items: center;
+  height: 98px;
+  color: white;
+  /* margin-top: 10px; */
+}
+
+.gridbgimage {
+  background-color: rgba(2, 143, 163, 0.9);
+  border-radius: 12px;
+  margin-top: 18px;
+}
+
+.griditem:first-child {
+  border-top: none;
+}
+
+.griditem:nth-child(3n + 1) {
+  border-left: none;
+}
+
+.griditem:nth-child(3n + 1) {
+  border-left: none;
+}
+
+.griditem:nth-child(3n) {
+  border-right: none;
+}
+
+.griditem:nth-child(-n + 3) {
+  border-top: none;
+}
+
+.griditem:nth-last-child(-n + 3) {
+  border-bottom: none;
+}
+
+.grid-container {
+  box-shadow: 0 0 0 1px #ccc inset,
+    /* Top border of each row */ 0 -10px 0 0 #ccc inset; /* Right border of each column */
+}
+
+.grid-item:first-child {
+  border-top: none; /* Remove top border for the first row */
+}
+
+.grid-item:nth-child(3n + 1) {
+  border-left: none; /* Remove left border for the first column */
+}
+
+/* CSS for the unordered list */
+.unordered-list {
+  list-style-type: disc; /* Use disc style for bullet points (points) */
+  padding: 0; /* Remove default padding */
+}
+
+/* CSS for each list item */
+.list-item {
+  margin: 5px 0; /* Add some margin to separate items */
+  padding: 5px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
+}
+
+
+/* .container {
+  width: 80%;
+  height: 500px;
+  margin: 30px auto;
+  background: #eee;
+  position: relative;
+}
+.container div {
+  display: flex;
+  float: left;
+  width: 25%;
+  height: 20%;
+  border: 2px solid #aaa;
+  margin: 0; padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.borderoverride {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 2px solid #eee;
+} */
+
+.popup {
+  position: absolute;
+  /* top: 210%; /* Position the popup below the refund status */
+  /* left: 50%; */ 
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  z-index: 999; /* Ensure the popup is above other elements */
+  min-width: 500px; /* Set the minimum width of the popup */
+  min-height: 100px; /* Set the minimum height of the popup */
+}
+
+.popupContent {
+  padding: 20px;
+}
+
+.popupContent button {
+  background: #028fa3;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.viewmoreamenities {
+  width: 100%;
+  color: #20854a;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+
+}
+
+.amenitiesheading {
+  padding-left: 20px;
+  padding-top: 5px  ;
+  font-size: 18px; /* Adjust the font size to your preference */
+  font-weight: bold; /* You can make it bold if desired */
+  color: #333; /* Set the color as you like */
+  margin-bottom: 10px; /* Add margin to separate it from other content */
+}

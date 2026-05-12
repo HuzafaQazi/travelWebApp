@@ -1,0 +1,82 @@
+.gridcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 0px; /* Gap between columns */
+  padding: 10px; /* Padding inside the grid */
+}
+
+.griditem {
+  display: flex;
+  border: 0.5px solid white; /* Border around each grid item */
+  padding: 10px; /* Padding inside each grid item */
+  justify-content: center;
+  align-items: center;
+  height: 98px;
+  color: white;
+  /* margin-top: 10px; */
+}
+
+.gridbgimage {
+  background-color: rgba(2, 143, 163, 0.9);
+  border-radius: 12px;
+  margin-top: 18px;
+}
+
+.griditem:first-child {
+  border-top: none;
+}
+
+.griditem:nth-child(3n + 1) {
+  border-left: none;
+}
+
+.griditem:nth-child(3n + 1) {
+  border-left: none;
+}
+
+.griditem:nth-child(3n) {
+  border-right: none;
+}
+
+.griditem:nth-child(-n + 3) {
+  border-top: none;
+}
+
+.griditem:nth-last-child(-n + 3) {
+  border-bottom: none;
+}
+
+.grid-container {
+  box-shadow: 0 0 0 1px #ccc inset,
+    /* Top border of each row */ 0 -10px 0 0 #ccc inset; /* Right border of each column */
+}
+
+.grid-item:first-child {
+  border-top: none; /* Remove top border for the first row */
+}
+
+.grid-item:nth-child(3n + 1) {
+  border-left: none; /* Remove left border for the first column */
+}
+
+/* CSS for the unordered list */
+.unordered-list {
+  list-style-type: disc; /* Use disc style for bullet points (points) */
+  padding: 0; /* Remove default padding */
+}
+
+/* CSS for each list item */
+.list-item {
+  margin: 5px 0; /* Add some margin to separate items */
+  padding: 5px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
+}
+
+@media (max-width: 550px) {
+  .list-item {
+    font-size: 10px !important;
+  }
+}

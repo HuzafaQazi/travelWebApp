@@ -1,0 +1,112 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 998;
+}
+
+.calendarContainer {
+  display: block;
+  position: absolute;
+  top: 0%;
+  background-color: #ffffff;
+  color: #878786;
+  z-index: 99999;
+  padding: 1% 2%;
+  border-radius: 12px;
+  padding-bottom: 2%;
+  right: 15%;
+  /* height: 10vh; */
+}
+
+@media (min-width: 1800px) {
+  .calendarContainer {
+    top: 50px;
+  }
+}
+
+.depRetHead {
+  display: flex;
+  width: -webkit-fill-available;
+  justify-content: space-between;
+  box-shadow: 0px 4px 4px 0px #169cb026;
+}
+
+.depHead {
+  width: 50%;
+  /* border-right: 1px solid #878786; */
+  padding: 1% 2%;
+}
+
+.retHead {
+  width: 50%;
+  padding: 1% 2%;
+}
+
+.depDateDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.2vw;
+}
+
+.calenderIcon {
+  font-size: 1.2vw;
+}
+
+.dateHighlight {
+  color: #028fa3;
+  font-weight: 500;
+  font-size: 1.4vw;
+}
+
+.calendars {
+  display: flex;
+  margin-top: 2%;
+}
+
+.endColumn {
+  display: flex;
+  margin-top: 2%;
+}
+
+.totalDays {
+  width: 50%;
+  text-align: end;
+  text-wrap: nowrap;
+  display: none;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+
+.cancelBtn {
+  background-color: transparent;
+  border: 1px solid #028fa3;
+  padding: 1% 7%;
+  color: #028fa3;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.doneBtn {
+  background-color: #028fa3;
+  color: #ffffff;
+  padding: 1% 10%;
+  border: none;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+@media (min-width: 1400px) {
+  .calendarContainer {
+    top: 30px;
+  }
+}

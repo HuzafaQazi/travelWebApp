@@ -1,0 +1,27 @@
+.buttonMobile {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.companyMob {
+  padding: 1rem;
+}
+
+.compInner {
+  padding: 1rem;
+}
+
+
+@media (max-width: 640px) {
+  .buttonMobile {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .companyMob {
+    padding: 0.5rem;
+  }
+
+  .compInner {
+    padding: 0.5rem;
+  }
+}

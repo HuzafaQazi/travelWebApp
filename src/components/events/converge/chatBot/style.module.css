@@ -1,0 +1,260 @@
+.emojiPicker {
+  position: fixed;
+  bottom: 85px;
+  /* right: 10px; */
+  z-index: 10000;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  z-index: 1;
+}
+
+.emojiPicker::-webkit-scrollbar {
+  width: 5px;
+}
+
+.emojiPicker::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+.chatList {
+  list-style: none;
+  padding: 0;
+  max-height: 600px; /* Adjust as needed */
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.chatList::-webkit-scrollbar {
+  width: 3px;
+}
+
+.chatList::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+.currentUserMessage {
+  width: fit-content;
+  margin-left: 15% !important;
+  padding: 2%;
+  margin: 2%;
+  text-align: right;
+  background-color: #f5f5f5;
+  border-radius: 20px; /* Background color for current user's message */
+}
+
+.otherUserMessage {
+  width: fit-content;
+  padding: 2%;
+  margin: 2%;
+  text-align: left;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-self: self-start;
+}
+
+.messageContainer {
+  display: inline-block;
+  /* max-width: 70%; Adjust as needed */
+}
+
+.sender {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.message {
+  word-break: break-word;
+}
+
+.timestamp {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.chatcontainer {
+  background-color: #ffffff;
+  width: 100%;
+  height: 600px;
+  border-radius: 16px 0px 0px 0px;
+  opacity: 1px;
+  border-radius: 30px;
+  margin: 1%;
+  border: 1px solid #3f269fb2;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.inputcontainer {
+  position: relative;
+  display: flex;
+  margin-bottom: 2%;
+  margin: 2%;
+  justify-content: center;
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  width: 70%;
+}
+
+.Qugoimage {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  margin-left: 2%;
+}
+
+.Qugoimage1 {
+  display: flex;
+  margin-top: 3%;
+  margin-left: 2%;
+}
+
+.Qugoicon {
+  width: 69px;
+  height: 69px;
+  margin-right: 2%;
+}
+
+.Qugoicon1 {
+  width: 94%;
+  margin-left: 3%;
+}
+
+.messageInput {
+  width: 100%;
+  padding: 20px;
+  border-radius: 40px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1.9px solid #87878640;
+  /* margin-left: 5%;
+  margin-right: 10%; */
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.messageInput::placeholder {
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.15px;
+  text-align: left;
+  color: #878786;
+}
+
+.smileicon {
+  height: 20px;
+  width: 20px;
+  /* margin-top: 5%; */
+  margin-right: 2%;
+  margin-left: -16%;
+  color: #777777;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.chat {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  text-align: center;
+  color: #878786;
+  margin-top: 20px;
+  align-items: center;
+  text-wrap: nowrap;
+}
+
+.Qugoicon77 {
+  width: 55px;
+  height: 55px;
+  margin-left: 45%;
+}
+
+.crossmark {
+  color: #030b09;
+  display: none;
+  border: none;
+  background-color: transparent;
+  justify-content: end;
+  cursor: pointer;
+  margin-right: 2%;
+  font-size: 20px;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 480px) {
+  .crossmark {
+    color: #030b09;
+    display: flex;
+    border: none;
+    background-color: transparent;
+    justify-content: end;
+    cursor: pointer;
+    margin-right: 2%;
+    font-size: 20px;
+  }
+
+  .Qugoicon77 {
+    width: 45px;
+    height: 45px;
+    margin-left: 45%;
+    margin-top: 22%;
+  }
+
+  .chatcontainer {
+    height: 100%;
+    width: 100%;
+  }
+
+  .smileicon {
+    height: 20px;
+    width: 20px;
+    margin-top: 8%;
+    margin-right: 2%;
+    margin-left: -18%;
+    color: #777777;
+  }
+}

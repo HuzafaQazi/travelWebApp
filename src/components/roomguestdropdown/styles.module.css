@@ -1,0 +1,38 @@
+.icon-box {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.searchHeadingFont {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.dropdown-item label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.dropdown-item input {
+  margin-bottom: 5px;
+}
+
+.dropdown-menu {
+  width: 300px;
+}
+
+.dropdown {
+  font-family: "Gotham";
+  background: transparent;
+  border: none;
+  color: black;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: -12px;
+}

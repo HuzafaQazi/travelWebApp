@@ -1,0 +1,635 @@
+.bookingDetailsContainer {
+  padding: 20px 50px;
+}
+
+.bookingConfiramtionWaiting, .paymentFailed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; 
+}
+
+.details-head p {
+
+  font-style: italic;
+  color: #878786;
+  padding-left: 0.3vw;
+}
+.waiting {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.waitingConfiramtin{
+  text-align: center;
+  font-size: 25px;
+}
+
+
+.bookingProcess {
+  font-family:'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 30px;
+  line-height: 72px;
+  padding-left: 0.3vw;
+
+  /* Text colour */
+
+  color: #030b09;
+}
+
+.reserveDate{
+  .bookingProcess {
+    font-style: normal;
+    font-weight: 350;
+    font-size: 30px;
+    line-height: 72px;
+    padding-left: 0.3vw;
+  
+    /* Text colour */
+  
+    color: #030b09;
+  }
+}
+
+/*Booking Confirmation Container 1 start */
+.bookingDetailsContainer1 {
+  background: #ffffff;
+
+  box-shadow: 2px 2px 4px rgba(86, 144, 198, 0.11),
+    6px 6px 30px rgba(125, 153, 180, 0.2);
+  border-radius: 14px;
+  display: grid;
+  padding: 25px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  margin-bottom: 30px;
+}
+
+.bookingDetails {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 20px;
+  color: #030b09;
+}
+.failedbookingDetails {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 20px;
+  color: #ce0707;
+}
+
+.bookingStatusText {
+  font-family:'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 14px;
+  margin-bottom: 20px;
+  color: #030b09;
+}
+
+.qTravelBookingId {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 14px;
+  margin-bottom: 20px;
+  color: #030b09;
+}
+
+.bookingStatusText1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 14px;
+  margin-bottom: 20px;
+  color: #030b09;
+}
+
+.qTravelBookingId1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 14px;
+  margin-bottom: 20px;
+  color: #030b09;
+}
+
+
+.bookingId {
+  font-family:'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 14px;
+  color: #030b09;
+}
+
+
+
+.guestDetails {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 14px;
+  margin-bottom: 20px;
+  color: #030b09;
+}
+
+.guestFirstName {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 14px;
+  margin-bottom: 20px;
+  color: #030b09;
+}
+
+.guestLastName {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 14px;
+  margin-bottom: 20px;
+  color: #030b09;
+}
+
+.guestMobileNumber {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 14px;
+  color: #030b09;
+}
+/*Booking Confirmation Container 1 end */
+
+/*Booking Details Container 2 start */
+
+.bookingDetailsContainer2 {
+  height: 600px;
+  background: #ffffff;
+  /* drop-shadow-smaller */
+
+  box-shadow: 2px 2px 4px rgba(86, 144, 198, 0.11),
+    6px 6px 30px rgba(125, 153, 180, 0.2);
+  border-radius: 14px;
+  display: grid;
+  padding: 25px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.5fr repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  margin-bottom: 30px;
+}
+
+.hotelDetails p {
+  margin: 0;
+}
+
+.hotelName {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 28px;
+  margin-bottom: 20px;
+
+  color: #1d1b20;
+}
+
+.hotelAddress {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #030b09;
+}
+
+.starimage {
+  height: 32px;
+  width: 100px;
+}
+
+.downloadImageDiv {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.downloadImage {
+  /* height: 32px; */
+  width: 30px;
+  object-fit: contain;
+}
+
+.stayDetailsData {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkInDetails {
+  margin-right: 10px;
+}
+
+.checkOutDetails {
+  margin-left: 10px;
+}
+
+.stayDetailsData {
+  margin-bottom: 10px;
+}
+
+.checkIn,
+.checkOut {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+
+  /* Primary colour */
+
+  color: #028fa3;
+  margin-bottom: 10px;
+}
+
+.checkInDate,
+.checkOutDate {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* Text colour */
+
+  color: #030b09;
+  margin-bottom: 8px;
+}
+
+.checkOutTime,
+.checkInTime {
+  font-family:'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 12px;
+  line-height: 14px;
+
+  /* Text colour */
+
+  color: #030b09;
+}
+
+.roomDetailsData p {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* Text colour */
+
+  color: #030b09;
+}
+
+.stayDaysDetail {
+  /* margin: 0; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stayDaysDetail p {
+  margin: 0;
+}
+
+.hotelDetailsData {
+  display: flex;
+  justify-content: flex-end;
+  background: rgba(2, 143, 163, 0.06);
+  /* drop-shadow-smaller */
+
+  box-shadow: 2px 2px 4px rgba(86, 144, 198, 0.11),
+    6px 6px 30px rgba(125, 153, 180, 0.2);
+  border-radius: 14px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.hotelDetailsData p {
+  margin-bottom: 5px;
+}
+
+.hotelDetailsRoomSize {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 92% */
+
+  /* Text colour */
+
+  color: #030b09;
+}
+
+.hotelDetailsRoomIncludes {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 120% */
+
+  /* Text colour */
+
+  color: #030b09;
+}
+
+.hotelDetailsRefundable,
+.hotelDetailsMeals {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #e63944;
+}
+
+.hotelDetailsBalcony,
+.hotelDetailsRoomArea {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #000000;
+}
+
+.bengaluruImage {
+  width: 100%;
+  height: 100%;
+  max-height: 220px;
+}
+
+.priceBrekup {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #028fa3;
+}
+
+.perVillaPrice,
+.totalDiscount,
+.priceAfterDiscount,
+.taxes {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* Text colour */
+
+  color: #030b09;
+}
+
+.totalAmountToBepaid {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* Text colour */
+
+  color: #030b09;
+}
+
+/*Booking Details Container 2 end */
+
+/* CSS for the unordered list */
+.unordered-list {
+  list-style-type: disc; /* Use disc style for bullet points (points) */
+  padding: 0; /* Remove default padding */
+}
+
+/* CSS for each list item */
+.list-item {
+  margin: 5px 0; /* Add some margin to separate items */
+  padding: 5px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
+}
+
+.paymentFailedButton{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.paymentMessage{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.goToHomeLink{
+display: flex;
+justify-content: center;
+margin-top: 10px;
+font-size: 12px;
+font-weight: bold;
+}
+
+.goToHomeLinkTab{
+  color: #028fa3;
+}
+
+.retryButton{
+  padding: 10px 15px;
+  background-color: #028fa3;
+  /* margin-right: 15px; */
+  border-radius: 9px;
+  color: white;
+  cursor: pointer;
+}
+
+.retryButtonLink{
+  text-decoration: none;
+}
+
+
+@media (max-width: 767px) {
+
+  .bookingDetailsContainer1 {
+    background: #ffffff;
+    box-shadow: 2px 2px 4px rgba(86, 144, 198, 0.11),
+      6px 6px 30px rgba(125, 153, 180, 0.2);
+    border-radius: 14px;
+    display: block;
+    padding: 15px; 
+    margin-bottom: 20px; 
+  }
+
+  .bookingDetails {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 600; 
+    font-size: 18px; 
+    line-height: 1.4; 
+    margin-bottom: 10px; 
+    color: #030b09; 
+  }
+  
+  .failedbookingDetails {
+    font-size: 18px; 
+    line-height: 1.2; 
+    margin-bottom: 10px; 
+  }
+
+  .bookingStatusText {
+    font-size: 16px; 
+    line-height: 1.4; 
+    margin-bottom: 10px;
+    /* font-weight: 600; */
+  }
+
+  .qTravelBookingId {
+    font-size: 16px; 
+    line-height: 1.4; /* Adjust line height as needed */
+    margin-bottom: 10px; /* Adjust margin as needed */
+    /* font-weight: 800; */
+  }
+
+  .bookingStatusText1 {
+    font-size: 16px; 
+    line-height: 1.4; 
+    margin-bottom: 10px;
+    font-weight: 800;
+  }
+
+  .qTravelBookingId1 {
+    font-size: 16px; 
+    line-height: 1.4; /* Adjust line height as needed */
+    margin-bottom: 10px; /* Adjust margin as needed */
+    font-weight: 800;
+  }
+
+  .support-info {
+    font-size: 16px;
+    line-height: 1.5; /* Adjust the line height as needed */
+    color: #333; /* Adjust the color as needed */
+    margin-top: 10px; /* Adjust margin-top for spacing */
+  }
+
+  .bookingId {
+    font-size: 16px; /* Adjust font size for mobile */
+    font-weight: 400; /* Adjust font weight for mobile */
+  }
+  .bookingId p{
+    line-height: 1.5;
+  }
+
+  .guestDetails {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 600; /* Adjust the font weight for mobile devices */
+    font-size: 18px; /* Adjust the font size for mobile devices */
+    line-height: 1.4; /* Adjust the line height as needed for mobile devices */
+    margin-bottom: 10px; /* Adjust margin as needed for mobile devices */
+    margin-top: 10px;
+    color: #030b09; /* Text color */
+  }
+  
+  .guestFirstName,
+  .guestLastName {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400; /* Adjust the font weight for mobile devices */
+    font-size: 18px; /* Adjust the font size for mobile devices */
+    line-height: 1.4; /* Adjust the line height as needed for mobile devices */
+    margin-bottom: 10px; /* Adjust margin as needed for mobile devices */
+    color: #030b09; /* Text color */
+  }
+  
+  .guestMobileNumber {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400; /* Adjust the font weight for mobile devices */
+    font-size: 18px; /* Adjust the font size for mobile devices */
+    line-height: 1.4; /* Adjust the line height as needed for mobile devices */
+    color: #030b09; /* Text color */
+  }
+
+  .paymentMessage {
+    font-size: 16px; /* Adjust font size for mobile screens */
+    /* You can add more styles specific to mobile here */
+  }
+
+  .bookingDetailsContainer {
+    padding: 20px 22px;
+  }
+
+  .totalAmountToBepaid {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #030b09;
+  }
+
+  .roomDetailsData p {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #030b09;
+  }
+
+  .checkIn,
+  .checkOut{
+    font-size: 14px;
+  }
+
+  .checkOutDetails {
+    margin-left: 20px;
+  }
+
+  .stayDetailsData {
+  margin-bottom: 10px;
+}
+}
+
+

@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+@font-face {
+  font-family: "South";
+  src: url("/fonts/South.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+input:focus {
+  outline: none;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #999;
+  background-color: transparent;
+  padding-bottom: 3px;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: #028fa3;
+}
+
+form textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+form input[type="submit"] {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

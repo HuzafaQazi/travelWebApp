@@ -1,0 +1,1280 @@
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 9%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.loading {
+  pointer-events: none; /* Prevent any interactions */
+}
+
+.hiddenSortBtn {
+  position: relative;
+  width: 32%;
+  font-size: 10px;
+  border: 1px solid #028fa3;
+  background-color: #fff;
+  color: #028fa3;
+  border-radius: 25px;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1% 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hiddenSort {
+  position: absolute;
+  width: 30%;
+  left: 2%;
+  top: 27%;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 99999;
+  border-radius: 8px;
+  padding: 2% 0%;
+}
+
+.hiddenSort1 {
+  position: absolute;
+  width: 30%;
+  right: 20%;
+  top: 27%;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 99999;
+  border-radius: 8px;
+  padding: 2% 0%;
+}
+
+.filterScroll {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+}
+
+.flightLoad {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.planeLoader {
+  width: 15%;
+  height: fit-content;
+}
+
+.textWithPadding {
+  padding-left: 10px; /* Add space on the left */
+  padding-right: 10px; /* Add space on the right */
+}
+
+.loaderText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 3vw;
+  font-weight: 500;
+}
+
+.loaderText1 {
+  font-size: 2vw;
+  font-weight: 400;
+}
+
+.mainContainer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-radius: 15px 15px 0px 15px;
+  width: 100%;
+  overflow-y: scroll;
+  background-color: #fff;
+  padding: 2%;
+  z-index: 9999;
+  height: fit-content;
+  padding-bottom: 10px;
+}
+
+.mainContainer::-webkit-scrollbar {
+  width: 5px;
+}
+
+.mainContainer::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-direction: column;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  /* background-color: transparent;
+    backdrop-filter: blur(1px); */
+  z-index: 998;
+}
+
+.qugoLogo {
+  padding-left: 2%;
+}
+
+.qugoHeaderLogo {
+  width: 60px;
+  height: 25px;
+}
+
+.loginNavbar {
+  align-self: center;
+  padding-right: 2%;
+}
+
+.modifySection {
+  width: 100%;
+  background-color: #028fa3;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #028fa3 -13.6%, #49585a 106.05%);
+}
+
+.flightDetails {
+  color: #ffffff !important;
+  display: flex;
+  align-items: center;
+  gap: 6%;
+  text-wrap: nowrap;
+}
+
+.fromToDetails {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dateclassDetails {
+  font-size: 12px;
+  width: 80%;
+  /* text-wrap: balance; */
+}
+
+.modifyButtonContainer {
+  margin-right: 5%;
+}
+
+.modifyButton {
+  border: none;
+  background-color: #FFFFFF;
+  color: #028fa3;
+  
+  padding: 8%;
+  padding-left: 28%;
+  padding-right: 28%;
+  border-radius: 6px;
+  font-size: 12px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.filterBtnContainer {
+  width: 100%;
+  margin-top: 0%;
+  display: flex;
+  color: #ffffff;
+}
+
+.leftFilterBtn {
+  width: 50%;
+  background-color: #028fa3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 2%;
+}
+
+.filterBtnHead {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.fromToCityNames {
+  font-size: 10px;
+  display: flex;
+  gap: 5%;
+  align-items: center;
+  font-weight: 300;
+}
+
+.depFilterBtn {
+  padding: 1% 6%;
+  font-size: 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 25px;
+  background-color: #ffffff;
+  border: 1px solid #028fa3;
+  color: #028fa3;
+  display: flex;
+  gap: 10%;
+  align-items: center;
+}
+
+.rightFilterBtn {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 2%;
+  background-color: #9747ff;
+}
+
+.retFilterBtn {
+  padding: 1% 6%;
+  font-size: 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 25px;
+  background-color: #ffffff;
+  border: 1px solid #028fa3;
+  color: #028fa3;
+  display: flex;
+  gap: 10%;
+  align-items: center;
+}
+
+.allTogglesLine {
+  display: flex;
+  /* gap: 3%; */
+  box-shadow: 0px 4px 10px 0px #169cb01a;
+  /* padding: 1% 2%; */
+}
+
+.leftToggles {
+  width: 50%;
+  display: flex;
+  /* background: #028fa3; */
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.toggle {
+  font-size: 15px;
+  color: #878786;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #fff !important;
+  border-radius: 5px;
+  padding: 1% 1%;
+  font-weight: 600;
+}
+
+.contentTickets {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 1.5%;
+}
+
+.leftPartContent {
+  width: 49%;
+  /* float: left; */
+  padding-bottom: 40%;
+  overflow-y: scroll;
+  height: 600px;
+}
+
+.rightPartContent {
+  width: 49%;
+  /* float: right; */
+  padding-bottom: 40%;
+  overflow-y: scroll;
+  height: 600px;
+}
+
+.resultFound {
+  font-size: 12px;
+  display: none;
+  gap: 2%;
+  color: #878786;
+  font-weight: 500;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-left: 2%;
+}
+
+.resultFound1 {
+  font-size: 12px;
+  display: flex;
+  gap: 2%;
+  color: #878786;
+  font-weight: 500;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-left: 2%;
+}
+
+.flightTicket {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 97%;
+  background-color: #fff;
+  margin-top: 2%;
+  padding: 2% 4%;
+  border-radius: 10px;
+  /* box-shadow: 0px 4px 4px 0px #7d99b41a; */
+  box-shadow: 1px 2px 3px 0px #028fa375;
+}
+
+.fromToTiming {
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: flex-start;
+  /* margin-top: 5%; */
+}
+
+.fromToTime {
+  font-size: 12px;
+  font-weight: 500;
+  color: #000000;
+  height: 15px;
+}
+
+.fromToCityCode {
+  font-size: 14px;
+  font-weight: 500;
+  color: #878786;
+}
+
+.btwLineContent {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-wrap: nowrap;
+}
+
+.dashLineText {
+  font-size: 10px;
+  color: #878786;
+}
+
+.dashLineTextBottom {
+  font-size: 10px;
+  color: #878786;
+}
+
+.dashLine {
+  border-top: 1px dashed #cccccc;
+}
+
+.flightFareToggles {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  gap: 10px;
+  color: #028fa3;
+}
+
+.seatsLeftDetails {
+  font-size: 8px;
+  /* color: #468316; */
+  color: #028fa3;
+  text-wrap: nowrap;
+  margin-top: -7%;
+  margin-left: -60px;
+}
+
+.fixedBottomDetails {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+  background-color: #028fa3;
+  display: flex;
+  padding: 1%;
+  height: auto;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.leftBottomDetails,
+.middleBottomDetails,
+.rightBottomDetails {
+  flex: 1;
+}
+
+.leftBottomDetails,
+.middleBottomDetails {
+  border-right: 1px dashed #ffffff;
+  display: flex;
+  flex-direction: column;
+  /* gap: 10%; */
+  padding: 2%;
+}
+
+.rightBottomDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  /* color: #ffffff; */
+  align-items: center;
+  justify-content: center;
+}
+
+.bottomHead {
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.bottomSmallHead {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.depBottomdetails {
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.priceBottomDetails {
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.totalHead {
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.totalAmount {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.selectButton {
+  font-size: 12px;
+  width: fit-content;
+  padding: 3% 20%;
+  border: none;
+  border-radius: 15px;
+  background: #ffffff;
+}
+
+.costFlight {
+  font-size: 12px;
+  font-weight: 500;
+  text-wrap: nowrap;
+}
+
+.perPerson {
+  font-size: 8px;
+  font-weight: 300;
+}
+
+.lefttoggles1 {
+  display: none;
+}
+
+.deplist {
+  display: none;
+}
+
+.filterContentContainer {
+  display: none;
+}
+
+.desktopNavbar {
+  display: none;
+}
+
+.rightpartTicket {
+  display: none;
+}
+
+.Timing {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.middlepartTicket {
+  display: none;
+}
+
+.dashLineText1 {
+  display: none;
+}
+
+.bottomline {
+  display: none;
+}
+
+.dashLineText2 {
+  display: none;
+}
+
+.mydiv {
+  display: none;
+}
+
+.mydiv1 {
+  display: none;
+}
+
+/* .fareclass {
+  display: none;
+} */
+
+.minus {
+  display: none;
+}
+
+.pm {
+  display: none;
+}
+
+.clicked1Mob {
+  border: 1px solid #028fa3;
+  background-color: #f0fbfd;
+}
+
+.clickedMob {
+  border: 1px solid #9747ff;
+  background-color: #f2e2ff;
+}
+
+.FareDetails1 {
+  font-family: Roboto;
+  font-size: 6.5px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #028fa3;
+}
+
+.rightpartTicket1 {
+  display: flex;
+  border-radius: 62px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  min-width: 42px;
+  width: fit-content;
+  /* height: 12px; */
+  background: #028fa312;
+  margin-left: 15%;
+  margin-top: 0px;
+}
+
+.activeButtons {
+  background-color: #028fa317 !important;
+}
+
+.rotated {
+  transform: rotate(180deg);
+  transition: transform 0.3s;
+  background-color: #028fa317 !important;
+}
+
+.dropdownModify {
+  /* display: block; */
+  position: fixed;
+  width: 100%;
+  left: 0%;
+  top: -5%;
+  height: fit-content;
+  transition: max-height 0.3s, opacity 0.3s;
+  /* background: #878786; */
+  z-index: 999999;
+  background-image: url(../../../../public/img/alejandro-luengo-oFbf83nFh5M-unsplash@2x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.backArrow {
+  background-color: #ffffff;
+  border: none;
+  color: #028fa3;
+  font-size: 16px;
+}
+
+.addingdays {
+  font-size: 9px;
+  color: #878786;
+}
+
+.timeBlock {
+  display: flex;
+}
+
+.logoAirline {
+  width: 120%;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+
+.resuls {
+  margin-left: 80px;
+}
+.destinationboxmain {
+  display: block;
+}
+
+.destinationboxmain2 {
+  display: block;
+}
+/* .airlinename
+{
+  font-size: 13px;
+} */
+@media (min-width: 850px) {
+  .flightLoad {
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+
+  .loaderText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5vw;
+    font-weight: 500;
+  }
+
+  .loaderText1 {
+    font-size: 1.5vw;
+    font-weight: 400;
+  }
+
+  .mainContainer {
+    display: block;
+    left: 50%;
+    right: 0%;
+    width: 50%;
+    height: 100%;
+  }
+
+  .costFlight {
+    display: none;
+  }
+
+  .perPerson {
+    display: none;
+  }
+
+  .qugoLogo {
+    cursor: pointer;
+  }
+
+  .loginNavbar {
+    cursor: pointer;
+  }
+
+  .clicked1Mob {
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+
+  .clickedMob {
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+
+  .desktopNavbar {
+    display: block;
+    width: 100%;
+    /* height: 40vh; */
+    background-image: url(../../../../public/img/flightNavBg.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .modifySection {
+    display: none;
+  }
+
+  .filterContentContainer {
+    width: 29%;
+    float: left;
+    padding: 1%;
+    display: block;
+  }
+
+  .depFilterBtn {
+    display: none;
+  }
+
+  .retFilterBtn {
+    display: none;
+  }
+
+  .rightContainer {
+    float: right;
+    width: 70%;
+  }
+
+  .leftToggles {
+    display: none;
+  }
+
+  .completeContent {
+    width: 100%;
+    background-color: #e5e9eb;
+    /* padding-bottom: 14%; */
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .lefttoggles1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 12px;
+  }
+
+  .deplist {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    background-color: #fff;
+    padding: 10px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    box-shadow: 0px 4px 4px 0px #169cb038;
+  }
+
+  .leftFilterBtn {
+    width: 95%;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+  }
+
+  .rightFilterBtn {
+    width: 95%;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+  }
+
+  .allTogglesLine {
+    box-shadow: none;
+  }
+
+  .filterBtnContainer {
+    flex-direction: row;
+    border-radius: 40px;
+  }
+
+  .date {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    align-self: flex-end;
+  }
+  .destinationboxmain {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .destinationboxmain2 {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .destinationbox {
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+
+  .bottomSmallHead {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .leftBottomDetails,
+  .middleBottomDetails {
+    padding-bottom: 0%;
+    padding-top: 0%;
+  }
+
+  .dashLineTextBottom {
+    display: none;
+  }
+
+  .toggle {
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 1% 1%;
+  }
+
+  .seatsLeftDetails {
+    display: none;
+  }
+
+  .iconcontainer {
+    display: flex;
+    /* border: 1px solid #7E0ED6; */
+    font-size: 12px;
+    background: #7e0ed617;
+    /* width:100%; */
+    width: 27px;
+    height: 24px;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .iconcontainer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    width: 27px;
+    height: 20px;
+    border-radius: 6px;
+  }
+
+  .box {
+    width: Fixed (34px);
+    height: Fixed (31px);
+    top: 620px;
+    left: 849px;
+    padding: 23px, 32px, 23px, 32px;
+    border-radius: 6px;
+    gap: 10px;
+    color: #028fa3;
+  }
+
+  .filterBtnHead {
+    font-size: 12px;
+  }
+
+  .fromToCityNames {
+    font-size: 14px;
+  }
+
+  .fromToTime {
+    font-size: 12px;
+    color: #000000;
+  }
+
+  .fromToCityCode {
+    font-size: 1.2vw;
+  }
+
+  .fromToTiming {
+    display: -webkit-box;
+    height: min-content;
+  }
+
+  .arrowDesktop {
+    padding: 5% 10%;
+    background-color: #ffffff;
+  }
+
+  .rightpartTicket {
+    font-size: 1.5vw;
+    width: 35%;
+    margin-left: -3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+  }
+
+  .perPersonText {
+    font-size: 1.2vw;
+    font-size: 12px;
+    font-weight: 400;
+    color: #878786;
+  }
+
+  .priceSize {
+    font-size: 1.2vw;
+  }
+
+  .seatsLeftDetails1 {
+    font-size: 0.8vw;
+    color: #028fa3;
+    font-weight: 500;
+  }
+
+  .middlepartTicket {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-top: -5%;
+  }
+
+  .Timing {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    height: fit-content;
+    padding-right: 0%;
+  }
+
+  .verticalRule {
+    content: "";
+    height: 40px;
+    width: 1px;
+    background-color: transparent;
+    border-left: 1px dashed #878786;
+    margin: 0 10px;
+  }
+
+  .fareDetails {
+    display: flex;
+    font-size: 12px;
+    font-weight: 500;
+    color: #028fa3;
+    cursor: pointer;
+  }
+
+  .flightDetails1 {
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .rightContainer1 {
+    display: none;
+  }
+
+  .btwLineContent {
+    display: block;
+    text-wrap: nowrap;
+  }
+
+  .toptiming {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .dashLineText1 {
+    display: block;
+    /* color: #e53944; */
+    color: #878786;
+    font-size: 12px;
+  }
+
+  .dashLineText {
+    font-size: 12px;
+  }
+
+  .dashLineText2 {
+    display: block;
+    font-size: 14px;
+    color: #878786;
+  }
+
+  .bottomline {
+    display: block;
+    justify-content: space-evenly;
+  }
+
+  .weighttext {
+    font-size: 14px;
+    color: #878786;
+  }
+
+  .selectButton {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 2% 14%;
+  }
+
+  .totalHead {
+    font-size: 11px;
+  }
+
+  .refund {
+    font-size: 12px;
+    color: #028fa3;
+  }
+
+  .mydiv {
+    width: 25px;
+    height: 20px;
+    /* background-color: #f0f0f0; */
+    border: 1px solid #028fa3;
+    border-radius: 10px;
+    /* Adjust border-radius for curved corners */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  .clicked {
+    background-color: #9747ff;
+    /* Change to the desired background color */
+  }
+
+  .mydiv1 {
+    width: 25px;
+    height: 20px;
+    /* background-color: #f0f0f0; */
+    border: 1px solid #9747ff;
+    border-radius: 10px;
+    /* Adjust border-radius for curved corners */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  .clicked1 {
+    background-color: #028fa3;
+  }
+
+  .tooltip {
+    position: fixed;
+    background-color: #ffffff;
+    width: 31%;
+    right: 2%;
+    bottom: 300px;
+    height: fit-content;
+    border-radius: 10px;
+    padding-top: 2%;
+    box-shadow: 0px 4px 4px 0px rgba(22, 156, 176, 0.1);
+    backdrop-filter: blur(5px);
+    z-index: 999;
+  }
+
+  .tooltip1 {
+    position: fixed;
+    background-color: #ffffff;
+    width: 31%;
+    right: 38%;
+    bottom: 300px;
+    height: fit-content;
+    border-radius: 10px;
+    padding-top: 2%;
+    box-shadow: 0px 4px 4px 0px rgba(22, 156, 176, 0.1);
+    backdrop-filter: blur(5px);
+    z-index: 999;
+  }
+
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 998;
+  }
+
+  .linesText {
+    display: flex;
+    justify-content: space-between;
+    color: #878786;
+    font-size: 20px;
+    padding: 0% 4%;
+  }
+
+  .tooltipTotalPrice {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #028fa3;
+    background-color: rgba(2, 143, 163, 0.11);
+  }
+
+  .fareclass {
+    display: block;
+    font-size: 10px;
+    cursor: pointer;
+    margin-left: 33%;
+  }
+
+  .minus {
+    display: flex;
+    justify-content: center;
+    color: #028fa3;
+    margin-top: 2.7%;
+  }
+
+  .pm {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    color: #028fa3;
+  }
+
+  .FareDetails1 {
+    font-size: 10px;
+    text-wrap: nowrap;
+  }
+
+  .rightpartTicket1 {
+    margin-left: 3%;
+    margin-top: 1%;
+    width: 95px;
+    /* height: 25px; */
+  }
+
+  .logoAirline {
+    font-size: 1.2vw;
+  }
+
+  .flightTicket {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 97%;
+    background-color: #fff;
+    margin-top: 2%;
+    padding: 2% 4%;
+    border-radius: 10px;
+    /* box-shadow: 0px 4px 4px 0px #7d99b41a; */
+    box-shadow: 1px 2px 3px 0px #028fa375;
+  }
+
+  .leftPartContent {
+    float: left;
+    height: 184vh;
+    overflow-y: auto;
+    margin-bottom: 1%;
+  }
+
+  .leftPartContent::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .leftPartContent::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+  }
+
+  .rightPartContent {
+    padding-bottom: 20%;
+    height: 184vh;
+    overflow-y: auto;
+  }
+
+  .rightPartContent::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .rightPartContent::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+  }
+
+  .resultFound {
+    font-size: 14px;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0%;
+    justify-content: space-between;
+  }
+
+  .resultFound1 {
+    font-size: 12px;
+    display: none;
+    gap: 2%;
+    color: #878786;
+    font-weight: 500;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 2%;
+  }
+
+  .results {
+    margin-right: 310px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .tooltip {
+    bottom: 300px;
+  }
+
+  .tooltip1 {
+    bottom: 300px;
+  }
+
+  .rightPartContent {
+    padding-bottom: 35%;
+  }
+}
+
+@media (min-width: 1500px) {
+  .completeContent {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .priceSize {
+    font-size: 1.2vw;
+  }
+
+  .seatsLeftDetails1 {
+    font-size: 0.8vw;
+  }
+
+  .resuls {
+    margin-right: 540px;
+  }
+}

@@ -1,0 +1,988 @@
+.disabled {
+  pointer-events: none;
+  /* opacity: 0.5; */
+}
+
+.desktopNavigation {
+  width: 97%;
+}
+.flightLoad {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  position: absolute;
+  backdrop-filter: blur(5px);
+  z-index: 999999;
+}
+
+.addFLightsButton {
+  padding: 1% 2%;
+  font-size: 1.2vw;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #fff;
+  border-radius: 8px;
+  color: #ffffff;
+  text-wrap: nowrap;
+}
+
+.planeLoader {
+  width: 30%;
+  height: fit-content;
+}
+
+.linksContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 998;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #ffffff;
+  padding: 5px 10px;
+  margin-right: 3%;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  margin-bottom: 1px;
+}
+
+.linkTag {
+  text-decoration: none;
+  color: #ffffff;
+  /* font-size: 1.5vw; */
+  font-size: 18px;
+}
+
+.activeLink {
+  position: relative;
+}
+
+.activeLink::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: -9px;
+  width: 125%;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #028fa3;
+}
+
+.activeLink::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -9px;
+  width: 125%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 143, 163, 0) 0%,
+    rgba(2, 143, 163, 0.5) 160%
+  );
+}
+
+.vectorIcons {
+  margin-right: 5px;
+  width: fit-content;
+  /* height: 2vw; */
+  height: 18px;
+}
+
+.allTogglesContainer {
+  display: flex;
+  padding: 1%;
+  justify-content: space-evenly;
+  padding-bottom: 0%;
+}
+
+.waysSelectors {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 2%;
+  gap: 1%;
+  /* border-right: 1px solid #ffffff80; */
+  width: 35%;
+}
+.waysSelectors1 {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 2%;
+  gap: 1%;
+  /* border-right: 1px solid #ffffff80; */
+  width: 35%;
+  margin-right: 0%;
+  padding-right: 1%;
+}
+
+.commonWayButtons {
+  background: none;
+  padding: 2% 5%;
+  font-size: 1.1vw;
+  border-radius: 25px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  text-wrap: nowrap;
+}
+
+.selected {
+  border: none;
+  background: #ffffff;
+  color: initial;
+}
+
+.travelerClass {
+  display: flex;
+  width: 34%;
+  gap: 2%;
+  margin-left: -5%;
+  position: relative;
+}
+
+.travelerClass1 {
+  display: flex;
+  width: 34%;
+  gap: 2%;
+  margin-left: -9%;
+  position: relative;
+}
+.travelerBtn {
+  background: none;
+  padding: 2% 7%;
+  font-size: 1.1vw;
+  border-radius: 25px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  text-wrap: nowrap;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 10%;
+}
+
+.specialFares {
+  background: none;
+  width: 30%;
+  padding: 1% 6%;
+  padding-left: 3%;
+  padding-right: 9%;
+  font-size: 1.1vw;
+  border-radius: 25px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  text-wrap: nowrap;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+
+.fareToggle {
+  border-right: 1px solid #ffffff80;
+  padding-right: 2%;
+  cursor: pointer;
+  position: relative;
+
+  display: inline-block;
+}
+.fareToggle:last-child {
+  border-right: none;
+}
+
+.activeFare {
+  position: relative;
+}
+
+.activeFare::after {
+  content: "";
+  position: absolute;
+  bottom: -40%;
+  left: 0%;
+  width: 95%;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #028fa3;
+}
+
+.WaysContent {
+  width: 100%;
+  padding: 0% 4%;
+  padding-bottom: 20px;
+}
+
+.WaysContent1 {
+  width: 100%;
+  padding: 0% 4%;
+  padding-bottom: 20px;
+}
+
+.selectors {
+  display: flex;
+  align-items: flex-end;
+  gap: 1%;
+  /* margin-bottom: 2%; */
+}
+
+.searchCross {
+  color: #ffffff;
+  width: 23%;
+  font-size: 1.2vw;
+}
+
+.searchCrossChange {
+  color: #878786;
+  width: 2% !important;
+  padding: 1% 2% !important;
+  font-size: 1.2vw !important;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  padding-right: 3% !important;
+  cursor: pointer;
+}
+
+.cityInput {
+  padding: 5% 3%;
+  width: 100%;
+  font-size: 1.2vw;
+  border-radius: 8px;
+  border: none;
+  position: relative;
+}
+
+.cityInputT {
+  padding: 5% 3%;
+  width: 100%;
+  font-size: 1.2vw;
+  border-radius: 8px;
+  border: none;
+  position: relative;
+}
+
+.clearIcon {
+  position: absolute;
+  left: 23%;
+  color: #000000;
+}
+
+.clearIconHome {
+  position: absolute;
+  left: 25.5%;
+  color: #000000;
+}
+
+.clearIconHome1 {
+  position: absolute;
+  left: 22.5%;
+  color: #000000;
+}
+
+.clearIconHome2 {
+  position: absolute;
+  left: 23%;
+  color: #000000;
+}
+
+.clearIcon1 {
+  position: absolute;
+  left: 25.5%;
+  color: #000000;
+}
+
+.clearIconT {
+  position: absolute;
+  left: 49.5%;
+  color: #000000;
+}
+
+.clearIconM {
+  position: absolute;
+  left: 44%;
+  color: #000000;
+}
+
+.clearIconT1 {
+  position: absolute;
+  left: 51%;
+  color: #000000;
+}
+
+.searchDates {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 27%;
+  font-size: 1.2vw;
+}
+
+.inOutDates {
+  background-color: #ffffff;
+  padding: 4.1% 6%;
+  border-radius: 8px;
+  display: flex;
+  white-space: nowrap;
+  color: #000000;
+  width: fit-content;
+  align-items: center;
+  font-size: 1vw;
+  gap: 1%;
+}
+
+.calenderIcon {
+  color: #878786;
+}
+
+.depDateDetails {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  text-wrap: nowrap;
+  border-right: 1px solid #d9d9d980;
+  gap: 4px;
+  padding-right: 3%;
+  cursor: pointer;
+}
+
+.dateHighlight {
+  font-size: 1.8vw;
+  font-weight: 500;
+  color: #028fa3;
+  line-height: normal;
+}
+
+.arrDateDetails {
+  display: flex;
+  align-items: center;
+  text-wrap: nowrap;
+  color: #878786;
+}
+
+.modifyBtn {
+  padding: 1% 6%;
+  font-size: 1.2vw;
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #0cb3cb 0%, #0c4e58 121.58%);
+  color: #ffffff;
+}
+
+.addFlightBtn {
+  padding: 1% 2%;
+  font-size: 1.2vw;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #fff;
+  border-radius: 8px;
+  color: #ffffff;
+  margin-left: 3%;
+  white-space: nowrap;
+}
+
+.closeFlightsContainer {
+  padding: 0.1% 0%;
+}
+
+.closeAddedFlights {
+  font-size: 2vw;
+  font-weight: 600;
+  background-color: #ffffff;
+  /* background-color: #000000; */
+  border-radius: 50%;
+  padding: 35% 60%;
+  cursor: pointer;
+}
+
+.travelerOverlay {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+  background-color: #ffffff;
+  color: #000000;
+  top: 65%;
+  z-index: 99999;
+  padding: 3% 3%;
+  border-radius: 12px;
+  padding-bottom: 5%;
+}
+
+.overlayHeads {
+  font-size: 1.2vw;
+  color: #878786;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.overlayTexts {
+  font-size: 1vw;
+  color: #878786;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.overlayAges {
+  font-size: 1vw;
+  color: #878786;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.adultCounts {
+  padding: 2% 1%;
+  font-size: 1.5vw;
+  background: #87878608;
+  border-radius: 25px;
+  display: flex;
+  margin-top: 2%;
+}
+
+.number {
+  padding: 1% 3%;
+  /* display: flex; */
+  border-right: 1px solid #8787864d;
+  cursor: pointer;
+  font-size: 1.8vw;
+  width: 15%;
+  text-align: center;
+}
+
+.number:last-child {
+  border-right: none;
+}
+
+.selectedNumber {
+  position: relative;
+  padding: 1% 3%;
+  border-right: 1px solid #8787864d;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 2vw;
+}
+
+.selectedNumber:last-child {
+  border-right: none;
+}
+
+.selectedNumber::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background-color: #878786;
+}
+
+.childrenInfants {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.childrenSelector {
+  width: 95%;
+}
+
+.classSelectors {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+  background-color: #ffffff;
+  top: 66%;
+  z-index: 99999;
+  padding: 2% 3%;
+  border-radius: 12px;
+}
+
+.buttonGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.classButton {
+  background-color: #87878614;
+  border-radius: 15px;
+  margin-top: 2%;
+  border: none;
+  font-weight: 400;
+  font-size: 1.2vw;
+  padding: 3% 0%;
+  color: #878786;
+}
+
+.selectedButton {
+  background: #028fa314;
+  border: none;
+  border-radius: 15px;
+  color: #028fa3;
+  font-weight: 500;
+  margin-top: 4%;
+  font-size: 1.2vw;
+  padding: 3% 0%;
+}
+
+.scrollableDropdown {
+  position: absolute;
+  top: 89%;
+  background: #fff;
+  z-index: 1;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 4px;
+  box-shadow: "0 2px 4px rgba(0, 0, 0, 0.1)";
+  list-style: none;
+  overflow-y: scroll;
+}
+
+.toDropdown1 {
+  left: 8.5%;
+}
+
+.toDropdown3 {
+  left: 28.5%;
+}
+
+.toDropdown4 {
+  left: 26%;
+}
+
+.toDropdown2 {
+  left: 4%;
+}
+.scrollableDropdown::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scrollableDropdown::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+.scrollableDropdown::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* Firefox */
+/* .scrollableDropdown{
+  scrollbar-width: thin;
+}
+
+.scrollableDropdown{
+  scrollbar-color: #888 transparent;
+} */
+
+.calenderHolder {
+  position: relative;
+  z-index: 99999999;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+
+    .backdrop {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.2);
+      z-index: 998;
+    }
+
+    .blurBackground {
+      filter: blur(8px);
+    }
+  }
+}
+
+.loadingSpinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #000;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+}
+
+.scrollableDropdown {
+  top: auto;
+  z-index: 999999;
+}
+@media (min-width: 850px) {
+  .clearIcon {
+    cursor: pointer;
+  }
+
+  .flightLoad {
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+
+  .planeLoader {
+    width: 20%;
+  }
+
+  .travelerBtn {
+    background: none;
+    padding: 2% 7%;
+    font-size: 1.1vw;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-wrap: nowrap;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    white-space: nowrap;
+    margin-left: -1%;
+  }
+
+  .specialFares {
+    background: none;
+    padding: 0.7% 7%;
+    padding-left: 1%;
+    padding-right: 9%;
+    font-size: 1.1vw;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-wrap: nowrap;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    white-space: nowrap;
+    margin-left: 5%;
+  }
+
+  .specialFares1 {
+    background: none;
+    padding: 0.7% 7%;
+    padding-left: 1%;
+    padding-right: 9%;
+    font-size: 1.1vw;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-wrap: nowrap;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    white-space: nowrap;
+    margin-left: 0%;
+  }
+
+  .clearIconT {
+    cursor: pointer;
+  }
+  .calenderIcon {
+    cursor: pointer;
+  }
+  .activeLink {
+    cursor: pointer;
+  }
+  .cityInput {
+    color: #028fa3;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .cityInputT {
+    cursor: pointer;
+    color: #028fa3;
+    font-size: 15px;
+    font-weight: 500;
+    padding-right: 10%;
+  }
+  .tooltipcontent {
+    visibility: hidden;
+    width: fit-content;
+    background-color: #fff;
+    color: #028fa3;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 170%;
+    left: 25%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .fareToggle:hover .tooltipcontent {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .scrollableDropdown {
+    cursor: pointer;
+  }
+  .calendars {
+    cursor: pointer;
+  }
+  .retHead {
+    cursor: pointer;
+  }
+  .backdrop {
+    cursor: pointer;
+  }
+  .depHead {
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1800px) {
+  .scrollableDropdown {
+    top: auto;
+  }
+
+  .cityInput {
+    padding-right: 7%;
+    cursor: pointer;
+  }
+}
+
+/* calendar styling */
+
+.calendarContainer {
+  display: block;
+  width: fit-content;
+  position: absolute;
+  /* top: 70%; */
+  transform: translateY(-7%);
+  background-color: #ffffff;
+  color: #878786;
+  z-index: 99999;
+  padding: 1% 2%;
+  border-radius: 12px;
+  padding-bottom: 2%;
+  right: 15%;
+  /* height: 10vh; */
+}
+.calendarContainer1 {
+  display: block;
+  width: fit-content;
+  position: absolute;
+  top: 65%;
+  transform: translateY(-7%);
+  background-color: #ffffff;
+  color: #878786;
+  z-index: 99999;
+  padding: 1% 2%;
+  border-radius: 12px;
+  padding-bottom: 2%;
+  right: 15%;
+  /* height: 10vh; */
+}
+.calendarContainer2 {
+  display: block;
+  width: fit-content;
+  position: absolute;
+  top: 55%;
+  transform: translateY(-7%);
+  background-color: #ffffff;
+  color: #878786;
+  z-index: 99999;
+  padding: 1% 2%;
+  border-radius: 12px;
+  padding-bottom: 2%;
+  right: 15%;
+  /* height: 10vh; */
+}
+
+@media (min-width: 1800px) {
+  .planeLoader {
+    width: 18%;
+  }
+
+  .calendarContainer {
+    /* top: 50%; */
+    right: 20%;
+  }
+}
+
+.depRetHead {
+  display: flex;
+  width: -webkit-fill-available;
+  justify-content: space-between;
+  box-shadow: 0px 4px 4px 0px #169cb026;
+}
+
+.depHead {
+  width: 50%;
+  /* border-right: 1px solid #878786; */
+  padding: 1% 2%;
+}
+
+.retHead {
+  width: 50%;
+  padding: 1% 2%;
+}
+
+.depDateDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1vw;
+}
+
+.calenderIcon {
+  font-size: 1.2vw;
+}
+
+.dateHighlight {
+  color: #028fa3;
+  font-weight: 500;
+  font-size: 1.4vw;
+}
+
+.calendars {
+  display: flex;
+  margin-top: 2%;
+}
+
+.endColumn {
+  display: flex;
+  margin-top: 2%;
+}
+
+.totalDays {
+  width: 50%;
+  text-align: end;
+  text-wrap: nowrap;
+  display: none;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+
+.cancelBtn {
+  background-color: transparent;
+  border: 1px solid #028fa3;
+  padding: 1% 7%;
+  color: #028fa3;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.doneBtn {
+  background-color: #028fa3;
+  color: #ffffff;
+  padding: 1% 10%;
+  border: none;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.active {
+  border: 1px solid #028fa3;
+  border-radius: 8px;
+}
+
+@media (min-width: 1400px) {
+  .calendarContainer {
+    transform: translateY(-10%);
+  }
+
+  .travelerOverlay {
+    display: block;
+    position: absolute;
+    width: 95%;
+    height: fit-content;
+    background-color: #ffffff;
+    color: #000000;
+    top: 100%;
+    z-index: 99999;
+    padding: 3% 3%;
+    border-radius: 12px;
+    padding-bottom: 5%;
+  }
+
+  .adultCounts {
+    padding: 1% 0%;
+    font-size: 1.5vw;
+    background: #87878608;
+    border-radius: 25px;
+    display: flex;
+    margin-top: 0%;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .childrenInfants {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0%;
+  }
+
+  .number {
+    padding: 1% 1%;
+    /* display: flex; */
+    border-right: 1px solid #8787864d;
+    cursor: pointer;
+    font-size: 1.8vw;
+    width: 8%;
+    text-align: center;
+  }
+
+  .classSelectors {
+    display: block;
+    position: absolute;
+    width: 65%;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: #ffffff;
+    top: 100%;
+    z-index: 99999;
+    padding: 3% 3%;
+    border-radius: 12px;
+    left: 33%;
+  }
+
+  .classButton {
+    background-color: #87878614;
+    border-radius: 15px;
+    margin-top: 1%;
+    border: none;
+    font-weight: 400;
+    font-size: 1.2vw;
+    padding: 3% 0%;
+    color: #878786;
+  }
+}

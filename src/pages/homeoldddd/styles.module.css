@@ -1,0 +1,706 @@
+.qugoLogo {
+  width: 200px;
+  height: 55px;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.imageContainer {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.textContainer {
+  flex: 1;
+}
+
+.user {
+  float: right;
+  margin-right: 2em;
+}
+
+#banner {
+  width: 100vw;
+  height: 100vh;
+  background: url("../../images/bodyImage.png") top center;
+  background-size: cover;
+  margin-bottom: -300px;
+  justify-content: center;
+}
+
+.hotelSearchMainDiv {
+  margin-bottom: 250px;
+}
+
+.bannerTexts {
+  position: absolute;
+  top: 10rem;
+  left: 5.5rem;
+}
+
+.bannerText {
+  margin-bottom: 0;
+}
+
+.searchHotels {
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px 7px rgba(2, 143, 163, 0.07);
+  border-radius: 19px;
+  color: black;
+  width: 70vw;
+}
+
+.search {
+  justify-content: center;
+}
+
+.searchButtons {
+  margin-bottom: 1em;
+}
+
+.searchButton {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(2px);
+  border-radius: 24px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 36px;
+  color: #030b09;
+  padding: 0 15px;
+  border: none;
+  margin-right: 10px;
+}
+
+.overnightStay {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #eaeaea;
+  background: #028fa3;
+  border-radius: 25.5px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 15px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.citySearch::after {
+  content: "";
+  display: block;
+  width: 1px;
+  background-color: #000;
+  margin: 0 auto;
+  opacity: 0.3;
+}
+
+.searchHeadingFont {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #030b09;
+}
+
+.citySearch {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 20px;
+  line-height: 36px;
+
+  /* Text colour */
+
+  color: #030b09;
+}
+
+.searchDate {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 24px;
+
+  /* Text colour */
+
+  color: #030b09;
+}
+
+.searchDay {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 17px;
+
+  /* Text colour */
+
+  color: #030b09;
+}
+
+.searchPax {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 24px;
+
+  /* Text colour */
+
+  color: #030b09;
+}
+
+.searchFilterHeading {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+
+  /* Text colour */
+
+  color: #030b09;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.searchRating {
+  background: rgba(3, 11, 9, 0.05);
+  border-radius: 60px;
+  text-align: center;
+  width: 0;
+  align-items: center;
+  padding: 10px 130px;
+  display: inline-grid;
+  justify-content: center;
+  margin: 0;
+  margin-right: 1rem;
+}
+
+.ratingButton {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 24px;
+  color: #030b09;
+  background: rgba(3, 11, 9, 0.04);
+  display: flex;
+  padding: 0 10px;
+  justify-content: space-between;
+  margin-right: 5px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 50px; /* Set the border radius to 50 pixels */
+}
+
+.searchRatings {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.searchFilter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.searchPrice {
+  background: rgba(3, 11, 9, 0.05);
+  border-radius: 60px;
+  text-align: center;
+  width: 0;
+  align-items: center;
+  padding: 10px 130px;
+  display: inline-grid;
+  justify-content: center;
+  margin: 0;
+}
+
+.searchPrices {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.priceButtons {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 11px;
+  line-height: 24px;
+  color: #030b09;
+  background: rgba(3, 11, 9, 0.04);
+  display: flex;
+  padding: 0 10px;
+  justify-content: center;
+  margin-right: 5px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 50px;
+  width: 6rem;
+  font-weight: bold;
+}
+
+.searchName {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* Text colour */
+
+  color: #030b09;
+}
+
+.hotelSearchButton {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: -330px;
+  left: 25%;
+  width: 50%;
+}
+
+.hotelSearchButton div {
+  background: #028fa3;
+  border-radius: 47.5px;
+}
+
+.hotelSearchIcon {
+  color: #ffffff;
+  padding: 15px 80px;
+  font-size: 25px;
+}
+
+/* Body */
+
+.bodyContainer {
+  padding: 20px 50px;
+}
+
+/* Package Grid Template Start */
+
+.internationalTrip {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 30px;
+  line-height: 72px;
+
+  /* Text colour */
+
+  color: #030b09;
+}
+
+.gridImageTemplate {
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+  /* background-color: lightpink; */
+}
+
+.columnimg1 {
+  border-radius: 20px;
+  height: 450px;
+  width: 92%;
+  object-fit: cover;
+}
+
+.imagecol1 {
+  flex: 1;
+  position: relative;
+}
+
+.imagecol2 {
+  flex: 2;
+}
+
+.columnimg2 {
+  height: 270px;
+  width: 90%;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.columnimg3 {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.insideimagecol1 {
+  display: flex;
+}
+
+.columnimg4 {
+  height: 130px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.columnimg5 {
+  height: 130px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.insideimagecol4 {
+  flex: 2;
+  position: relative;
+}
+
+.insideimagecol3 {
+  flex: 1;
+  position: relative;
+}
+
+.citydiv1 {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  display: inline-block;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 25px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.citydiv2 {
+  position: absolute;
+  bottom: 60px;
+  left: 30px;
+  display: inline-block;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 25px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.citydiv3 {
+  position: absolute;
+  bottom: 60px;
+  left: 30px;
+  display: inline-block;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 25px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.citydiv4 {
+  position: absolute;
+  bottom: 50px;
+  left: 30px;
+  display: inline-block;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 25px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.insideimagecol5,
+.insideimagecol6,
+.insideimagecol2 {
+  position: relative;
+}
+
+.tourTypes {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.tourTypes1,
+.tourTypes2,
+.tourTypes3 {
+  height: 170px;
+  width: 400px;
+  background: linear-gradient(90deg, #030b09 0%, #028fa3 87.15%);
+  border-radius: 33px;
+  position: relative;
+}
+
+.tourTypes1,
+.tourTypes2 {
+  margin-right: 20px;
+}
+
+.budgetFriendly,
+.romantic,
+.todo {
+  position: absolute;
+  left: 60px;
+  top: 60px;
+
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.chepestCity,
+.romanticCity,
+.todoCity {
+  position: absolute;
+  left: 60px;
+  top: 90px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 19px;
+  width: 70%;
+  color: #ffffff;
+}
+
+.recommendations {
+  width: 100%;
+  display: flex;
+}
+
+.recommendationsText {
+  flex: 1;
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(90deg, #030b09 0%, #028fa3 87.15%);
+  border-radius: 33px;
+  position: relative;
+}
+
+.recommendationsForYou {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 25px;
+  line-height: 36px;
+  color: #ffffff;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.recommendationsCity {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 15px;
+  line-height: 24px;
+  color: #ffffff;
+  position: absolute;
+  left: 50px;
+  top: 90px;
+}
+
+.amsterdamCity {
+  color: #9aa614;
+}
+
+.tourPackagesGrid {
+  margin-bottom: 50px;
+}
+/* Package Grid Template Start */
+
+/* promotions Carousel start */
+
+/* promotions Carousel end */
+
+/* India City Packages Carousel start */
+.indianCityCarousel {
+  margin-bottom: 50px;
+}
+/* India City Packages Carousel end */
+
+/* Explore Near You start*/
+
+.explore {
+  margin-bottom: 50px;
+}
+
+.exploreNearYou {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 30px;
+  line-height: 72px;
+
+  /* Text colour */
+
+  color: #030b09;
+}
+
+.exploreCity {
+  /* background-color: #000; */
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.exploreNearYouCity1 {
+  background: rgba(3, 11, 9, 0.05);
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.05);
+  border-radius: 18px;
+  position: relative;
+}
+
+.exploreCity1 {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 25px;
+  line-height: 36px;
+  text-align: center;
+
+  /* Primary colour */
+
+  color: #028fa3;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 40px;
+  margin: 0;
+}
+
+.placesCity1 {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #030b09;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 70px;
+}
+/* Explore Near You end*/
+
+/* Travel Updates start */
+
+.travelUpdates {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 30px;
+  line-height: 72px;
+
+  /* Text colour */
+
+  color: #030b09;
+}
+
+.travelUpdatesCityGroup {
+  height: 400px;
+  /* background: #030b09; */
+  display: grid;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.travelUpdatesImageCity1 {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  background: linear-gradient(
+    180.09deg,
+    rgba(3, 11, 9, 0) 23.75%,
+    #030b09 99.92%
+  );
+  border-radius: 33px;
+}
+
+.travelUpdatesCity2,
+.travelUpdatesCity3 {
+  height: 190px;
+  position: relative;
+}
+
+.travelUpdatesCity1 {
+  position: relative;
+}
+
+.travelUpdatesImageCity2,
+.travelUpdatesImageCity3 {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  background: linear-gradient(
+    180.09deg,
+    rgba(3, 11, 9, 0) 23.75%,
+    #030b09 99.92%
+  );
+  border-radius: 33px;
+}
+
+.travelUpdatesCity2 {
+  margin-bottom: 20px;
+}
+
+.travelUpdatesCityText1 {
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+
+  color: #ffffff;
+}
+
+.travelUpdatesCityText2,
+.travelUpdatesCityText3 {
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #ffffff;
+}
+/* Travel Updates end */

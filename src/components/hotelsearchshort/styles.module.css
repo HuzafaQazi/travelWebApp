@@ -1,0 +1,384 @@
+.qugoLogo {
+  width: 200px;
+  height: 55px;
+  margin-top: 10px;
+}
+
+.topbanner {
+  align-items: center;
+  position: relative;
+}
+
+.loginbutton {
+  position: absolute;
+  right: 18px;
+  top: 16px;
+  background-color: rgba(2, 143, 163, 1);
+  border: none;
+}
+
+.logindiv {
+  position: absolute;
+  right: 18px;
+  top: 16px;
+  flex-direction: row;
+  display: flex;
+}
+
+.logintext {
+  color: white;
+  margin-left: 12px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2px 0px;
+  cursor: pointer;
+}
+
+.loginbutton:hover {
+  background-color: rgba(2, 143, 163, 1);
+}
+
+.loginbutton:active {
+  background-color: rgba(2, 143, 163, 1);
+}
+
+.customnavlink {
+  color: grey;
+}
+
+.customnavlink:hover {
+  color: #fff; /* Hover tab text color */
+  background-color: #028fa3; /* Hover tab background color */
+}
+
+.modalheader {
+  display: flex;
+  flex-direction: row;
+}
+
+.modalheader .modalheaderimagediv {
+  flex: 1;
+}
+
+.modalheader .modalheaderlogo {
+  height: 30px;
+  width: 100px;
+  max-width: 100px;
+}
+
+.modalheader .modaltitle {
+  margin-left: 16px;
+}
+
+.modalbg {
+  background-color: "lightblue";
+  /* background-color: "#028FA3"; */
+  padding: "20px";
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.searchHotelButton {
+  background-color: #0290a3 !important;
+  color: #ffffff !important;
+}
+
+.header {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.imageContainer {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.textContainer {
+  flex: 1;
+}
+
+.user {
+  float: right;
+  margin-right: 2em;
+}
+
+#banner {
+  width: 100vw;
+  height: 50vh;
+  background: url("../../images/bodyImage.jpg") top center;
+  background-size: cover;
+  /* margin-bottom: 400px; */
+  justify-content: center;
+}
+
+.hotelSearchMainDiv {
+  margin-bottom: 30px;
+}
+
+.bannerTexts {
+  position: absolute;
+  top: 10rem;
+  left: 5.5rem;
+}
+
+.bannerText {
+  margin-bottom: 0;
+}
+
+.searchHotels {
+  padding: 30px;
+  padding-bottom: 40px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px 7px rgba(2, 143, 163, 0.07);
+  border-radius: 19px;
+  color: black;
+  width: 70vw;
+}
+
+.search {
+  justify-content: center;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  /* padding-bottom: 35px; */
+}
+
+.searchButtons {
+  margin-bottom: 1em;
+}
+
+.searchButton {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(2px);
+  border-radius: 5px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 15px;
+  line-height: 36px;
+  color: gray;
+  padding: 0 15px;
+  border: none;
+  margin-right: 10px;
+}
+
+.overnightStay {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #eaeaea;
+  background: #028fa3;
+  border-radius: 25.5px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.searchHeadingFont {
+  font-family: "Gotham";
+  font-style: normal;
+  /* font-weight: bold; */
+  font-size: 12px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.citySearch {
+  font-family: "Gotham";
+  font-style: normal;
+  /* font-weight: bolder; */
+  font-size: 20px;
+  line-height: 36px;
+
+  /* Text colour */
+
+  color: #030b09;
+}
+
+.cityName {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+  color: #030b09;
+}
+
+.searchDate {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* Text colour */
+  margin: 0;
+  color: #030b09;
+}
+
+.searchDay {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0;
+  /* Text colour */
+
+  color: #030b09;
+}
+
+.searchPax {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* Text colour */
+
+  color: #030b09;
+}
+
+.searchFilterHeading {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+
+  /* Text colour */
+
+  color: #030b09;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.searchRating {
+  background: rgba(3, 11, 9, 0.05);
+  border-radius: 60px;
+  text-align: center;
+  width: 0;
+  align-items: center;
+  padding: 10px 130px;
+  display: inline-grid;
+  justify-content: center;
+  margin: 0;
+  margin-right: 1rem;
+}
+
+.ratingButton {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 24px;
+  color: #030b09;
+  background: rgba(3, 11, 9, 0.04);
+  display: flex;
+  padding: 0 10px;
+  justify-content: space-between;
+  margin-right: 5px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 50px; /* Set the border radius to 50 pixels */
+}
+
+.searchRatings {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.searchFilter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.searchPrice {
+  background: rgba(3, 11, 9, 0.05);
+  border-radius: 60px;
+  text-align: center;
+  width: 0;
+  align-items: center;
+  padding: 10px 130px;
+  display: inline-grid;
+  justify-content: center;
+  margin: 0;
+}
+
+.searchPrices {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.priceButtons {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 11px;
+  line-height: 24px;
+  color: #030b09;
+  background: rgba(3, 11, 9, 0.04);
+  display: flex;
+  padding: 0 10px;
+  justify-content: center;
+  margin-right: 5px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 50px;
+  width: 6rem;
+  font-weight: bold;
+}
+
+.searchName {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* Text colour */
+
+  color: #030b09;
+}
+
+.hotelSearchButton {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  /* bottom: -330px; */
+  left: 25%;
+  width: 50%;
+  margin-top: 20px;
+}
+
+.hotelSearchButton div {
+  background: #0290a3;
+  border-radius: 47.5px;
+}
+
+.hotelSearchIcon {
+  color: #ffffff;
+  padding: 10px 50px;
+  font-size: 20px;
+}
+
+.qugoLogo {
+  width: 200px;
+  height: 55px;
+}

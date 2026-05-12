@@ -1,0 +1,64 @@
+.Notification {
+    overflow-y: auto;
+    max-height: 56vh;
+    padding: 6px;
+}
+
+.Notification::-webkit-scrollbar {
+    margin-left: 5px;
+    margin-top: 4px;
+    width: 5px;
+    height: 10px;
+}
+
+.Notification::-webkit-scrollbar-thumb {
+    background-color: #028FA3;
+    border-radius: 5px;
+}
+
+.Notification::-webkit-scrollbar-track {
+    top: 2px;
+    background-color: #028FA330;
+    /* Background color of the scrollbar track */
+    border-radius: 5px;
+    /* Round the corners of the scrollbar track */
+}
+
+.seats {
+    overflow-y: auto;
+    min-height: 500px;
+    padding: 6px;
+}
+
+.seats::-webkit-scrollbar {
+    margin-left: 5px;
+    margin-top: 4px;
+    width: 5px;
+    height: 10px;
+}
+
+.seats::-webkit-scrollbar-thumb {
+    background-color: #028FA3;
+    border-radius: 5px;
+}
+
+.seats::-webkit-scrollbar-track {
+    top: 2px;
+    background-color: #028FA330;
+    /* Background color of the scrollbar track */
+    border-radius: 5px;
+    /* Round the corners of the scrollbar track */
+}
+
+
+@media (min-width: 1500px) { /* For desktop screens */
+    .Notification {
+      height: 60vh;
+    }
+  }
+
+@media (max-width: 650px) {
+    .seats {
+        min-height: 350px;
+    }
+}

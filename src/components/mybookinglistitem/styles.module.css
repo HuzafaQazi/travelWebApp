@@ -1,0 +1,524 @@
+.roombrief {
+  width: -webkit-fill-available;
+}
+
+.bold {
+  font-weight: bold;
+  /* padding: none; */
+  /* margin: none; */
+}
+
+.address {
+  text-align: left;
+  line-height: 1.2;
+  display: block;
+  width: 400px;
+}
+
+.customername {
+  color: grey;
+}
+
+.completedButton {
+  background-color: rgba(70, 131, 22, 0.1);
+  color: #468316;
+  padding: 5px 21px;
+  font-weight: bold;
+  border: none;
+  cursor: not-allowed;
+  display: flex;
+  width: 90%;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-right: 5%;
+  margin-left: auto;
+  border-radius: 8px;
+}
+
+.completedButto {
+  background-color: rgba(70, 131, 22, 0.1);
+  color: #468316;
+  padding: 5px 21px;
+  font-weight: bold;
+  border: none;
+  cursor: not-allowed;
+  display: flex;
+  width: 100%;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-right: 5%;
+  margin-left: auto;
+  border-radius: 8px;
+}
+
+.loadingSpinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #000;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+}
+
+.reservedButton {
+  background-color: rgba(233, 70, 0, 0.1);
+  color: #e94600;
+  padding: 5px 21px;
+  border: none;
+  cursor: not-allowed;
+  display: flex;
+  width: 20%;
+  height: 45px;
+  align-items: center;
+  margin-top: 2%;
+  margin-right: 7%;
+  margin-left: auto;
+  border-radius: 8px;
+}
+
+.cancelledButton {
+  background-color: rgba(207, 26, 26, 0.1);
+  color: #cf1a1a;
+  padding: 5px 21px;
+  font-weight: bold;
+  border: none;
+  cursor: not-allowed;
+  display: flex;
+  width: 90%;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-right: 25%;
+  margin-left: auto;
+  border-radius: 8px;
+}
+
+.bookingitem {
+  border-radius: 12px;
+  /* max-height: 180px; */
+  background-color: rgb(235, 248, 250);
+  padding: 8px;
+  padding-left: 0px;
+  padding-bottom: 2%;
+  /* display: flex; */
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 12px;
+}
+
+.bookinglistitem {
+  border-radius: 12px;
+  max-height: 180px;
+  background-color: rgb(235, 248, 250);
+  padding: 8px;
+  padding-left: 24px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 12px;
+}
+
+.profilePopup {
+  position: relative;
+}
+
+.Popupicon {
+  font-size: 40px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.popup {
+  position: absolute;
+  width: max-content;
+  top: 3px;
+  right: 22px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 7px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+
+.popupOption {
+  padding: 5px;
+  cursor: pointer;
+  color: #878786;
+}
+
+.cancellationPopup {
+  position: absolute;
+  width: max-content;
+  top: 55%;
+  right: 8px;
+  /* left:15px; */
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  list-style-type: "&#x2713";
+  z-index: 99999;
+}
+
+.feeTable {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  padding: 3%;
+  border: 1px dotted #ccc;
+  border-radius: 10px;
+}
+
+.feeColumn {
+  flex: 1;
+}
+
+.feeColumns {
+  flex: 1 1;
+  margin-left: 5%;
+}
+
+.feeColumns p {
+  margin-bottom: 2.5rem;
+}
+
+.anotherStyle {
+  margin-left: 5%;
+}
+.anotherStyle p {
+  margin-bottom: 2.5rem;
+}
+
+.smallText {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.checkboxLabel {
+  display: block;
+  margin-top: 10px;
+}
+
+.checkboxLabel input {
+  margin-right: 2%;
+}
+
+.cancelButton {
+  margin-top: 15px;
+  margin-left: 35%;
+  background-color: rgb(54, 170, 39);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.cancelButton:disabled {
+  margin-top: 15px;
+  margin-left: 35%;
+  background-color: grey;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.customHr {
+  width: 95%;
+  margin-left: 3%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.reserveOption {
+  padding-left: 24px;
+}
+
+.amountExpiry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Center items vertically */
+}
+
+.amountToBePaid {
+  margin-right: 10px;
+  color: #028fa3;
+  /* Adjust margin as needed */
+}
+
+.expiryDetails {
+  display: flex;
+  color: #cf1a1a;
+  align-items: center;
+  /* Center items vertically */
+}
+
+.buttonRow {
+  margin-top: 2%;
+}
+
+.cancelOption {
+  padding: 2%;
+  color: #028fa3;
+  background-color: #ffffff;
+  margin-right: 3%;
+  border-radius: 16px;
+  border: 1px solid #028fa3;
+}
+
+.payButton {
+  padding: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  color: #ffffff;
+  background-color: #028fa3;
+  border: none;
+  border-radius: 16px;
+  background: var(--Primary-colour, #028fa3);
+  box-shadow: 0px 4px 4px 0px rgba(35, 31, 32, 0.35);
+}
+
+.refundstatus {
+  padding-top: 8%;
+  width: 100%;
+  color: #20854a;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  padding-left: 10px;
+}
+.container {
+  position: relative;
+}
+
+.popup {
+  position: absolute;
+  top: 100%;
+  left: -209px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  z-index: 999; /* Ensure the popup is above other elements */
+}
+
+.paymentpopup {
+  position: absolute;
+  top: 80%;
+  left: 35%;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  z-index: 999; /* Ensure the popup is above other elements */
+}
+
+.popupContent {
+  padding: 20px;
+}
+
+.popupContent button {
+  background: #028fa3;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.success {
+  color: #028fa3;
+}
+
+.bookingstatus {
+  width: 20%;
+}
+
+.amountPaid {
+  margin-right: 10px;
+  color: #028fa3;
+  /* Adjust margin as needed */
+}
+
+.clockIcon {
+  margin-right: 5px;
+}
+
+.popupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popupContent {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 350px;
+  text-align: center;
+}
+
+.walletSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.useWalletLabel {
+  margin-left: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+.walletBalance {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #333;
+  text-wrap: nowrap;
+}
+
+.balanceAmount {
+  font-weight: bold;
+  color: #6b8e23; /* Olive color for balance */
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.closeIcon {
+  margin-left: 290px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-end; */
+  color: #878786;
+}
+
+.recharge {
+  color: #ff4500; /* Red color for recharge link */
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.closeButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #028fa3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .bookinglistitem {
+    flex-direction: row;
+    align-items: center;
+    max-width: fit-content;
+    height: fit-content;
+    max-height: fit-content;
+    padding-left: 8px;
+  }
+
+  .roombrief {
+    width: fit-content;
+    height: auto;
+  }
+  .bold {
+    font-size: 12px;
+  }
+  .address {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .cancelledButton {
+    width: 74%;
+    margin-left: 10%;
+    font-size: 12px;
+  }
+
+  .completedButton {
+    width: fit-content;
+    padding: 2% 2%;
+    font-size: 10px;
+  }
+  .bookingstatus {
+    width: 30%;
+  }
+  .customername {
+    font-size: 10px;
+  }
+
+  .date {
+    font-size: 12px;
+    font-weight: 500;
+    width: 100%;
+  }
+
+  .refundstatus {
+    font-size: 10px;
+  }
+
+  .expiryDetails {
+    font-size: 12px;
+  }
+
+  .amountExpiry {
+    display: inline-block;
+  }
+
+  .reserveOption {
+    padding-left: 10px;
+  }
+
+  .buttonRow {
+    margin-top: 2%;
+    display: flex;
+  }
+
+  .cancelOption {
+    font-size: 11px;
+  }
+
+  .payButton {
+    font-size: 12px;
+    margin-left: 25px;
+  }
+
+  .completedButto {
+    width: 84%;
+    font-size: 12px;
+    margin-left: -4px;
+  }
+
+  .popupContent {
+    padding: 16px;
+    font-size: 12px;
+    width: unset;
+  }
+
+  .popup {
+    left: -82%;
+    transform: translate(-50%, 0%);
+    width: max-content; /* Adjust width as needed */
+
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2); /* Adjust box shadow */
+    z-index: 999;
+  }
+}

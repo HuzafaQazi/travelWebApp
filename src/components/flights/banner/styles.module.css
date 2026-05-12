@@ -1,0 +1,26 @@
+@media (max-width: 550px) {
+  .navigationContainer {
+    position: relative;
+  }
+
+  .desktopNavigationContainer {
+    display: none;
+  }
+}
+
+@media (min-width: 850px) {
+  .navigationContainer {
+    display: none;
+  }
+
+  .desktopNavigationContainer {
+    /* position: absolute; */
+    top: 22%;
+    width: 90%;
+    margin-left: 5%;
+    background: #0000006b;
+    border-radius: 15px;
+    margin-top: 3%;
+    position: relative;
+  }
+}

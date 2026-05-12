@@ -1,0 +1,171 @@
+.flightFareDetailsHead {
+  color: #028fa3;
+  width: 90%;
+  margin-left: 5%;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* a change */
+
+.radioOption input[type="radio"] {
+  -webkit-appearance: none; /* Remove default styling */
+  -moz-appearance: none;
+  appearance: none;
+  width: 20px; /* Custom size */
+  height: 20px; /* Custom size */
+  border: 2px solid #d1d3d4; /* Custom border */
+  border-radius: 50%; /* Rounded border */
+  outline: none; /* Remove focus outline */
+  cursor: pointer;
+}
+
+.selectedbtn {
+  background-color: #028fa3 !important;
+  color: #ffffff !important;
+}
+
+/* Custom checked state */
+.radioOption input[type="radio"]:checked {
+  background-color: #007bff; /* Custom background color */
+}
+
+/* Disabled state */
+.radioOption input[type="radio"]:disabled {
+  border-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* a change */
+
+.flightFareHead {
+  background: rgba(135, 135, 134, 0.15);
+  border: 0.75px solid rgba(135, 135, 134, 0.29);
+  padding: 1% 5%;
+  border-radius: 15px;
+}
+
+.flightFareDetailsActive {
+  background: rgba(2, 143, 163, 0.07);
+  padding: 1% 5%;
+  border-radius: 15px;
+  font-weight: 500;
+}
+
+.flightDetailsContainer {
+  width: 98%;
+  margin-left: 1%;
+  margin-top: 3%;
+  padding: 1%;
+  padding-top: 3%;
+  border-radius: 15px;
+  background: rgba(229, 233, 235, 0.46);
+}
+
+.fareDetailsContent {
+  width: 96%;
+  margin-left: 2%;
+  /* background-color: #ffffff; */
+  border-radius: 10px;
+}
+
+.fareTypes {
+  width: 15%;
+  text-align: center;
+}
+
+.fareDetailsHead {
+  color: #ffffff;
+  font-size: 13px;
+  padding: 2%;
+  padding-top: 3%;
+  background: var(
+    --Gradient,
+    linear-gradient(90deg, #028fa3 0%, #efc007 121.58%)
+  );
+  display: flex;
+  justify-content: space-between;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.cabinClassOptions {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cabinOption {
+  font-size: 11px;
+  padding-left: 2%;
+  width: 15%;
+  /* height: fit-content; */
+  /* border-left: 3px solid #028fa3; */
+}
+
+.cabinClassFacility {
+  display: flex;
+  width: 15%;
+  justify-content: space-around;
+  gap: 5%;
+}
+
+.dateChangeFee {
+  /* width: 25%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+  width: -webkit-fill-available;
+}
+
+.basicSpanTexts {
+  font-size: 12px;
+  width: 5%;
+  align-self: center;
+  color: #000000;
+}
+
+.weightOption {
+  font-size: 12px;
+}
+
+.fareDetailsFinalPrice {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.FareDetailsSelectBtn {
+  border: 1px solid #028fa3;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #028fa3;
+  padding: 5% 0%;
+  font-size: 12px;
+  text-align: -webkit-center;
+  box-shadow: 0px 4px 4px 0px #231f201f;
+}
+
+.horizontalRule {
+  content: "";
+  height: 1px;
+  width: 90%;
+  background-color: transparent;
+  border-left: 1px dashed #878786;
+  margin: 0 10px;
+}
+
+@media (min-width: 768px) {
+  .cabinOption {
+    font-size: 11px;
+    padding-left: 2%;
+    width: 15%;
+    text-align: center;
+    /* height: fit-content; */
+    /* border-left: 3px solid #028fa3; */
+  }
+}

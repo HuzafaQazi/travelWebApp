@@ -1,0 +1,352 @@
+.qugoLogo {
+  width: 200px;
+  height: 55px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.imageContainer {
+  margin-right: 10px;
+  /* Adjust the margin as needed */
+}
+
+.textContainer {
+  flex: 1;
+}
+
+.user {
+  float: right;
+  margin-right: 2em;
+}
+
+.searchAlignmentText {
+  visibility: hidden;
+  display: block;
+}
+
+.searchButton {
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgba(2, 143, 163, 1);
+  color: white;
+  border: none;
+  font-family: "Roboto";
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background: rgba(0, 42, 48, 0.80); */
+}
+
+.searchButton:hover {
+  background-color: transparent;
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: rgba(2, 143, 163, 1);
+  background-color: white;
+  border: none;
+}
+
+.searchButton[disabled],
+.searchButton.loading {
+  background-color: rgba(2, 143, 163, 1);
+  color: rgb(251, 252, 252);
+  border: none;
+}
+.searchButton.loading {
+  cursor: not-allowed;
+}
+.searchButton:ac {
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: rgba(2, 143, 163, 1);
+  background-color: white;
+  border: none;
+}
+
+.dateContainer {
+  display: block;
+  width: 100%;
+}
+
+.transparentInput {
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+#banner {
+  width: 100vw;
+  height: 55vh;
+  background: url("../../images/headerBg.png") top center;
+  background-size: cover;
+  margin-bottom: 18px;
+  justify-content: center;
+}
+
+.customInput::placeholder {
+  color: white; /* Replace 'red' with your desired color */
+}
+
+.hotelSearchIcon {
+  color: #ffffff;
+  /* padding: 10px 50px; */
+  /* font-size: 20px; */
+}
+.logindiv {
+  position: absolute;
+  /* right: 18px; */
+  /* top: 16px; */
+  flex-direction: row;
+  display: flex;
+}
+
+.topbanner {
+  align-items: center;
+  position: relative;
+}
+
+.headerBackground {
+  background: rgba(255, 255, 255, 0.9);
+  color: white;
+}
+
+.navbarContainer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* bug 1 */
+.navbar-link:active {
+  position: relative;
+}
+
+.navbar-link:active::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: -9px;
+  width: 125%;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #028fa3;
+}
+
+.navbar-link:active::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -9px;
+  width: 125%;
+  height: 120%;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 143, 163, 0) 0%,
+    rgba(2, 143, 163, 0.5) 160%
+  );
+}
+
+.dropdown-item label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.dropdown-item input {
+  margin-bottom: 5px;
+}
+
+.dropdown-menu {
+  width: 300px;
+}
+
+.dropdown {
+  font-family: "Gotham";
+  background: transparent;
+  border: none;
+  color: black;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: -12px;
+}
+
+.dropdownRooms {
+  display: inline;
+}
+
+select#rooms:hover option {
+  background-color: green !important;
+}
+
+.dropdownRoomDetails {
+  display: flex;
+  flex: 1;
+}
+
+.qugoLogo {
+  width: 100px;
+  height: 30px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.profileLogo {
+  width: 25px;
+  height: 25px;
+  margin-top: 4px;
+}
+
+.logintext {
+  /* position: absolute;
+      right: 18px;
+      top: 16px; */
+  color: white;
+  margin-left: 12px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2px 0px;
+  cursor: pointer;
+}
+
+.date-picker-wrapper input button .date-picker-wrapper {
+  position: relative;
+}
+
+.calendar-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.backButton {
+  background-color: rgba(2, 143, 163, 1);
+  color: white;
+  font-family: "Roboto";
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  top: 24px;
+  right: 10px;
+  /* padding: 4px 10px; */
+  transition: background-color 0.2s ease;
+}
+
+.backButton:hover {
+  background-color: rgba(2, 143, 163, 0.2);
+}
+
+.backButton:active {
+  background-color: rgba(2, 143, 163, 0.4);
+}
+
+.dropdown-option {
+  background-color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dropdown-option:hover {
+  background-color: rgba(2, 143, 163, 1);
+}
+
+.active-option {
+  background-color: rgba(2, 143, 163, 1);
+}
+
+.searchHotelButton {
+  position: relative;
+  color: #ffffff !important;
+}
+
+.HotelButton {
+  background-color: #0290a3 !important;
+  color: #ffffff !important;
+  border-radius: 19px 19px 0px 0px;
+}
+
+.searchHotelButton::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: -9px;
+  width: 125%;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #028fa3;
+}
+.searchHotelButton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -9px;
+  width: 125%;
+  height: 120%;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 143, 163, 0) 0%,
+    rgba(2, 143, 163, 0.5) 160%
+  );
+}
+
+.scrollableDropdown {
+  max-height: 200px;
+  overflow-y: auto;
+  font-size: 15px;
+  width: 500px;
+  line-height: 15px;
+}
+
+/* Define a media query for small screens */
+@media (max-width: 768px) {
+  /* Select the elements that you want to style differently for small screens */
+  #modifyPopup {
+    /* Apply styles for small screens */
+    display: block; /* Show the popup */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(
+      0,
+      0,
+      0,
+      0.8
+    ); /* Add a semi-transparent background overlay */
+    z-index: 9999;
+  }
+
+  /* You may need to adjust the styles of the popup content for better display on small screens */
+  #modifyPopup .container {
+    /* Modify the styles for the container inside the popup */
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+  }
+}

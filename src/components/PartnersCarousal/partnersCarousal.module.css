@@ -1,0 +1,61 @@
+/* styles/LogoCarousel.module.css */
+
+.carouselContainer {
+  overflow: hidden;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  /* padding: 20px 0; */
+  margin: auto;
+  border-radius: 8px;
+}
+
+.carouselTrack {
+  display: flex;
+  width: max-content;
+  animation: scroll var(--animation-duration, 20s) linear infinite;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.logo {
+  flex: 0 0 auto;
+  width: 130px; /* Adjust as needed */
+  margin: auto;
+}
+
+.logo img {
+  max-width: 100%;
+  display: block;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100px * 5));
+  }
+}
+
+.carouselTrack {
+  display: flex;
+  animation: scroll var(--animation-duration, 20s) linear infinite;
+  will-change: transform;
+}
+
+@media (max-width: 550px) {
+  .carouselContainer {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 0px;
+  }
+
+}

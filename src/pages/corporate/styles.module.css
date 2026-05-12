@@ -1,0 +1,1048 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 998;
+  cursor: pointer;
+}
+
+.navbar {
+
+  display: flex;
+  justify-content: space-between;
+  gap: 0;
+  padding-left: 6%;
+  padding-right: 6%;
+  color: white;
+
+  padding-top: 2%;
+}
+
+.active {
+  width: 1000px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.logocorporate {
+  width: 100%;
+  height: 35px;
+}
+
+.laptopimg1 {
+  margin-top: 5%;
+  width: 700px;
+  height: fit-content;
+}
+
+.flexbox{
+  display: flex;
+  justify-content: space-between;
+}
+
+.righticon{
+  color: #028FA3;
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.laptopimg {
+  width: 700px;
+  height: fit-content;
+}
+
+.logo1 {
+  color: #028FA3;
+  font-family: Nexa Bold;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.imageContainer {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin-right: 200px;
+}
+
+.imageWrapper {
+  position: relative;
+  display: flex;
+}
+
+.imageWrapper img {
+  margin-right: 10px;
+  border-radius: 10px;
+  transition: width 0.5s ease;
+
+}
+
+.navLinks {
+  display: flex;
+  gap: 50px;
+  margin-top: 10px;
+
+}
+
+.selectedButton {
+  border: 1px solid #028FA3;
+  background-color: #028FA3;
+  color: #FFFFFF;
+}
+
+.authLinks {
+  display: flex;
+  gap: 25px;
+}
+
+.a1 {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.a2 {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+
+}
+
+.button {
+  border: 0.55px solid #FFFFFF;
+  border-radius: 10px;
+  height: 37px;
+  font-weight: 500;
+  width: 102px;
+  background-color: #D5B300;
+}
+
+.travelsguide {
+  margin-top: 4%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.bussines {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #D5B300;
+  ;
+}
+
+.bussines1 {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.bussines2 {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+
+.coropatetravel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1%;
+  margin-top: 2%;
+}
+
+.Stared {
+  width: 327px;
+  height: 75px;
+  top: 32px;
+  padding: 1%;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 16px;
+  background: #FFFFFF;
+  position: relative;
+
+}
+
+.button1 {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  padding: 1.5% 6%;
+  border-radius: 100px;
+  color: #FFFFFF;
+  background: #028FA3;
+  box-shadow: 0px 1px 3px 1px #028FA317;
+  box-shadow: 0px 1px 2px 0px #0000004D;
+  border: none;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.admin {
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0.10000000149011612px;
+  padding: 1%;
+  margin-top: 10px;
+  color: #030F0C;
+}
+
+.supervises {
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #878786;
+
+}
+
+.designed {
+  padding: 3% 6%;
+}
+
+.text1 {
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #878786;
+}
+
+.text2 {
+
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #028FA3;
+}
+
+.coropatetravel1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2%;
+  margin-top: -22px;
+  width: 100%;
+}
+
+.Stared1 {
+  width: 585px;
+  top: 32px;
+  padding: 1%;
+  margin-left: 10px;
+  border-radius: 16px;
+  background: #FFFFFF;
+  position: relative;
+}
+
+.admin1 {
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0.10000000149011612px;
+  padding: 6% 3%;
+  margin-top: 10px;
+  color: #030F0C;
+}
+
+.maintravel {
+  margin-top: -24px;
+  height: 152px;
+}
+
+.supervisestravel {
+  display: flex;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #878786;
+  padding: 0% 2%;
+  padding-top: 19px;
+  /* display: inline-block; */
+}
+
+.images {
+  width: 550px;
+  height: 199px;
+  margin-top: 32px;
+  margin-left: 3px;
+  border-radius: 16px;
+  background: #D9D9D9;
+  box-shadow: 0px 4px 4px 0px #0000000D;
+}
+
+.videsplayer {
+  display: flex;
+  justify-content: center;
+  padding: 0%;
+  margin-bottom: 4%;
+}
+
+.videsplayer1 {
+  width: 88%;
+  border-radius: 18px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px 0px #91B2E433;
+  padding: 2%;
+  box-shadow: 0px 4px 4px 0px #91B2E41C;
+  background: #D9D9D9;
+
+}
+
+.insidevides {
+  width: 101%;
+  height: 517px;
+  border-radius: 28px;
+  gap: 10px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px 0px #91B2E433;
+
+}
+
+.insidemangement {
+  width: 88%;
+  border-radius: 18px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px 0px #91B2E433;
+  padding: 3%;
+  gap: 25%;
+  display: flex;
+  flex-direction: row;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.emailInput {
+  width: calc(100% - 40px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.emailText {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: left;
+  color: #878786;
+
+
+}
+
+.inputWrapper {
+  position: relative;
+  width: 100%;
+}
+
+
+.sendButton {
+  width: 20%;
+  position: absolute;
+  right: 0;
+  background-color: #028FA3;
+  font-weight: 500;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.overspending {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20%;
+  padding: 5%;
+
+}
+
+.finances {
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #878786;
+}
+
+.trustworthy {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #028FA3;
+}
+
+.money {
+  font-family: Roboto;
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #878786;
+}
+
+.management {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #028FA3;
+  width: 203px;
+  height: 38px;
+  border-radius: 34px;
+  border: none;
+  margin-top: 17px;
+}
+
+.imageResult {
+
+  width: 5%;
+  height: 5%;
+}
+
+.scrollingimage {
+  display: flex;
+  justify-content: center;
+
+}
+
+.informationimg {
+  width: 50%;
+  height: 100%;
+}
+
+.via {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  color: #030F0C;
+
+}
+
+.imgsupervises {
+
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+}
+
+.Scanimg {
+  width: 110%;
+  height: 85%;
+}
+
+.askingsquestion {
+  width: 88%;
+  border-radius: 18px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px 0px #91B2E433;
+  padding: 3%;
+
+}
+
+.askingsquestion1 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #028FA3;
+}
+
+.condition {
+
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: justified;
+  color: #443C38;
+}
+
+.Minuesicon {
+  width: 90%;
+  height: 45%;
+  cursor: pointer;
+}
+
+.askingsquestion2 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #878786;
+
+}
+
+.Plusicon {
+  width: 90%;
+  height: 45%;
+  cursor: pointer;
+}
+
+.popup {
+  width: 60%;
+  height: max-content;
+  margin-left: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  border-radius: 15px;
+}
+
+.popup1 {
+  width: 60%;
+  height: max-content;
+  margin-left: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  border-radius: 15px;
+}
+
+.sinaccount {
+
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #171A19;
+}
+
+.offers {
+
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+
+}
+
+.adminbutton {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px 0px #169CB024;
+  border-radius: 13px;
+  font-size: 11px;
+  font-weight: 400;
+  padding: 3% 11%;
+  text-align: center;
+  color: #878786;
+}
+
+.verifybtn {
+
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 102%;
+  height: 124%;
+  border-radius: 25px;
+  background: #028FA31A;
+  border: none;
+}
+
+.continuebtn {
+  grid-column: 1/span 3;
+  background: #878786;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  font-size: 12px;
+  padding: 3%;
+  margin-top: 22%;
+
+}
+
+.formcontainer {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.title {
+
+  width: 10%;
+  height: 30px;
+}
+
+.Firstname {
+  width: 40%;
+  height: 30px;
+}
+
+.lastname {
+  width: 50%;
+  height: 30px;
+}
+
+.background {
+  background: linear-gradient(190.83deg, rgba(2, 143, 163, 0.51) 25.37%, rgba(2, 94, 110, 0) 58.02%, #028FA3 88.16%);
+  width: 100%;
+  height: fit-content;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+
+.qugotext {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 25%;
+
+}
+
+.logines {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.logintext {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #443C38;
+}
+
+.inputype {
+  width: 100%;
+  height: 48px;
+  border-radius: 4px;
+  border: 0.35px solid #878786
+}
+
+.inputype1 {
+  width: 10%;
+  height: 48px;
+  border-radius: 4px;
+  border: 0.35px solid #878786
+}
+
+.inputype::placeholder {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #87878680;
+  margin-right: 1%;
+
+
+}
+
+.otp {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #028FA3;
+  cursor: pointer;
+}
+
+.verfiedbtn {
+  width: 100%;
+  height: 48px;
+  background: #028FA3;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  color: #FFFFFF;
+
+
+}
+
+.account {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #878786;
+  padding-top: 10px;
+
+}
+
+.textabove {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.maincontainerlogin {
+  width: 55%;
+  padding: 2% 3%;
+}
+
+.Image1 {
+  height: 100%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  position: relative;
+}
+
+.Image {
+  position: relative;
+}
+
+.ImageOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background: linear-gradient(77deg, rgba(0, 0, 0, .95) -3.09%, transparent 83.13%);
+  border-radius: 4%;
+}
+
+.ImageText {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.imagetext1 {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.title {
+  width: 80%;
+  height: 48px;
+  border: 0.35px solid #878786;
+  border-radius: 5px;
+}
+
+.firstname {
+  width: 98%;
+  height: 48px;
+  border: 0.35px solid #878786;
+  border-radius: 5px;
+}
+
+.lastname {
+  width: 98%;
+  height: 48px;
+  border: 0.35px solid #878786;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+}
+
+.inputtitle {
+  width: 11%;
+}
+
+.email {
+  width: 115%;
+  height: 50px;
+  border: 0.35px solid #878786;
+  border-radius: 5px;
+}
+
+.email1 {
+  width: 100%;
+  height: 50px;
+  border: 0.35px solid #878786;
+  border-radius: 5px;
+}
+
+.numberemp {
+  width: 136%;
+  height: 50px;
+  border: 0.35px solid #878786;
+  border-radius: 5px;
+}
+
+.identififcation {
+  width: 100%;
+  height: 50px;
+  border: 0.35px solid #878786;
+  border-radius: 5px;
+}
+
+.conatinerid {
+  display: flex;
+  justify-content: space-between;
+  gap: 110px;
+}
+
+.email::placeholder {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: #87878680;
+  padding-left: 13px;
+}
+
+.conatiner {
+  display: flex;
+  gap: 49px;
+}
+
+.verfiedbtn1 {
+  width: 220px;
+  height: 50px;
+  background: #028FA31A;
+  border-radius: 24px;
+  margin-top: 28px;
+  border: none;
+  color: #028FA3;
+}
+
+
+.passwordContainer {
+  position: relative;
+}
+
+.passwordContainer input {
+  padding-right: 30px;
+}
+
+.passwordContainer button {
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  transform: translateY(-50%);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.textcontent {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #030F0C;
+}
+
+.textcontent1 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #030F0C;
+  margin-left: 50px;
+}
+
+
+.savebutton {
+  width: 100%;
+  height: 50px;
+  background: #878786;
+  border: none;
+  border-radius: 7px;
+  margin-top: 120px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.abovepopup {
+  padding: 1% 1%;
+  cursor: pointer;
+}
+
+.buttonchoice {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.placeholders {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #87878680;
+}
+
+@media (max-width: 650px) { 
+  .button1 {
+    font-size: 10px;
+  }
+
+  .admin {
+    font-size: 14px;
+  }
+
+  .supervises {
+    font-size: 12px;
+  }
+
+  .designed {
+    margin-top: 10%;
+  }
+
+  .Stared {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  .maintravel {
+    height: fit-content;
+  }
+
+  .insidemangement {
+    gap: 10%;
+  }
+
+  .informationimg {
+    height: 60%;
+  }
+
+  .money {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .management {
+    font-size: 10px;
+    width: 150px;
+  }
+
+  .coropatetravel1 {
+    gap: 0%;
+  }
+
+  .Stared1 {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  .text2 {
+    font-size: 20px;
+  }
+
+  .admin1 {
+    font-size: 12px;
+  }
+
+  .supervisestravel {
+    font-size: 9px;
+    line-height: 18px;
+  }
+
+  .finances {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .trustworthy {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

@@ -1,0 +1,567 @@
+.entrie {
+  background-color: #E5E9EB;
+}
+
+.navbar1 {
+
+  display: flex;
+  justify-content: space-between;
+  gap: 0;
+  padding: 1%;
+  padding-top: 1%;
+  color: white;
+  width: 98%;
+  height: fit-content;
+  background-color: white;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.navbar2 {
+  padding: 4%;
+  padding-top: 1%;
+  color: white;
+  width: 98%;
+  height: 474px;
+  background-color: white;
+  margin: 19px;
+  border-radius: 10px;
+}
+
+/* .header {
+background-color: #FFFFFF;
+} */
+
+.navbar3 {
+  /* padding: 2%; */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 130px;
+}
+
+.navbar4 {
+  width: 98%;
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 65px;
+}
+
+.navbar5 {
+  width: 98%;
+  padding: 1%;
+}
+
+.navbar6 {
+  display: flex;
+  /* Use flexbox */
+  justify-content: center;
+  /* Center content horizontally */
+  padding: 0%;
+  padding-top: 0%;
+  color: white;
+  width: 98%;
+  height: 18%;
+  background-color: white;
+  margin: 20px;
+  border-radius: 36px;
+}
+
+.navbar {
+  padding-top: 0.2%;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.logo1 {
+  color: #028FA3;
+  font-family: Nexa Bold;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.navLinks {
+  display: flex;
+  gap: 50px;
+  margin-top: 10px;
+
+}
+
+.authLinks {
+  display: flex;
+  gap: 25px;
+}
+
+.a1 {
+  color: #878786;
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.a2 {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+
+}
+
+.button {
+  border: 0.55px solid #FFFFFF;
+  border-radius: 10px;
+  /* padding: 5% 10%; */
+  height: 37px;
+  width: 102px;
+  background-color: #333;
+  background: linear-gradient(90deg, #0B2330 0%, rgba(37, 65, 80, 0.84) 46.26%, rgba(65, 98, 115, 0.76) 79.85%);
+}
+
+.crpallinone {
+  text-wrap: nowrap;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: start;
+  color: #000000;
+  margin-bottom: 3px;
+}
+
+
+.industry {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: start;
+  color: #878786;
+  /* margin-top: -20px; */
+}
+
+.laptopimg {
+  width: 816px;
+  height: 420px;
+  margin-top: 10%;
+}
+
+.allinonecontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonswitch {
+  width: 245px;
+  height: 92px;
+  border-radius: 100px;
+  background: #FFFFFF69;
+  box-shadow: 0px 4px 4px 0px #028FA31C;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  margin: 11px 20px;
+
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: -12px;
+  right: 0;
+  bottom: 0;
+  background: #028FA31A;
+  -webkit-transition: .4s;
+  transition: .4s;
+  width: 223px;
+  height: 70px;
+  border-radius: 90px;
+
+}
+
+.employee {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #028FA3;
+  margin-left: 87px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "Admin";
+  /* height: 26px;
+    width: 26px; */
+  width: 97px;
+  height: 61px;
+  border-radius: 70px;
+  left: 4px;
+  bottom: 4px;
+  background: #028FA3;
+  -webkit-transition: .4s;
+  transition: .4s;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 61px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+
+
+input:checked+.slider {
+  background: #028FA31A;
+
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px #2196F3;
+
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.switchemp {
+  font-size: 15px;
+  font-weight: 350;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #878786;
+}
+
+.solution1img {
+
+  width: 80%;
+  height: fit-content;
+  border-radius: 30px;
+}
+
+.setup {
+  width: 176.26px;
+  height: 40px;
+  background: #028FA3;
+  box-shadow: 0px 3.1195929050445557px 3.1195929050445557px 0px #169CB02E;
+  border-radius: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-left: -222px;
+}
+
+.companyset {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.07798982411623001px;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+
+.corporatepanel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  height: 65px;
+  gap: 22px;
+  border-radius: 11px;
+  background: #FFFFFF;
+
+
+}
+
+.setuppanel {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #878786;
+}
+
+.travelbtn {
+  width: 30%;
+  height: 40px;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: 0.07798982411623001px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #028FA3;
+  box-shadow: 0px 3.1195929050445557px 3.1195929050445557px 0px #169CB02E;
+  border-radius: 74px;
+}
+
+.travelpolicy {
+  width: 98%;
+  height: fit-content;
+  border-radius: 11px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding: 4% 2%;
+  gap: 16%;
+}
+
+.solutionimg2 {
+  width: 100%;
+  height: fit-content;
+  border-radius: 30px;
+}
+
+.spendtravele {
+  width: 80%;
+  height: fit-content
+}
+
+.dashbord {
+  width: 100%;
+  height: fit-content;
+  border-radius: 11px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding: 7% 7%;
+}
+
+.firstDiv {
+  flex: 0 0 75%;
+
+}
+
+.columnContent {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4% 0%;
+}
+
+.secondDiv {
+  flex: 0 0 25%;
+
+}
+
+.implementimg {
+  width: 100%;
+  height: 80vh;
+}
+
+.expense {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+
+}
+
+.hrLine {
+  width: 889px;
+  border: none;
+  border-top: 1.5px solid #87878675;
+  /* Style the top border to create the horizontal line */
+  margin-top: 30px;
+  /* Adjust spacing as needed */
+  margin-bottom: 10px;
+  /* Adjust spacing as needed */
+
+}
+
+.contentWithVerticalLine {
+  display: flex;
+  /* Use flexbox */
+  position: relative;
+  /* Set position relative for absolute positioning */
+  align-items: center;
+  /* Center content vertically */
+}
+
+.contentWithVerticalLine> :nth-child(2) {
+  position: absolute;
+  /* Set position to absolute */
+  border-left: 1px solid #87878675;
+  /* Create a vertical line */
+  height: 132%;
+  /* Ensure the line spans the full height of the container */
+  top: -10px;
+  /* Position at the top of the container */
+  bottom: 0;
+  /* Position at the bottom of the container */
+  left: 63%;
+  transform: translateX(-50%);
+  padding-left: 133px
+}
+
+.male {
+  display: flex;
+  /* Use flexbox */
+  justify-content: center;
+  /* Center content horizontally */
+  align-items: center;
+  width: 66px;
+  height: 66px;
+  border-radius: 80px;
+  background: #D7C0DD;
+}
+
+.female {
+  width: 66px;
+  height: 66px;
+  border-radius: 80px;
+  background: #C2C7B8;
+  display: flex;
+  /* Use flexbox */
+  justify-content: center;
+  /* Center content horizontally */
+  align-items: center;
+  /* Center content vertically */
+
+
+}
+
+.mainconatinerline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 35px;
+  padding: 3% 9%;
+}
+
+.designedbussines {
+  padding: 3% 0% 3% 3%;
+}
+
+@media (max-width: 640px) {
+  .allinonecontainer {
+    flex-direction: column;
+  }
+  .navbar2 {
+    padding-top: 4%;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .laptopimg {
+    height: 250px;
+  }
+
+  .navbar3 {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .setup {
+    margin-left: 0px;
+  }
+
+  .crpallinone {
+    margin-bottom: 0px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .expense {
+    font-size: 16px;
+  }
+
+  .navbar4 {
+    flex-direction: column;
+  }
+
+  .secondDiv {
+    display: none;
+  }
+
+  .firstDiv {
+    flex: 0 0 100%;
+    padding: 2% 4%;
+  }
+
+  .hrLine {
+    display: none;
+  }
+
+  .mainconatinerline {
+    gap: 10px;
+    padding: 3% 0% ;
+  }
+
+  .columnContent {
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .contentWithVerticalLine {
+    justify-content: space-between;
+  }
+
+  .contentWithVerticalLine > :nth-child(2) {
+    padding-left: 25px;
+    transform: none;
+    position: relative;
+    left: 0%;
+  }
+
+  .navbar6 {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .industry {
+    font-size: 12px;
+  }
+
+  .male {
+    width: 40px;
+    height: 40px;
+  }
+
+  .female {
+    width: 40px;
+    height: 40px;
+  }
+}

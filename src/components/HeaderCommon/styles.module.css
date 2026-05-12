@@ -1,0 +1,452 @@
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader {
+  border: 8px solid #f3f3f3;
+  /* Light grey */
+  border-top: 8px solid #3498db;
+  /* Blue */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+}
+.CorpLogo {
+  width: 100px;
+  padding-right: 4px;
+}
+
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.headerContainer {
+  padding-top: 1%;
+  width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+  /* top: 10px; */
+  display: flex;
+  justify-content: space-between;
+  /* position: absolute; */
+  z-index: 1;
+  align-items: center;
+}
+
+.switch {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  color: #028fa3;
+}
+
+.switchContainer {
+  background: white;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.posiflexcontainer {
+  display: block;
+  z-index: 999;
+  position: relative;
+}
+
+.posiflexcontainer1 {
+  display: none;
+}
+
+.loginSignup {
+  color: #ffffff;
+}
+
+.modalheader {
+  background-color: #028fa3;
+}
+
+.clearIconHome {
+  display: none;
+}
+
+.innerContainer {
+  display: flex;
+}
+
+.rightNavPart {
+  color: #ffffff;
+}
+
+.mobileNav {
+  display: none;
+}
+
+.companyLogo {
+  margin-top: 0%;
+}
+
+.qugoLogo {
+  width: auto;
+  height: 5vh;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 2px;
+}
+
+.mobLogo {
+  display: none;
+}
+
+.rightNavPart {
+  display: none;
+}
+
+.loginbutton {
+  background: none;
+  border: none;
+  margin-left: 10px;
+}
+
+.loginbutton:hover {
+  background: none;
+  border: none;
+}
+
+.logindiv {
+  display: flex;
+  /* flex-direction: row-reverse; */
+  align-items: flex-end;
+  white-space: nowrap;
+  margin-left: 8%;
+  /* margin-top: 5px; */
+}
+
+.logintext {
+  display: block;
+  color: #ffffff;
+  margin-left: 10%;
+  text-wrap: nowrap;
+  cursor: pointer;
+}
+
+.profileLogo {
+  width: 45px;
+  height: 22px;
+  margin-top: 0px;
+  cursor: pointer;
+}
+
+.bottomSheet {
+  display: none;
+}
+
+.closeButton {
+  padding: 2% 3%;
+  border: none !important;
+  outline: none !important;
+  background: transparent;
+  color: #028fa3;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top-right-radius: 8px;
+}
+
+.walletHeaderContainer {
+  float: left;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 13px;
+  width: max-content;
+  height: 42px;
+  /* padding-right: 20px; */
+  /* margin-bottom: 10px; */
+}
+
+.walletContainer {
+  float: left;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 13px;
+  background: #028fa3;
+  width: fit-content;
+  height: 50px;
+  cursor: pointer;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.innerContainer {
+  display: flex;
+  align-items: center;
+}
+
+.walletLogo {
+  width: 30px;
+  height: 30px;
+  /* margin-right: 10px; */
+}
+
+.walletInfo {
+  font-size: 12px;
+  color: rgba(2, 143, 163, 1);
+  margin-left: 10px;
+}
+
+.walletLabel {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.rechargeLink {
+  display: none;
+  color: rgba(150, 163, 2, 1);
+  cursor: pointer;
+}
+
+.walletdiv {
+  display: flex;
+}
+
+.walletAmount {
+  color: #ffffff;
+  margin-right: 4px;
+}
+
+.posiflexLogo {
+  display: block;
+  width: 130px;
+  cursor: pointer;
+  height: 45px;
+  top: 10px;
+  left: 1095px;
+  padding: 13px 23px 8px 24px;
+  gap: 10px;
+  border-radius: 6px;
+  opacity: 1px;
+  background: linear-gradient(90deg, #8a2124 0%, #ee3124 100%);
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+@media (max-width: 550px) {
+  /* .switchContainer {
+    display: none;
+  } */
+
+  .walletLogo {
+    width: 16px;
+    height: 16px;
+  }
+
+  .loginSignup {
+    display: none;
+  }
+
+  .logindiv {
+    align-items: center;
+    margin-top: 0px;
+  }
+
+  .logintext {
+    display: none;
+    text-wrap: nowrap;
+    margin-left: 0;
+    margin-right: 1px;
+  }
+
+  .mobloginbutton {
+    background: none !important;
+    border: none !important;
+    font-size: 14px;
+  }
+
+  /* .loginPopup{
+      display: none;
+    } */
+
+  .mobileNav {
+    display: inline-block;
+    width: 25%;
+    font-size: 35px;
+    display: none;
+  }
+
+  .qugoLogo {
+    display: none;
+  }
+
+  .posiflexLogo {
+    width: 100px;
+    height: 36px;
+  }
+
+  .rightNavPart {
+    display: block;
+    cursor: pointer;
+    font-size: 10px;
+    /* padding: 8px; */
+    border-radius: 4px;
+    box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.04);
+  }
+
+  .profileLogo {
+    width: 20px;
+    height: 24px;
+  }
+
+  .DesktoprightNavPart {
+    display: flex;
+  }
+
+  .bottomSheet {
+    display: inline;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #fff;
+    transition: height 0.3s ease-in-out;
+    overflow: hidden;
+    z-index: 1000;
+  }
+
+  .closeButton {
+    padding: 2% 4%;
+    border: none;
+    background: transparent;
+    color: #028fa3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top-right-radius: 8px;
+  }
+
+  .bottomSheet.open {
+    height: 60%;
+  }
+
+  .bottomSheetContent {
+    padding: 20px;
+    color: #000;
+  }
+
+  .bottomSheetHeading {
+    color: #878786;
+    font-size: 25px;
+  }
+
+  .bottomSheetPara {
+    color: #028fa3;
+    font-size: 12px;
+  }
+
+  .bottomSheetParaBlack {
+    color: #000000;
+    font-size: 12px;
+  }
+
+  .phoneNumberInput {
+    margin-top: 15%;
+  }
+
+  .phoneInput {
+    width: 90%;
+    border: none;
+  }
+
+  .inputRule {
+    width: 90%;
+    margin-left: 0%;
+    height: 1px;
+    background-color: #000;
+    margin-top: 2%;
+  }
+
+  .justifiedContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+  }
+
+  .otpButton {
+    padding: 1% 10%;
+    border: none;
+    border-radius: 4px;
+    background: #028fa3;
+    color: #ffffff;
+    box-shadow: 0px 4px 4px 0px rgba(35, 31, 32, 0.12);
+  }
+
+  .centeredText {
+    color: var(--Text-colour, #878786);
+    margin-top: 2%;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .qugoColor {
+    color: #028fa3;
+    font-weight: 700;
+  }
+
+  .mobLogo {
+    display: inline-block;
+    cursor: pointer;
+    width: 60px;
+    height: 24px;
+  }
+
+  .headerContainer {
+    width: 100%;
+    /* background-color: #002a30e5; */
+  }
+
+  .walletLabel {
+    display: none;
+  }
+
+  .walletdiv {
+    display: block;
+  }
+
+  .walletContainer {
+    width: fit-content;
+    margin-right: 2px;
+    /* margin-bottom: 9px; */
+    height: inherit;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .walletAmount {
+    font-size: 8px;
+    color: #ffffff;
+    margin-left: 4px;
+    font-weight: 400;
+  }
+
+  .switch {
+    font-size: 9px;
+  }
+
+  .CorpLogo {
+    width: 75px;
+  }
+}

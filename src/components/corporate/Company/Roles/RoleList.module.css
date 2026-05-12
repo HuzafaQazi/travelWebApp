@@ -1,0 +1,109 @@
+.eligibilitycontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 10px; */
+  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid #028fa350;
+  width: 100%;
+  margin: 1%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 4px 4px 0px #169cb012;
+}
+
+.roleContainer {
+  overflow-x: auto;
+  width: 100%;
+  margin-top: 2%;
+  max-height: 500px;
+  padding: 6px;
+}
+
+.roleContainer::-webkit-scrollbar {
+  margin-top: 2px;
+  width: 5px;
+  height: 10px;
+}
+
+.roleContainer::-webkit-scrollbar-thumb {
+  background-color: #028fa3;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.roleContainer::-webkit-scrollbar-track {
+  top: 2px;
+  background-color: #028fa330;
+  /* Background color of the scrollbar track */
+  border-radius: 5px;
+  /* Round the corners of the scrollbar track */
+}
+
+.eligibitysubcontainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.eligibilitytext {
+  color: var(--new-dark-text, #171a19);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 29.05px;
+  text-align: left;
+}
+
+.eligibilitysubtext {
+  color: #878786;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: left;
+}
+
+.eligibility {
+  display: flex;
+
+  align-items: center;
+}
+
+.dropdownContent {
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.trashicon {
+  width: 12.5px;
+  height: 12.5px;
+  top: 2.08px;
+  left: 2.08px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  /* border: 1px solid #028FA3; */
+  color: #028fa3;
+  padding: 5px;
+  margin-top: 3px;
+  margin-right: 7px;
+  background: #028fa31a;
+}
+
+@media (max-width: 640px) {
+  .eligibilitytext {
+    font-size: 14px;
+  }
+
+  .eligibilitysubtext {
+    font-size: 10px;
+  }
+}

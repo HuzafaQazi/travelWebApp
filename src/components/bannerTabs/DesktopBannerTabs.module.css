@@ -1,0 +1,78 @@
+.linksContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 5%;
+  padding-top: 3%;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #ffffff;
+  padding: 5px 10px;
+  margin-right: 3%;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  margin-bottom: 1px;
+}
+
+.vectorIcons {
+  margin-right: 5px;
+  width: fit-content;
+  /* height: 2vw; */
+  height: 18px;
+}
+
+.linkTag {
+  text-decoration: none;
+  color: #ffffff;
+  /* font-size: 1.5vw; */
+  font-size: 18px;
+}
+
+.activeLink {
+  position: relative;
+}
+
+.activeLink::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: -9px;
+  width: 125%;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #028fa3;
+}
+
+.activeLink::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -9px;
+  width: 125%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 143, 163, 0) 0%,
+    rgba(2, 143, 163, 0.5) 160%
+  );
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #ccc;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+@media (min-width: 850px) {
+  .activeLink {
+    cursor: pointer;
+  }
+}

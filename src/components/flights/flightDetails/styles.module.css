@@ -1,0 +1,206 @@
+.logoAirline {
+  font-size: 3.5vw;
+  display: flex;
+  align-items: center;
+  gap: 3%;
+}
+
+.Date1 {
+  display: block;
+  height: 600px;
+  overflow: auto;
+}
+
+.flightFareDetailsHead {
+  color: #028fa3;
+  width: 90%;
+  margin-left: 5%;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flightFareDetailsActive {
+  background: rgba(2, 143, 163, 0.07);
+  padding: 1% 5%;
+  border-radius: 15px;
+  font-weight: 500;
+}
+
+.flightFareHead {
+  background: rgba(135, 135, 134, 0.15);
+  border: 0.75px solid rgba(135, 135, 134, 0.29);
+  padding: 1% 5%;
+  border-radius: 15px;
+}
+
+.flightDetailsCard {
+  width: 98%;
+  margin-left: 1%;
+  background-color: #ffffff;
+  height: fit-content;
+  border-radius: 10px;
+  padding-bottom: 0%;
+}
+
+.flightDetailsContainer {
+  width: 98%;
+  margin-left: 1%;
+  margin-top: 2%;
+  padding: 1%;
+  padding-top: 3%;
+  border-radius: 15px;
+  background: rgba(229, 233, 235, 0.46);
+}
+
+.citiesRefund {
+  width: 100%;
+  background-color: #028fa3;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  padding: 2% 4%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 12px;
+}
+
+.flightDetailsCardContent {
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+.airlinesLogoClass {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #878786;
+}
+
+.fromToTiming {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 1%;
+}
+
+.fromToTime {
+  font-size: 3vw;
+  font-weight: 500;
+  color: #028fa3;
+  height: 20px;
+}
+
+.fromToCityName {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.flightDetailsCardDate {
+  font-size: 10px;
+  font-weight: 500;
+  margin-top: 0%;
+  margin-left: 1%;
+  margin-bottom: 4%;
+  text-wrap: nowrap;
+}
+
+.btwLineContent {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.dashLineText {
+  font-size: 10px;
+  color: #878786;
+}
+
+.dashLine {
+  border-top: 1px dashed #cccccc;
+}
+
+.flightDetailsAirports {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+}
+
+.baggageDetails {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  /* margin-top: 4%; */
+}
+
+.layoverDetails {
+  width: 98%;
+  font-size: 15px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 1%;
+  padding: 2%;
+  color: #028fa3;
+  background-color: rgba(2, 143, 163, 0.08);
+  text-align: center;
+  border-radius: 10px;
+}
+.lastindex {
+  text-wrap: wrap;
+}
+
+@media (min-width: 850px) {
+  .logoAirline {
+    font-size: 2vw;
+  }
+  .fromToTime {
+    font-size: 1vw;
+    font-weight: 500;
+    color: #028fa3;
+    height: 20px;
+  }
+
+  .fromToTiming {
+    margin-top: 1%;
+  }
+
+  .fromToCityName {
+    font-size: 1vw;
+  }
+
+  .dashLineText {
+    font-size: 12px;
+  }
+
+  .flightDetailsContainer {
+    margin-top: 2%;
+    padding: 2%;
+  }
+
+  .city1 {
+    font-size: 1vw;
+  }
+
+  .flightDetailsCardDate {
+    font-size: 12px;
+  }
+
+  .citiesRefund {
+    padding: 1% 2%;
+  }
+  .Date1 {
+    /* overflow-y:hidden; */
+    height: 700px;
+  }
+}
+@media (min-width: 1800px) {
+  .Date1 {
+    overflow-y: scroll;
+    height: 830px;
+  }
+}

@@ -1,0 +1,137 @@
+.imageWithText {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 2%;
+}
+
+.container {
+  width: 95%;
+  margin-left: 3%;
+  background-color: #3f269f0a;
+  padding: 1%;
+  border-radius: 10px;
+}
+.Heading {
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.05px;
+  text-align: left;
+  color: #171a19;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+.container1 {
+  background: #ffffff;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.profileImage {
+  /* width: 100px; */
+  height: auto;
+  border-radius: 50%;
+}
+.galleryGrid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  /* max-width: 1200px; */
+}
+
+.uploadContainer {
+  width: 100%;
+  margin-left: 2.5%;
+}
+
+.Imagecontainer {
+  width: auto;
+  height: auto;
+}
+
+.textContainer {
+  flex: 1;
+}
+
+.nameText {
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  text-align: left;
+  color: #171a19;
+}
+
+.phoneText {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  color: #171a19b2;
+}
+
+.mainHeading {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.36px;
+  text-align: left;
+  color: #171a19;
+}
+
+.subHeading {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  color: #3f269f;
+}
+.belowContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 480px) {
+  .belowContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .nameText {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .phoneText {
+    font-size: 12px;
+  }
+
+  .mainHeading {
+    font-size: 14px;
+  }
+
+  .subHeading {
+    font-size: 14px;
+  }
+
+  .container {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .galleryGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .Heading {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,764 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 9%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 95%;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 998;
+}
+
+body.popup-open {
+  overflow: hidden;
+}
+
+.closeIcon{
+  margin-left: 220px;
+  
+  color: #878786;
+  cursor: pointer;
+}
+
+.qugoLogo {
+  padding-left: 2%;
+}
+
+.qugoHeaderLogo {
+  width: 60px;
+  height: 25px;
+}
+
+.successContent {
+  margin-top: 1%;
+  width: 96%;
+  margin-left: 2%;
+  padding: 0% 1%;
+  padding-bottom: 10%;
+  /* border: 1px solid #028fa33d; */
+  border-radius: 8px;
+}
+
+.loadingSpinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #000;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+}
+
+.expiryDetails {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.expiryColor {
+  background-color: #e94600;
+  width: fit-content;
+  padding: 1% 10%;
+  color: #ffffff;
+  text-wrap: nowrap;
+  font-size: 12px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.iconStatus {
+  display: flex;
+  gap: 2%;
+  margin-top: 1%;
+}
+
+.successDetails {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.successHead {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.confirmIcon {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 2% 2%;
+  background-color: green;
+  border-radius: 50px;
+}
+
+.failedIcon {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 2.5% 3%;
+  background-color: rgba(229, 57, 68, 1);
+  border-radius: 50px;
+}
+
+.detailsToggle {
+  text-decoration: underline;
+  width: 90%;
+  font-size: 12px;
+  color: #028fa3;
+  margin-top: 2%;
+  font-weight: 500;
+}
+
+.backArrow {
+  background-color: #ffffff;
+  border: none;
+  color: #028fa3;
+  font-size: 16px;
+}
+
+.invoiceBtn {
+  text-wrap: nowrap;
+  font-size: 12px;
+  color: #ffffff;
+  background-color: #028fa3;
+  border: none;
+  padding: 3% 2%;
+  font-weight: 500;
+  height: fit-content;
+  border-radius: 8px;
+  box-shadow: 2px 6px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+.successData {
+  color: #878786;
+  text-wrap: pretty;
+  font-size: 9px;
+  line-height: 1.4;
+}
+
+.highlightData {
+  color: #000000;
+  font-weight: 500;
+}
+
+.pnrDetails {
+  margin-left: 10%;
+  margin-top: 2%;
+  font-size: 12px;
+  font-weight: 500;
+  color: #028fa3;
+}
+
+.detailsHeading {
+  color: #878786;
+  width: 92%;
+  margin-left: 4%;
+  margin-top: 2%;
+  font-weight: 500;
+}
+
+.flightDetailsCardContent {
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 1%;
+  padding: 2% 3%;
+  border-radius: 15px;
+  box-shadow: 0px 4px 11px rgba(22, 156, 176, 0.27);
+}
+
+.airlinesLogoClass {
+  margin-top: -1%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #878786;
+}
+
+.flightDetailsCardDate {
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 2%;
+  margin-left: 1%;
+  margin-bottom: 4%;
+}
+
+.fromToTiming {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 1%;
+}
+
+.fromToTime {
+  font-size: 13px;
+  font-weight: 500;
+  color: #028fa3;
+  height: 20px;
+}
+
+.fromToCityName {
+  color: #000000;
+  font-size: 13px;
+  font-weight: 500;
+
+}
+
+.fromToDate {
+  font-size: 10px;
+  line-height: 1;
+  color: #878786;
+}
+
+.btwLineContent {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.dashLineText {
+  font-size: 10px;
+  color: #878786;
+}
+
+.dashLine {
+  border-top: 1px dashed #cccccc;
+}
+
+.flightDetailsAirports {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  margin-top: 1%;
+}
+
+.baggageDetails {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 4%;
+  font-size: 10px;
+  color: #878786;
+}
+
+.priceRows {
+  padding-bottom: 0%;
+  padding-top: 1%;
+  width: 94%;
+  margin-left: 3%;
+  color: #878786;
+  font-size: 12px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 11px rgba(22, 156, 176, 0.27);
+}
+
+.priceRow {
+  display: flex;
+  padding: 0% 3%;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+
+.priceRowHighlight {
+  padding: 1% 2%;
+  margin-top: 2%;
+  background-color: rgba(2, 143, 163, 0.1);
+  color: #028fa3;
+  font-size: 15px;
+  font-weight: 500;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-bottom: 5%;
+}
+
+.reserveBtn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reserveBtnContainer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 3%;
+}
+
+.cancelReserveBtn {
+  border: 1px solid #028fa3;
+  background-color: rgba(2, 143, 163, 0.05);
+  color: #028fa3;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 1% 3%;
+}
+
+.proceedBtn {
+  background-color: #028fa3;
+  border: none;
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 1% 3%;
+}
+
+.travelerDetails {
+  background-color: #ffffff;
+  padding: 2% 2%;
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 4%;
+  border-radius: 15px;
+  text-wrap: nowrap;
+  font-size: 12px;
+  color: #028fa3;
+  box-shadow: 0px 4px 11px rgba(22, 156, 176, 0.27);
+}
+
+.tooltip {
+  position: fixed;
+  background-color: #ffffff;
+  width: 90%;
+  right: 5%;
+  bottom: 14%;
+  height: fit-content;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(22, 156, 176, 0.1);
+  backdrop-filter: blur(5px);
+  z-index: 999;
+  border-radius: 15px;
+}
+
+.tooltipHeads {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 3%;
+  color: #ffffff;
+  background: linear-gradient(90deg, #028fa3 0%, #efc007 121.58%);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.nameEmail {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 3%;
+  color: #878786;
+  font-size: 12px;
+}
+
+.cancelBtn {
+  padding: 4% 10%;
+  border: 0.35px solid rgba(229, 57, 68, 1);
+  color: rgba(229, 57, 68, 1);
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-size: 12px;
+  box-shadow: 0px 4px 4px 0px rgba(35, 31, 32, 0.35);
+}
+
+.segmentCities {
+  width: 100%;
+  display: flex;
+  gap: 2%;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  padding: 1% 2%;
+  margin: 1%;
+}
+
+.btnContainer {
+  background-color: #ffffff;
+  padding: 4% 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 2%;
+  border-radius: 15px;
+  text-wrap: nowrap;
+  font-size: 12px;
+  color: #028fa3;
+  border: 0.35px solid rgba(2, 143, 163, 0.35);
+  box-shadow: 0px 4px 4px 0px rgba(145, 178, 228, 0.15);
+}
+
+.mainContainer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-radius: 15px 15px 0px 15px;
+  width: 100%;
+  overflow-y: scroll;
+  background-color: #fff;
+  padding: 2%;
+  z-index: 9998;
+  height: fit-content;
+  padding-bottom: 10px;
+}
+
+.travelerColumns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+.columnTable {
+  font-size: 2vw;
+  color: #878786;
+}
+
+.passengerdetails {
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  width: 23%;
+  font-size: 8px;
+  text-wrap: wrap;
+}
+
+.passengersandseatdetails {
+  display: flex;
+  flex-direction: row;
+  /* gap: 10%; 
+   padding: 2% 4%; */
+  justify-content: space-between;
+  margin-top: 1%;
+}
+
+.ways {
+  padding: 1.5% 3%;
+  font-family: Roboto;
+  font-size: 8px;
+  font-weight: 400;
+  /* line-height: 20px; */
+  letter-spacing: 0em;
+  text-align: center;
+  color: #028fa3;
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 4px 36px 10px #0000000d;
+  /* margin-left: 27px; */
+  border: 1px solid #028fa3;
+}
+
+.ways1 {
+  padding: 1% 2%;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  background: #028fa3;
+  color: #fff;
+  /* margin-left: 27px; */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+
+    .backdrop {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.2);
+      z-index: 998;
+    }
+
+    .blurBackground {
+      filter: blur(8px);
+    }
+  }
+}
+
+.traveller {
+  color: #878786;
+}
+
+.desktopPriceHead {
+  display: none;
+}
+
+.desktopTraveler {
+  display: none;
+}
+
+.popupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popupContent {
+  position: relative;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+.walletSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.useWalletLabel {
+  margin-left: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+.walletBalance {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #333;
+}
+
+.balanceAmount {
+  font-weight: bold;
+  color: #6b8e23; /* Olive color for balance */
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.recharge {
+  color: #ff4500; /* Red color for recharge link */
+  text-decoration: underline;
+  cursor: pointer;
+  text-wrap: nowrap;
+}
+
+.closeButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #028fa3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+/* .closeButton:hover {
+  background-color: #0056b3;
+} */
+
+
+@media (min-width: 768px) {
+
+  .closeIcon{
+    margin-left: 250px;
+    
+    color: #878786;
+    cursor: pointer;
+  }
+
+  .walletBalance {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: #333;
+  }
+  .travelerDetails {
+    background-color: #ffffff;
+    padding: 2% 0%;
+  }
+
+  .segmentCities {
+      width: 40%;
+      display: flex;
+      gap: 2%;
+      overflow-x: scroll;
+      scrollbar-width: none;
+  }
+
+
+  .desktopTraveler {
+    display: block;
+    font-size: 1.5vw;
+    color: #878786;
+    border-left: 4px solid #028fa3;
+    padding: 0% 2.5%;
+    font-weight: 500;
+    padding-left: 1.5%;
+  }
+  .desktopPriceHead {
+    display: block;
+    border-left: 4px solid #028fa3;
+    font-size: 1.5vw;
+    padding-left: 1.5%;
+    font-weight: 500;
+  }
+  .maincontainer {
+    padding: 0% 2.5%;
+    margin-top: 2%;
+  }
+  .mainContainer {
+    display: block;
+    left: 50%;
+    right: 0%;
+    width: 50%;
+    height: 100%;
+    margin-top: 4%;
+  }
+
+  .passengerdetails {
+    font-size: 1.2vw;
+  }
+
+  .ways {
+    font-weight: 500;
+  }
+
+  .ways1 {
+    font-weight: 500;
+  }
+
+  .passengersandseatdetails {
+    /* gap:30%; */
+    padding: 0% 3%;
+  }
+
+  .ways {
+    padding: 1% 2%;
+    font-size: 1vw;
+    background: #ffffff;
+    box-shadow: 0 4px 36px 5px #0000000d;
+    border-radius: 10px;
+    border: 1px solid #028fa3;
+  }
+
+  .travelerColumns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    flex-direction: row;
+    color: #878786;
+  }
+
+  .columnTable {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .travelerNames {
+    font-size: 1.2vw;
+  }
+
+  .successHead {
+    font-size: 1.5vw;
+    font-weight: 600;
+  }
+
+  .successData {
+    font-size: 1vw;
+  }
+
+  .pnrDetails {
+    margin-left: 5%;
+    font-size: 1vw;
+  }
+
+  .detailsHeading {
+    display: none;
+  }
+
+  .airlinesLogoClass {
+    font-size: 1.2vw;
+  }
+
+  .fromToTime {
+    font-size: 1vw;
+    height: unset;
+  }
+
+  .fromToCityName {
+    font-size: 1.2vw;
+  }
+
+  .fromToDate {
+    font-size: 1vw;
+  }
+
+  .dashLineText {
+    font-size: 1vw;
+  }
+
+  .flightDetailsAirports {
+    font-size: 1vw;
+    margin-top: 1%;
+  }
+
+  .priceRows {
+    font-size: 1.2vw;
+    margin-top: 4%;
+  }
+
+  .priceRowHighlight {
+    padding-bottom: 1%;
+  }
+
+  .confirmIcon {
+    padding: 1% 1%;
+    background-color: green;
+    border-radius: 145px;
+    width: 1%;
+    font-size: 13px;
+  }
+
+  .failedIcon {
+    font-size: 2.5vw;
+    padding: 1% 1.3%;
+    border-radius: 50%;
+  }
+
+  .detailsToggle {
+    width: 10%;
+    font-size: 1.2vw;
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+  .backdrop {
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1500px) {
+  .desktopBg {
+    width: 80%;
+    margin-left: 10%;
+  }
+}

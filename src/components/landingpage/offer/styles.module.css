@@ -1,0 +1,478 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&display=swap");
+.offers {
+  background-color: #ffffff;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.topHeading {
+  color: black;
+  font-variant: small-caps;
+  margin-bottom: 1%;
+  font-size: 2vw;
+  font-weight: 500;
+}
+
+.headingUnderline {
+  width: 9%;
+  margin-left: 45%;
+  height: 4px;
+  background-color: #028fa3;
+  margin-bottom: 10px;
+}
+
+.offersContainer {
+  width: 90%;
+  height: fit-content;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.offerLinksContainer {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  display: none;
+}
+
+.offerLink {
+  color: #028fa3;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+  position: inherit;
+  padding: 5%;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  text-wrap: nowrap;
+}
+
+.offersCards {
+  width: 100%;
+  padding: 3%;
+  padding-bottom: 1%;
+  border-radius: 16px;
+  border-top-left-radius: inherit;
+  background: #f8f8f8;
+  box-shadow: 10px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cardRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.cardRow:nth-child(2) {
+  margin-bottom: 0px;
+  padding-bottom: 2%;
+}
+
+.offercard {
+  width: 23%;
+  height: 10vw;
+  background-color: #ccc;
+  border-radius: 8px;
+}
+
+.offercardImg {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+}
+
+.textLines {
+  color: #000;
+  display: flex;
+  font-size: 1.2vw;
+  justify-content: space-between;
+}
+
+.active {
+  background-color: #f8f8f8;
+  font-weight: 500;
+  width: max-content;
+  display: flex;
+  position: inherit;
+  padding: 5%;
+  height: 40px;
+  text-wrap: nowrap;
+  border-top-left-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* mobile start */
+.mobThailandPackages {
+  display: none;
+}
+
+/* mobile ends */
+
+.gemsofindia {
+  background-color: #ffffff;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.gemsContainer {
+  width: 95%;
+  margin-top: 2%;
+  margin-left: 2.5%;
+  position: relative;
+}
+
+.goiBg {
+  width: -webkit-fill-available;
+  height: fit-content;
+  border-radius: 15px;
+}
+
+.goiText {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  top: 13%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.goiHead {
+  font-size: 3.5vw;
+  font-family: "Abhaya Libre";
+}
+
+.goiAbout {
+  font-size: 1.5vw;
+  font-weight: 200;
+}
+
+.goiCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: -17%;
+  width: 95%;
+  margin-left: 2.5%;
+  gap: 20px;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1%;
+}
+
+.goiCard {
+  width: calc(100% / 4);
+  height: 300px;
+  background: none;
+  text-align: center;
+  padding: 0px;
+  object-fit: cover;
+  border-radius: 15px;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+  position: relative;
+  cursor: pointer;
+}
+
+@media (min-width: 1550px) {
+  .goiCard {
+    height: 40dvh;
+  }
+}
+
+@media (min-width: 1150px) and (max-width: 1549px) {
+  .goiCard {
+    height: 390px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .goiCard {
+    height: 250px;
+  }
+}
+
+.goicardBg {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.cardText {
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  font-size: 2vw;
+  color: #ffffff;
+  font-family: "Palanquin Dark";
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  border-radius: inherit;
+  background: linear-gradient(0deg, #000 -46.13%, rgba(0, 0, 0, 0) 102.87%);
+}
+
+.luxe {
+  background-color: #ffffff;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.qugoColor {
+  color: #028fa3;
+  font-weight: 700;
+}
+
+.luxeContainer {
+  width: 90%;
+  height: max-content;
+  margin-left: 5%;
+  margin-top: 2%;
+  position: relative;
+}
+
+.luxeBg {
+  width: -webkit-fill-available;
+  height: inherit;
+  z-index: 0;
+}
+
+@media (min-width: 880px) and (max-width: 1150px) {
+  .luxeBg {
+    height: 350px;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 879px) {
+  .luxeBg {
+    height: 300px;
+  }
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.leftContent {
+  width: 35%;
+  color: #000000;
+  margin-left: 3%;
+  margin-top: 3%;
+  text-align: left;
+}
+
+.title {
+  font-size: 1.5vw;
+  margin-bottom: 2%;
+}
+
+.logo {
+  width: fit-content;
+  margin-left: 0%;
+  margin-bottom: 2%;
+}
+
+.logoimg {
+  width: 15vw;
+  height: 40%;
+}
+
+.description {
+  width: auto;
+  font-size: 1.5vw;
+  margin-bottom: 2%;
+}
+
+.button {
+  margin-top: 10%;
+}
+
+.enquiryBtn {
+  padding: 2% 5%;
+  font-size: 1.5vw;
+  background: #028fa3;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 2px 6px 12px 0px rgba(0, 0, 0, 0.17);
+}
+
+.rightContent {
+  width: 70%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  /* display: none; */
+}
+
+.squareCard {
+  width: 30%;
+  height: 50%;
+  background-color: #f0f0f0;
+  margin: 10px auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.luxecardbg {
+  width: -webkit-fill-available;
+  height: 17vh;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.luxeCardContent {
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+.luxeCardLocation {
+  font-size: 1.4vw;
+  font-weight: 700;
+}
+
+.luxeCardDescription {
+  font-size: 1.1vw;
+  font-weight: 400;
+  width: 100%;
+  padding: 10%;
+  padding-top: 5%;
+  text-align: left;
+}
+
+.bottomSheet {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 30%;
+  height: 0;
+  background-color: #ffffff;
+  transition: height 0.3s ease-in-out;
+  overflow: hidden;
+  z-index: 1000;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.24);
+  border-radius: 15px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  z-index: 999; /* Ensure the overlay is above other elements */
+  cursor: pointer;
+}
+
+.bottomSheet.open {
+  height: fit-content;
+  padding-bottom: 2%;
+}
+
+.closeButton {
+  position: absolute;
+  left: 89%;
+  padding: 2% 4%;
+  font-size: 20px;
+  border: none;
+  background: none;
+  color: #000;
+}
+
+@media (max-width: 550px) {
+  .offers {
+    display: none;
+  }
+
+  .topHeading {
+    text-align: center;
+    font-size: 1.25rem;
+    /* margin-left: 5%; */
+  }
+
+  .mobThailandtopHeading {
+    color: black;
+    font-variant: small-caps;
+    margin-bottom: 1%;
+  }
+
+  .headingUnderline {
+    /* margin-left: 25%; */
+    text-align: center;
+  }
+
+  .squareCard3 {
+    display: none;
+  }
+
+  .squareCard {
+    width: 40%;
+  }
+
+  .mobThailandPackages {
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .mobofferCards {
+    display: flex;
+    gap: 20px;
+    margin-top: 5%;
+    overflow-x: scroll;
+  }
+
+  .mobofferCards::-webkit-scrollbar {
+    display: none;
+  }
+
+  .mobCard {
+    width: 100%;
+    height: fit-content;
+    background-color: #ccc;
+    border-radius: 8px;
+    scroll-snap-type: mandatory;
+  }
+
+  .offercardImg {
+    width: -webkit-fill-available;
+    height: auto;
+  }
+
+  .bottomSheet {
+    width: 100%;
+  }
+
+  .goiCard {
+    height: 125px;
+  }
+
+  .luxeBg {
+    height: 150px;
+  }
+
+  .luxecardbg {
+    height: 65px;
+  }
+}

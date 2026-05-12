@@ -1,0 +1,18 @@
+.companyMob {
+    padding: 1rem;
+  }
+  
+  .compInner {
+    padding: 1rem;
+  }
+
+
+  @media (max-width: 640px) {
+    .companyMob {
+      padding: 0.5rem;
+    }
+  
+    .compInner {
+      padding: 0.5rem;
+    }
+  }

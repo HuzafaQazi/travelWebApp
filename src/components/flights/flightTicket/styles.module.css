@@ -1,0 +1,164 @@
+.fromToTiming {
+  background-color: #ffffff;
+  padding: 2% 4%;
+  border: 0.35px solid rgba(2, 143, 163, 0.59);
+  border-radius: 15px;
+  margin: 1%;
+}
+
+.fromToTiming1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.depRetDetails {
+  color: black;
+  margin-bottom: 2%;
+  font-size: 16px;
+  font-weight: 500;
+  text-wrap: nowrap;
+  width: 30%;
+}
+
+.Economy {
+  color: #028fa3;
+  font-size: 2.5vw;
+}
+
+.rightpartTicket1 {
+  display: flex;
+  border-radius: 62px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  min-width: 42px;
+  width: fit-content;
+  height: 12px;
+  background: #028fa312;
+  margin-left: 15%;
+  /* margin-top: 5px; */
+}
+
+.FareDetails1 {
+  font-family: Roboto;
+  font-size: 6.5px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #028fa3;
+}
+
+.fromToTime {
+  font-size: 15px;
+  font-weight: 500;
+  color: #000000;
+  /* height: 20px;
+    padding: 8px; */
+  margin-top: 8%;
+}
+
+.fromToCityName {
+  color: #028fa3;
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: -4%;
+}
+
+.fromToDate {
+  font-size: 10px;
+  color: rgba(135, 135, 134, 1);
+  text-wrap: nowrap;
+}
+
+.btwLineContent {
+  width: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0% 5%;
+}
+
+.dashLineText {
+  font-size: 10px;
+  color: #878786;
+}
+
+.dashLine {
+  border-top: 1px dashed #cccccc;
+}
+
+@media (min-width: 768px) {
+  .fromToTiming1 {
+    margin-top: -4%;
+  }
+
+  .fromToTiming {
+    width: 96%;
+    margin-left: 2%;
+    padding: 1% 2%;
+  }
+
+  .fromToTiming {
+    width: 96%;
+    margin-left: 2%;
+    padding: 1% 2%;
+  }
+
+  .depRetDetails {
+    width: 20%;
+  }
+
+  .Economy {
+    font-size: 1vw;
+    margin-bottom: 2%;
+    font-weight: 500;
+  }
+
+  .rightpartTicket1 {
+    margin-left: 3%;
+    width: 95px;
+    height: 25px;
+    margin-top: 0px;
+  }
+
+  .FareDetails1 {
+    font-size: 13px;
+    text-wrap: nowrap;
+  }
+
+  .fromToTime {
+    font-size: 1vw;
+    line-height: 2;
+    height: auto;
+    /* color: #028fa3; */
+  }
+
+  .fromToCityName {
+    font-size: 1.2vw;
+    /* color: #878786; */
+    font-weight: 500;
+    /* margin-top: -6%; */
+  }
+
+  .fromToDate {
+    font-size: 1vw;
+    line-height: 1;
+    text-wrap: nowrap;
+  }
+
+  .btwLineContent {
+    width: -webkit-fill-available;
+    padding: 0% 3%;
+  }
+
+  .dashLineText {
+    font-size: 1vw;
+  }
+
+  .dashLine {
+    border-top: 2px dashed #cccccc;
+  }
+}

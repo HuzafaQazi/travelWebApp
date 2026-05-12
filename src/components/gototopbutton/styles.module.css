@@ -1,0 +1,26 @@
+.goToTopButton {
+  position: fixed;
+  bottom: 11%;
+  right: 1.7%;
+  background-color: #ffffff;
+  color: #028fa3;
+  border: 1px solid #028fa3;
+  font-size: 23px;
+  padding: 14px 15px;
+  border-radius: 70px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+  filter: drop-shadow(0px 4px 4px rgba(86, 144, 198, 0.47));
+}
+
+@media (max-width: 550px) {
+  .goToTopButton {
+    bottom: 4.5%;
+    right: 6%;
+    font-size: 18px;
+    padding: 9px 11px;
+  }
+}

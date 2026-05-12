@@ -1,0 +1,874 @@
+.disabled {
+  pointer-events: none;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 9%; */
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  z-index: 998;
+}
+
+.backArrow {
+  background-color: #ffffff;
+  border: none;
+  color: #028fa3;
+  font-size: 16px;
+}
+
+.qugoLogo {
+  padding-left: 2%;
+}
+
+.qugoHeaderLogo {
+  width: 60px;
+  height: 25px;
+}
+
+.reviewBooking {
+  margin-top: 1%;
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+.reviewHeading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flightsinform {
+  color: #878786;
+  text-align: center;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  display: none;
+}
+
+.flightsinform:hover {
+  color: #028fa3;
+}
+
+.horzontailne {
+  display: none;
+}
+
+.reviewHead {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.flightdetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.belowReviewHead {
+  font-size: 12px;
+  text-wrap: nowrap;
+  color: #878786;
+}
+
+.timeLeft {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  color: #878786;
+}
+
+.detailsContainer {
+  width: 100%;
+  margin-top: 2%;
+  border-radius: 8px;
+  padding: 2%;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  background-color: rgba(229, 233, 235, 0.46);
+}
+
+.detailsHeading {
+  color: #878786;
+  width: 92%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.detailsHeading1 {
+  color: #878786;
+  width: 92%;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+.ticketDetails {
+  /* background-color: #ffffff; */
+  width: 95%;
+  margin-left: 2.5%;
+  border-radius: 15px;
+  padding-bottom: 2%;
+}
+
+.fromToTiming {
+  background-color: #ffffff;
+  padding: 2% 3%;
+  border: none;
+  border-radius: 15px;
+  margin-left: 2%;
+  width: 95%;
+  margin-top: 2%;
+  box-shadow: 0 4px 4px 0 #169cb038;
+}
+
+.fromToTiming1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.fromToTime {
+  font-size: 12px;
+  font-weight: 500;
+  color: #000000;
+  height: 15px;
+}
+
+.fromToCityName {
+  color: #028fa3;
+  font-size: 14px;
+  font-weight: 500;
+  text-wrap: nowrap;
+}
+
+.fromToDate {
+  font-size: 10px;
+  color: rgba(135, 135, 134, 1);
+}
+
+.btwLineContent {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.dashLineText {
+  font-size: 10px;
+  color: #878786;
+}
+
+.dashLine {
+  border-top: 1px dashed #cccccc;
+}
+
+.detailsToggle {
+  text-decoration: underline;
+  width: 90%;
+  font-size: 12px;
+  color: #028fa3;
+  margin-top: 3%;
+}
+
+.priceRows {
+  padding-bottom: 0%;
+  padding-top: 1%;
+  width: 95%;
+  margin-left: 2%;
+  color: #878786;
+  font-size: 12px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 4px 0 #169cb038;
+}
+
+.priceRow {
+  display: flex;
+  padding: 0% 3%;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+
+.priceRowHighlight {
+  display: flex;
+  padding: 1% 3%;
+  margin-top: 1%;
+  justify-content: space-between;
+  background-color: rgba(2, 143, 163, 0.1);
+  color: #028fa3;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.travelerDetails {
+  background-color: #ffffff;
+  padding: 4% 4%;
+  display: flex;
+  justify-content: space-between;
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 2%;
+  border-radius: 15px;
+  text-wrap: nowrap;
+  font-size: 14px;
+  color: #028fa3;
+  box-shadow: 0px 4px 4px 0px rgba(145, 178, 228, 0.15);
+}
+
+.holdProceedBtn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  gap: 2%;
+}
+
+.holdBtn {
+  display: flex;
+  justify-content: center;
+  width: 35%;
+  padding: 5% 1%;
+  border: 0.55px solid rgba(2, 143, 163, 1);
+  color: #028fa3;
+  border-radius: 6px;
+  box-shadow: 0px 4px 4px 0px rgba(35, 31, 32, 0.1);
+  font-size: 3vw;
+}
+
+.proceedBtn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 35%;
+  padding: 2% 1%;
+  border: none;
+  background-color: #028fa3;
+  color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0px 4px 4px 0px rgba(35, 31, 32, 0.1);
+  font-size: 3vw;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: #ffffff;
+  width: 90%;
+  height: fit-content;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(22, 156, 176, 0.1);
+  backdrop-filter: blur(5px);
+  z-index: 999;
+  border-radius: 15px;
+}
+
+.tooltipHeads {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 3%;
+  color: #ffffff;
+  background: linear-gradient(90deg, #028fa3 0%, #efc007 121.58%);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.nameEmail {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 3%;
+  color: #878786;
+  font-size: 12px;
+}
+
+.editdetails {
+  /* display: none; */
+  display: flex;
+  flex-direction: row;
+}
+
+.travelsdetails {
+  /* display: none; */
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  border-radius: 15px;
+  width: 48%;
+  height: 37px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px 0px #169cb038;
+  margin-right: 2.5%;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 3%;
+}
+
+.editicon {
+  /* display: none; */
+  width: 64%;
+  text-wrap: nowrap;
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #028fa3;
+}
+
+.passengerdetail {
+  /* display: none; */
+  width: fit-content;
+  height: 43px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px 0px #169cb038;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+
+.mainContainer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-radius: 15px 15px 0px 15px;
+  width: 100%;
+  overflow-y: scroll;
+  background-color: #fff;
+  padding: 2%;
+  z-index: 99999;
+  height: fit-content;
+  padding-bottom: 10px;
+}
+
+.details {
+  /* display: none; */
+  height: 28px;
+  font-family: Roboto;
+  font-size: 1.7vw;
+  font-weight: 400;
+  line-height: 0px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #878786;
+  text-wrap: nowrap;
+}
+
+.traveleditoption {
+  /* display: none; */
+  padding: 3%;
+  width: 49%;
+  margin-right: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.passengerdetail1 {
+  /* display: none; */
+  width: 130%;
+  height: 43px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px 0px #169cb038;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.maincontainerbox {
+  /* display:none; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 1%;
+}
+
+.totalpassenger {
+  /* display: none; */
+  font-family: Roboto;
+  font-size: 6px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #028fa3;
+  text-wrap: nowrap;
+}
+
+.traveleditoption1 {
+  padding: 3% 0.5%;
+  width: 19%;
+}
+
+.pencile {
+  font-size: 10px;
+}
+
+.loadingSpinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #000;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+}
+
+.depRetDetails {
+  color: black;
+  margin-bottom: 2%;
+  font-size: 16px;
+  font-weight: 500;
+  text-wrap: nowrap;
+}
+
+.Economy {
+  color: #028fa3;
+  font-size: 2.5vw;
+}
+
+.rightpartTicket1 {
+  display: flex;
+  border-radius: 62px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  min-width: 42px;
+  width: fit-content;
+  height: 12px;
+  background: #028fa312;
+  margin-top: 5px;
+}
+
+.FareDetails1 {
+  font-family: Roboto;
+  font-size: 6.5px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #028fa3;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+
+    .backdrop {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.2);
+      z-index: 998;
+    }
+
+    .blurBackground {
+      filter: blur(8px);
+    }
+  }
+}
+
+.airlineDetails {
+  font-size: 2.5vw;
+}
+.walletDetails {
+  padding-bottom: 0%;
+  padding-top: 1px;
+  /* width: 95%; */
+  margin-left: 1%;
+  margin-top: 14px;
+  color: #878786;
+  font-size: 12px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(145, 178, 228, 0.15);
+}
+
+.walletText {
+  color: #028FA3;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 28.13px;
+  text-align: left;
+
+}
+
+.walletText1 {
+  color: #878786;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 28.13px;
+  text-align: left;
+
+}
+
+
+.walletDetail {
+  display: flex;
+  padding: 0% 1.5%;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+.walletInfo {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.balance {
+  margin: 5px 0px 5px 20px;
+  color: rgba(150, 163, 2, 1);
+}
+
+.recharge {
+  height: 40px;
+  width: 120px;
+  font-size: 12px;
+  background: #96a302;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+
+@media (min-width: 768px) {
+  .holdProceedBtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    gap: 2%;
+  }
+
+  .detailsHeading {
+    color: #878786;
+    width: 92%;
+    margin-left: 5%;
+    margin-top: 1%;
+  }
+  .mainContainer {
+    display: block;
+    left: 50%;
+    right: 0%;
+    width: 50%;
+    height: 100%;
+    /* max-height:100% ; */
+  }
+
+  .airlineDetails {
+    font-size: 1.2vw;
+  }
+
+  .walletText {
+    color: #028FA3;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.13px;
+    text-align: left; 
+  }
+
+  .walletText1 {
+    color: #878786;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.13px;
+    text-align: left;
+  
+  }
+
+  .desktopBg {
+    background-color: #e5e9eb;
+  }
+
+  .qugoLogo {
+    cursor: pointer;
+  }
+
+  .header {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px 0px rgba(125, 153, 180, 0.3);
+  }
+
+  .flightdetails {
+    margin-left: 38px;
+    margin-top: 70px;
+    width: 90%;
+  }
+
+  .horzontailne {
+    display: block;
+  }
+
+  .flightsinform {
+    font-size: 1.4vw;
+    font-weight: 400;
+    display: block;
+  }
+
+  .arrowBack {
+    font-size: 2vw;
+    cursor: pointer;
+  }
+
+  .reviewHead {
+    font-size: 1.5vw;
+    text-wrap: nowrap;
+  }
+
+  .belowReviewHead {
+    font-size: 1vw;
+    color: #030f0c;
+  }
+
+  .timeLeft {
+    font-size: 1.5vw;
+  }
+
+  .detailsContainer {
+    margin-top: -1%;
+  }
+
+  .detailsHeading {
+    font-size: 1.5vw;
+    margin-bottom: 1%;
+    margin-left: 4%;
+    font-weight: 500;
+  }
+
+  .detailsHeading1 {
+    font-size: 1.5vw;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    font-weight: 500;
+  }
+
+  .fromToTiming {
+    margin-top: 0%;
+    margin-left: 1%;
+    width: 100%;
+    padding: 1% 2%;
+    margin-bottom: 1%;
+  }
+
+  .fromToTime {
+    font-size: 1vw;
+    line-height: 1;
+  }
+
+  .fromToCityName {
+    font-size: 1.2vw;
+  }
+
+  .fromToDate {
+    font-size: 1vw;
+    line-height: 1;
+    text-wrap: nowrap;
+  }
+
+  .btwLineContent {
+    width: -webkit-fill-available;
+    padding: 0% 3%;
+  }
+
+  .dashLineText {
+    font-size: 1vw;
+  }
+
+  .dashLine {
+    border-top: 2px dashed #cccccc;
+  }
+
+  .detailsToggle {
+    width: 90%;
+    font-size: 1.2vw;
+    cursor: pointer;
+  }
+
+  .priceRow {
+    font-size: 1.2vw;
+    margin-top: 0.2%;
+  }
+
+  .priceRowHighlight {
+    font-size: 1.5vw;
+  }
+
+  .travelerDetails {
+    margin-top: 0%;
+    font-size: 1.5vw;
+    padding: 2% 4%;
+  }
+
+  .tooltip {
+    /* bottom: 30%; */
+    width: 35%;
+    /* margin-right: 55%; */
+  }
+
+  .editdetails {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .travelsdetails {
+    width: 16%;
+    height: 40px;
+    margin-bottom: 0%;
+    cursor: pointer;
+  }
+
+  .editicon {
+    width: 64%;
+    text-wrap: nowrap;
+    font-size: 15px;
+  }
+
+  .maincontainerbox {
+    padding-top: 1%;
+    margin-left: -2%;
+    width: 106%;
+  }
+
+  .passengerdetail {
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .details {
+    line-height: 45px;
+    height: 28px;
+    font-family: Roboto;
+    font-size: 1.5vw;
+    font-weight: 400;
+    line-height: 0px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #878786;
+    text-wrap: nowrap;
+    font-weight: 500;
+  }
+
+  .traveleditoption {
+    padding: 3%;
+    width: 30%;
+  }
+
+  .traveleditoption1 {
+    padding: 3% 0.5%;
+    /* width: 19%; */
+  }
+
+  .passengerdetail1 {
+    /* width: 30%; */
+    width: 100%;
+    height: 50px;
+  }
+
+  .totalpassenger {
+    font-size: 15px;
+    color: #028fa3;
+  }
+
+  .proceedBtn {
+    cursor: pointer;
+    padding: 2%;
+  }
+
+  .pencile {
+    font-size: 15px;
+  }
+
+  .rightpartTicket1 {
+    width: 95px;
+    height: 25px;
+    margin-top: 0px;
+  }
+
+  .FareDetails1 {
+    font-size: 13px;
+    text-wrap: nowrap;
+  }
+
+  .Economy {
+    font-size: 1vw;
+    font-weight: 500;
+  }
+
+  .backdrop {
+    cursor: pointer;
+  }
+
+  .priceRows {
+    width: 99%;
+    margin-left: 1%;
+  }
+}
+
+@media (min-width: 850px) {
+  .holdBtn {
+    font-size: 1.5vw;
+    width: 25%;
+    padding: 1% 0%;
+  }
+
+  .proceedBtn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 25%;
+    padding: 1% 0%;
+    border: none;
+    background-color: #028fa3;
+    color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px 0px rgba(35, 31, 32, 0.1);
+    font-size: 1.5vw;
+  }
+}
+
+@media (min-width: 1500px) {
+  .desktopBg {
+    width: 80%;
+    margin-left: 10%;
+  }
+}

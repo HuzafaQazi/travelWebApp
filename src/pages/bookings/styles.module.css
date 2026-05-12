@@ -1,0 +1,109 @@
+.toggleButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 18%;
+    border: 0.55px solid #028fa3;
+    color: #028fa3;
+    background: #ffffff;
+    box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.03);
+    padding: 2%;
+    /* border: none; */
+    border-radius: 15px;
+    font-size: 8px;
+  }
+
+  .hiddenFilter {
+    display: flex;
+  }
+
+  .activeButtons {
+    background-color: #028fa317 !important;
+  }
+
+  .rotated {
+    transform: rotate(180deg);
+    transition: transform 0.3s;
+  }
+
+  .mainContainer{
+    overflow-y: auto;
+    max-height:100vh;
+    padding:2px;
+  }
+  .mainContainer::-webkit-scrollbar {
+    margin-left: 5px;
+    margin-top: 4px;
+    width: 5px;
+    height: 10px;
+  }
+  
+  .mainContainer::-webkit-scrollbar-thumb {
+    background-color: #028FA3;
+    border-radius: 5px;
+  }
+  
+  .mainContainer::-webkit-scrollbar-track {
+    top: 2px;
+    background-color: #028FA330;
+    /* Background color of the scrollbar track */
+    border-radius: 5px;
+    /* Round the corners of the scrollbar track */
+  }
+
+  .oneway{
+    width: 100%;
+    overflow-y: auto;
+    max-height:260vh;
+    padding:8px;
+    margin: 2px;
+  }
+  .oneway::-webkit-scrollbar {
+    margin-left: 20px;
+    margin-top: 4px;
+    width: 5px;
+    height: 10px;
+  }
+  
+  .oneway::-webkit-scrollbar-thumb {
+    background-color: #028FA3;
+    border-radius: 5px;
+  }
+  
+  .oneway::-webkit-scrollbar-track {
+    top: 2px;
+    background-color: #028FA330;
+    /* Background color of the scrollbar track */
+    border-radius: 5px;
+    /* Round the corners of the scrollbar track */
+  }
+  .oneway1{
+    width:100%;
+  }
+
+  @media (min-width: 850px) {
+  .toggleButtons {
+    border: none;
+    background: none;
+    box-shadow: none;
+    font-size: 1vw;
+    padding: 0.8% 5%;
+    font-weight: 500;
+    width: fit-content;
+  }
+
+  .arrowDesktop {
+    padding: 5% 10%;
+    background-color: transparent;
+  }
+
+  .rotated {
+    transform: rotate(180deg);
+    transition: transform 0.3s;
+  }
+
+  .hiddenFilter {
+    display: none;
+  }
+}

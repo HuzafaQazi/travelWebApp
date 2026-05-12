@@ -1,0 +1,24 @@
+.departmentContainer {
+  overflow-y: auto;
+  height: 500px;
+  padding: 5px;
+}
+.departmentContainer::-webkit-scrollbar {
+  margin-left: 5px;
+  margin-top: 4px;
+  width: 5px;
+  height: 10px;
+}
+
+.departmentContainer::-webkit-scrollbar-thumb {
+  background-color: #028fa3;
+  border-radius: 5px;
+}
+
+.departmentContainer::-webkit-scrollbar-track {
+  top: 2px;
+  background-color: #028fa330;
+  /* Background color of the scrollbar track */
+  border-radius: 5px;
+  /* Round the corners of the scrollbar track */
+}

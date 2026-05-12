@@ -1,0 +1,59 @@
+.cancel {
+    overflow-y: auto;
+    max-height: 400px;
+    padding: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.cancel::-webkit-scrollbar {
+    margin-left: 5px;
+    margin-top: 4px;
+    width: 5px;
+    height: 10px;
+}
+
+.cancel::-webkit-scrollbar-thumb {
+    background-color: #028FA3;
+    border-radius: 5px;
+}
+
+.cancel::-webkit-scrollbar-track {
+    top: 2px;
+    background-color: #028FA330;
+    /* Background color of the scrollbar track */
+    border-radius: 5px;
+    /* Round the corners of the scrollbar track */
+}
+
+.ViewContainer {
+    overflow-y: auto;
+    /* height: auto; */
+    padding: 2px;
+}
+
+.ViewContainer::-webkit-scrollbar {
+    margin-left: 5px;
+    margin-top: 4px;
+    width: 5px;
+    height: 10px;
+}
+
+.ViewContainer::-webkit-scrollbar-thumb {
+    background-color: #028FA3;
+    border-radius: 5px;
+}
+
+.ViewContainer::-webkit-scrollbar-track {
+    top: 2px;
+    background-color: #028FA330;
+    /* Background color of the scrollbar track */
+    border-radius: 5px;
+    /* Round the corners of the scrollbar track */
+}
+
+@media (min-width: 1500px) { /* For desktop screens */
+    .cancel {
+      height: 400px;
+    }
+  }

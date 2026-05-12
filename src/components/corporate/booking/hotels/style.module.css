@@ -1,0 +1,26 @@
+.Filters {
+    overflow-y: auto;
+    height: 430px;
+    padding: 2px;
+  }
+  
+  .Filters::-webkit-scrollbar {
+    margin-left: 5px;
+    margin-top: 4px;
+    width: 5px;
+    height: 10px;
+  }
+  
+  .Filters::-webkit-scrollbar-thumb {
+    background-color: #443c3860;
+    border-radius: 5px;
+  }
+  
+  .Filters::-webkit-scrollbar-track {
+    top: 2px;
+    background-color: #443c3830;
+    /* Background color of the scrollbar track */
+    border-radius: 5px;
+    /* Round the corners of the scrollbar track */
+  }
+  

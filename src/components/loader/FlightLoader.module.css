@@ -1,0 +1,33 @@
+.flightLoad {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff; /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999;
+  flex-direction: column;
+}
+
+.planeLoader {
+  width: 20%;
+  height: fit-content;
+}
+
+.loaderText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 3vw;
+  font-weight: 500;
+  color: black;
+}
+
+.loaderText1 {
+  font-size: 2vw;
+  font-weight: 400;
+}

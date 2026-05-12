@@ -1,0 +1,6 @@
+/* components/CarouselSlide.module.css */
+.carouselSlide {
+  /* Add styles for the slide image */
+  height: 400px; /* Set the height of the carousel slides */
+  object-fit: cover;
+}

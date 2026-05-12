@@ -1,0 +1,68 @@
+.parentdialog {
+  background-color: aliceblue;
+  border: none;
+  outline: none;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.promotions {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 30px;
+  line-height: 72px;
+  color: #030b09;
+  /* position: realtive; */
+}
+
+.crossicon {
+  position: absolute;
+  right: 18px;
+  top: 18px;
+  height: 20px;
+  width: 20px;
+}
+
+.lineStyle {
+  color: black;
+  background-color: black;
+  height: 1px;
+}
+
+.heading {
+  font-size: 22px;
+}
+
+.content {
+  font-size: 16px;
+}
+
+.highlights {
+  color: rgba(2, 143, 163, 1);
+  font-size: 20px;
+}
+
+.textpadding {
+  padding: 18px;
+}
+
+@media (max-width: 550px) {
+  .promotions {
+    font-size: 22px;
+    line-height: 40px;
+  }
+
+  .textpadding {
+    padding: 5px;
+  }
+
+  .heading {
+    font-size: 16px;
+  }
+
+  .content {
+    font-size: 10px;
+  }
+}

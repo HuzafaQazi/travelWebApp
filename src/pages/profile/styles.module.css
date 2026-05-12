@@ -1,0 +1,397 @@
+.qugoLogo {
+  width: 200px;
+  height: 55px;
+}
+
+
+
+.bluebgcontainer {
+  /* max-height: 260vh; */
+  min-height: 100vh;
+  /* max-height: 100%; */
+  min-width: 97vw;
+  background-color: #028fa3;
+  padding-left: 36px;
+  padding-top: 48px;
+  padding-bottom: 64px;
+}
+.headerCommons {
+  width: 100%;
+
+  height: fit-content;
+  z-index: 99999;
+}
+
+.noBlur {
+  backdrop-filter: none;
+}
+
+.borderradius{
+  padding:20px;
+}
+
+.textFieldTitle {
+  font-size: 16px;
+  color: rgba(3, 11, 9, 0.5);
+}
+
+.listtile {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+
+.listtilechild {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.listtileicon {
+  margin-right: 36px;
+  max-width: 30px;
+  max-height: 30px;
+  align-self: flex-start;
+  margin-top: 10px;
+}
+
+.listtileicon1 {
+  margin-right: 35px;
+  width: 25px;
+  height: 25px;
+  align-self: flex-start;
+  margin-top: 10px;
+}
+
+.listtiletitle {
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  /* margin-top: 20px; */
+}
+
+.listtiletitlearrow {
+  font-weight: bold;
+  color: white;
+  font-size: 0px;
+  /* margin-top: 20px; */
+}
+
+.listtiletitlechild {
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+  /* margin-top: 20px; */
+}
+
+.listtiledescription {
+  color: #888;
+  /* color: white; */
+}
+
+
+
+.popupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popupContent {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+
+.button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+  border: none;
+  width: 45%;
+}
+
+.cancel {
+  background: #ccc;
+  color: #333;
+}
+
+.cancel:hover {
+  background: #bbb;
+}
+
+.delete {
+  background: #e74c3c;
+  color: white;
+}
+
+.delete:hover {
+  background: #c0392b;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.walletText{
+  color: #e74c3c;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.walletText1{
+  color:#888;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+.listtiledescription1 {
+  /* color: #888; */
+  color: white;
+}
+
+.myHotelDropdownTab {
+  min-height: 300px;
+}
+
+.noBookingText {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  padding-top: 3%;
+
+  font-size: 2em;
+  min-height: 300px;
+  color:black;
+}
+
+.logoutButton {
+  background-color: rgba(217, 217, 217, 0.3);
+  display: flex;
+  align-items: center;
+  border: none;
+  color: white;
+  padding: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 48px;
+  margin-left: 64px;
+
+  user-select: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 22px;
+  width: 200px;
+  justify-content: space-around;
+}
+
+.verticalLine {
+  width: 1px;
+  height: 20px;
+  background-color: white;
+}
+
+.logoutIcon {
+  max-width: 22px;
+  max-height: 22px;
+  align-self: flex-ceter;
+  flex: 1;
+}
+
+.customnavlink {
+  color: grey;
+  /* color:#028fa3; */
+  font-weight: bold;
+}
+
+.customnavlink:hover {
+  color: #fff; /* Hover tab text color */
+  background-color: #028fa3; /* Hover tab background color */
+}
+
+.customnavlinkTop {
+  color: grey;
+  /* color:#028fa3; */
+  font-weight: bold;
+}
+
+.customnavlinkTop:hover {
+  color: #fff; /* Hover tab text color */
+  background-color: #028fa3; /* Hover tab background color */
+}
+
+.companyLogo {
+  margin-right: 36px;
+  max-width: 60px;
+  max-height: 60px;
+  align-self: flex-start;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+.myBookingListContainer{
+  margin-top: 16px;
+  min-height: 300px;
+  overflow-y: scroll;
+  height: 600px;
+}
+
+.myBookingListContainer::-webkit-scrollbar {
+  width: 5px; 
+}
+
+.myBookingListContainer::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 5px; 
+}
+
+.redAsterisk {
+  color: red;
+}
+
+
+.nameDivide {
+  display: flex;
+  justify-content: space-between;
+}
+
+.namediff {
+  width: 48% !important;
+  margin-bottom: 1rem !important;
+}
+
+
+@media (max-width:500px) {
+  .bluebgcontainer {
+    padding-left: 15px;
+    padding-top: 48px;
+    padding-bottom: 30px;
+  }
+
+  .borderradius{
+    padding:6px;
+  }
+
+  .listtileicon {
+    max-width: 20px;
+    max-height: 20px;
+  }
+
+  .listtileicon1 {
+   
+    width: 20px;
+    height: 20px;
+  
+  }
+
+  .listtiletitle {
+    font-size: 22px;
+    margin-top: 5px;
+  }
+
+  .rounded {
+    width: 100% !important;
+    padding: 10px !important;
+  }
+
+  .roundedTwo {
+    width: 130% !important;
+    padding: 10px !important;
+    margin-left: -30%;
+    
+  }
+
+  .roundedTw {
+    width: 130% !important;
+    padding: 10px !important;
+    margin-left: -30%;
+  }
+
+  .customnavlink {
+    font-size: 6px;
+    font-weight: 1000;
+  }
+  
+  .customNav {
+    /* Add your custom styles for Nav here */
+    /* Example: */
+    margin-bottom: 0; /* Remove default bottom margin */
+  }
+  
+
+  .customnavlinkTop {
+    font-size: 12px;
+  }
+
+  .noBookingText {
+    font-size: 20px;
+  }
+
+  .listtilecontent {
+    width: 85% !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .headerCommons {
+    width: 100%;
+    /* top: 10px; */
+    /* position: absolute; */
+    height: fit-content;
+    z-index: 99999;
+  }
+}
+
+@media (min-width:501px) and (max-width:850px) {
+  .listtileicon {
+    max-width: 25px;
+    max-height: 25px;
+  }
+
+  .listtiletitle {
+    font-size: 22px;
+    margin-top: 5px;
+  }
+
+  .rounded {
+    width: 100% !important;
+    padding: 10px !important;
+  }
+
+
+}

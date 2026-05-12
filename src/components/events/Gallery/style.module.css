@@ -1,0 +1,212 @@
+.deleteButton {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.deleteButton:hover {
+  background-color: #d32f2f;
+}
+
+.progressBar {
+  width: 100%;
+  background-color: #f3f3f3;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.progressFill {
+  height: 8px;
+  background-color: #4caf50;
+}
+
+.Heading {
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.05px;
+  text-align: left;
+  color: #171a19;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.Imagecontainer {
+  background-color: #3f269f0a;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+  padding: 20%;
+  gap: 0px;
+  border-radius: 16px;
+  border: 1.5px 0px 0px 0px;
+  opacity: 1px;
+  border: 1.5px dotted #3f269f;
+}
+
+.upload {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #3f269f;
+}
+
+.outercontainer {
+  position: relative;
+  /* display: flex; */
+}
+
+.galleryGrid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  /* max-width: 1200px; */
+}
+
+.galleryimage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.line {
+  width: fit-content;
+}
+
+.downloadIcon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  /* background: linear-gradient(270deg, #EE3D3D 11.83%, #FF0000 85.68%);  */
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  padding: 2%;
+}
+.downloadIcon1 {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  background: linear-gradient(
+    270deg,
+    #ee3d3d 11.83%,
+    #ff0000 85.68%
+  ); /* Optional: Add a background for better visibility */
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.imageContainer1 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  /* position: relative;
+  cursor: pointer;
+  display: inline-block;  */
+}
+
+@media (max-width: 480px) {
+  .outercontainer {
+    position: relative;
+  }
+
+  .Imagecontainer {
+    width: auto;
+    height: auto;
+    padding: 10%;
+  }
+
+  .galleryimage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    /* border-radius: 20px;
+    cursor: pointer;
+    margin-left: 1%;
+    margin-left: 1%;
+    width: 200px;
+    height: 150px;
+    padding: 2%; */
+  }
+
+  .line {
+    width: 150px;
+    height: fit-content;
+  }
+
+  .downloadIcon {
+    height: 15px;
+    width: 15px;
+  }
+
+  .downloadIcon1 {
+    padding: 17px;
+    right: 4px;
+  }
+
+  .Heading {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .deleteButton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    transition: background-color 0.3s ease;
+  }
+
+  .imageContainer1 {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    overflow: hidden;
+    /* position: relative;
+    cursor: pointer;
+    display: inline-block;  */
+  }
+
+  .galleryGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+  }
+}

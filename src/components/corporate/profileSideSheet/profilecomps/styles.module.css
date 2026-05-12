@@ -1,0 +1,139 @@
+.Profile {
+  overflow-y: auto;
+  height: 600px;
+  padding: 8px;
+}
+
+.Profile::-webkit-scrollbar {
+  margin-left: 5px;
+  margin-top: 4px;
+  width: 5px;
+  height: 10px;
+}
+
+.Profile::-webkit-scrollbar-thumb {
+  background-color: #028fa3;
+  border-radius: 5px;
+}
+
+.Profile::-webkit-scrollbar-track {
+  top: 2px;
+  background-color: #028fa330;
+  /* Background color of the scrollbar track */
+  border-radius: 5px;
+  /* Round the corners of the scrollbar track */
+}
+
+.ViewContainer {
+  overflow-y: auto;
+  /* height: auto; */
+  padding: 8px;
+}
+
+.ViewContainer::-webkit-scrollbar {
+  margin-left: 5px;
+  margin-top: 4px;
+  width: 5px;
+  height: 10px;
+}
+
+.ViewContainer::-webkit-scrollbar-thumb {
+  background-color: #028fa3;
+  border-radius: 5px;
+}
+
+.ViewContainer::-webkit-scrollbar-track {
+  top: 2px;
+  background-color: #028fa330;
+  /* Background color of the scrollbar track */
+  border-radius: 5px;
+  /* Round the corners of the scrollbar track */
+}
+
+.Profile1 {
+  overflow-y: auto;
+  height: 480px;
+  padding: 8px;
+  padding-bottom: 120px;
+}
+
+.Profile1::-webkit-scrollbar {
+  margin-left: 5px;
+  margin-top: 4px;
+  width: 5px;
+  height: 10px;
+}
+
+.Profile1::-webkit-scrollbar-thumb {
+  background-color: #028fa3;
+  border-radius: 5px;
+}
+
+.Profile1::-webkit-scrollbar-track {
+  top: 2px;
+  background-color: #028fa330;
+  /* Background color of the scrollbar track */
+  border-radius: 5px;
+  /* Round the corners of the scrollbar track */
+}
+
+.Profile2 {
+  overflow-y: auto;
+  height: 450px;
+  padding: 8px;
+}
+
+.Profile2::-webkit-scrollbar {
+  margin-left: 5px;
+  margin-top: 4px;
+  width: 5px;
+  height: 10px;
+}
+
+.Profile2::-webkit-scrollbar-thumb {
+  background-color: #028fa3;
+  border-radius: 5px;
+}
+
+.Profile2::-webkit-scrollbar-track {
+  top: 2px;
+  background-color: #028fa330;
+  /* Background color of the scrollbar track */
+  border-radius: 5px;
+  /* Round the corners of the scrollbar track */
+}
+
+@media (min-width: 1500px) {
+  /* For desktop screens */
+  .Profile {
+    height: 900px;
+  }
+
+  .Profile1 {
+    height: 800px;
+  }
+
+  .Profile2 {
+    height: 800px;
+  }
+}
+
+
+.companyMob {
+  padding: 1.5rem;
+}
+
+.compInner {
+  padding: 1rem;
+}
+
+
+@media (max-width: 640px) {
+  .companyMob {
+    padding: 0.5rem;
+  }
+
+  .compInner {
+    padding: 0.5rem;
+  }
+}

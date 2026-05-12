@@ -1,0 +1,103 @@
+.designed {
+  padding: 3% 6%;
+}
+
+.entrie {
+  /* background-color: #E5E9EB; */
+  width: 100%;
+}
+
+.text1 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #878786;
+}
+
+.text2 {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #028fa3;
+}
+
+.videsplayer {
+  display: flex;
+  justify-content: center;
+  padding: 0%;
+}
+
+.askingsquestion {
+  width: 90%;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px 0px #91b2e433;
+  padding: 3%;
+  margin: 4%;
+}
+
+.askingsquestionbtn {
+  width: 90%;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px 0px #91b2e433;
+  padding: 1% 3%;
+  margin-top: -100px;
+}
+
+.askingsquestion1 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #028fa3;
+}
+
+.condition {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: justified;
+  color: #030f0c;
+}
+
+.Minuesicon {
+  width: 138%;
+  height: 21%;
+}
+
+.askingsquestion2 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #878786;
+}
+
+.Plusicon {
+  width: 142%;
+  height: 43%;
+}
+
+.viewbtn {
+  width: 155px;
+  height: 40px;
+  border-radius: 78px;
+  background: #ffffff;
+  border: 0.75px solid #028fa3;
+  box-shadow: 0px 3.1195929050445557px 3.1195929050445557px 0px #169cb02e;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.07798982411623001px;
+  text-align: center;
+  color: #028fa3;
+}

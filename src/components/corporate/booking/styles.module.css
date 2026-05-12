@@ -1,0 +1,96 @@
+.ViewRoomContainer {
+  /* overflow-y: auto; */
+  /* height: 500px; */
+  padding: 2px;
+}
+
+.ViewRoomContainer::-webkit-scrollbar {
+  margin-left: 5px;
+  margin-top: 4px;
+  width: 5px;
+  height: 10px;
+}
+
+.ViewRoomContainer::-webkit-scrollbar-thumb {
+  background-color: #028fa3;
+  border-radius: 5px;
+}
+
+.ViewRoomContainer::-webkit-scrollbar-track {
+  top: 2px;
+  background-color: #028fa330;
+  /* Background color of the scrollbar track */
+  border-radius: 5px;
+  /* Round the corners of the scrollbar track */
+}
+
+.ViewContainer {
+  overflow-y: auto;
+  /* height: auto; */
+  padding: 2px;
+}
+
+.ViewContainer::-webkit-scrollbar {
+  margin-left: 5px;
+  margin-top: 4px;
+  width: 5px;
+  height: 10px;
+}
+
+.ViewContainer::-webkit-scrollbar-thumb {
+  background-color: #028fa3;
+  border-radius: 5px;
+}
+
+.ViewContainer::-webkit-scrollbar-track {
+  top: 2px;
+  background-color: #028fa330;
+  /* Background color of the scrollbar track */
+  border-radius: 5px;
+  /* Round the corners of the scrollbar track */
+}
+
+.travelPolicy {
+    overflow-y: auto;
+    height: 57vh;
+    padding: 6px;
+}
+
+.travelPolicy::-webkit-scrollbar {
+    margin-left: 5px;
+    margin-top: 4px;
+    width: 5px;
+    height: 10px;
+}
+
+.travelPolicy::-webkit-scrollbar-thumb {
+    background-color: #028FA3;
+    border-radius: 5px;
+}
+
+.travelPolicy::-webkit-scrollbar-track {
+    top: 2px;
+    background-color: #028FA330;
+    /* Background color of the scrollbar track */
+    border-radius: 5px;
+    /* Round the corners of the scrollbar track */
+}
+
+.companyMob {
+  padding: 1.5rem;
+}
+
+.compInner {
+  padding: 1rem;
+}
+
+
+@media (max-width: 640px) {
+  .companyMob {
+    padding: 0.5rem;
+  }
+
+  .compInner {
+    padding: 0.5rem;
+  }
+}

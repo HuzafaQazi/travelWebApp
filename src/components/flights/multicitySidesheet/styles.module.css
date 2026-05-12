@@ -1,0 +1,1212 @@
+.ssrSelected {
+  border: 2px;
+  background: #028fa3 !important;
+  color: white !important;
+}
+
+.sideSheet {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  transition: right 0.3s ease;
+  z-index: 999999999;
+  overflow: auto;
+  display: none;
+}
+
+.sideSheet::-webkit-scrollbar {
+  width: 5px;
+}
+
+.sideSheet::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+.selectedMeal {
+  background-color: red; /* Add your desired highlight color */
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 0, 0, 0.5); /* Red with 50% opacity */
+  z-index: 999; /* Ensure it's above other elements */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sideSheet.open {
+  right: 0;
+  display: block;
+  z-index: 999999999;
+}
+.place {
+  font-size: 10px;
+  width: 180px;
+  height: 30px;
+}
+.closeButton {
+  cursor: pointer;
+  padding: 0% 1%;
+  border: none;
+  color: #ffffff;
+  background: none;
+  font-size: 14px;
+}
+
+.fixedHead {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  /* justify-content: space-between; */
+  padding: 2% 2%;
+  z-index: 99;
+  background: linear-gradient(90deg, #028fa3 -13.6%, #49585a 106.05%);
+}
+.fixedHead1 {
+  display: flex;
+  flex-direction: row;
+  text-wrap: nowrap;
+  gap: 15px;
+}
+
+.headOptions {
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.reviewDetailsContainer {
+  background: rgba(229, 233, 235, 0.46);
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 5%;
+  align-items: center;
+  font-weight: 500;
+  color: #000000;
+}
+.corporate-checkbox {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin: 10px 0;
+  padding-left: 2%;
+}
+.check-box {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #ccc;
+  border-radius: 2px;
+  vertical-align: middle;
+  margin-right: 5px;
+  position: relative;
+}
+
+.check-box:checked::before {
+  content: "\2713";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  color: #007bff;
+  font-weight: bold;
+}
+.scrollContent {
+  overflow-y: auto;
+  padding-bottom: 10%;
+}
+
+.scrollContent::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scrollContent::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+.fromToTiming {
+  background-color: #ffffff;
+  padding: 2% 4%;
+  border: 0.35px solid rgba(2, 143, 163, 0.59);
+  border-radius: 15px;
+  margin: 1%;
+}
+.fromToTiming1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.fromToTime {
+  font-size: 15px;
+  font-weight: 500;
+  color: #000000;
+  height: 20px;
+}
+
+.fromToCityName {
+  color: #028fa3;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.fromToDate {
+  font-size: 10px;
+  color: rgba(135, 135, 134, 1);
+}
+
+.btwLineContent {
+  width: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0% 5%;
+}
+
+.dashLineText {
+  font-size: 10px;
+  color: #878786;
+}
+
+.dashLine {
+  border-top: 1px dashed #cccccc;
+}
+
+.headSearch {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  padding: 0% 3%;
+  color: #028fa3;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.headSmallSearch {
+  font-size: 12px;
+}
+
+.searchAddBtn {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 3%;
+  margin-top: 3%;
+}
+
+.searchContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 65%;
+  margin-left: 2%;
+}
+
+.searchBoxInput {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 8px;
+  padding-left: 10%;
+  width: 100%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 4px 0px rgba(125, 153, 180, 0.3);
+}
+
+.searchBoxInput::placeholder {
+  font-size: 12px;
+  color: rgba(135, 135, 134, 1);
+  font-weight: 400;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 8px;
+  cursor: pointer;
+  color: #028fa3;
+}
+
+.GstBooking {
+  color: #000000;
+  /* font-weight: 500; */
+}
+
+.addGuestsBtn {
+  width: 28%;
+  background-color: #028fa3;
+  border: none;
+  text-wrap: nowrap;
+  color: #ffffff;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  border-radius: 25px;
+  box-shadow: 4px 4px 7px 0px rgba(255, 255, 255, 0.25) inset;
+}
+
+.addPlusIcon {
+  padding: 2%;
+  border-radius: 50px;
+  color: #028fa3;
+  background-color: #ffffff;
+}
+
+.guestDetailsHead {
+  /* display: flex; */
+  /* gap: 15px; */
+  width: 94%;
+  margin-left: 3%;
+  font-size: 14px;
+  margin-top: 2%;
+}
+
+.horizontalRule {
+  width: 95%;
+  margin: 0%;
+  margin-left: 0%;
+  height: 2px;
+  background: rgba(135, 135, 134, 0.08);
+  /* border-bottom: 0.35px solid rgba(135, 135, 134, 0.08); */
+}
+
+.passengerList {
+  width: 94%;
+  margin-left: 3%;
+  display: flex;
+  margin-top: 1%;
+  /* overflow-x: scroll; */
+}
+
+.passengerBtn {
+  padding: 1% 4%;
+  background: rgba(2, 143, 163, 0.08);
+  border-radius: 15px;
+  color: #028fa3;
+  font-size: 14px;
+}
+
+.contactDetailsHead {
+  margin-top: -1%;
+  padding: 1% 3%;
+  border-left: 3px solid #028fa3;
+}
+
+.sendDetails {
+  font-size: 12px;
+  display: block;
+  line-height: 1.2;
+  color: #878786;
+  margin-top: 2%;
+  font-weight: 400;
+}
+
+.formInputs {
+  margin-top: 1%;
+}
+
+.formInputRow {
+  width: 94%;
+  margin-left: 3%;
+  display: flex;
+  gap: 2%;
+  margin-bottom: 2%;
+}
+
+.inputHeads {
+  color: #878786;
+  font-size: 12px;
+}
+.inputHeads1 {
+  color: #878786;
+  font-size: 12px;
+  margin-left: 30px;
+}
+
+.leftPartInput {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 50%;
+}
+
+.rightPartInput {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 50%;
+}
+
+.shortInput {
+  width: 25% !important;
+  margin-right: 2%;
+  background: #f4f4f4;
+  border: none;
+  padding: 4% 5%;
+  font-size: 12px;
+  border-radius: 8px;
+
+  color: rgba(0, 0, 0, 0.31);
+}
+
+.shortInput::placeholder {
+  font-size: 10px;
+  font-weight: 300;
+}
+.shortInput:focus {
+  border: 1px solid #028fa3;
+  outline: none;
+}
+
+.bigInput::placeholder {
+  font-size: 10px;
+  font-weight: 300;
+}
+.bigInput1::placeholder {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.singleInput::placeholder {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.bigInput {
+  width: 70%;
+  background: #f4f4f4;
+  border: none;
+  padding: 4% 5%;
+  font-size: 12px;
+  border-radius: 8px;
+  /* color: rgba(0, 0, 0, 0.31); */
+  color: black;
+}
+.bigInput:focus {
+  border: 1px solid #028fa3;
+  outline: none;
+}
+
+.singleInput {
+  width: 100%;
+  background: #f4f4f4;
+  border: none;
+  padding: 4% 5%;
+  font-size: 10px;
+  border-radius: 8px;
+  /* color: rgba(0, 0, 0, 0.31); */
+  color: black;
+}
+.singleInput:focus {
+  border: 1px solid #028fa3;
+  outline: none;
+}
+
+.singleInputO {
+  width: 100%;
+  background: #f4f4f4;
+  border: none;
+  padding: 6% 5%;
+  font-size: 10px;
+  border-radius: 8px;
+  /* color: rgba(0, 0, 0, 0.31); */
+  color: black;
+}
+
+.singleInputO::placeholder {
+  font-size: 10px;
+  font-weight: 300;
+}
+.shortInputO:focus {
+  border: 1px solid #028fa3;
+  outline: none;
+}
+.checkboxDisplay {
+  display: flex;
+  gap: 8%;
+  font-size: 14px;
+  color: #878786;
+}
+
+.checkboxDesktop {
+  transform: scale(1);
+}
+
+.dropdownCustom {
+  width: 94%;
+  margin-left: 3%;
+  background-color: #ffffff;
+  border: 1px solid #87878633;
+  color: #878786;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdownCustom:hover {
+  background-color: initial;
+  color: #000;
+}
+
+.dropdownCustom:focus {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.gstBoxCheck {
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 3%;
+  font-size: 14px;
+  color: #878786;
+  display: flex;
+  align-items: center;
+  gap: 1%;
+}
+
+.gstInputs {
+  margin-top: 1%;
+}
+
+.formInputFull {
+  width: 94%;
+  margin-left: 3%;
+  display: flex;
+  flex-direction: column;
+  gap: 3%;
+  margin-bottom: 2%;
+}
+
+.addProceedBtn {
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 5%;
+  display: flex;
+  gap: 3%;
+  justify-content: center;
+}
+
+.addSeatBtn {
+  text-align: center;
+  width: 45%;
+  padding: 2% 4%;
+  background-color: #ffffff;
+  color: #028fa3;
+  border: 1px solid #028fa3;
+  border-radius: 10px;
+}
+.city {
+  font-size: 12px;
+  color: #000;
+}
+.text-danger {
+  font-size: 10px !important;
+  color: #028fa3;
+}
+.proceedBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 45%;
+  padding: 2% 4%;
+  background-color: #028fa3;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+}
+.boldFont {
+  font-weight: 700;
+  animation: boldAnimation 0.5s ease-in-out; /* Adjust the animation duration and timing function as needed */
+}
+.leftPart {
+  display: flex;
+  gap: 5px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #87878680;
+  width: 49%;
+  padding: 1% 5%;
+  font-size: 12px;
+  border-radius: 8px;
+  margin-bottom: 2%;
+}
+.selected {
+  border-color: red;
+}
+.leftPart:focus {
+  border: 1px solid #028fa3;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 998;
+}
+
+.Forminput {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2%;
+  width: 94%;
+  margin-left: 3%;
+  position: relative;
+  margin-bottom: 2%;
+  justify-content: center;
+  margin-top: 1%;
+}
+.depRetDetails {
+  color: black;
+  margin-bottom: 2%;
+  font-size: 16px;
+  font-weight: 500;
+  text-wrap: nowrap;
+}
+.Economy {
+  color: #028fa3;
+  font-size: 2.5vw;
+}
+.rightpartTicket1 {
+  display: flex;
+  border-radius: 62px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  min-width: 42px;
+  width: fit-content;
+  height: 12px;
+  background: #028fa312;
+  margin-left: 15%;
+  margin-top: 5px;
+}
+@keyframes boldAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.loadingSpinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #000;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+    .backdrop {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.2);
+      z-index: 998;
+    }
+
+    .blurBackground {
+      filter: blur(8px);
+    }
+  }
+}
+.verficationcontainer {
+  padding: 3% 0%;
+}
+.verficationdetails {
+  display: flex;
+  flex-direction: column;
+  padding: 2% 3%;
+  border-left: 5px solid #028fa3;
+  font-size: 2vw;
+  margin-top: 2px;
+}
+.verificationcode {
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #878786;
+}
+.studentverification {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #878786;
+}
+.wayscontainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 115px;
+  height: 39px;
+  border-radius: 15px;
+  background: #028fa3;
+  /* border: 1px solid red; */
+  box-shadow: 0px 4px 36px 5px #0000000d;
+  padding: 1%;
+  margin-left: 13px;
+}
+
+.ways {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+
+  /* margin-left: 27px; */
+}
+.travelerdetails {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #028fa3;
+  /* width: 129px;
+height: 19px; */
+  /* margin-top: 187px; */
+  /* margin-left: 76px; */
+}
+.popupcontainer {
+  width: 80%;
+  height: fit-content;
+  border-radius: 8px;
+  margin-left: 10px;
+  position: fixed;
+  top: 50%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff; /* Set your desired background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+.weigths {
+  display: flex;
+  flex-direction: column;
+  margin-top: 9px;
+  overflow-y: scroll;
+  height: 150px;
+}
+
+.weigths::-webkit-scrollbar {
+  width: 5px;
+}
+
+.weigths::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+.scrolling {
+  overflow-y: scroll;
+  height: 300px;
+}
+.scrolling::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scrolling::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+.select1 {
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #878786;
+}
+.totalweight {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #878786;
+  padding: 0% 5%;
+  cursor: pointer;
+}
+
+.totalweight:active {
+  background: hwb(0 78% 22%);
+  border-left: 3px solid #028fa3;
+  color: #028fa3;
+}
+.selectedBaggage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3%;
+}
+/* .closeIcon
+{
+  background: #028fa3;
+  color: white;
+} */
+.baggages {
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #878786;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.mealscontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 2.5%;
+}
+.Foodmainue {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+}
+.menucontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1%;
+  padding: 2% 6%;
+  width: 90%;
+  height: fit-content;
+  border-radius: 19px;
+  border: 1px;
+  margin: 0 auto;
+  border: 1px solid #028fa36e;
+  text-wrap: wrap;
+}
+.desert1 {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #878786;
+  width: 30%;
+  height: fit-content;
+}
+.counterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 83px;
+  margin-right: 13%;
+}
+.button {
+  /* padding: 8px; */
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  width: 27px;
+  height: 30px;
+  font-size: 10px;
+  color: #010e16;
+  font-size: large;
+  border-radius: 2.62px;
+  background: #ffffff;
+  box-shadow: 0px 0.9440069794654846px 4.405365467071533px 0px #0000003d;
+}
+.count {
+  font-size: 18px;
+}
+.costruppes {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #028fa3;
+  width: 14%;
+  height: fit-content;
+}
+.button:hover {
+  background-color: #028fa3;
+  color: white;
+}
+.redstar {
+  color: red;
+}
+.FareDetails1 {
+  font-family: Roboto;
+  font-size: 6.5px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #028fa3;
+}
+.imageofflight {
+  font-size: 3.5vw;
+}
+@media (min-width: 768px) {
+  .closeButton {
+    font-size: 1.5vw;
+  }
+  .sideSheet.open {
+    right: 0;
+    display: block;
+    width: 50%;
+    border-top-left-radius: 17px;
+    z-index: 999999999;
+  }
+  .selectedBaggage {
+    padding: 2%;
+  }
+  .popupcontainer {
+    top: 50%;
+    left: 75%;
+    width: 30%;
+    height: 50%;
+  }
+  .costruppes {
+    width: 9%;
+  }
+  .counterContainer {
+    margin-right: 18%;
+  }
+  .fixedHead {
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: row;
+    gap: 121px;
+    border-top-left-radius: 0px;
+    white-space: nowrap;
+  }
+  .fixedHead1 {
+    display: flex;
+    flex-direction: row;
+    text-wrap: nowrap;
+    gap: 18px;
+    /* position:fixed;
+     top:0;
+    width: 100%;  */
+  }
+
+  .reviewDetailsContainer {
+    padding: 1% 2%;
+    font-size: 1.2vw;
+    color: #000000;
+  }
+
+  .fromToTiming {
+    width: 96%;
+    margin-left: 2%;
+    padding: 1% 2%;
+  }
+  .headOptions {
+    cursor: pointer;
+    font-size: 1.2vw;
+    white-space: nowrap;
+  }
+
+  .fromToTime {
+    font-size: 1vw;
+    line-height: 1;
+    height: auto;
+    /* color: #028fa3; */
+    margin-top: 4%;
+  }
+
+  .fromToCityName {
+    font-size: 1.2vw;
+    /* color: #878786; */
+    font-weight: 500;
+  }
+
+  .fromToDate {
+    font-size: 0.8vw;
+    line-height: 1;
+    text-wrap: nowrap;
+  }
+
+  .btwLineContent {
+    width: -webkit-fill-available;
+    padding: 0% 3%;
+  }
+
+  .dashLineText {
+    font-size: 0.8vw;
+  }
+
+  .dashLine {
+    border-top: 2px dashed #cccccc;
+  }
+
+  .headSearch {
+    border-left: 5px solid #028fa3;
+    font-size: 1.2vw;
+    margin-top: 2px;
+  }
+
+  .headSmallSearch {
+    font-size: 0.8vw;
+  }
+
+  .searchAddBtn {
+    margin-top: 1%;
+    justify-content: center;
+  }
+
+  .searchContainer {
+    width: 40%;
+  }
+
+  .searchBoxInput {
+    font-size: 1.2vw;
+  }
+
+  .searchBoxInput::placeholder {
+    font-size: 1.2vw;
+  }
+  .place {
+    /* Add additional styles for desktop view */
+    /* For example, set a different width for desktop */
+    width: 130px;
+    height: 50px;
+  }
+
+  .addGuestsBtn {
+    width: 15%;
+  }
+
+  .guestDetailsHead {
+    font-size: 1.2vw;
+    margin-top: 15px;
+    font-weight: 500;
+  }
+  .front1 {
+    cursor: pointer;
+  }
+
+  .contactDetailsHead {
+    font-size: 1.2vw;
+    border-left: 5px solid #028fa3;
+    font-weight: 500;
+  }
+
+  .sendDetails {
+    font-size: 1vw;
+    margin-top: 0%;
+  }
+
+  .inputHeads {
+    font-size: 1vw;
+  }
+  .inputHeads1 {
+    font-size: 1vw;
+    margin-left: 6px;
+  }
+
+  .shortInput {
+    width: 15%;
+    padding: 1% 2%;
+    font-size: 1vw;
+    cursor: pointer;
+  }
+
+  .shortInput::placeholder {
+    font-size: 0.8vw;
+  }
+  .shortInput:focus {
+    border: 1px solid #028fa3;
+    outline: none;
+  }
+
+  .bigInput {
+    padding: 1% 2%;
+    font-size: 1vw;
+    cursor: pointer;
+  }
+
+  .bigInput::placeholder {
+    font-size: 0.8vw;
+  }
+  .bigInput:focus {
+    border: 1px solid #028fa3;
+    outline: none;
+  }
+  .singleInput {
+    padding: 1% 2%;
+    font-size: 1vw;
+    cursor: pointer;
+  }
+
+  .singleInput::placeholder {
+    font-size: 0.8vw;
+  }
+  .singleInput:focus {
+    border: 1px solid #028fa3;
+    outline: none;
+  }
+
+  .checkboxDesktop {
+    transform: scale(1);
+    cursor: pointer;
+  }
+
+  .checkboxDisplay {
+    display: flex;
+    gap: 10%;
+    font-size: 1vw;
+    color: #878786;
+    width: 40%;
+  }
+
+  .backdrop {
+    cursor: pointer;
+  }
+
+  .checkboxContainer {
+    margin-top: 2%;
+  }
+
+  .dropdownCustom {
+    padding: 1% 2%;
+    font-size: 1.5vw;
+  }
+
+  .gstBoxCheck {
+    font-size: 1.2vw;
+    font-weight: 500;
+  }
+
+  .formInputRow {
+    justify-content: space-between;
+  }
+
+  .desktopPassport {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-wrap: pretty;
+  }
+
+  .singleInputO {
+    padding: 3% 2%;
+    font-size: 1.2vw;
+    border: 1px solid #f4f4f4;
+    /* border: 1px solid rebeccapurple; */
+    border: none;
+  }
+  .singleInputO:focus {
+    border: 1px solid #028fa3;
+    outline: none; /* Optional: Remove the default focus outline */
+  }
+
+  .singleInputO::placeholder {
+    font-size: 1.2vw;
+  }
+  .proceedBtn {
+    cursor: pointer;
+  }
+  .addSeatBtn {
+    cursor: pointer;
+  }
+  .baggages {
+    font-size: 1vw;
+  }
+  .rightpartTicket1 {
+    margin-left: 3%;
+    width: 95px;
+    height: 25px;
+    margin-top: 0px;
+  }
+  .FareDetails1 {
+    font-size: 13px;
+    text-wrap: nowrap;
+  }
+  .imageofflight {
+    font-size: 1.2vw;
+  }
+  .closeButton {
+    cursor: pointer;
+    font-size: 1.2vw;
+  }
+  .wayscontainer {
+    cursor: pointer;
+  }
+  .ways {
+    cursor: pointer;
+  }
+  .menucontainer {
+    cursor: pointer;
+  }
+  .Economy {
+    font-size: 1vw;
+    font-weight: 500;
+  }
+  .leftPart {
+    cursor: pointer;
+  }
+  .pointer {
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1600px) {
+  .inputHeads1 {
+    /* color: #878786;
+  font-size: 14px; */
+    margin-left: 17px;
+  }
+}

@@ -1,0 +1,1199 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 9%; */
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+  /* background-color: #ffffff; */
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 998;
+}
+
+.qugoLogo {
+  padding-left: 2%;
+}
+
+.qugoHeaderLogo {
+  width: 60px;
+  height: 25px;
+}
+
+.successContent {
+  margin-top: 1%;
+  width: 96%;
+  margin-left: 2%;
+  padding-bottom: 10%;
+}
+
+.iconStatus {
+  display: flex;
+  gap: 2%;
+  align-items: center;
+}
+
+.successDetails {
+  width: 65%;
+  display: flex;
+  /* flex-direction: column; */
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.successHead {
+  font-size: 18px;
+  font-weight: 600;
+  text-wrap: nowrap;
+}
+
+.desktopRefund {
+  text-wrap: nowrap;
+  margin-left: auto;
+  text-align: right;
+}
+
+.refundStatus {
+  cursor: pointer;
+  width: fit-content;
+  text-wrap: nowrap;
+  color: #fff;
+  font-weight: 500;
+  padding: 2% ;
+  background-color: #028fa3;
+  border-radius: 8px;
+  font-size: 10px;
+  margin-top: 0%;
+  margin-left: -15%;
+}
+
+.confirmIcon {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 2% 2%;
+  background-color: green;
+  border-radius: 50px;
+}
+
+.failedIcon {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 2.5% 3%;
+  background-color: rgba(229, 57, 68, 1);
+  border-radius: 50px;
+}
+
+.detailsToggle {
+  text-decoration: underline;
+  width: 90%;
+  font-size: 12px;
+  color: #028fa3;
+  margin-top: 3%;
+}
+
+.backArrow {
+  background-color: #ffffff;
+  border: none;
+  color: #028fa3;
+  font-size: 16px;
+}
+
+.invoiceBtn {
+  text-wrap: nowrap;
+  font-size: 10px;
+  color: #ffffff;
+  background-color: #028fa3;
+  border: none;
+  padding: 2% 4%;
+  font-weight: 500;
+  height: fit-content;
+  border-radius: 8px;
+  box-shadow: 2px 6px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+.ticketBtn{
+  text-wrap: nowrap;
+  font-size: 10px;
+  color: #ffffff;
+  background-color: #028fa3;
+  border: none;
+  padding: 2% 4%;
+  font-weight: 500;
+  height: fit-content;
+  border-radius: 8px;
+  box-shadow: 2px 6px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+.invoiceBtn1 {
+  padding: 4% 3%;
+  font-size: 2vw;
+  text-wrap: nowrap;
+  font-size: 12px;
+  color: #ffffff;
+  background-color: #028fa3;
+  border: none;
+  font-weight: 500;
+  height: fit-content;
+  border-radius: 8px;
+  margin-left:-8px ;
+  box-shadow: 2px 6px 12px 0px rgba(0, 0, 0, 0.1);
+  margin-top: 1%;
+}
+
+.successData {
+  color: #878786;
+  text-wrap: pretty;
+  font-size: 9px;
+  line-height: 1.4;
+}
+
+.highlightData {
+  color: #000000;
+  font-weight: 500;
+  margin-left: 1%;
+}
+
+.pnrDetails {
+  margin-left: 4%;
+  margin-top: 2%;
+  font-size: 12px;
+  font-weight: 500;
+  color: #028fa3;
+}
+
+.detailsHeading {
+  color: #878786;
+  width: 92%;
+  margin-left: 4%;
+  margin-top: 2%;
+}
+
+.detailsHeading1 {
+  color: #878786;
+  width: 92%;
+  margin-left: 4%;
+  margin-top: 3%;
+  font-size: 4vw;
+  font-weight: 500;
+  /* font-size: 18px; */
+}
+
+.flightDetailsCardContent {
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 2%;
+  padding: 2% 3%;
+  border-radius: 15px;
+  /* border: 0.35px solid rgba(2, 143, 163, 0.35); */
+  box-shadow: 1px 2px 2px 2px #169cb038;
+}
+
+.airlinesLogoClass {
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #878786;
+}
+
+.desktopWay {
+  display: flex;
+}
+
+.flightDetailsCardDate {
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 2%;
+  margin-left: 1%;
+  margin-bottom: 4%;
+}
+
+.fromToTiming {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 1%;
+}
+
+.fromToTime {
+  font-size: 14px;
+  font-weight: 500;
+  color: #028fa3;
+  height: 20px;
+}
+
+.fromToCityName {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.fromToDate {
+  font-size: 10px;
+  line-height: 1;
+  color: #878786;
+  text-wrap: nowrap;
+}
+
+.btwLineContent {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.dashLineText {
+  font-size: 10px;
+  color: #878786;
+}
+
+.dashLine {
+  border-top: 1px dashed #cccccc;
+}
+
+.flightDetailsAirports {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  margin-top: 4%;
+}
+
+.baggageDetails {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 4%;
+  font-size: 10px;
+  color: #878786;
+}
+
+.priceRows {
+  padding-bottom: 0%;
+  padding-top: 1%;
+  width: 94%;
+  margin-left: 3%;
+  color: #878786;
+  font-size: 12px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  /* border: 0.35px solid rgba(2, 143, 163, 0.35); */
+  /* box-shadow: 0px 4px 4px 0px rgba(145, 178, 228, 0.15); */
+  box-shadow: 1px 2px 2px 2px #169cb038;
+}
+
+.desktopPriceHead {
+  display: none;
+}
+
+.priceRow {
+  display: flex;
+  padding: 0% 3%;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+
+.priceRowHighlight {
+  display: flex;
+  padding: 1% 3%;
+  margin-top: 1%;
+  justify-content: space-between;
+  background-color: rgba(2, 143, 163, 0.1);
+  color: #028fa3;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.travelerDetails {
+  background-color: #ffffff;
+  padding: 2% 4%;
+  /* display: flex; */
+  justify-content: space-between;
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 2%;
+  border-radius: 15px;
+  text-wrap: nowrap;
+  font-size: 14px;
+  color: #028fa3;
+  /* border: 0.35px solid rgba(2, 143, 163, 0.35); */
+  /* box-shadow: 0px 4px 4px 0px rgba(145, 178, 228, 0.15); */
+  box-shadow: 1px 2px 2px 2px #169cb038;
+}
+
+.desktopTraveler {
+  display: none;
+}
+
+.desktopTravelerDetails {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.tooltip {
+  position: fixed;
+  background-color: #ffffff;
+  width: 90%;
+  right: 5%;
+  bottom: 14%;
+  height: fit-content;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(22, 156, 176, 0.1);
+  backdrop-filter: blur(5px);
+  z-index: 999;
+  border-radius: 15px;
+}
+
+.tooltipHeads {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 3%;
+  color: #ffffff;
+  background: linear-gradient(90deg, #028fa3 0%, #efc007 121.58%);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.nameEmail {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 3%;
+  color: #878786;
+  font-size: 12px;
+}
+
+.cancelBtn {
+  padding: 4% 10%;
+  border: 0.35px solid rgba(229, 57, 68, 1);
+  color: rgba(229, 57, 68, 1);
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-size: 12px;
+  box-shadow: 0px 4px 4px 0px rgba(35, 31, 32, 0.35);
+}
+
+.btnContainer {
+  background-color: #ffffff;
+  padding: 4% 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 2%;
+  border-radius: 15px;
+  text-wrap: nowrap;
+  font-size: 12px;
+  color: #028fa3;
+  border: 0.35px solid rgba(2, 143, 163, 0.35);
+  box-shadow: 0px 4px 4px 0px rgba(145, 178, 228, 0.15);
+}
+
+.amountFailed {
+  background: rgba(2, 143, 163, 0.1);
+  padding: 4%;
+  width: 90%;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  color: #028fa3;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.paymentFailed {
+  width: 95%;
+  margin-top: 4%;
+  margin-left: 2.5%;
+  display: flex;
+  gap: 3%;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.failedBg {
+  width: 95%;
+  margin-top: 3%;
+  margin-left: 2.5%;
+  box-shadow: 0px 4px 4px 0px rgba(125, 153, 180, 0.1);
+  padding: 2%;
+  background: rgba(229, 233, 235, 0.46);
+  border-radius: 8px;
+}
+
+.failedContent {
+  padding: 5% 5%;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+}
+
+.failedContent1 {
+  text-wrap: nowrap;
+  margin-top: 2%;
+}
+
+.holdBtn {
+  width: auto;
+  padding: 2% 4%;
+  border: 0.55px solid rgba(2, 143, 163, 1);
+  color: #028fa3;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0px 4px 4px 0px rgba(35, 31, 32, 0.1);
+}
+
+.proceedBtn {
+  width: auto;
+  border: none;
+  padding: 2% 4%;
+  background-color: #028fa3;
+  color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0px 4px 4px 0px rgba(35, 31, 32, 0.1);
+}
+
+.pendingBtnContainer {
+  width: 100%;
+  display: flex;
+  gap: 3%;
+  margin-top: 5%;
+  justify-content: center;
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding: 3% 0%;
+  /* margin-top: 2%; */
+}
+
+.mainContainer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-radius: 15px 15px 0px 15px;
+  width: 100%;
+  overflow-y: scroll;
+  background-color: #fff;
+  padding: 2%;
+  z-index: 9998;
+  height: fit-content;
+  padding-bottom: 10px;
+}
+
+.wayscontainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 116px;
+  height: 44px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0px 4px 36px 5px #0000000d;
+  /* margin-left:10px; */
+}
+
+.wayscontainer1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 115px;
+  height: 44px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0px 4px 36px 5px #0000000d;
+}
+
+.ways {
+  padding: 1.5% 3%;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #028fa3;
+  background: #fff;
+  border: 1px solid #028fa3;
+  border-radius: 8px;
+  box-shadow: 0px 4px 36px 10px #0000000d;
+  /* margin-left: 27px; */
+}
+
+.ways1 {
+  padding: 1.5% 3%;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  background: #028fa3;
+  color: #fff;
+  /* margin-left: 27px; */
+}
+
+.passengerdetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  width: 23%;
+  font-size: 8px;
+}
+
+.traveller {
+  font-size: 10px;
+  /* font-weight: 500; */
+  /* line-height: 24px; */
+  text-align: left;
+  color: #878786;
+  text-wrap: pretty;
+  margin-bottom: 10%;
+  line-height: 1;
+}
+
+.passengersandseatdetails {
+  display: flex;
+  flex-direction: row;
+  /* gap: 10%; 
+ padding: 2% 4%; */
+  justify-content: space-between;
+}
+
+.desktopClass {
+  margin-left: 4px;
+  /* color: #028fa3; */
+  font-size: 12px;
+}
+
+.desktopClass1 {
+  margin-left: 4px;
+  color: #028fa3;
+  font-size: 10px;
+}
+
+.desktopClass2 {
+  font-size: 10px;
+  margin-left: 4px;
+  color: #028fa3;
+  line-height: 1.5;
+}
+
+.mealselection {
+  text-wrap: wrap;
+}
+
+.mealselection1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.pnrnumber {
+  display: none;
+}
+
+.popup {
+  /* margin-left: 64%; */
+  width: max-content;
+}
+
+.bookingdate {
+  display: block;
+}
+
+.pnrnumber1 {
+  display: block;
+}
+
+.bookedDate1 {
+  display: none;
+}
+
+.desktopCardTop {
+  /* width: 30%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* justify-content: space-between;
+  gap: 70px; */
+}
+
+.buttonAlign {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2%;
+}
+.popupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popupContent {
+  position: relative;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.closeIcon{
+  margin-left: 250px;
+  color: #878786;
+  cursor: pointer;
+}
+
+.walletSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.useWalletLabel {
+  margin-left: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+.walletBalance {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #333;
+}
+
+.balanceAmount {
+  font-weight: bold;
+  color: #6b8e23; /* Olive color for balance */
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.logoplane {
+  display: flex;
+  font-size: 20px;
+}
+
+.recharge {
+  color: #ff4500; /* Red color for recharge link */
+  text-decoration: underline;
+  cursor: pointer;
+  text-wrap: nowrap;
+}
+
+.closeButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #028fa3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  font-size: 14px;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+
+    .backdrop {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.2);
+      z-index: 998;
+    }
+
+    .blurBackground {
+      filter: blur(8px);
+    }
+  }
+}
+
+@media (min-width: 768px) {
+
+  .popupContent {
+    position: relative;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+
+  .ticketBtn{
+    text-wrap: nowrap;
+    font-size: 1vw;
+    color: #ffffff;
+    background-color: #028fa3;
+    border: none;
+    padding: 2% 4%;
+    font-weight: 500;
+    height: fit-content;
+    border-radius: 8px;
+    box-shadow: 2px 6px 12px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .closeIcon{
+    margin-left: 250px;
+    color: #878786;
+    cursor: pointer;
+  }
+
+  .passengerdetails {
+    font-size: 1.2vw;
+  }
+
+  .traveller {
+    font-size: 1.2vw;
+  }
+
+  .failedContent {
+    padding: 50% 5%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .desktopBg {
+    background-color: #e5e9eb;
+    padding-bottom: 2%;
+  }
+
+  .desktopClass1 {
+    margin-left: 4px;
+    color: #028fa3;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .header {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px 0px rgba(125, 153, 180, 0.3);
+  }
+
+  .successContent {
+    background-color: #ffffff;
+    padding: 1% 2%;
+    border-radius: 8px;
+  }
+
+  .iconStatus {
+    display: flex;
+    align-items: center;
+  }
+
+  .successDetails {
+    width: 90%;
+  }
+
+  .successHead {
+    font-size: 1.5vw;
+    font-weight: 500;
+  }
+
+  .successData {
+    font-size: 1.2vw;
+  }
+
+  .confirmIcon {
+    font-size: 2.5vw;
+    padding: 1% 1.2%;
+    border-radius: 50%;
+  }
+
+  .failedIcon {
+    font-size: 1.5vw;
+    padding: 1% 1.3%;
+    border-radius: 50%;
+  }
+
+  .detailsToggle {
+    width: 90%;
+    font-size: 1.2vw;
+    cursor: pointer;
+    margin-top: 1%;
+    font-weight: 500;
+  }
+
+  .backdrop {
+    cursor: pointer;
+  }
+
+  .invoiceBtn {
+    padding: 2% 4%;
+    font-size: 1vw;
+  }
+
+  .invoiceBtn1 {
+    padding: 10% 10%;
+    font-size: 1vw;
+    text-wrap: nowrap;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #028fa3;
+    border: none;
+    font-weight: 500;
+    height: fit-content;
+    border-radius: 8px;
+    box-shadow: 2px 6px 12px 0px rgba(0, 0, 0, 0.1);
+    margin-left:-11px ;
+  }
+
+  .pnrDetails {
+    margin-top: 1%;
+    margin-left: 1%;
+    font-size: 1.2vw;
+    display: flex;
+    text-wrap: nowrap;
+    gap: 2%;
+  }
+
+  .detailsHeading {
+    display: none;
+  }
+
+  .detailsHeading1 {
+    color: #878786;
+    width: 90%;
+    margin-left: 1%;
+    margin-top: 2%;
+    font-size: 20px;
+  }
+
+  .flightDetailsCardContent {
+    padding: 1% 2%;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .airlinesLogoClass {
+    margin-top: 1%;
+    justify-content: flex-start;
+    gap: 30%;
+  }
+
+  .desktopCardTop {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .desktopWay {
+    display: block;
+    padding: 4% 10%;
+    border: 1px solid rgba(2, 143, 163, 0.46);
+    border-radius: 8px;
+    font-size: 1.2vw;
+  }
+
+  .desktopClass {
+    padding: 2% 8%;
+    border: 1px solid rgba(2, 143, 163, 0.46);
+    border-radius: 8px;
+    font-size: 1.2vw;
+  }
+
+  .fromToTiming {
+    margin-top: 1%;
+    align-items: center;
+  }
+
+  .fromToTime {
+    font-size: 1vw;
+    line-height: 1;
+    height: auto;
+  }
+
+  .fromToCityName {
+    font-size: 1.2vw;
+    color: #000000;
+    font-weight: 500;
+  }
+
+  .popup {
+    margin-left: 0%;
+    width: -webkit-fill-available;
+    font-size: 9px;
+
+  }
+
+  .fromToDate {
+    font-size: 1vw;
+    line-height: 1;
+    text-wrap: nowrap;
+  }
+
+  .btwLineContent {
+    width: -webkit-fill-available;
+    padding: 0% 3%;
+  }
+
+  .dashLineText {
+    font-size: 1vw;
+  }
+
+  .dashLine {
+    border-top: 2px dashed #cccccc;
+  }
+
+  .flightDetailsAirports {
+    font-size: 1vw;
+    margin-top: 0.5%;
+  }
+
+  .baggageDetails {
+    font-size: 1.5vw;
+    gap: 5%;
+    margin-top: 1%;
+  }
+
+  .cabinBagLogo {
+    font-size: 2vw;
+  }
+
+  .priceRows {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 2%;
+  }
+
+  .desktopPriceHead {
+    display: block;
+    border-left: 4px solid #028fa3;
+    font-size: 1.5vw;
+    padding-left: 0.5%;
+    font-weight: 500;
+  }
+
+  .priceRow {
+    font-size: 1.2vw;
+    margin-top: 0.2%;
+  }
+
+  .refundStatus {
+    cursor: pointer;
+    width: fit-content;
+    text-wrap: nowrap;
+    color: #fff;
+    font-weight: 400;
+    padding: 2%;
+    background-color: #028fa3;
+    border-radius: 8px;
+    font-size: 1vw;
+    margin-left: -2%;
+    margin-bottom: 5px;
+    margin-top:5px;
+  }
+
+  .buttonAlign {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 2%;
+  }
+  .priceRowHighlight {
+    font-size: 1.5vw;
+  }
+
+  .travelerDetails {
+    width: 100%;
+    margin-left: 0%;
+    display: inline-block;
+    padding: 1% 0%;
+    cursor: pointer;
+  }
+
+  .desktopTraveler {
+    display: block;
+    font-size: 1.5vw;
+    color: #878786;
+    border-left: 4px solid #028fa3;
+    padding: 0% 0.5%;
+    font-weight: 500;
+  }
+
+  .desktopTravelerDetails {
+    display: flex;
+    padding: 0% 2.5%;
+    font-size: 1.2vw;
+  }
+
+  .btnContainer {
+    width: 100%;
+    margin-left: 0%;
+    font-size: 1.4vw;
+    box-shadow: 0px 4px 4px 0px #00000040;
+  }
+
+  .cancelBtn {
+    font-size: 1.5vw;
+  }
+
+  .amountFailed {
+    font-size: 1.5vw;
+    padding: 2%;
+  }
+
+  .paymentFailed {
+    /* display: none; */
+    font-size: 24px;
+  }
+
+  .failedBg {
+    width: 100%;
+    padding: 1% 5%;
+    margin-top: 3%;
+    margin-left: 0%;
+    box-shadow: 0px 4px 4px 0px rgba(125, 153, 180, 0.1);
+    padding: 2%;
+    background: rgba(229, 233, 235, 0.46);
+    border-radius: 8px;
+    padding-bottom: 10%;
+  }
+
+  .failedContent {
+    padding: 0%;
+    font-size: 1.5vw;
+    padding-bottom: 5%;
+  }
+
+  .desktopPaymentFailed {
+    align-self: flex-start;
+    width: 95%;
+    margin-top: 4%;
+    margin-left: 2.5%;
+    display: flex;
+    gap: 3%;
+    align-items: center;
+    font-size: 2vw;
+    font-weight: 500;
+    margin-bottom: 5%;
+  }
+
+  .holdBtn {
+    padding: 1% 3%;
+  }
+
+  .proceedBtn {
+    padding: 1% 3%;
+  }
+
+  .maincontainer {
+    padding: 1% 2%;
+  }
+
+  .mainContainer {
+    display: block;
+    left: 50%;
+    right: 0%;
+    width: 50%;
+    height: 100%;
+    padding: 0% 2.5%;
+    margin-top: 4%;
+  }
+
+  .wayscontainer {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .wayscontainer1 {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .passengersandseatdetails {
+    /* gap:30%; */
+    padding: 0% 3%;
+  }
+
+  .ways {
+    font-weight: 500;
+  }
+
+  .ways1 {
+    font-weight: 500;
+  }
+
+  .logoplane {
+    display: flex;
+    font-size: 20px;
+  }
+
+  .passengerdetails {
+    width: 10%;
+  }
+
+  .pnrnumber {
+    display: block;
+  }
+
+  .bookingdate {
+    display: none;
+  }
+
+  .pnrnumber1 {
+    display: none;
+  }
+
+  .bookedDate1 {
+    display: flex;
+  }
+}
+
+@media (min-width: 1500px) {
+  .desktopBg {
+    width: 80%;
+    margin-left: 10%;
+  }
+}

@@ -1,0 +1,432 @@
+.blurBackground {
+  filter: blur(8px);
+}
+
+.header {
+  background-color: #00000033;
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+
+.underline {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+}
+
+.underlineBtn1 {
+  padding: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #ffffff;
+  font-weight: 600;
+  color: #028fa3;
+  border-radius: 10px;
+  text-wrap: nowrap;
+}
+
+
+.belowBg {
+  /* background-color: #00000033; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+  padding-top: 1.5%;
+  margin-top: -10%;
+  z-index: 999;
+  height: 65px;
+}
+
+.posiflexLogo {
+  width: 210px;
+  height: 48px;
+  border-radius: 6px;
+  margin-top: 10%;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.relativeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 80vh;
+  /* Adjust height as needed */
+  /* overflow: hidden; */
+  /* Optional: hides any overflowing content */
+}
+
+.Bgimage {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  background-color: #028fa3;
+  background-image: url(../../../public/img/event/1541414890phpXPcMA4.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: static;
+}
+
+.Bgimage::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Adjust opacity as needed */
+}
+
+
+.relativeContainer1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  /* Adjust height as needed */
+  /* overflow: hidden; */
+  /* Optional: hides any overflowing content */
+}
+
+.Bgimage1 {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  background-color: #028fa3;
+  background-image: url(../../../public/img/event/1541414890phpXPcMA4.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: static;
+}
+
+.Bgimage1::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Adjust opacity as needed */
+}
+
+.overlayContent {
+  position: absolute;
+  top: 1%;
+  left: 0;
+  width: 100%;
+  /* height: 86%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../../src/images/patternbg.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  /* Adjust color as needed */
+  text-align: center;
+  /* Center align text */
+}
+
+.qugoLogo {
+  width: 100px;
+  height: 100px;
+}
+
+.maintext {
+  font-family: Poppins, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  /* line-height: 48px; */
+  text-align: center;
+  color: #ffffff;
+}
+
+.maintext1 {
+  font-family: Poppins, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  /* line-height: 78px; */
+  text-align: center;
+  color: #ffffff;
+}
+
+.maintext2 {
+  margin-top: 10px;
+  margin-bottom: -22px;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  /* line-height: 24px; */
+  text-align: center;
+  color: #ffffff;
+}
+
+.text {
+  font-family: Poppins, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin-right: 2%;
+  text-align: left;
+  text-wrap: nowrap;
+  color: #ffffff;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.2px;
+  text-align: center;
+  color: #171a199c;
+  /* margin-left: 10px; */
+  cursor: pointer;
+  padding: 2%;
+}
+
+.imagecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.activeHeading {
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+  text-align: center;
+  color: #3f269f;
+}
+
+.tabContainer {
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 4px;
+  /* margin-top: 1rem; */
+}
+
+.tabHeadings {
+  display: flex;
+  margin-top: 1rem;
+  gap: 5px;
+  margin-left: 5%;
+}
+
+.chaticon {
+  display: none;
+}
+
+.chatBox {
+  display: none !important;
+}
+
+@media (max-width: 480px) {
+  .icon {
+    margin-right: 1px;
+  }
+
+  .relativeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* Adjust height as needed */
+    /* overflow: hidden; */
+    /* Optional: hides any overflowing content */
+  }
+
+  .Bgimage {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-color: #028fa3;
+    /* background-image: url(../../../public/img/stem-list-EVgsAbL51Rk-unsplash.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: static;
+  }
+
+  .relativeContainer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    /* Adjust height as needed */
+    /* overflow: hidden; */
+    /* Optional: hides any overflowing content */
+  }
+
+  .Bgimage1 {
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+    background-color: #028fa3;
+    /* background-image: url(../../../public/img/stem-list-EVgsAbL51Rk-unsplash.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: static;
+  }
+
+  .tabHeadings {
+    display: flex;
+    margin-top: 1rem;
+    /* gap: 1rem; */
+  }
+
+  .maintext {
+    font-size: 16px;
+  }
+
+  .maintext1 {
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    /* line-height: 78px; */
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .maintext2 {
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    /* line-height: 78px; */
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .text {
+    font-size: 10px;
+  }
+
+  .activeHeading {
+    font-size: 14px;
+  }
+
+  .heading {
+    font-size: 13px;
+    font-weight: 600;
+    text-wrap: nowrap;
+  }
+
+  .tabContainer {
+    /* width: fit-content; */
+    padding: 0.5rem;
+    background-color: #ffffff;
+    border-radius: 4px;
+    /* margin-top: 1rem; */
+  }
+
+  .ChatBackground {
+    display: flex;
+    justify-content: center;
+    top: 8px;
+    left: 8px;
+    padding: 15px;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: #028fa3;
+    /* opacity: 0px; */
+    /* background: linear-gradient(270deg, #ee3d3d 11.83%, #ff0000 85.68%); */
+    color: #ffffff;
+    border: none;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .ChatBackground1 {
+    /* background-color: #ffffff;*/
+    padding: 1%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .overlayContent {
+    background-image: url("../../../public/img/Group 14458.png");
+    top: 16%;
+    /* height:92%; */
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .qugoLogo {
+    width: 100px;
+    height: 85px;
+
+  }
+
+  .smileicon1 {
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+  }
+
+  .belowBg {
+    /* background-color: #00000033; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    padding-top: 4%;
+    margin-top: -15%;
+    height: 50px;
+    z-index: 999;
+  }
+
+  .chaticon {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    filter: drop-shadow(0px 4px 4px rgba(86, 144, 198, 0.47));
+    bottom: 4.5%;
+    /* right: 12%; */
+  }
+
+  .chatBox {
+    display: flex !important;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 75%;
+    width: 100%;
+    background: #ffffff;
+    padding: 3%;
+    padding-top: 0%;
+    z-index: 999;
+    border-radius: 16px;
+    /* overflow: auto; */
+    transition: height 0.3s ease;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px -8px 10px;
+  }
+}

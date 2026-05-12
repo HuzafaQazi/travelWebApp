@@ -1,0 +1,1393 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 9%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.loading {
+  pointer-events: none; /* Prevent any interactions */
+}
+
+.flightLoad {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.planeLoader {
+  width: 30%;
+  height: fit-content;
+}
+
+.loaderText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 3vw;
+  font-weight: 500;
+}
+
+.loaderText1 {
+  font-size: 2vw;
+  font-weight: 400;
+}
+
+.verticalline {
+  min-width: 80px;
+  width: fit-content;
+  height: 0px;
+  border: 2px;
+  background-color: transparent;
+  border-top: 1px dashed #878786;
+  margin: 34px 24px;
+  transform: rotate(90deg);
+  transform-origin: 0% 0%;
+  /* border-top: 1px dashed #DFDFDF; */
+  display: none;
+}
+
+.logoAirline {
+  font-size: 2.5vw;
+  display: flex;
+  align-items: center;
+  gap: 3%;
+  font-weight: 500;
+  width: 100%;
+}
+
+.Economy {
+  text-wrap: nowrap;
+  font-size: 2.5vw;
+  color: #028fa3;
+  font-weight: 500;
+  margin-right: -15px;
+}
+
+.mobilestyle {
+  display: none;
+}
+
+.mainContainer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-radius: 15px 15px 0px 15px;
+  width: 100%;
+  overflow-y: scroll;
+  background-color: #fff;
+  padding: 2%;
+  z-index: 9998;
+  height: fit-content;
+  padding-bottom: 10px;
+}
+
+.mainContainer::-webkit-scrollbar {
+  width: 5px; 
+}
+
+.mainContainer::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 5px; 
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+
+  z-index: 998;
+}
+
+.dropdownModify {
+  /* display: block; */
+  position: fixed;
+  width: 100%;
+  left: 0%;
+  top: -5%;
+  height: fit-content;
+  transition: max-height 0.3s, opacity 0.3s;
+  z-index: 999;
+  background-image: url(../../../../public/img/alejandro-luengo-oFbf83nFh5M-unsplash@2x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.qugoLogo {
+  padding-left: 2%;
+}
+
+.qugoHeaderLogo {
+  width: 60px;
+  height: 25px;
+}
+
+.navListingPage {
+  width: 70%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-left: 15%;
+  justify-content: space-between;
+}
+
+.linkIcon {
+  height: 16px;
+  width: 10px;
+  color: #ffffff;
+}
+
+.navLink {
+  width: fit-content;
+  text-wrap: nowrap;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.linkTag {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.loginLogo {
+  height: 16px;
+  width: 15px;
+  color: black !important;
+}
+
+.loginNavbar {
+  align-self: center;
+  padding-right: 2%;
+}
+
+.navsIcon {
+  color: #ffffff;
+  width: 15px;
+  height: 12px;
+}
+
+.sidedate {
+  display: flex;
+  gap: 3%;
+}
+
+.activeLink {
+  /* border: 1px solid #028fa3; */
+  border-radius: 15px;
+  font-size: 12px;
+  padding: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.activeLinkTag {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.divider {
+  border: none;
+  border-top: 2px solid #ffffff;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 0%;
+  margin-bottom: 2%;
+}
+
+.waysSelectors {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+}
+
+.commonWayButtons {
+  background: none;
+  padding: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 25px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.selected {
+  border: none;
+  background: #ffffff;
+  color: initial;
+}
+
+.selectors {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: none;
+  justify-content: space-between;
+  margin-top: 0%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.selector {
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 2%;
+  background: #169cb099;
+  padding: 2%;
+  border-radius: 6px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.formInput {
+  width: 100%;
+  background: transparent;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  /* border-bottom: 0.11px solid white; */
+  border-radius: 0px;
+  margin-top: 0%;
+  margin-right: 3%;
+}
+
+.formInput::placeholder {
+  font-size: 15px;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.searchCross {
+  display: flex;
+  width: 110%;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.selector2 {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heading {
+  font-size: 1vw;
+  margin-bottom: 0%;
+  margin-bottom: 1%;
+  font-size: 3vw;
+  text-wrap: nowrap;
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.datesRow {
+  width: 40%;
+  gap: 0%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0%;
+  width: auto;
+}
+
+.selector4 {
+  height: fit-content;
+}
+
+.dividedropdown {
+  display: flex;
+  height: fit-content !important;
+  width: 100%;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+.fareOptions {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 10px;
+  margin-bottom: 2%;
+}
+
+.fareSelectOption {
+  padding: 2%;
+  background-color: #ffffff;
+  color: #878786;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.modifyApplyBtn {
+  width: 100%;
+  margin-top: 2%;
+  background-color: #ffffff;
+  color: #028fa3;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.modifySection {
+  width: 100%;
+  background-color: #028fa3;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #028fa3 -13.6%, #49585a 106.05%);
+}
+
+.flightDetails {
+  color: #ffffff !important;
+  display: flex;
+  align-items: center;
+  gap: 6%;
+  text-wrap: nowrap;
+}
+
+.modifyButtonContainer {
+  margin-right: 5%;
+}
+
+.modifyButton {
+  border: none;
+  background-color: #FFFFFF;
+  color: #028fa3;
+  padding: 8%;
+  padding-left: 28%;
+  padding-right: 28%;
+  border-radius: 6px;
+  font-size: 12px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.allTogglesLine {
+  width: 96%;
+  margin-left: 2%;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 2%;
+  gap: 3%;
+}
+
+.toggleButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 18%;
+  border: 0.55px solid #028fa3;
+  color: #028fa3;
+  background: #ffffff;
+  box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.03);
+  padding: 2%;
+  /* border: none; */
+  border-radius: 15px;
+  font-size: 10px;
+}
+
+.bottomSheet {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 80%;
+  width: 100%;
+  background: #ffffff;
+  padding: 3%;
+  padding-top: 0%;
+  z-index: 999;
+  border-radius: 16px;
+  overflow: auto;
+  transition: height 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px -8px 10px;
+}
+
+.filterSheetHead {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 2% 2%;
+  padding-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  z-index: 99;
+}
+
+.scrollFiltersContent {
+  overflow-y: auto;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 60%;
+  transition: height 100ms ease;
+  background: #028fa3;
+  background: url("../../../../public/img/modifyBg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 999;
+}
+
+.resultsDetails {
+  width: 96%;
+  margin-top: 1%;
+  margin-left: 1%;
+  color: #878786;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.flightsContainer {
+  width: 96%;
+  height: 500px;
+  border-radius: 10px;
+  margin-left: 2%;
+  margin-top: 2%;
+  padding-top: 1%;
+  padding-bottom: 3%;
+  background-color: rgba(229, 233, 235, 0.46);
+  overflow-y: scroll;
+  /* max-height: 350px; */
+}
+
+.flightsContainer::-webkit-scrollbar {
+  width: 5px; 
+}
+
+.flightsContainer::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 5px; 
+}
+
+.flightTicket {
+  display: flex;
+  width: 96%;
+  background-color: #fff;
+  margin-left: 2%;
+  margin-top: 2%;
+  padding: 2% 3%;
+  border-radius: 10px;
+  justify-content: center;
+  /* box-shadow: 0px 4px 4px 0px #231f201f; */
+  box-shadow: 0px 4px 4px 0px #169cb038;
+}
+
+.leftpartTicket {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-right: 2%;
+}
+
+.middlepartTicket {
+  width: 5%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 60%;
+  margin-top: -4%;
+}
+
+.rightpartTicket {
+  width: 35%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-self: center;
+  border-left: 2px solid #e6e7e9;
+}
+
+.caretDown {
+  margin-left: 7%;
+}
+
+.perPersonText {
+  font-size: 8px;
+  font-weight: 400;
+  color: #878786;
+}
+
+.tooltip {
+  position: fixed;
+  background-color: #ffffff;
+  width: 78%;
+  right: 5%;
+  height: fit-content;
+  border-radius: 10px;
+  padding-top: 2%;
+  box-shadow: 0px 4px 4px 0px rgba(22, 156, 176, 0.1);
+  backdrop-filter: blur(5px);
+  z-index: 999;
+}
+
+.linesText {
+  display: flex;
+  justify-content: space-between;
+  color: #878786;
+  font-size: 12px;
+  padding: 0% 4%;
+}
+
+.tooltipTotalPrice {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #028fa3;
+  background-color: rgba(2, 143, 163, 0.11);
+}
+
+.fromToTiming {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* margin-top: 5%; */
+}
+
+.fromToTime {
+  font-size: 12px;
+  font-weight: 500;
+  /* color: #028fa3; */
+  color: #000000;
+  height: 15px;
+  display: flex;
+}
+
+.fromToCityCode {
+  font-size: 14px;
+  font-weight: 500;
+  color: #878786;
+}
+
+.btwLineContent {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.dashLineText {
+  font-size: 8px;
+  color: #878786;
+}
+
+.dashLine {
+  border-top: 1px dashed #cccccc;
+}
+
+.flightFareToggles {
+  display: flex;
+  font-size: 10px;
+  gap: 10px;
+  color: #028fa3;
+  cursor: pointer;
+  text-wrap: nowrap;
+}
+
+.verticalRule {
+  content: "";
+  height: 15.5vh;
+  width: 1px;
+  background-color: transparent;
+  border-left: 1px dashed #878786;
+  margin: 0 10px;
+}
+
+.airlineSelectBtn {
+  width: 50%;
+  /* padding: 2%; */
+  border-radius: 4px;
+  border: none;
+  background-color: #028fa3;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px 0px #231f201f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.seatsLeftDetails {
+  font-size: 11px;
+  color: #028fa3;
+  margin-top: 6px;
+  font-weight: 500;
+}
+
+.dateclassDetails {
+  font-size: 13px;
+  margin: 1%;
+  width: 70%;
+  text-wrap: nowrap;
+}
+
+.headFiltersBottom {
+  font-size: 18px;
+}
+
+.crossBtn {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #878786;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #878786;
+}
+
+.timeSelectorsContainer {
+  width: 98%;
+  margin-left: 1%;
+  padding: 3%;
+  box-shadow: 0px 4px 4px 0px rgba(2, 143, 163, 0.13);
+}
+
+.depDetails {
+  color: #878786;
+  font-size: 12px;
+}
+
+.timeCategoriesFrom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4%;
+}
+
+.timeBoxes {
+  box-shadow: 0px 4px 4px 0px rgba(2, 143, 163, 0.13);
+  width: 20%;
+  font-size: 10px;
+  text-align: center;
+  text-wrap: nowrap;
+  padding: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: #878786;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.timeBoxes:hover {
+  color: rgba(246, 207, 68, 1);
+}
+
+.priceSliderContainer {
+  width: 98%;
+  margin-left: 1%;
+  margin-top: 2%;
+  padding: 3%;
+  box-shadow: 0px 4px 4px 0px rgba(2, 143, 163, 0.13);
+}
+
+.stopsContainer {
+  width: 98%;
+  margin-left: 1%;
+  margin-top: 2%;
+  padding: 3%;
+  box-shadow: 0px 4px 4px 0px rgba(2, 143, 163, 0.13);
+}
+
+.stopsSwitches {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4%;
+}
+
+.stops {
+  color: #028fa3;
+  width: fit-content;
+  border: 0.55px dashed var(--Text-colour, #878786);
+  text-wrap: nowrap;
+  padding: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.horizontalRule {
+  content: "";
+  height: 1px;
+  width: 90%;
+  background-color: transparent;
+  border-left: 1px dashed #878786;
+  margin: 0 10px;
+}
+
+.airlinesContainer {
+  width: 98%;
+  margin-left: 1%;
+  margin-top: 2%;
+  padding: 3%;
+  box-shadow: 0px 4px 4px 0px rgba(2, 143, 163, 0.13);
+}
+
+.layoverContainer {
+  width: 98%;
+  margin-left: 1%;
+  margin-top: 2%;
+  padding: 3%;
+  box-shadow: 0px 4px 4px 0px rgba(2, 143, 163, 0.13);
+}
+
+.checkboxRow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+.destAirportContainer {
+  width: 98%;
+  margin-left: 1%;
+  margin-top: 2%;
+  padding: 3%;
+  box-shadow: 0px 4px 4px 0px rgba(2, 143, 163, 0.13);
+}
+
+.greyText {
+  color: #878786;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.checkboxRows {
+  margin-top: 2%;
+}
+
+.cancelApplyContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 5%;
+  padding-bottom: 10%;
+}
+
+.filtersBtn {
+  width: 35%;
+  border: none;
+  border-radius: 8px;
+  padding: 2%;
+  color: #ffffff;
+}
+
+.flightDetailsHead {
+  font-size: 16px;
+}
+
+.flightDetailsContainer {
+  width: 98%;
+  margin-left: 1%;
+  margin-top: 3%;
+  padding: 1%;
+  padding-top: 3%;
+  border-radius: 15px;
+  background: rgba(229, 233, 235, 0.46);
+}
+
+.backArrow {
+  background-color: #ffffff;
+  border: none;
+  color: #028fa3;
+  font-size: 16px;
+}
+
+.flightFareDetailsHead {
+  color: #028fa3;
+  width: 90%;
+  margin-left: 5%;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flightFareDetailsActive {
+  background: rgba(2, 143, 163, 0.07);
+  padding: 1% 5%;
+  border-radius: 15px;
+  font-weight: 500;
+}
+
+.flightFareHead {
+  background: rgba(135, 135, 134, 0.15);
+  border: 0.75px solid rgba(135, 135, 134, 0.29);
+  padding: 1% 5%;
+  border-radius: 15px;
+}
+
+.flightDetailsCard {
+  width: 98%;
+  margin-left: 1%;
+  background-color: #ffffff;
+  height: fit-content;
+  border-radius: 10px;
+  padding-bottom: 2%;
+}
+
+.flightDetailsCardContent {
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+.airlinesLogoClass {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #878786;
+}
+
+.flightDetailsCardDate {
+  font-size: 10px;
+  font-weight: 500;
+  margin-top: 0%;
+  margin-left: 1%;
+  margin-bottom: 4%;
+  text-wrap: nowrap;
+}
+
+.fromToCityName {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.flightDetailsAirports {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+}
+
+.baggageDetails {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 4%;
+}
+
+.citiesRefund {
+  width: 100%;
+  background-color: #028fa3;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  padding: 2% 4%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 12px;
+}
+
+.layoverDetails {
+  width: 98%;
+  font-size: 15px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 1%;
+  padding: 2%;
+  color: #028fa3;
+  background-color: rgba(2, 143, 163, 0.08);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.fareDetailsContent {
+  width: 96%;
+  margin-left: 2%;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.fareDetailsHead {
+  color: #ffffff;
+  font-size: 10px;
+  padding: 2%;
+  padding-top: 3%;
+  background: var(
+    --Gradient,
+    linear-gradient(90deg, #028fa3 0%, #efc007 121.58%)
+  );
+  display: flex;
+  justify-content: flex-end;
+  gap: 8%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.cabinClassOptions {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 2%;
+  display: flex;
+}
+
+.cabinOption {
+  font-size: 14px;
+  padding-left: 2%;
+  width: 20%;
+  height: fit-content;
+  /* border-left: 3px solid #028fa3; */
+}
+
+.cabinClassFacility {
+  display: flex;
+  width: -webkit-fill-available;
+  justify-content: flex-end;
+  gap: 7%;
+}
+
+.dateChangeFee {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.basicSpanTexts {
+  font-size: 12px;
+  text-align: center;
+}
+
+.weightOption {
+  font-size: 12px;
+}
+
+.fareDetailsFinalPrice {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.FareDetailsSelectBtn {
+  border: none;
+  border-radius: 4px;
+  background-color: #028fa3;
+  color: #fff;
+  padding: 5% 0%;
+  font-size: 12px;
+  box-shadow: 0px 4px 4px 0px #231f201f;
+}
+
+.desktopNavbar {
+  display: none;
+}
+
+.selectedCityDetails {
+  display: none;
+}
+
+.filterContentContainer {
+  display: none;
+}
+
+.priceRange {
+  font-size: 1vw;
+}
+
+.rotated {
+  transform: rotate(180deg);
+  transition: transform 0.3s;
+  background-color: #028fa317 !important;
+}
+
+.activeButtons {
+  background-color: #028fa317 !important;
+}
+
+.rightpartTicket1 {
+  display: flex;
+  border-radius: 62px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  min-width: 46px;
+  width: fit-content;
+  height: 14px;
+  background: #028fa312;
+  margin-left: 10%;
+}
+
+.FareDetails1 {
+  font-family: Roboto;
+  font-size: 6.5px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #028fa3;
+}
+
+.bottomSheetOpen {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+}
+
+.addingdays {
+  font-size: 9px;
+  color: #878786;
+}
+
+.rightmoving {
+  margin-right: -18px;
+}
+
+.airline {
+  text-wrap: wrap;
+  width: 118px;
+}
+
+.desktopstyle {
+  display: block;
+}
+
+.airlineDetails {
+  display: none;
+}
+
+.completeContent {
+  width: 100%;
+  height: max-content;
+}
+
+@media (min-width: 850px) {
+  .flightTicket {
+    display: flex;
+    width: 96%;
+    background-color: #fff;
+    margin-left: 2%;
+    margin-top: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    /* box-shadow: 0px 4px 4px 0px #231f201f; */
+    box-shadow: 0px 4px 4px 0px #169cb038;
+  }
+
+  .leftpartTicket {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    padding-right: 1%;
+  }
+
+  .desktopstyle {
+    display: none;
+  }
+
+  .mobilestyle {
+    display: block;
+  }
+
+  .airlineDetails {
+    width: 20%;
+    display: block;
+    align-self: center;
+  }
+
+  .flightLoad {
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+
+  .mainContainer {
+    display: block;
+    left: 50%;
+    right: 0%;
+    width: 50%;
+    height: 100%;
+  }
+
+  .logoAirline {
+    font-size: 1.2vw;
+  }
+
+  .logoAirline2 {
+    font-size: 1.2vw;
+    display: flex;
+    align-items: center;
+    gap: 3%;
+  }
+
+  .rightpartTicket {
+    width: 15%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: center;
+    justify-content: right;
+    white-space: nowrap;
+  }
+
+  .rightpartTicket1 {
+    width: fit-content;
+    padding: 1% 10%;
+    margin-left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-content: right;
+    white-space: nowrap;
+  }
+
+  .FareDetails1 {
+    font-size: 11px;
+    text-wrap: nowrap;
+  }
+
+  .modifySection {
+    display: none;
+  }
+
+  .desktopNavbar {
+    display: block;
+    width: 100%;
+    /* height: 40vh; */
+    background-image: url(../../../../public/img/flightNavBg.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .completeContent {
+    width: 100%;
+    background-color: #e5e9eb;
+    padding-bottom: 10%;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .desktopContentAlign {
+    width: 70%;
+    float: right;
+    padding-right: 1%;
+  }
+
+  .desktopFilterHide {
+    display: none;
+  }
+
+  .desktopTogglesLine {
+    background-color: #ffffff;
+    margin-top: 2%;
+    padding: 1% 3%;
+    border-radius: 10px;
+    width: 98%;
+  }
+
+  .allTogglesLine {
+    margin-left: 0%;
+    justify-content: space-between;
+    margin-top: 0%;
+  }
+
+  .toggleButtons {
+    border: none;
+    background: none;
+    box-shadow: none;
+    font-size: 1.2vw;
+    padding: 0.8% 5%;
+    font-weight: 500;
+  }
+
+  .selectedCityDetails {
+    display: flex;
+    align-items: baseline;
+    gap: 2%;
+    color: #028fa3;
+    font-size: 1vw;
+    font-weight: 500;
+  }
+
+  .otherDetails {
+    font-size: 1vw;
+    font-weight: 400;
+  }
+
+  .filterContentContainer {
+    width: 29%;
+    float: left;
+    padding: 1%;
+    display: block;
+  }
+
+  .middlepartTicket {
+    display: none;
+  }
+
+  .fromToTime {
+    font-size: 1.1vw;
+    line-height: normal;
+    height: fit-content;
+    color: #000000;
+  }
+
+  .fromToCityCode {
+    font-size: 1.2vw;
+    line-height: initial;
+  }
+
+  .dashLineText {
+    font-size: 0.8vw;
+  }
+
+  .Economy {
+    display: block;
+    font-size: 14px;
+    margin-right: -25px;
+    text-align: center;
+  }
+
+  .airlineSelectBtn {
+    font-size: 1.2vw;
+    width: 61%;
+    padding: 0.5%;
+    border-radius: 4px;
+    border: none;
+    background-color: #028fa3;
+    color: #ffffff;
+    box-shadow: 0px 4px 4px 0px #231f201f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .priceFonts {
+    font-size: 1.2vw;
+  }
+
+  .seatsLeftDetails {
+    font-size: 0.8vw;
+    font-weight: 500;
+    color: #028fa3;
+  }
+
+  .flightFareToggles {
+    font-size: 0.8vw;
+    font-weight: 450;
+    gap: 7%;
+  }
+
+  .fromToTiming {
+    margin-top: 0%;
+  }
+
+  .arrowDesktop {
+    padding: 5% 10%;
+    background-color: #ffffff;
+  }
+
+  .rotated {
+    transform: rotate(180deg);
+    transition: transform 0.3s;
+  }
+
+  .flightsContainer {
+    padding-top: 0;
+    margin-top: 1%;
+    width: auto;
+    height: 180vh;
+    margin-left: -2%;
+    overflow-y: auto;
+  }
+
+  .resultsDetails {
+    font-size: 14px;
+  }
+
+  .airline {
+    text-wrap: wrap;
+    /* font-weight: 500; */
+  }
+
+  .planeLoader {
+    width: 20%;
+  }
+
+  .loaderText {
+    font-size: 2vw;
+  }
+
+  .loaderText1 {
+    font-size: 1.3vw;
+  }
+}
+
+@media (min-width: 1500px) {
+  .completeContent {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .planeLoader {
+    width: 18%;
+  }
+
+  .loaderText {
+    font-size: 2vw;
+  }
+
+  .loaderText1 {
+    font-size: 1.3vw;
+  }
+
+  .selectedCityDetails {
+    display: flex;
+    align-items: baseline;
+    gap: 2%;
+    color: #028fa3;
+    font-size: 1vw;
+    font-weight: 500;
+  }
+
+  .otherDetails {
+    font-size: 1vw;
+    font-weight: 400;
+  }
+}

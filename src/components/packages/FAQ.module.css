@@ -1,0 +1,23 @@
+/* components/FAQ.module.css */
+.faqPage {
+  /* Add styles for the FAQ page container */
+  cursor: pointer;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.faqPage:hover {
+  background-color: #e9e9e9;
+}
+
+.body {
+  /* Add styles for the answer body */
+  display: block;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+}

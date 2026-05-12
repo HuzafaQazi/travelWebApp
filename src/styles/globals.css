@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  font-family: "Roboto";
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.dot {
+  border: none;
+  width: 10px;
+  height: 10px;
+  background: #c5c5c5;
+  border-radius: 50%;
+  margin: 0 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dot:focus {
+  outline: none;
+}
+
+.dot.active {
+  background: #000;
+}
+
+.react-datepicker__navigation {
+  height: 65px !important;
+}
+.calendar-container .react-calendar__tile--neighboringMonth {
+  display: none;
+}
+
+.dropdown-menu {
+  --bs-dropdown-link-active-bg: rgba(2, 143, 163, 1) !important;
+}
+
+.dropdown-item select:first-child {
+  background-color: blueviolet;
+}
+
+.react-datepicker-wrapper {
+  display: inline !important;
+}
+
+.react-datepicker__input-container {
+  width: 90% !important;
+}
+
+.loadingSpinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #000;
+  border-radius: 50%;
+  width: 19px;
+  height: 19px;
+  animation: spin 2s linear infinite;
+}
+
+.react-select__value-container.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+}
+
+.react-select__value-container.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* WebKit */
+}
+
+.calendar-wrapper.double-view .react-calendar__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 1rem; */
+}
+
+.calendar-wrapper.double-view .react-calendar__navigation__label {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  color: #000000;
+  font-weight: bold;
+}
+
+.calendar-wrapper.double-view .react-calendar__navigation__label__labelText {
+  width: 100%; /* Ensures the label spans across its container */
+  text-align: center;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  visibility: hidden;
+}
+
+.calendar-wrapper.double-view .react-calendar__viewContainer {
+  display: flex;
+  gap: 40px; /* Adds space between the two calendar views */
+}
+
+.carousel-track {
+  animation-play-state: running;
+  transition: animation-play-state 0.3s ease-in-out;
+}
+
+.carousel-track:hover {
+  animation-play-state: paused;
+}
+
+@media (min-width: 767px) {
+  .Toastify__toast-container {
+    z-index: 9999999999 !important;
+  }
+
+  .react-datepicker-popper {
+    /* display: flex;
+    justify-content: center;
+    width:90%; */
+    /* margin:2%; */
+    z-index: 9999999 !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .Toastify__toast-container {
+    z-index: 9999999999 !important;
+  }
+
+  .react-datepicker-popper {
+    /* display: flex;
+    justify-content: center;
+    width:90%; */
+    /* margin:2%; */
+    z-index: 9999999 !important;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.custom-padding {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.padding-banner {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .custom-padding {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+  }
+
+  .padding-banner {
+    padding: 0.2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .calendar-wrapper.mobile-calendar {
+    font-size: 13px;
+  }
+
+  .calendar-wrapper.mobile-calendar .react-calendar {
+    width: 100%;
+    max-width: 340px;
+    min-width: 280px;
+    font-size: 13px;
+  }
+
+  .calendar-wrapper.mobile-calendar .react-calendar__navigation {
+    height: 40px;
+    margin-bottom: 0.5em;
+  }
+
+  .calendar-wrapper.mobile-calendar .react-calendar__navigation button {
+    min-width: 40px;
+    font-size: 15px;
+  }
+
+  .calendar-wrapper.mobile-calendar .react-calendar__month-view__weekdays {
+    font-size: 12px;
+  }
+
+  .calendar-wrapper.mobile-calendar
+    .react-calendar__month-view__weekdays__weekday {
+    padding: 0.4em;
+  }
+
+  .calendar-wrapper.mobile-calendar .react-calendar__tile {
+    padding: 0.6em 0.4em;
+    font-size: 13px;
+    height: 42px;
+  }
+
+  .calendar-wrapper.mobile-calendar .react-calendar__month-view__days__day {
+    height: 42px;
+  }
+
+  /* Adjust the calendar dropdown container */
+  .calendar-wrapper.mobile-calendar .react-calendar__viewContainer {
+    padding: 0.5em;
+  }
+
+  /* Fix width for year and decade views */
+  .calendar-wrapper.mobile-calendar .react-calendar__year-view,
+  .calendar-wrapper.mobile-calendar .react-calendar__decade-view,
+  .calendar-wrapper.mobile-calendar .react-calendar__century-view {
+    width: 100%;
+  }
+
+  .calendar-wrapper.mobile-calendar
+    .react-calendar__year-view
+    .react-calendar__tile,
+  .calendar-wrapper.mobile-calendar
+    .react-calendar__decade-view
+    .react-calendar__tile,
+  .calendar-wrapper.mobile-calendar
+    .react-calendar__century-view
+    .react-calendar__tile {
+    padding: 1em 0.5em;
+    font-size: 13px;
+  }
+}

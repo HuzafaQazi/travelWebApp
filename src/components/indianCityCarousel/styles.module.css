@@ -1,0 +1,80 @@
+.indianCityCarousel {
+  position: relative;
+}
+
+.gemsOfIndia {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 30px;
+  line-height: 72px;
+
+  /* Text colour */
+
+  color: #030b09;
+}
+
+.keenSlider {
+  display: flex;
+  height: 350px;
+}
+
+.keenSlider1 {
+  height: 350px;
+  position: relative;
+  width: 100%;
+  position: relative;
+}
+
+.keenSliderImage1 {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  background: rgba(3, 11, 9, 0.05);
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.05);
+  border-radius: 18px;
+}
+
+.dots {
+  display: flex;
+  padding: 10px 0;
+  justify-content: center;
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  fill: #fff;
+  cursor: pointer;
+}
+
+.arrowLeft {
+  right: auto;
+  left: 0;
+}
+
+.arrowRight {
+  left: auto;
+  right: 0;
+}
+
+.arrowDisabled {
+  fill: rgba(255, 255, 255, 0.5);
+}
+
+.indianCityName {
+  position: absolute;
+  left: 25px;
+  bottom: 15px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 25px;
+  line-height: 48px;
+
+  color: #ffffff;
+}

@@ -1,0 +1,689 @@
+.qugoLogo {
+  width: 200px;
+  height: 55px;
+}
+
+.headerCommonbg {
+  height: 14vh;
+  width: 100%;
+  background-color: #002a30e5 !important;
+  position: absolute;
+}
+
+.headerCommons {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 4%;
+  height: 8vh;
+}
+
+.header {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.imageContainer {
+  margin-right: 10px;
+}
+
+.textContainer {
+  flex: 1;
+}
+
+.user {
+  float: right;
+  margin-right: 2em;
+}
+
+.searchAlignmentText {
+  visibility: hidden;
+  display: block;
+}
+
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.searchButton:hover {
+  color: #028fa3;
+}
+
+.searchButton[disabled],
+.searchButton.loading {
+  background-color: rgba(2, 143, 163, 1);
+  color: #028fa3;
+  border: none;
+}
+
+.searchButton.loading {
+  cursor: not-allowed;
+}
+
+.dateContainer {
+  display: block;
+  width: 100%;
+}
+
+.transparentInput {
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+#banner {
+  width: 100%;
+  height: auto;
+  /* background: url("../../images/louis-tripp.jpg") top center; */
+  background-size: cover;
+  justify-content: center;
+}
+
+.customInput::placeholder {
+  color: white;
+  /* Replace 'red' with your desired color */
+}
+
+.hotelSearchIcon {
+  color: #ffffff;
+  /* padding: 10px 50px; */
+  /* font-size: 20px; */
+}
+
+.logindiv {
+  position: absolute;
+  /* right: 18px; */
+  /* top: 16px; */
+  flex-direction: row;
+  display: flex;
+}
+
+.topbanner {
+  align-items: center;
+  position: relative;
+}
+
+.headerBackground {
+  background: rgba(255, 255, 255, 0.9);
+  color: white;
+}
+
+.navbarContainer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* bug 1 */
+.navbar-link:active {
+  position: relative;
+}
+
+.navbar-link:active::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: -9px;
+  width: 125%;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #028fa3;
+}
+
+.navbar-link:active::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -9px;
+  width: 125%;
+  height: 120%;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 143, 163, 0) 0%,
+    rgba(2, 143, 163, 0.5) 160%
+  );
+}
+
+.dropdown-item label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.dropdown-item input {
+  margin-bottom: 5px;
+}
+
+.dropdown-menu {
+  width: 300px;
+}
+
+.dropdown {
+  font-family: "Gotham";
+  background: transparent;
+  border: none;
+  color: black;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: -12px;
+}
+
+.dropdownRooms {
+  display: inline;
+}
+
+select#rooms:hover option {
+  background-color: green !important;
+}
+
+.dropdownRoomDetails {
+  display: flex;
+  flex: 1;
+}
+
+.qugoLogo {
+  width: 100px;
+  height: 30px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.profileLogo {
+  width: 25px;
+  height: 25px;
+  margin-top: 4px;
+}
+
+.logintext {
+  /* position: absolute;
+      right: 18px;
+      top: 16px; */
+  color: white;
+  margin-left: 12px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2px 0px;
+  cursor: pointer;
+}
+
+.date-picker-wrapper input button .date-picker-wrapper {
+  position: relative;
+}
+
+.calendar-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.backButton {
+  background-color: rgba(2, 143, 163, 1);
+  color: white;
+  font-family: "Roboto";
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  top: 24px;
+  right: 10px;
+  /* padding: 4px 10px; */
+  transition: background-color 0.2s ease;
+}
+
+.backButton:hover {
+  background-color: rgba(2, 143, 163, 0.2);
+}
+
+.backButton:active {
+  background-color: rgba(2, 143, 163, 0.4);
+}
+
+.dropdown-option {
+  background-color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dropdown-option:hover {
+  background-color: rgba(2, 143, 163, 1);
+}
+
+.active-option {
+  background-color: rgba(2, 143, 163, 1);
+}
+
+.searchHotelButton {
+  position: relative;
+  color: #ffffff !important;
+}
+
+.HotelButton {
+  background-color: #0290a3 !important;
+  color: #ffffff !important;
+  border-radius: 19px 19px 0px 0px;
+}
+
+.searchHotelButton::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: -9px;
+  width: 125%;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #028fa3;
+}
+
+.searchHotelButton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -9px;
+  width: 125%;
+  height: 120%;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 143, 163, 0) 0%,
+    rgba(2, 143, 163, 0.5) 160%
+  );
+}
+
+.scrollableDropdown {
+  max-height: 200px;
+  overflow-y: auto;
+  font-size: 15px;
+  width: 500px;
+  line-height: 15px;
+}
+
+/* landingpage copied search */
+.navbox {
+  /* border: 0px solid #ffffff; */
+  border-radius: 16px;
+  width: 90%;
+  /* position: absolute; */
+  padding-bottom: 3%;
+  height: fit-content;
+  margin-top: 15%;
+  margin-left: 5%;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(2px);
+}
+
+@media (min-width: 555px) and (max-width: 1000px) {
+  .navbox {
+    margin-top: 25%;
+  }
+}
+
+.container {
+  padding-top: 0%;
+}
+
+.linksContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 5%;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #ffffff;
+  padding: 5px 9px;
+  margin-right: 2%;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  margin-bottom: 1px;
+}
+
+.linkTag {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.activeLink {
+  position: relative;
+  cursor: pointer;
+}
+
+.activeLink::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: -9px;
+  width: 125%;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #028fa3;
+}
+
+.activeLink::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -9px;
+  width: 125%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 143, 163, 0) 0%,
+    rgba(2, 143, 163, 0.5) 160%
+  );
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #ccc;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 0%;
+  margin-bottom: 2%;
+}
+
+.vectorIcons {
+  margin-right: 5px;
+  width: fit-content;
+  height: 18px;
+}
+
+.selectors {
+  /* display: flex; */
+  width: 100%;
+  /* justify-content: space-between; */
+  margin-top: 0%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1.5rem;
+}
+
+.formInput {
+  width: 100%;
+  background: transparent;
+  color: #ffffff;
+  border: none;
+  border-bottom: 0.11px solid white;
+  border-radius: 0px;
+  font-weight: bold;
+  margin-top: 0%;
+  margin-right: 3%;
+}
+
+.formInput::placeholder {
+  font-size: 15px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.datesRow {
+  width: 40%;
+  gap: 0%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.selector {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.selector2 {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.selector4 {
+  height: fit-content;
+}
+
+.heading {
+  font-size: 1vw;
+  margin-bottom: 0%;
+}
+
+.dropdown {
+  width: 100%;
+  font-size: 1.3vw;
+  margin-top: 4%;
+  background: none;
+  border: none;
+  color: #ffffff;
+  border-bottom: 1px solid white;
+}
+
+.dividedropdown {
+  display: flex;
+  justify-content: space-between;
+}
+
+.halfdropdown {
+  width: 45%;
+  font-size: 1.3vw;
+  color: #ffffff;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.mobsearchButton {
+  display: none;
+}
+
+.datesFlexdisplay {
+  width: 25%;
+  display: flex;
+  gap: 60px;
+}
+
+.navFlexContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-left: 5%;
+  gap: 65px;
+}
+
+.customContainer {
+  width: 100%;
+  /* margin-top: -47px; */
+  /* padding-top: 10px; */
+  padding-bottom: 3%;
+  /* background: rgba(0, 0, 0, 0.35); */
+  background: linear-gradient(rgba(21, 58, 64, 0.76), rgba(21, 58, 64, 0.76)),
+    url("../../images/louis-tripp1.png") top center;
+  border-radius: 0px;
+  background-size: cover;
+  max-width: 100% !important;
+  background-position: top;
+  position: relative;
+}
+
+.destinationContainer {
+  width: 15%;
+  padding-right: 2%;
+}
+
+.checkindateContainer {
+  width: 40%;
+}
+
+.searchButton {
+  position: absolute;
+  width: 10%;
+  background-color: white !important;
+  /* color: rgba(2, 143, 163, 1) !important; */
+  color: #028fa3;
+  border: none;
+  border-radius: 9px;
+  font-size: 1.2rem;
+}
+
+.guestnumContainer {
+  width: fit-content;
+}
+
+/* .headerContainer {
+  margin-left: 5% !important;
+} */
+
+.customSearchButtonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.deskSearchButton {
+  display: none;
+}
+
+.inputDestination::placeholder {
+  color: #ffffff;
+}
+
+.mobileSearchButton {
+  /* position: absolute; */
+  /* width: fit-content; */
+  margin-top: 1%;
+  margin-left: 8%;
+}
+
+/* .customformInputdates1 {
+  width: 50%;
+} */
+
+@media (max-width: 550px) {
+  #banner {
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .destinationContainer {
+    width: 100%;
+    padding-right: 0%;
+  }
+
+  .navFlexContainer {
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .mobileSearchButton {
+    height: 50px;
+    margin-left: 106px;
+  }
+
+  .customContainer {
+    padding-top: 10px;
+    width: auto;
+    margin-top: -26px;
+    background: linear-gradient(rgba(21, 58, 64, 0.76), rgba(21, 58, 64, 0.76)),
+      url("../../images/louis-tripp1.png") top center;
+  }
+
+  .searchButton {
+    margin-left: 0%;
+    width: 40%;
+    background-color: rgba(2, 143, 163, 1);
+    color: #028fa3;
+  }
+
+  .navFlexContainer {
+    margin-left: 1px;
+    justify-content: last baseline;
+  }
+
+  .customformInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: rgba(2, 143, 163, 1);
+    border-radius: 8px;
+  }
+
+  .customformInputdates1 {
+    width: 114%;
+    background-color: rgba(2, 143, 163, 1);
+    border-radius: 8px;
+    /* border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px; */
+    padding: 2%;
+  }
+
+  .customformInputdates2 {
+    width: 114%;
+    background-color: rgba(2, 143, 163, 1);
+    border-radius: 8px;
+    /* border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px; */
+    padding: 2%;
+    margin-left: -9px;
+  }
+
+  .datesFlexdisplay {
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 100%;
+  }
+
+  .inputDestination::placeholder {
+    color: #ffffff;
+  }
+
+  /* .inputDestination:hover {
+    border: none;
+    outline: none;
+    background-color: #028fa3;
+  } */
+
+  .dropdown {
+    margin-top: 0%;
+    width: 37%;
+    font-size: 16px;
+  }
+
+  .searchAlignmentText {
+    display: none;
+  }
+
+  /* .customSearchButtonContainer {
+
+  } */
+
+  .guestnumContainer {
+    width: 100%;
+  }
+
+  .headerCommonbg {
+    height: 50px;
+    width: 100%;
+  }
+
+  .scrollableDropdown {
+    width: auto;
+  }
+
+  .headerCommons {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 4%;
+    height: 5vh;
+  }
+}
+
+@media (max-width: 1345px) {
+}

@@ -1,0 +1,318 @@
+.sideSheet {
+  position: fixed;
+  top: 0;
+  right: 0%;
+  width: 68%;
+  height: 100%;
+  background-color: #ffffff;
+  transition: right 0.3s ease;
+  z-index: 9;
+  overflow: auto;
+  /* display: none; */
+}
+
+.closeButton {
+  cursor: pointer;
+  padding: 0% 1%;
+  border: none;
+  color: #ffffff;
+  background: none;
+  font-size: 1.5vw;
+}
+
+.fixedHead {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  width: 100%;
+  padding: 2% 2%;
+  z-index: 99;
+  background: linear-gradient(90deg, #028fa3 -13.6%, #49585a 106.05%);
+  font-size: 1.5vw;
+
+  flex-direction: row;
+  gap: 121px;
+}
+
+.headOptions {
+  color: #ffffff;
+}
+
+.reviewDetailsContainer {
+  background: rgba(229, 233, 235, 0.46);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  padding: 8% 2%;
+  font-size: 2vw;
+  padding-bottom: 2%;
+}
+
+.scrollContent {
+  overflow-y: auto;
+  padding-bottom: 10%;
+}
+
+.addProceedBtn {
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 5%;
+  display: flex;
+  gap: 3%;
+  justify-content: center;
+}
+
+.addSeatBtn {
+  text-align: center;
+  width: 45%;
+  padding: 2% 4%;
+  background-color: #ffffff;
+  color: #028fa3;
+  border: 1px solid #028fa3;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.proceedBtn {
+  text-align: center;
+  width: 45%;
+  padding: 2% 4%;
+  background-color: #028fa3;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* {PRIVE LIST} */
+.priceRows {
+  padding-bottom: 1%;
+  padding-top: 1%;
+  width: 94%;
+  margin-left: 1.7%;
+  margin-top: 2%;
+  color: #878786;
+  font-size: 12px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  border: 0.35px solid #028fa396;
+  box-shadow: 0px 4px 4px 0px #91b2e41a;
+}
+.priceRow {
+  display: flex;
+  padding: 0% 3%;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+.priceRow1 {
+  display: flex;
+  padding: 0% 2%;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+.sideSheet.open {
+  right: 0;
+  display: block;
+  width: 80%;
+}
+.fixedHead1 {
+  display: flex;
+  flex-direction: row;
+  text-wrap: nowrap;
+  gap: 18px;
+}
+.wholecontainer {
+  padding-bottom: 2.5%;
+}
+
+.wayscontainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 224px;
+  height: 82px;
+
+  border-radius: 15px;
+  background: #ffffff;
+  /* border: 1px solid red; */
+  box-shadow: 0px 4px 36px 5px #0000000d;
+  padding: 1%;
+  margin-left: 22px;
+}
+.ways {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #028fa3;
+  /* margin-left: 27px; */
+}
+.travelerdetails {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #028fa3;
+}
+.priceRow {
+  font-size: 1.2vw;
+  margin-top: 0.8%;
+}
+.priceRow1 {
+  color: #028fa3;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 1%;
+}
+.mealscontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 2.5%;
+}
+.Foodmainue {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+}
+.menucontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1%;
+  padding: 2% 6%;
+  width: 90%;
+  height: fit-content;
+  border-radius: 19px;
+  border: 1px;
+  margin: 0 auto;
+  border: 1px solid #028fa36e;
+}
+
+.desert1 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #878786;
+  width: 30%;
+  height: fit-content;
+}
+.costruppes {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #028fa3;
+  width: 14%;
+  height: fit-content;
+}
+.counterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 125px;
+  margin-right: 13%;
+}
+.button {
+  /* padding: 8px; */
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  width: 38px;
+  height: 38px;
+  font-size: 10px;
+  color: #010e16;
+  font-size: large;
+  border-radius: 2.62px;
+  background: #ffffff;
+  box-shadow: 0px 0.9440069794654846px 4.405365467071533px 0px #0000003d;
+}
+.count {
+  font-size: 18px;
+}
+.button:hover {
+  background-color: #028fa3;
+  color: white;
+}
+
+@media (max-width: 550px) {
+  .wayscontainer {
+    width: 130px;
+    height: 60px;
+  }
+  .sideSheet {
+    width: 100%;
+  }
+  .ways {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .travelerdetails {
+    font-size: 10px;
+    line-height: 9px;
+  }
+  .priceRow1 {
+    font-size: 12px;
+  }
+  .Foodmainue {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .desert1 {
+    font-size: 10px;
+  }
+  .costruppes {
+    font-size: 10px;
+  }
+  .button {
+    width: 22px;
+    height: 25px;
+    font-size: 10px;
+  }
+  .counterContainer {
+    width: 72px;
+  }
+  .count {
+    font-size: 11px;
+  }
+  .priceRow {
+    font-size: 2.2vw;
+    margin-top: 0.8%;
+  }
+  .reviewDetailsContainer {
+    font-size: 14px;
+    padding: 11% 2%;
+    padding-bottom: 2%;
+  }
+  .maincontainer {
+    display: block;
+    margin-bottom: 3%;
+    margin-left: 2%;
+    margin-left: -3%;
+  }
+}

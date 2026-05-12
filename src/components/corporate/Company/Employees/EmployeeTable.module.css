@@ -1,0 +1,158 @@
+.checkboxColumn {
+  width: 50px;
+  cursor: pointer;
+}
+
+.tableContainer {
+  overflow-x: auto;
+  width: 100%;
+  margin-top: 2%;
+}
+
+.tableContainer::-webkit-scrollbar {
+  margin-top: 2px;
+  width: 5px;
+  height: 10px;
+}
+
+.tableContainer::-webkit-scrollbar-thumb {
+  background-color: #028fa3;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tableContainer::-webkit-scrollbar-track {
+  top: 2px;
+  background-color: #028fa330;
+  /* Background color of the scrollbar track */
+  border-radius: 5px;
+  /* Round the corners of the scrollbar track */
+}
+
+.customTable {
+  width: max-content;
+  border-collapse: collapse;
+  table-layout: auto;
+  /* Allow columns to adjust based on their content */
+}
+
+.customTable th,
+.customTable td {
+  padding: 8px;
+  /* border: 1px solid #ddd; */
+  white-space: nowrap;
+  /* Prevent text wrapping to keep columns as wide as their content */
+}
+
+.customTable tr {
+  border-bottom: 1px solid #ddd;
+  /* Add bottom border to each row */
+}
+
+.customTable th {
+  background-color: #cbeaef;
+}
+
+.customTable th:nth-child(1),
+.customTable td:nth-child(1),
+.customTable th:nth-child(2),
+.customTable td:nth-child(2) {
+  position: sticky;
+  z-index: 1;
+  background-color: #ffffff;
+  color: #000;
+}
+
+.customTable th:nth-child(2) {
+  background-color: #cbeaef;
+  color: #028fa3;
+}
+
+.customTable td:nth-child(2):hover {
+  background-color: #028fa3;
+  color: #fff;
+  z-index: 5;
+}
+
+.customTable th:nth-child(1),
+.customTable td:nth-child(1) {
+  left: 0;
+  z-index: 3;
+}
+
+.customTable th:nth-child(2),
+.customTable td:nth-child(2) {
+  left: 50px;
+  z-index: 2;
+}
+
+.customTable th {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: #028fa3;
+  font-size: 18px;
+  text-align: left;
+}
+
+.customTable td {
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  /* color: #1D2C3C; */
+}
+
+.customTable td:nth-child(2) {
+  font-weight: 400;
+}
+
+.customTable th:not(:first-child),
+.customTable td:not(:first-child) {
+  min-width: 250px;
+  /* Set a minimum width for the table cells */
+  width: fit-content;
+  /* Set a maximum width to fit content */
+}
+
+.customTable tbody tr:hover {
+  background-color: #028fa3;
+  color: #ffffff;
+}
+
+@media (max-width: 640px) {
+  .customTable th:nth-child(2),
+  .customTable td:nth-child(2) {
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+    color: #000;
+  }
+
+  .customTable th:nth-child(2),
+  .customTable td:nth-child(2) {
+    left: 0px;
+    z-index: 2;
+  }
+
+  .customTable th {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #028fa3;
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .customTable td {
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    /* color: #1D2C3C; */
+  }
+
+  .customTable th:not(:first-child),
+  .customTable td:not(:first-child) {
+    min-width: 180px;
+    /* Set a minimum width for the table cells */
+    width: fit-content;
+    /* Set a maximum width to fit content */
+  }
+}

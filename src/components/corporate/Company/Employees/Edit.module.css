@@ -1,0 +1,74 @@
+/* Side sheet */
+.sideSheet {
+  position: fixed;
+  top: 10%;
+  right: 0%;
+  /* Make sure it's fully visible when open */
+  width: 50%;
+  height: 90%;
+  padding: 1%;
+  background-color: #ffffff;
+  /* box-shadow: -4px 0 10px rgba(0, 0, 0, 0.2); */
+  overflow-y: auto;
+  /* Enable vertical scrolling */
+  z-index: 999;
+  /* Ensure it’s above the overlay */
+  transition: transform 0.3s ease;
+  transform: translateX(100%);
+  /* Start off-screen */
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  /* Dark overlay */
+  /* backdrop-filter: blur(10px);  */
+  transition: opacity 0.3s ease;
+  opacity: 1;
+  pointer-events: none;
+  /* Prevent interactions */
+  z-index: 998;
+  /* Ensure it’s below the sheet but above content */
+}
+
+/* Show the side sheet and overlay when open */
+.sideSheet.open {
+  transform: translateX(0);
+  /* Slide in */
+}
+
+.overlay.open {
+  opacity: 1;
+  pointer-events: auto;
+  /* Allow interactions */
+}
+
+.sideSheetContent {
+  padding: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+.closeButton {
+  top: 10px;
+  right: 10px;
+  padding: 4px 8px;
+  border-radius: 50%;
+  border: none;
+  background: none;
+  font-size: 10px;
+  font-weight: 800;
+  background-color: gray;
+  color: #ffffff;
+  cursor: pointer;
+  z-index: 1002;
+}
+
+@media (max-width: 640px) {
+  .sideSheet {
+    width: 100%;
+  }
+}
