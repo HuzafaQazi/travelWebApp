@@ -1,4 +1,3 @@
-import { Inter } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.css";
 import Footer from "@/components/footer/footer";
 import style from "./styles.module.css";
@@ -19,7 +18,6 @@ import { faSpinner } from "@fortawesome/free-solid-svg-icons";
 import ProfileHeader from "@/components/profileheader/profileheader";
 import { getTabSpecificData, setTabSpecificData } from "@/utils/axios/axios";
 
-const inter = Inter({ subsets: ["latin"] });
 
 const calculateNoOfNights = (checkin, checkout) => {
   const oneDay = 24 * 60 * 60 * 1000; // Number of milliseconds in a day

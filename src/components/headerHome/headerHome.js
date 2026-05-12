@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { Inter } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.css";
 import style from "./styles.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -28,7 +27,6 @@ import "react-datepicker/dist/react-datepicker.css";
 import { faCalendarAlt } from "@fortawesome/free-solid-svg-icons";
 import TabTitle from "../tabtitles/tabtitle";
 import showToast from "@/utils/toast";
-const inter = Inter({ subsets: ["latin"] });
 
 const formatDateToDDMMYYYY = (date) => {
   const day = String(date.getDate()).padStart(2, "0");

@@ -1,4 +1,3 @@
-import { Inter } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.css";
 import Footer from "@/components/footer/footer";
 import style from "./styles.module.css";
@@ -56,7 +55,6 @@ import { useWalletBalance } from "@/hooks/useWalletBalance";
 import Footer1 from "@/components/corporate/footerCorporate/footerCorporate";
 import UseWalletBalanceButton from "@/components/wallet/walletButton/useWalletButton";
 
-const inter = Inter({ subsets: ["latin"] });
 const calculateNoOfNights = (checkin, checkout) => {
   const oneDay = 24 * 60 * 60 * 1000; // Number of milliseconds in a day
   const [checkinDay, checkinMonth, checkinYear] = checkin.split("-");

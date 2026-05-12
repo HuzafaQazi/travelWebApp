@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { Inter } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.css";
 import style from "./styles.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,8 +12,6 @@ import props from "prop-types";
 import { Modal } from "react-bootstrap";
 import qugoLogo1 from "../../images/qugoLogo1.png";
 import { Nav, Tab, Form } from "react-bootstrap";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function HotelSearchShort() {
   const [isOpen, setIsOpen] = useState(false);

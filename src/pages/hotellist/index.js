@@ -1,4 +1,3 @@
-import { Inter } from "next/font/google";
 import style from "./styles.module.css";
 import Header from "../../components/header/header";
 import Footer from "@/components/footer/footer";
@@ -32,7 +31,6 @@ import { useUserType } from "@/hooks/useUserType";
 import pako from "pako";
 import Footer1 from "@/components/corporate/footerCorporate/footerCorporate";
 
-const inter = Inter({ subsets: ["latin"] });
 
 const calculateNoOfNights = (checkin, checkout) => {
   const oneDay = 24 * 60 * 60 * 1000; // Number of milliseconds in a day

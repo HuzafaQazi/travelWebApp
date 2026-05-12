@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Inter } from "next/font/google";
 import qugologo from "../../images/qugoLogo.png";
 import "bootstrap/dist/css/bootstrap.css";
 import style from "./styles.module.css";
@@ -19,7 +18,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import profileLogo from "../../images/profileLogo.png";
 import { useRouter } from "next/router";
 import useLocalStorage from "@/hooks/useLocalStorage";
-const inter = Inter({ subsets: ["latin"] });
 
 const formatDateToDDMMYYYY = (date) => {
   const day = String(date.getDate()).padStart(2, "0");

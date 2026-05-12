@@ -1,12 +1,10 @@
 import Image from "next/image";
-import { Inter } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.css";
 import style from "./styles.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import qugologo from "../../images/qugoLogo.png";
 
-const inter = Inter({ subsets: ["latin"] });
 
 export default function HotelSearch() {
   return (

@@ -1,6 +1,5 @@
 import Footer from "@/components/footer/footer";
 import "bootstrap/dist/css/bootstrap.css";
-import { Inter } from "next/font/google";
 import style from "./styles.module.css";
 // import image7 from "../../images/Travel/Switzerland.jpg";
 import GoToTopButton from "@/components/gototopbutton/gototopbutton";
@@ -15,7 +14,6 @@ import { fetchUserIp } from "../../../utils/fetchUserIP";
 import CityCarousel from "../../components/indianCityCarousel/indianCityCarousel";
 import OffersCarousel from "../../components/offersCarousel/offerCarousel";
 
-const inter = Inter({ subsets: ["latin"] });
 
 export default function HomePage(props) {
   const router = useRouter();
