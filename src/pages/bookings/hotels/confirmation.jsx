@@ -460,10 +460,10 @@ export default function Confirmation() {
               Error in payment process. Please try again
             </div>
             <div className="flex gap-[100px] py-4">
-              <div className="text-[#028FA3] font-semibold text-base">
+              <div className="text-[#155EEF] font-semibold text-base">
                 Amount to be paid
               </div>
-              <div className="text-[#028FA3] font-semibold text-base">
+              <div className="text-[#155EEF] font-semibold text-base">
                 ₹ {formatPrice(bookingData?.BookingMasterData?.PaidAmount)}
               </div>
             </div>
@@ -471,14 +471,14 @@ export default function Confirmation() {
             <div className="flex w-1/3 gap-10">
               <button
                 onClick={redirectHome}
-                className="border-1 border-[#028fa3] w-full text-[#028fa3] text-sm p-3 rounded-lg"
+                className="border-1 border-[#155EEF] w-full text-[#155EEF] text-sm p-3 rounded-lg"
               >
                 Homepage
               </button>
 
               <button
                 onClick={retryPayment}
-                className="bg-[#028fa3] w-full text-white text-sm p-3 mt-5 rounded-lg"
+                className="bg-[#155EEF] w-full text-white text-sm p-3 mt-5 rounded-lg"
               >
                 Retry
               </button>
@@ -533,13 +533,13 @@ export default function Confirmation() {
                     <div className="flex justify-between items-center">
                       <div className="text-[#171A19] font-normal text-base">
                         Booking ID :{" "}
-                        <span className="text-[#028FA3] font-semibold text-base">
+                        <span className="text-[#155EEF] font-semibold text-base">
                           {bookingId}
                         </span>
                       </div>
                       <div className="text-[#171A19] font-normal text-base">
                         Booked on :{" "}
-                        <span className="text-[#028FA3] font-semibold text-base">
+                        <span className="text-[#155EEF] font-semibold text-base">
                           {formatBookingDate(
                             bookingData?.BookingMasterData?.BookedOn
                           )}
@@ -599,7 +599,7 @@ export default function Confirmation() {
                       <button
                         onClick={downloadInvoice}
                         disabled={downloading}
-                        className="bg-[#028fa3] w-1/2 text-white text-xs sm:text-base font-medium h-10 sm:h-16 rounded-lg"
+                        className="bg-[#155EEF] w-1/2 text-white text-xs sm:text-base font-medium h-10 sm:h-16 rounded-lg"
                       >
                         {downloading ? (
                           <>
@@ -617,7 +617,7 @@ export default function Confirmation() {
                   {bookingData?.booking_status !== "confirmed" && (
                     <button
                       onClick={handleRefundStatus}
-                      className="bg-[#028fa3] w-1/2 text-white text-xs sm:text-base font-medium h-10 sm:h-16 rounded-lg"
+                      className="bg-[#155EEF] w-1/2 text-white text-xs sm:text-base font-medium h-10 sm:h-16 rounded-lg"
                     >
                       <FontAwesomeIcon
                         icon={faCircleDown}
@@ -631,7 +631,7 @@ export default function Confirmation() {
                     <button
                       onClick={downloadTicket}
                       disabled={downloading1}
-                      className="bg-[#028fa3] w-1/2 text-white text-base font-medium h-10 sm:h-16 rounded-lg"
+                      className="bg-[#155EEF] w-1/2 text-white text-base font-medium h-10 sm:h-16 rounded-lg"
                     >
                       {/* <FontAwesomeIcon
                         icon={faCircleDown}
@@ -713,7 +713,7 @@ export default function Confirmation() {
                 <div className="mt-4 flex justify-end">
                   <button
                     onClick={closeRefundModal}
-                    className="bg-[#028fa3] text-white p-2 px-4 rounded-lg"
+                    className="bg-[#155EEF] text-white p-2 px-4 rounded-lg"
                   >
                     Close
                   </button>

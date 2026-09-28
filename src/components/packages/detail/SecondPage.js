@@ -686,11 +686,11 @@ const SecondPage = ({ activeButton, handleClick, itineraryRef, ...props }) => {
           <div className={styles["why-qugo"]}>
             <h3>Why</h3>
             <Image
-              src="/img/Qugo Logo resize 2-01.png"
-              alt=""
-              width={139}
-              height={55}
-              style={{ marginLeft: "1%" }}
+              src="/img/weyngo_logo.png"
+              alt="WeynGo"
+              width={120}
+              height={40}
+              style={{ marginLeft: "1%", objectFit: "contain" }}
             />
             <h3>?</h3>
           </div>

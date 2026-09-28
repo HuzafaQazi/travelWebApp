@@ -40,7 +40,7 @@ const BookingRequests = ({ handleRedirect, walletBalance }) => {
             Requests sent by All ({count})
           </div>
           <div
-            className="text-[#028FA3] text-lg font-medium cursor-pointer"
+            className="text-[#155EEF] text-lg font-medium cursor-pointer"
             onClick={() => handleRedirect(1)}
           >
             View All{" "}

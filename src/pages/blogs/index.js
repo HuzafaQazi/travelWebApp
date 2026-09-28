@@ -18,7 +18,7 @@ import { logEvent } from "firebase/analytics";
 import { analytics } from "../../../utils/firebase";
 import { redirectBlogDetail } from "../../../utils/pageredirection";
 import Footer1 from "@/components/corporate/footerCorporate/footerCorporate";
-import qugoLogo from "../../../public/img/Qugo Logo mobile.png";
+import weyngoLogo from "../../../public/img/weyngo_logo.png";
 import { useUserType } from "@/hooks/useUserType";
 import Header from "@/components/corporate/auth/Header";
 ;
@@ -123,8 +123,8 @@ export default function Home({ serverLoading, apiData }) {
                         <div className={styles.logo}>
                           <Image
                             className={styles.qugoLogo}
-                            src={qugoLogo}
-                            alt="logo"
+                            src={weyngoLogo}
+                            alt="WeynGo logo"
                           />
                         </div>
                       </div>

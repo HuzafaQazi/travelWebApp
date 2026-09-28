@@ -70,7 +70,7 @@ const HotelTravelPolicy = ({ policyObj }) => {
           Eligibility
         </span>
         <div>
-          <span className="text-sm sm:text-base font-semibold text-[#028FA3]">
+          <span className="text-sm sm:text-base font-semibold text-[#155EEF]">
             {eligibilityText}
           </span>
           <p className="text-xs sm:text-sm font-medium text-[#171A19CC]">
@@ -93,7 +93,7 @@ const HotelTravelPolicy = ({ policyObj }) => {
         </span>
         <div className="grid grid-cols-2 my-2 gap-10">
           <div className="mx-1">
-            <span className="text-xs sm:text-base font-semibold text-[#028FA3]">
+            <span className="text-xs sm:text-base font-semibold text-[#155EEF]">
               Domestic Stays
             </span>
             <p className="text-xs sm:text-base font-medium text-[#171A19CC]">
@@ -103,7 +103,7 @@ const HotelTravelPolicy = ({ policyObj }) => {
             </p>
           </div>
           <div className="mx-1">
-            <span className="text-xs sm:text-base font-semibold text-[#028FA3]">
+            <span className="text-xs sm:text-base font-semibold text-[#155EEF]">
               International Stays
             </span>
             <p className="text-xs sm:text-base  font-medium text-[#171A19CC]">
@@ -122,7 +122,7 @@ const HotelTravelPolicy = ({ policyObj }) => {
         <div className="grid grid-cols-1 my-2 gap-3">
           <div className="flex gap-4">
             <div className="mx-1 ">
-              <span className="text-xs sm:text-base font-semibold text-[#028FA3]">
+              <span className="text-xs sm:text-base font-semibold text-[#155EEF]">
                 Star
               </span>
               <p className="text-xs sm:text-sm font-medium text-[#171A19CC]">
@@ -130,7 +130,7 @@ const HotelTravelPolicy = ({ policyObj }) => {
               </p>
             </div>
             {isRefundable ? (
-              <div className="flex items-center text-sm sm:text-base font-semibold text-[#028FA3]">
+              <div className="flex items-center text-sm sm:text-base font-semibold text-[#155EEF]">
                 <Image src={check} alt="Ok" className="w-5 h-5 mr-2" />
                 Refundable
               </div>
@@ -142,7 +142,7 @@ const HotelTravelPolicy = ({ policyObj }) => {
             )}
           </div>
           {/* <div className="mx-1">
-            <span className="text-base font-semibold text-[#028FA3]">
+            <span className="text-base font-semibold text-[#155EEF]">
               Filters
             </span>
             <p className="text-sm font-medium text-[#171A19CC]">{filterText}</p>
@@ -161,7 +161,7 @@ const HotelTravelPolicy = ({ policyObj }) => {
             ) : (
               <>
                 Before{" "}
-                <span className="text-[#028FA3] text-sm sm:text-base font-semibold">
+                <span className="text-[#155EEF] text-sm sm:text-base font-semibold">
                   {bookingWindow} days
                 </span>
                 , you must book or the window will close.
@@ -184,7 +184,7 @@ const HotelTravelPolicy = ({ policyObj }) => {
               readOnly
               className="sr-only peer"
             />
-            <div className="relative w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-300 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#028fa3]"></div>
+            <div className="relative w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-300 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#155EEF]"></div>
           </label>
         </div>
       </div>

@@ -323,7 +323,7 @@
 //                       ssrIndex === index &&
 //                       seatDynamicIndex === dynamicIndex &&
 //                       ssrSegmentIndex === segmentIndex
-//                         ? "border-[#028fa3] text-[#028fa3]"
+//                         ? "border-[#155EEF] text-[#155EEF]"
 //                         : "text-gray-900"
 //                     } px-4 py-2 border-b`}
 //                     onClick={() => {
@@ -370,7 +370,7 @@
 //                   key={index}
 //                   className={`flex rounded-md min-w-28 sm:min-w-36 flex-col gap-2 items-center p-2 ${
 //                     travelerIndex === index
-//                       ? "text-[#028fa3] border border-[#028FA32B]"
+//                       ? "text-[#155EEF] border border-[#155EEF2B]"
 //                       : " border-[1px] border-[#0000000F] bg-custom-shadow1"
 //                   }`}
 //                   onClick={() => setTravelerIndex(index)}
@@ -378,7 +378,7 @@
 //                   <div className="text-xxs sm:text-sm">
 //                     {traveler?.firstName} {traveler?.lastName}
 //                   </div>
-//                   <div className="bg-[#028FA30F] text-xxs sm:text-sm rounded-full p-1 px-3">
+//                   <div className="bg-[#155EEF0F] text-xxs sm:text-sm rounded-full p-1 px-3">
 //                     {getSeatCode(index)}
 //                   </div>
 //                 </div>
@@ -703,7 +703,7 @@ export default function Seats({
                     ssrIndex === i &&
                     seatDynamicIndex === di &&
                     ssrSegmentIndex === si
-                      ? "border-[#028fa3] text-[#028fa3]"
+                      ? "border-[#155EEF] text-[#155EEF]"
                       : ""
                   }`}
                   onClick={() => {
@@ -730,7 +730,7 @@ export default function Seats({
                 key={i}
                 onClick={() => setTravelerIndex(i)}
                 className={`min-w-32 p-2 rounded border-[2px] ${
-                  travelerIndex === i ? "border-[#028fa3] shadow-xl" : "border-gray-200"
+                  travelerIndex === i ? "border-[#155EEF] shadow-xl" : "border-gray-200"
                 }`}
               >
                 <div className="text-sm font-semibold text-gray-800 text-center">

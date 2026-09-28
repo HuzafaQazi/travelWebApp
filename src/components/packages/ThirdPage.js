@@ -107,9 +107,9 @@ const ThirdPage = ({ country_name, tour_packages }) => {
                       <div className={styles.logo}>
                         <NextImage
                           className={styles.popLogo}
-                          src="/img/Qugo Logo white-01.png"
-                          alt="Qugologo"
-                          width={40}
+                          src="/img/weyngo_logo_white.png"
+                          alt="WeynGo logo"
+                          width={60}
                           height={20}
                         />
                       </div>

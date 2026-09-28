@@ -1256,9 +1256,9 @@ export default function FlightNavigation({
     option: (provided, state) => ({
       ...provided,
       backgroundColor: state.isSelected
-        ? "#028fa3"
+        ? "#155EEF"
         : state.isFocused
-        ? "#028fa340"
+        ? "#155EEF40"
         : null,
       color: state.isSelected ? "#ffffff" : "#28fa3",
     }),
@@ -1332,9 +1332,9 @@ export default function FlightNavigation({
   //   option: (provided, state) => ({
   //     ...provided,
   //     backgroundColor: state.isSelected
-  //       ? "#028fa3"
+  //       ? "#155EEF"
   //       : state.isFocused
-  //       ? "#028fa340"
+  //       ? "#155EEF40"
   //       : null,
   //     color: state.isSelected ? "#ffffff" : "#28fa3",
   //   }),
@@ -1371,7 +1371,7 @@ export default function FlightNavigation({
             <button
               className={`border text-xs sm:text-base rounded-full flex items-center gap-2 custom-padding ${
                 activeWay === 1
-                  ? "border bg-[#028fa3] text-[#ffffff]"
+                  ? "border bg-[#155EEF] text-[#ffffff]"
                   : "border-0.33 border-custom-gray bg-white text-black"
               }`}
               onClick={() => {
@@ -1389,7 +1389,7 @@ export default function FlightNavigation({
               >
                 {activeWay === 1 && (
                   <svg
-                    className="w-5 h-5 text-[#028fa3]"
+                    className="w-5 h-5 text-[#155EEF]"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -1409,7 +1409,7 @@ export default function FlightNavigation({
             <button
               className={`border text-xs sm:text-base rounded-full flex items-center gap-2 custom-padding ${
                 activeWay === 2
-                  ? "border bg-[#028fa3] text-[#ffffff]"
+                  ? "border bg-[#155EEF] text-[#ffffff]"
                   : "border-0.33 border-custom-gray bg-white text-black"
               }`}
               onClick={() => {
@@ -1429,7 +1429,7 @@ export default function FlightNavigation({
               >
                 {activeWay === 2 && (
                   <svg
-                    className="w-5 h-5 text-[#028fa3]"
+                    className="w-5 h-5 text-[#155EEF]"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -1449,7 +1449,7 @@ export default function FlightNavigation({
             <button
               className={`border text-xs sm:text-base rounded-full flex items-center gap-2 custom-padding ${
                 activeWay === 3
-                  ? "border bg-[#028fa3] text-[#ffffff]"
+                  ? "border bg-[#155EEF] text-[#ffffff]"
                   : "border-0.33 border-custom-gray bg-white text-black"
               }`}
               onClick={() => setActiveWay(3)}
@@ -1464,7 +1464,7 @@ export default function FlightNavigation({
               >
                 {activeWay === 3 && (
                   <svg
-                    className="w-5 h-5 text-[#028fa3]"
+                    className="w-5 h-5 text-[#155EEF]"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -1604,7 +1604,7 @@ export default function FlightNavigation({
                           <div className="font-semibold text-nowrap">
                             <FontAwesomeIcon
                               icon={faPlaneDeparture}
-                              color="#028fa3"
+                              color="#155EEF"
                               size="xs"
                               className="mr-2"
                             />
@@ -1731,7 +1731,7 @@ export default function FlightNavigation({
                           <div className="font-semibold text-nowrap">
                             <FontAwesomeIcon
                               icon={faPlaneDeparture}
-                              color="#028fa3"
+                              color="#155EEF"
                               size="xs"
                               className="mr-2"
                             />
@@ -1807,7 +1807,7 @@ export default function FlightNavigation({
                           className="absolute w-fit h-fit z-10 mt-1 bg-white shadow-lg rounded-lg"
                         >
                           <div className="w-full h-full">
-                            <div className="w-full h-fit border bg-white p-3 flex gap-2 items-center rounded-xl !border-[#028fa3] ">
+                            <div className="w-full h-fit border bg-white p-3 flex gap-2 items-center rounded-xl !border-[#155EEF] ">
                               <FontAwesomeIcon
                                 icon={faCalendarDays}
                                 className="w-4 h-4 text-gray-500"
@@ -1892,7 +1892,7 @@ export default function FlightNavigation({
                           className="absolute w-fit h-fit z-10 mt-1 bg-white shadow-lg rounded-lg"
                         >
                           <div className="w-full h-full">
-                            <div className="w-full h-fit border bg-white p-3 flex gap-2 items-center rounded-xl !border-[#028fa3] ">
+                            <div className="w-full h-fit border bg-white p-3 flex gap-2 items-center rounded-xl !border-[#155EEF] ">
                               <FontAwesomeIcon
                                 icon={faCalendarDays}
                                 className="w-4 h-4 text-gray-500"
@@ -2036,14 +2036,14 @@ export default function FlightNavigation({
                           className={`text-xl rounded-full hover:bg-gray-100 transition-colors ${
                             adultsCount <= FLIGHT_MIN_ADULT_SELECTION
                               ? "text-gray-300"
-                              : "text-[#028fa3]"
+                              : "text-[#155EEF]"
                           }`}
                           disabled={adultsCount <= FLIGHT_MIN_ADULT_SELECTION}
                         >
                           <FontAwesomeIcon icon={faMinusCircle} size={16} />
                         </button>
 
-                        <span className="text-[#028fa3] text-sm min-w-[60px] text-center">
+                        <span className="text-[#155EEF] text-sm min-w-[60px] text-center">
                           {adultsCount} {adultsCount > 1 ? "Adults" : "Adult"}
                         </span>
 
@@ -2052,7 +2052,7 @@ export default function FlightNavigation({
                           className={`text-xl rounded-full hover:bg-gray-100 transition-colors ${
                             adultsCount >= FLIGHT_MAX_ADULT_SELECTION
                               ? "text-gray-300"
-                              : "text-[#028fa3]"
+                              : "text-[#155EEF]"
                           }`}
                           disabled={adultsCount >= FLIGHT_MAX_ADULT_SELECTION}
                         >
@@ -2067,7 +2067,7 @@ export default function FlightNavigation({
               {!isHomePage && (
                 <div className="hidden sm:block">
                   <button
-                    className="bg-[#028FA326] text-[#028FA3] p-2 rounded-lg w-40 h-12 flex items-center justify-center"
+                    className="bg-[#155EEF26] text-[#155EEF] p-2 rounded-lg w-40 h-12 flex items-center justify-center"
                     onClick={handleSearch}
                   >
                     {loading ? (
@@ -2114,7 +2114,7 @@ export default function FlightNavigation({
                         icon={faCircleUser}
                         className={`w-4 h-4 ${
                           travelers?.length > 0
-                            ? "text-[#028fa3]"
+                            ? "text-[#155EEF]"
                             : "text-gray-400"
                         }`}
                       />
@@ -2126,7 +2126,7 @@ export default function FlightNavigation({
             {!isHomePage && (
               <div className="block sm:hidden">
                 <button
-                  className="bg-[#028FA326] text-[#028FA3] text-xs p-2 rounded-lg w-40 h-10 mt-2 m-auto flex items-center justify-center"
+                  className="bg-[#155EEF26] text-[#155EEF] text-xs p-2 rounded-lg w-40 h-10 mt-2 m-auto flex items-center justify-center"
                   onClick={handleSearch}
                 >
                   {loading ? (
@@ -2316,7 +2316,7 @@ export default function FlightNavigation({
                                 <div className="font-semibold text-xs sm:text-lg   text-nowrap">
                                   <FontAwesomeIcon
                                     icon={faPlaneDeparture}
-                                    color="#028fa3"
+                                    color="#155EEF"
                                     size="xs"
                                     className="mr-2"
                                   />
@@ -2455,7 +2455,7 @@ export default function FlightNavigation({
                                 <div className="font-semibold text-xs sm:text-lg text-nowrap">
                                   <FontAwesomeIcon
                                     icon={faPlaneDeparture}
-                                    color="#028fa3"
+                                    color="#155EEF"
                                     size="xs"
                                     className="mr-2"
                                   />
@@ -2530,7 +2530,7 @@ export default function FlightNavigation({
                               className="absolute w-fit h-fit z-20 mt-1 bg-white shadow-lg rounded-lg right-0 sm:right-auto"
                             >
                               <div className="w-full h-full">
-                                <div className="w-full h-fit border bg-white p-3 flex gap-2 items-center rounded-xl !border-[#028fa3] ">
+                                <div className="w-full h-fit border bg-white p-3 flex gap-2 items-center rounded-xl !border-[#155EEF] ">
                                   <FontAwesomeIcon
                                     icon={faCalendarDays}
                                     className="w-4 h-4 text-gray-500"
@@ -2666,7 +2666,7 @@ export default function FlightNavigation({
                                 className={`text-xl rounded-full hover:bg-gray-100 transition-colors ${
                                   adultsCount <= 1
                                     ? "text-gray-300"
-                                    : "text-[#028fa3]"
+                                    : "text-[#155EEF]"
                                 }`}
                                 disabled={adultsCount <= 1}
                               >
@@ -2676,7 +2676,7 @@ export default function FlightNavigation({
                                 />
                               </button>
 
-                              <span className="text-[#028fa3] text-sm min-w-[60px] text-center">
+                              <span className="text-[#155EEF] text-sm min-w-[60px] text-center">
                                 {adultsCount}{" "}
                                 {adultsCount > 1 ? "Adults" : "Adult"}
                               </span>
@@ -2686,7 +2686,7 @@ export default function FlightNavigation({
                                 className={`text-xl rounded-full hover:bg-gray-100 transition-colors ${
                                   adultsCount >= 9
                                     ? "text-gray-300"
-                                    : "text-[#028fa3]"
+                                    : "text-[#155EEF]"
                                 }`}
                                 disabled={adultsCount >= 9}
                               >
@@ -2705,7 +2705,7 @@ export default function FlightNavigation({
                       isDropdownVisible === false && (
                         <div>
                           <button
-                            className="bg-[#028FA326] text-[#028FA3] p-3 rounded-lg w-48 h-16 "
+                            className="bg-[#155EEF26] text-[#155EEF] p-3 rounded-lg w-48 h-16 "
                             onClick={toggleDropdown}
                           >
                             Edit
@@ -2714,7 +2714,7 @@ export default function FlightNavigation({
                       )}
                     {option === flights.length - 1 && flights.length < 6 && (
                       <button
-                        className="hidden w-2/12 bg-[#028FA30F] text-[#028FA3] font-semibold sm:flex items-center justify-center rounded-lg text-sm"
+                        className="hidden w-2/12 bg-[#155EEF0F] text-[#155EEF] font-semibold sm:flex items-center justify-center rounded-lg text-sm"
                         onClick={handleAddFlight}
                       >
                         + Add Another Flight
@@ -2723,7 +2723,7 @@ export default function FlightNavigation({
 
                     {flights.length > 1 && option > 1 && (
                       <button
-                        className=" h-8 mt-2 w-8 bg-[#028FA30F] text-[#028FA3] font-semibold flex items-center justify-center rounded-lg"
+                        className=" h-8 mt-2 w-8 bg-[#155EEF0F] text-[#155EEF] font-semibold flex items-center justify-center rounded-lg"
                         onClick={() => handleRemoveFlight(flight.id, option)}
                       >
                         <FontAwesomeIcon icon={faXmark} />
@@ -2957,7 +2957,7 @@ export default function FlightNavigation({
                   </div>
                   <div className="w-2/12">
                     <button
-                      className="bg-[#028FA326] text-[#028FA3] p-2 text-sm rounded-lg w-full"
+                      className="bg-[#155EEF26] text-[#155EEF] p-2 text-sm rounded-lg w-full"
                       onClick={toggleDropdown}
                     >
                       Edit
@@ -3110,14 +3110,14 @@ export default function FlightNavigation({
                             className={`text-xl rounded-full hover:bg-gray-100 transition-colors ${
                               adultsCount <= FLIGHT_MIN_ADULT_SELECTION
                                 ? "text-gray-300"
-                                : "text-[#028fa3]"
+                                : "text-[#155EEF]"
                             }`}
                             disabled={adultsCount <= FLIGHT_MIN_ADULT_SELECTION}
                           >
                             <FontAwesomeIcon icon={faMinusCircle} size={16} />
                           </button>
 
-                          <span className="text-[#028fa3] text-sm min-w-[60px] text-center">
+                          <span className="text-[#155EEF] text-sm min-w-[60px] text-center">
                             {adultsCount} {adultsCount > 1 ? "Adults" : "Adult"}
                           </span>
 
@@ -3126,7 +3126,7 @@ export default function FlightNavigation({
                             className={`text-xl rounded-full hover:bg-gray-100 transition-colors ${
                               adultsCount >= FLIGHT_MAX_ADULT_SELECTION
                                 ? "text-gray-300"
-                                : "text-[#028fa3]"
+                                : "text-[#155EEF]"
                             }`}
                             disabled={adultsCount >= FLIGHT_MAX_ADULT_SELECTION}
                           >
@@ -3150,7 +3150,7 @@ export default function FlightNavigation({
                           {option === flights.length - 1 &&
                             flights.length < 6 && (
                               <button
-                                className="w-fit bg-[#028FA30F] text-[#028FA3] px-2 py-2 text-nowrap font-semibold flex items-center justify-center rounded-lg text-sm"
+                                className="w-fit bg-[#155EEF0F] text-[#155EEF] px-2 py-2 text-nowrap font-semibold flex items-center justify-center rounded-lg text-sm"
                                 onClick={handleAddFlight}
                               >
                                 + Add Another Flight
@@ -3168,7 +3168,7 @@ export default function FlightNavigation({
             <div className="relative w-1/2 sm:w-1/4 m-auto top-[1.5rem] sm:top-[2.25rem]">
               <button
                 type="submit"
-                className="w-full h-12 sm:h-14 bg-[#028fa3] text-white rounded-full flex items-center justify-center"
+                className="w-full h-12 sm:h-14 bg-[#155EEF] text-white rounded-full flex items-center justify-center"
                 onClick={handleSearch}
               >
                 {loading ? <FontAwesomeIcon icon={faSpinner} spin /> : "Search"}

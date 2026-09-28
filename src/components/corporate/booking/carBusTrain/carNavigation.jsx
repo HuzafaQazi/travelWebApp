@@ -284,7 +284,7 @@ const CarRentalSection = ({
                   className="absolute w-fit h-fit z-10 mt-1 bg-white shadow-lg rounded-lg"
                 >
                   <div className="w-full h-full">
-                    <div className="w-full h-fit border p-3 flex gap-2 items-center justify-between rounded-xl !border-[#028fa3]">
+                    <div className="w-full h-fit border p-3 flex gap-2 items-center justify-between rounded-xl !border-[#155EEF]">
                       <div className="text-[#171A19CC] text-base">
                         {pickUpDate && dropOffDate
                           ? `Total Number of ${Math.ceil(
@@ -415,7 +415,7 @@ const CarRentalSection = ({
                   className="absolute right-0 sm:right-auto w-fit h-fit z-10 mt-1 bg-white shadow-lg rounded-lg"
                 >
                   <div className="w-full h-full">
-                    <div className="w-full h-fit border p-3 flex gap-2 items-center justify-between rounded-xl !border-[#028fa3]">
+                    <div className="w-full h-fit border p-3 flex gap-2 items-center justify-between rounded-xl !border-[#155EEF]">
                       <div className="text-[#171A19CC] text-base">
                         {pickUpDate && dropOffDate
                           ? `Total Number of ${Math.ceil(
@@ -559,7 +559,7 @@ const CarRentalSection = ({
         <div className="flex flex-col sm:flex-row gap-3 w-full">
           <div className="w-full sm:w-4/12">
             <textarea
-              className="w-full h-12 bg-[#f6f6f6] pl-4 pr-4 py-2 text-[#000000] font-medium text-base rounded-xl placeholder-gray-500 resize-none overflow-y-auto focus:outline-none focus:ring-2 focus:ring-[#028fa3]"
+              className="w-full h-12 bg-[#f6f6f6] pl-4 pr-4 py-2 text-[#000000] font-medium text-base rounded-xl placeholder-gray-500 resize-none overflow-y-auto focus:outline-none focus:ring-2 focus:ring-[#155EEF]"
               placeholder="Description"
               value={description}
               onChange={(e) => setDescription(e.target.value)}
@@ -1148,7 +1148,7 @@ const CarNavigation = () => {
 
       <div className="flex justify-start py-2">
         <button
-          className="text-[#028fa3] text-sm font-medium underline cursor-pointer hover:text-[#027a8c] transition-colors flex items-center"
+          className="text-[#155EEF] text-sm font-medium underline cursor-pointer hover:text-[#027a8c] transition-colors flex items-center"
           onClick={handleAddCarRental}
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1">
@@ -1229,14 +1229,14 @@ const CarNavigation = () => {
                       onClick={decrement}
                       className={`text-xl rounded-full hover:bg-gray-100 transition-colors ${adultsCountTrain <= CAR_MIN_ADULT_SELECTION
                         ? "text-gray-300"
-                        : "text-[#028fa3]"
+                        : "text-[#155EEF]"
                         }`}
                       disabled={adultsCountTrain <= CAR_MIN_ADULT_SELECTION}
                     >
                       <FontAwesomeIcon icon={faMinusCircle} size={16} />
                     </button>
 
-                    <span className="text-[#028fa3] text-sm min-w-[60px] text-center">
+                    <span className="text-[#155EEF] text-sm min-w-[60px] text-center">
                       {adultsCountTrain} {adultsCountTrain > 1 ? "Adults" : "Adult"}
                     </span>
 
@@ -1244,7 +1244,7 @@ const CarNavigation = () => {
                       onClick={increment}
                       className={`text-xl rounded-full hover:bg-gray-100 transition-colors ${adultsCountTrain >= maxAllowedTravelers
                         ? "text-gray-300"
-                        : "text-[#028fa3]"
+                        : "text-[#155EEF]"
                         }`}
                       disabled={adultsCountTrain >= maxAllowedTravelers}
                     >
@@ -1295,7 +1295,7 @@ const CarNavigation = () => {
         <button
           onClick={handleRequestApproval}
           disabled={loading}
-          className={`${loading ? "bg-gray-400 cursor-not-allowed" : "bg-[#028fa3] hover:bg-[#027a8c]"
+          className={`${loading ? "bg-gray-400 cursor-not-allowed" : "bg-[#155EEF] hover:bg-[#027a8c]"
             } text-white p-3 rounded-lg w-full h-12 transition-colors duration-200 relative overflow-hidden`}
         >
           {loading ? (

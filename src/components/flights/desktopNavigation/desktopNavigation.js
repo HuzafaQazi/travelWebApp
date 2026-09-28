@@ -1296,7 +1296,7 @@ export default function DesktopNavigation({
                         <div className="font-semibold text-nowrap">
                           <FontAwesomeIcon
                             icon={faPlaneDeparture}
-                            color="#028fa3"
+                            color="#155EEF"
                             size="xs"
                             className="mr-2"
                           />
@@ -1356,7 +1356,7 @@ export default function DesktopNavigation({
                         <div className="font-semibold text-nowrap">
                           <FontAwesomeIcon
                             icon={faPlaneDeparture}
-                            color="#028fa3"
+                            color="#155EEF"
                             size="xs"
                             className="mr-2"
                           />
@@ -1508,7 +1508,7 @@ export default function DesktopNavigation({
                                     <div className="font-semibold text-nowrap">
                                       <FontAwesomeIcon
                                         icon={faPlaneDeparture}
-                                        color="#028fa3"
+                                        color="#155EEF"
                                         size="xs"
                                         className="mr-2"
                                       />
@@ -1579,7 +1579,7 @@ export default function DesktopNavigation({
                                     <div className="font-semibold text-nowrap">
                                       <FontAwesomeIcon
                                         icon={faPlaneDeparture}
-                                        color="#028fa3"
+                                        color="#155EEF"
                                         size="xs"
                                         className="mr-2"
                                       />
@@ -1918,7 +1918,7 @@ export default function DesktopNavigation({
               <div className={style.endColumn}>
                 <div className={style.totalDays}>
                   Total Number of Days :
-                  <span style={{ color: "#028fa3" }}> 3 Days </span>
+                  <span style={{ color: "#155EEF" }}> 3 Days </span>
                 </div>
                 {/* {selectedContent !== "multiWay" && (
                   <div className={style.buttons}>

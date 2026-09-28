@@ -2,8 +2,8 @@ import style from "./styles.module.css";
 import Image from "next/image";
 import { useEffect } from "react";
 import { useState } from "react";
-import headLogo from "../../../../public/img/Qugo Logo resize 2-01.png";
-import qugoLogo from "../../../../public/img/Qugo Logo white-01 2 2.png";
+import headLogo from "../../../../public/img/weyngo_logo.png";
+import qugoLogo from "../../../../public/img/weyngo_logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import config from "@/config";
@@ -204,7 +204,7 @@ export default function CommonHeader(props) {
           <Image
             className={style.qugoHeaderLogo}
             src={headLogo}
-            alt="headLogo"
+            alt="WeynGo Logo"
             onClick={goToHome}
           />
         </div>
@@ -256,13 +256,13 @@ export default function CommonHeader(props) {
               <Image
                 className={style.CorpLogo}
                 src={corporate}
-                alt="qugoLogo"
+                alt="Corporate Logo"
               />
             </button>
           )}
 
           <div
-            className="bg-[#028fa3] text-white p-3 text-lg cursor-pointer mx- items-center rounded-lg shadow-md"
+            className="bg-[#155EEF] text-white p-3 text-lg cursor-pointer mx- items-center rounded-lg shadow-md"
             onClick={handleOpenLoginModal}
           >
             Event
@@ -368,7 +368,7 @@ export default function CommonHeader(props) {
             <Image
               src={qugoLogo}
               className={style.modalheaderlogo}
-              alt="Unable to load Qugo logo"
+              alt="Unable to load WeynGo logo"
             />
           </div>
           <div>Offers</div>
@@ -376,7 +376,7 @@ export default function CommonHeader(props) {
         </Modal.Header>
         <Modal.Body
           className="rounded"
-          style={{ backgroundColor: "#028FA3", padding: "40px" }}
+          style={{ backgroundColor: "#155EEF", padding: "40px" }}
         >
           <div
             style={{
@@ -451,7 +451,7 @@ export default function CommonHeader(props) {
                       className="btn btn-primary btn-rounded"
                       style={{
                         borderRadius: "50px",
-                        backgroundColor: "#028FA3",
+                        backgroundColor: "#155EEF",
                         border: "none",
                         paddingLeft: "24px",
                         paddingRight: "24px",

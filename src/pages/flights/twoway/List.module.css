@@ -16,9 +16,9 @@
   position: relative;
   width: 32%;
   font-size: 10px;
-  border: 1px solid #028fa3;
+  border: 1px solid #155EEF;
   background-color: #fff;
-  color: #028fa3;
+  color: #155EEF;
   border-radius: 25px;
   height: -moz-fit-content;
   height: fit-content;
@@ -151,7 +151,7 @@
 
 .modifySection {
   width: 100%;
-  background-color: #028fa3;
+  background-color: #155EEF;
   padding-top: 2%;
   padding-bottom: 2%;
   padding-left: 2%;
@@ -159,7 +159,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(90deg, #028fa3 -13.6%, #49585a 106.05%);
+  background: linear-gradient(90deg, #155EEF -13.6%, #49585a 106.05%);
 }
 
 .flightDetails {
@@ -189,7 +189,7 @@
 .modifyButton {
   border: none;
   background-color: #FFFFFF;
-  color: #028fa3;
+  color: #155EEF;
   
   padding: 8%;
   padding-left: 28%;
@@ -208,7 +208,7 @@
 
 .leftFilterBtn {
   width: 50%;
-  background-color: #028fa3;
+  background-color: #155EEF;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -235,8 +235,8 @@
   height: fit-content;
   border-radius: 25px;
   background-color: #ffffff;
-  border: 1px solid #028fa3;
-  color: #028fa3;
+  border: 1px solid #155EEF;
+  color: #155EEF;
   display: flex;
   gap: 10%;
   align-items: center;
@@ -258,8 +258,8 @@
   height: fit-content;
   border-radius: 25px;
   background-color: #ffffff;
-  border: 1px solid #028fa3;
-  color: #028fa3;
+  border: 1px solid #155EEF;
+  color: #155EEF;
   display: flex;
   gap: 10%;
   align-items: center;
@@ -275,7 +275,7 @@
 .leftToggles {
   width: 50%;
   display: flex;
-  /* background: #028fa3; */
+  /* background: #155EEF; */
   justify-content: space-between;
   padding: 2%;
 }
@@ -349,7 +349,7 @@
   padding: 2% 4%;
   border-radius: 10px;
   /* box-shadow: 0px 4px 4px 0px #7d99b41a; */
-  box-shadow: 1px 2px 3px 0px #028fa375;
+  box-shadow: 1px 2px 3px 0px #155EEF75;
 }
 
 .fromToTiming {
@@ -399,13 +399,13 @@
   justify-content: space-between;
   font-size: 10px;
   gap: 10px;
-  color: #028fa3;
+  color: #155EEF;
 }
 
 .seatsLeftDetails {
   font-size: 8px;
   /* color: #468316; */
-  color: #028fa3;
+  color: #155EEF;
   text-wrap: nowrap;
   margin-top: -7%;
   margin-left: -60px;
@@ -416,7 +416,7 @@
   bottom: 0;
   width: 100%;
   height: 20%;
-  background-color: #028fa3;
+  background-color: #155EEF;
   display: flex;
   padding: 1%;
   height: auto;
@@ -565,7 +565,7 @@
 }
 
 .clicked1Mob {
-  border: 1px solid #028fa3;
+  border: 1px solid #155EEF;
   background-color: #f0fbfd;
 }
 
@@ -581,7 +581,7 @@
   line-height: 14px;
   letter-spacing: 0em;
   text-align: center;
-  color: #028fa3;
+  color: #155EEF;
 }
 
 .rightpartTicket1 {
@@ -593,19 +593,19 @@
   min-width: 42px;
   width: fit-content;
   /* height: 12px; */
-  background: #028fa312;
+  background: #155eef12;
   margin-left: 15%;
   margin-top: 0px;
 }
 
 .activeButtons {
-  background-color: #028fa317 !important;
+  background-color: #155eef17 !important;
 }
 
 .rotated {
   transform: rotate(180deg);
   transition: transform 0.3s;
-  background-color: #028fa317 !important;
+  background-color: #155eef17 !important;
 }
 
 .dropdownModify {
@@ -628,7 +628,7 @@
 .backArrow {
   background-color: #ffffff;
   border: none;
-  color: #028fa3;
+  color: #155EEF;
   font-size: 16px;
 }
 
@@ -888,7 +888,7 @@
     padding: 23px, 32px, 23px, 32px;
     border-radius: 6px;
     gap: 10px;
-    color: #028fa3;
+    color: #155EEF;
   }
 
   .filterBtnHead {
@@ -941,7 +941,7 @@
 
   .seatsLeftDetails1 {
     font-size: 0.8vw;
-    color: #028fa3;
+    color: #155EEF;
     font-weight: 500;
   }
 
@@ -973,7 +973,7 @@
     display: flex;
     font-size: 12px;
     font-weight: 500;
-    color: #028fa3;
+    color: #155EEF;
     cursor: pointer;
   }
 
@@ -1037,14 +1037,14 @@
 
   .refund {
     font-size: 12px;
-    color: #028fa3;
+    color: #155EEF;
   }
 
   .mydiv {
     width: 25px;
     height: 20px;
     /* background-color: #f0f0f0; */
-    border: 1px solid #028fa3;
+    border: 1px solid #155EEF;
     border-radius: 10px;
     /* Adjust border-radius for curved corners */
     position: relative;
@@ -1076,7 +1076,7 @@
   }
 
   .clicked1 {
-    background-color: #028fa3;
+    background-color: #155EEF;
   }
 
   .tooltip {
@@ -1135,8 +1135,8 @@
     padding-bottom: 2%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    color: #028fa3;
-    background-color: rgba(2, 143, 163, 0.11);
+    color: #155EEF;
+    background-color: rgba(21, 94, 239, 0.11);
   }
 
   .fareclass {
@@ -1149,7 +1149,7 @@
   .minus {
     display: flex;
     justify-content: center;
-    color: #028fa3;
+    color: #155EEF;
     margin-top: 2.7%;
   }
 
@@ -1157,7 +1157,7 @@
     display: block;
     font-size: 18px;
     font-weight: 500;
-    color: #028fa3;
+    color: #155EEF;
   }
 
   .FareDetails1 {
@@ -1187,7 +1187,7 @@
     padding: 2% 4%;
     border-radius: 10px;
     /* box-shadow: 0px 4px 4px 0px #7d99b41a; */
-    box-shadow: 1px 2px 3px 0px #028fa375;
+    box-shadow: 1px 2px 3px 0px #155EEF75;
   }
 
   .leftPartContent {

@@ -200,7 +200,7 @@ export default function FlightReserve() {
     return (
       <div className={style.fromToDate}>
         {day},{" "}
-        <span style={{ color: "#028fa3" }}>
+        <span style={{ color: "#155EEF" }}>
           {month} {dateDay}
           {dateDay % 10 === 1 && dateDay !== 11
             ? "st"
@@ -675,7 +675,7 @@ export default function FlightReserve() {
                     {origin?.airport?.countryName}
                     <br />
                     {origin?.airport?.terminal && (
-                      <span style={{ color: "#028fa3" }}>
+                      <span style={{ color: "#155EEF" }}>
                         Terminal {origin?.airport?.terminal}
                       </span>
                     )}
@@ -692,7 +692,7 @@ export default function FlightReserve() {
                     {destination?.airport?.countryName}
                     <br />
                     {destination?.airport?.terminal && (
-                      <span style={{ color: "#028fa3" }}>
+                      <span style={{ color: "#155EEF" }}>
                         Terminal {destination?.airport?.terminal}
                       </span>
                     )}
@@ -819,7 +819,7 @@ export default function FlightReserve() {
                                   color: "blue",
                                   textdecoration: "underline"
                                 }}
-                                style={{ color: '#028fa3', textDecoration: 'underline' }}
+                                style={{ color: '#155EEF', textDecoration: 'underline' }}
                               >
                                 Recharge now
                               </Link>

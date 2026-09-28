@@ -2311,7 +2311,7 @@ export default function FlightListing() {
                 );
               })}
           </div>
-          <div className="text-[#028fa3] bg-white rounded-md">
+          <div className="text-[#155EEF] bg-white rounded-md">
             <button
               onClick={() => setIsDropdownVisible(true)}
               className="p-2 text-sm px-4"
@@ -2458,8 +2458,8 @@ export default function FlightListing() {
                             key={index}
                             className={`flex text-xs sm:text-base items-center p-2 rounded-md gap-1 peer cursor-pointer ${
                               activeSegment === index
-                                ? "bg-[#028fa3] text-white"
-                                : "text-[#028fa3] border-[1px] border-[#028fa3]"
+                                ? "bg-[#155EEF] text-white"
+                                : "text-[#155EEF] border-[1px] border-[#155EEF]"
                             }`}
                             onClick={() => handleSegmentChange(index)}
                           >
@@ -2477,7 +2477,7 @@ export default function FlightListing() {
                     <button
                       className={`px-4 text-xs py-2 w-1/2 rounded-md transition-colors ${
                         activeTab === "departure"
-                          ? "bg-[#028fa3] text-white"
+                          ? "bg-[#155EEF] text-white"
                           : "bg-gray-200 text-gray-700 hover:bg-gray-300"
                       }`}
                       onClick={() => {
@@ -2497,7 +2497,7 @@ export default function FlightListing() {
                     <button
                       className={`px-4 text-xs py-2 w-1/2 rounded-md transition-colors ${
                         activeTab === "return"
-                          ? "bg-[#028fa3] text-white"
+                          ? "bg-[#155EEF] text-white"
                           : "bg-gray-200 text-gray-700 hover:bg-gray-300"
                       }`}
                       onClick={() => {

@@ -76,7 +76,7 @@ const Filter = ({
                   checked={filters.inPolicyOnly}
                   onChange={handleInPolicyChange}
                 />
-                <div className="relative w-11 h-6 bg-gray-200 peer-focus:outline-none rounded-full peer dark:bg-[#E5E1E2] peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#028fa3]"></div>
+                <div className="relative w-11 h-6 bg-gray-200 peer-focus:outline-none rounded-full peer dark:bg-[#E5E1E2] peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#155EEF]"></div>
                 <span className="ms-3 text-[#171A19CC] font-normal text-base">
                   In policy options only
                 </span>
@@ -100,7 +100,7 @@ const Filter = ({
                   </label>
                   <input
                     type="checkbox"
-                    className="form-checkbox h-5 w-5 text-[#028fa3] cursor-pointer"
+                    className="form-checkbox h-5 w-5 text-[#155EEF] cursor-pointer"
                     checked={filters.roomPreference[meal]}
                     onChange={() => handleRoomPreferenceChange(meal)}
                   />
@@ -133,7 +133,7 @@ const Filter = ({
                         <div
                           {...props}
                           className={`h-1 mt-[5px] mx-1 ${
-                            isLeft || isRight ? "bg-gray-300" : "bg-[#028fa3]"
+                            isLeft || isRight ? "bg-gray-300" : "bg-[#155EEF]"
                           }`}
                         />
                       );
@@ -141,7 +141,7 @@ const Filter = ({
                     renderThumb={(props) => (
                       <div
                         {...props}
-                        className="bg-[#028fa3] h-4 w-4 rounded-full cursor-pointer focus:outline-none"
+                        className="bg-[#155EEF] h-4 w-4 rounded-full cursor-pointer focus:outline-none"
                       />
                     )}
                   />
@@ -170,7 +170,7 @@ const Filter = ({
                       className="flex items-center justify-between gap-8"
                     >
                       <div className="flex items-center gap-2">
-                        <div className="w-6 h-6 flex items-center justify-center border-2 border-[#028FA3] text-[#171A19] rounded-full text-center font-semibold text-sm">
+                        <div className="w-6 h-6 flex items-center justify-center border-2 border-[#155EEF] text-[#171A19] rounded-full text-center font-semibold text-sm">
                           {rating}
                         </div>
                         <Rating
@@ -185,7 +185,7 @@ const Filter = ({
                         type="checkbox"
                         checked={filters.starRating.includes(rating)}
                         onChange={() => handleStarRatingChange(rating)}
-                        className="form-checkbox h-5 w-5 text-[#028fa3] cursor-pointer"
+                        className="form-checkbox h-5 w-5 text-[#155EEF] cursor-pointer"
                       />
                     </div>
                   ))}

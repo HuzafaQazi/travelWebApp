@@ -50,13 +50,15 @@ export default function Footer() {
       <footer className={styles.footer}>
         <div className={styles.column + " " + styles["logo-column"]}>
           <h3>About WeynGo</h3>
-          <Image
-            src={brandLogo}
-            alt="Company Logo"
-            className={styles.logo}
-            width={300}
-            height={300}
-          />
+          <div className="bg-white rounded-xl px-4 py-2 inline-block shadow-md mb-2">
+            <Image
+              src="/img/weyngo_logo.png"
+              alt="WeynGo Logo"
+              width={160}
+              height={55}
+              style={{ width: "140px", height: "auto" }}
+            />
+          </div>
           <p className={styles.poweredLine}>WeynGo Travels</p>
           <p className={styles["company-description"]}>
             WeynGo is revolutionising how you experience this beautiful planet.

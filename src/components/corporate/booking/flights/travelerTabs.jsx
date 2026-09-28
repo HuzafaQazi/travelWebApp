@@ -12,7 +12,7 @@ export default function TravelerTabs({
             key={index}
             className={`flex rounded-md min-w-36 flex-col gap-2 items-center p-2 ${
               travelerIndex === index
-                ? "text-[#028fa3] border border-[#028FA32B]"
+                ? "text-[#155EEF] border border-[#155EEF2B]"
                 : " border-[1px] border-[#0000000F] bg-custom-shadow1"
             }`}
             onClick={() => setTravelerIndex(index)}
@@ -20,7 +20,7 @@ export default function TravelerTabs({
             <div className="text-sm">
               {traveler?.firstName} {traveler?.lastName}
             </div>
-            <div className="bg-[#028FA30F] text-sm rounded-full p-1 px-3">
+            <div className="bg-[#155EEF0F] text-sm rounded-full p-1 px-3">
               {info}
             </div>
           </div>

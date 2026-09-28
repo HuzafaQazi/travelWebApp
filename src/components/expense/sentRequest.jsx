@@ -14,7 +14,7 @@ const SentRequestModal = ({ isSentRequest, onClose, isFlight }) => {
             <div className="fixed inset-0 bg-black opacity-50"></div>
 
             {/* Popup box */}
-            <div className="bg-[#028FA3] p-3 rounded-lg shadow-lg relative z-10 mx-2 sm:mx-auto">
+            <div className="bg-[#155EEF] p-3 rounded-lg shadow-lg relative z-10 mx-2 sm:mx-auto">
                 <div className="flex items-center justify-between">
                     <button
                         className="p-1 ml-auto  border-0 text-[#FFFFFF] float-right text-xl leading-none font-semibold outline-none focus:outline-none"
@@ -39,7 +39,7 @@ const SentRequestModal = ({ isSentRequest, onClose, isFlight }) => {
                         <div> You will get notified via email once the action is taken on it.</div>
                     </div>
 
-                    <button className="bg-white font-medium text-sm text-[#028FA3] w-full rounded-lg py-2 my-2">OKAY</button>
+                    <button className="bg-white font-medium text-sm text-[#155EEF] w-full rounded-lg py-2 my-2">OKAY</button>
                 </div>
             </div>
         </div>

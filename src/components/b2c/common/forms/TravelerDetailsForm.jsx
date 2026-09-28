@@ -949,7 +949,7 @@ const TravelerDetailsForm = ({
               type="checkbox"
               id={`infantCheckbox-${roomIndex}-${travelerIndex}`}
               checked={showGuardianDetails[guardianKey] || false}
-              className="w-4 h-4 text-[#028fa3] bg-gray-100 border-gray-300 rounded focus:ring-[#028fa3] focus:ring-2"
+              className="w-4 h-4 text-[#155EEF] bg-gray-100 border-gray-300 rounded focus:ring-[#155EEF] focus:ring-2"
               onChange={(e) =>
                 handleTravelerInputChange(
                   roomIndex,
@@ -1024,8 +1024,8 @@ const TravelerDetailsForm = ({
                           ...provided,
                           backgroundColor: "transparent",
                           border: state.isFocused
-                            ? "2px solid #028FA3"
-                            : "1px solid #028FA350",
+                            ? "2px solid #155EEF"
+                            : "1px solid #155EEF50",
                           boxShadow: "none",
                           borderRadius: "0.5rem",
                           padding: "0.28rem 0.3rem",
@@ -1045,13 +1045,13 @@ const TravelerDetailsForm = ({
                         }),
                         dropdownIndicator: (provided) => ({
                           ...provided,
-                          color: "#028FA3",
+                          color: "#155EEF",
                         }),
                       }}
                     />
                     <label
                       htmlFor={`guardianTitle-${roomIndex}-${travelerIndex}`}
-                      className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                      className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                     >
                       Guardian Title <span className="text-red-500">*</span>
                     </label>
@@ -1073,7 +1073,7 @@ const TravelerDetailsForm = ({
                         ] = el)
                       }
                       name={`guardianFirstName-${roomIndex}-${travelerIndex}`}
-                      className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                      className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                       placeholder=" "
                       id={`guardianFirstName-${roomIndex}-${travelerIndex}`}
                       type="text"
@@ -1091,7 +1091,7 @@ const TravelerDetailsForm = ({
                     />
                     <label
                       htmlFor={`guardianFirstName-${roomIndex}-${travelerIndex}`}
-                      className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                      className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                     >
                       Guardian First Name{" "}
                       <span className="text-red-500">*</span>
@@ -1116,7 +1116,7 @@ const TravelerDetailsForm = ({
                         ] = el)
                       }
                       name={`guardianLastName-${roomIndex}-${travelerIndex}`}
-                      className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                      className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                       placeholder=" "
                       id={`guardianLastName-${roomIndex}-${travelerIndex}`}
                       type="text"
@@ -1134,7 +1134,7 @@ const TravelerDetailsForm = ({
                     />
                     <label
                       htmlFor={`guardianLastName-${roomIndex}-${travelerIndex}`}
-                      className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                      className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                     >
                       Guardian Last Name <span className="text-red-500">*</span>
                     </label>
@@ -1162,7 +1162,7 @@ const TravelerDetailsForm = ({
                         ] = el)
                       }
                       name={`guardianPan-${roomIndex}-${travelerIndex}`}
-                      className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                      className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                       placeholder=" "
                       id={`guardianPan-${roomIndex}-${travelerIndex}`}
                       type="text"
@@ -1180,7 +1180,7 @@ const TravelerDetailsForm = ({
                     />
                     <label
                       htmlFor={`guardianPan-${roomIndex}-${travelerIndex}`}
-                      className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                      className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                     >
                       Guardian PAN
                     </label>
@@ -1239,7 +1239,7 @@ const TravelerDetailsForm = ({
               <div className="w-full sm:w-1/3">
                 <div className="relative w-full min-w-[50px] h-10">
                   <input
-                    className="block cursor-not-allowed px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                    className="block cursor-not-allowed px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                     placeholder=" "
                     id={`ffRoute-${roomIndex}-${travelerIndex}-${index}`}
                     type="text"
@@ -1248,7 +1248,7 @@ const TravelerDetailsForm = ({
                   />
                   <label
                     htmlFor={`ffRoute-${roomIndex}-${travelerIndex}-${index}`}
-                    className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                    className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                   >
                     Route
                   </label>
@@ -1258,7 +1258,7 @@ const TravelerDetailsForm = ({
               <div className="w-full sm:w-1/3">
                 <div className="relative w-full min-w-[50px] h-10">
                   <input
-                    className="block cursor-not-allowed px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                    className="block cursor-not-allowed px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                     placeholder=" "
                     id={`ffAirline-${roomIndex}-${travelerIndex}-${index}`}
                     type="text"
@@ -1267,7 +1267,7 @@ const TravelerDetailsForm = ({
                   />
                   <label
                     htmlFor={`ffAirline-${roomIndex}-${travelerIndex}-${index}`}
-                    className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                    className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                   >
                     Airline
                   </label>
@@ -1283,7 +1283,7 @@ const TravelerDetailsForm = ({
                       ] = el)
                     }
                     name={`ffNumber-${roomIndex}-${travelerIndex}-${index}`}
-                    className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                    className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                     placeholder=" "
                     id={`ffNumber-${roomIndex}-${travelerIndex}-${index}`}
                     type="text"
@@ -1304,7 +1304,7 @@ const TravelerDetailsForm = ({
                   />
                   <label
                     htmlFor={`ffNumber-${roomIndex}-${travelerIndex}-${index}`}
-                    className="absolute text-xs text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                    className="absolute text-xs text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                   >
                     Frequent Flyer Number
                   </label>
@@ -1382,7 +1382,7 @@ const TravelerDetailsForm = ({
       <div className="w-1/3">
         <div className="cursor-pointer relative w-full min-w-[50px] h-10">
           <input
-            className="block px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent cursor-pointer rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+            className="block px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent cursor-pointer rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
             placeholder=" "
             id={`pan-${roomIndex}-${travelerIndex}`}
             type="text"
@@ -1399,7 +1399,7 @@ const TravelerDetailsForm = ({
           />
           <label
             htmlFor={`pan-${roomIndex}-${travelerIndex}`}
-            className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+            className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
           >
             {label}
             <span className="text-red-500">*</span>
@@ -1600,7 +1600,7 @@ const TravelerDetailsForm = ({
               type="checkbox"
               id={`corporate-${roomIndex}-${travelerIndex}`}
               checked={isCorporateBooking}
-              className="w-4 h-4 text-[#028fa3] bg-gray-100 border-gray-300 rounded focus:ring-[#028fa3] focus:ring-2"
+              className="w-4 h-4 text-[#155EEF] bg-gray-100 border-gray-300 rounded focus:ring-[#155EEF] focus:ring-2"
               onChange={handleCorporateBooking}
             />
             <span className="ml-2 text-sm text-gray-700">Add GST Details</span>
@@ -1621,7 +1621,7 @@ const TravelerDetailsForm = ({
                 <div className="w-1/2">
                   <div className="relative w-full min-w-[50px] h-10">
                     <input
-                      className="block px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                      className="block px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                       placeholder=" "
                       id={`gstNumber-${roomIndex}-${travelerIndex}`}
                       name={`gstNumber-${roomIndex}-${travelerIndex}`}
@@ -1639,7 +1639,7 @@ const TravelerDetailsForm = ({
                     />
                     <label
                       htmlFor={`gstNumber-${roomIndex}-${travelerIndex}`}
-                      className="absolute text-xs text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                      className="absolute text-xs text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                     >
                       GST Number
                       <span className="text-red-500">*</span>
@@ -1658,7 +1658,7 @@ const TravelerDetailsForm = ({
                 <div className="w-1/2">
                   <div className="relative w-full min-w-[50px] h-10">
                     <input
-                      className="block px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                      className="block px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                       placeholder=" "
                       id={`gstCompanyName-${roomIndex}-${travelerIndex}`}
                       name={`gstCompanyName-${roomIndex}-${travelerIndex}`}
@@ -1675,7 +1675,7 @@ const TravelerDetailsForm = ({
                     />
                     <label
                       htmlFor={`gstCompanyName-${roomIndex}-${travelerIndex}`}
-                      className="absolute text-xs text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                      className="absolute text-xs text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                     >
                       Company Name
                       <span className="text-red-500">*</span>
@@ -1699,7 +1699,7 @@ const TravelerDetailsForm = ({
                 <div className="w-1/2">
                   <div className="relative w-full min-w-[50px] h-10">
                     <input
-                      className="block px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                      className="block px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                       placeholder=" "
                       id={`gstCompanyContactNumber-${roomIndex}-${travelerIndex}`}
                       name={`gstCompanyContactNumber-${roomIndex}-${travelerIndex}`}
@@ -1717,7 +1717,7 @@ const TravelerDetailsForm = ({
                     />
                     <label
                       htmlFor={`gstCompanyContactNumber-${roomIndex}-${travelerIndex}`}
-                      className="absolute text-xs text-nowrap text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                      className="absolute text-xs text-nowrap text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                     >
                       Company Mobile Number
                       <span className="text-red-500">*</span>
@@ -1741,7 +1741,7 @@ const TravelerDetailsForm = ({
                 <div className="w-1/2">
                   <div className="relative w-full min-w-[50px] h-10">
                     <input
-                      className="block px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                      className="block px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                       placeholder=" "
                       id={`gstCompanyEmail-${roomIndex}-${travelerIndex}`}
                       name={`gstCompanyEmail-${roomIndex}-${travelerIndex}`}
@@ -1758,7 +1758,7 @@ const TravelerDetailsForm = ({
                     />
                     <label
                       htmlFor={`gstCompanyEmail-${roomIndex}-${travelerIndex}`}
-                      className="absolute text-xs text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                      className="absolute text-xs text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                     >
                       Company Email
                       <span className="text-red-500">*</span>
@@ -1780,7 +1780,7 @@ const TravelerDetailsForm = ({
               <div className="w-full">
                 <div className="relative w-full min-w-[50px] h-10">
                   <input
-                    className="block px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                    className="block px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                     placeholder=" "
                     id={`gstCompanyAddress-${roomIndex}-${travelerIndex}`}
                     name={`gstCompanyAddress-${roomIndex}-${travelerIndex}`}
@@ -1797,7 +1797,7 @@ const TravelerDetailsForm = ({
                   />
                   <label
                     htmlFor={`gstCompanyAddress-${roomIndex}-${travelerIndex}`}
-                    className="absolute text-xs text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                    className="absolute text-xs text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                   >
                     Company Address
                     <span className="text-red-500">*</span>
@@ -1857,7 +1857,7 @@ const TravelerDetailsForm = ({
             <div className="w-1/2 sm:w-1/2">
               <div className="relative w-full min-w-[50px] h-10">
                 <input
-                  className="block px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                  className="block px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                   placeholder=" "
                   id={`passportNo-${roomIndex}-${travelerIndex}`}
                   name={`passportNo-${roomIndex}-${travelerIndex}`}
@@ -1875,7 +1875,7 @@ const TravelerDetailsForm = ({
                 />
                 <label
                   htmlFor={`passportNo-${roomIndex}-${travelerIndex}`}
-                  className="absolute text-xs text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                  className="absolute text-xs text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                 >
                   Passport number
                   <span className="text-red-500">*</span>
@@ -1892,7 +1892,7 @@ const TravelerDetailsForm = ({
             <div className="w-1/2 sm:w-1/2">
               <div className="relative w-full min-w-[50px] h-10">
                 <input
-                  className="block px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                  className="block px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                   placeholder=" "
                   id={`passportExpiry-${roomIndex}-${travelerIndex}`}
                   name={`passportExpiry-${roomIndex}-${travelerIndex}`}
@@ -1911,7 +1911,7 @@ const TravelerDetailsForm = ({
                 />
                 <label
                   htmlFor={`passportExpiry-${roomIndex}-${travelerIndex}`}
-                  className="absolute text-xs text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                  className="absolute text-xs text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                 >
                   Passport expiry date
                   <span className="text-red-500">*</span>
@@ -1971,8 +1971,8 @@ const TravelerDetailsForm = ({
                           ...provided,
                           backgroundColor: "transparent",
                           border: state.isFocused
-                            ? "2px solid #028FA3" // Border color when focused
-                            : "1px solid #028FA350", // Default border color
+                            ? "2px solid #155EEF" // Border color when focused
+                            : "1px solid #155EEF50", // Default border color
                           boxShadow: "none",
                           borderRadius: "0.5rem", // Match input field's border radius
                           padding: "0.28rem 0.3rem", // Padding to align with the input's padding
@@ -1991,7 +1991,7 @@ const TravelerDetailsForm = ({
                         }),
                         dropdownIndicator: (provided) => ({
                           ...provided,
-                          color: "#028FA3", // Dropdown arrow color
+                          color: "#155EEF", // Dropdown arrow color
                         }),
                         menu: (provided) => ({
                           ...provided,
@@ -2001,7 +2001,7 @@ const TravelerDetailsForm = ({
                     />
                     <label
                       htmlFor={`passportIssueCountry-${roomIndex}-${travelerIndex}`}
-                      className="absolute text-xs text-nowrap text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                      className="absolute text-xs text-nowrap text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                     >
                       Passport Issuing Country
                       <span className="text-red-500">*</span>
@@ -2021,7 +2021,7 @@ const TravelerDetailsForm = ({
                 <div className="w-1/2 sm:w-1/2">
                   <div className="relative w-full min-w-[50px] h-10">
                     <input
-                      className="block px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                      className="block px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                       placeholder=" "
                       id={`passportIssueDate-${roomIndex}-${travelerIndex}`}
                       name={`passportIssueDate-${roomIndex}-${travelerIndex}`}
@@ -2040,7 +2040,7 @@ const TravelerDetailsForm = ({
                     />
                     <label
                       htmlFor={`passportIssueDate-${roomIndex}-${travelerIndex}`}
-                      className="absolute text-xs text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                      className="absolute text-xs text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                     >
                       Passport issue date
                       <span className="text-red-500">*</span>
@@ -2088,7 +2088,7 @@ const TravelerDetailsForm = ({
   const customComponents = {
     IndicatorSeparator: () => null,
     DropdownIndicator: (props) => (
-      <div className="px-2 text-[#028FA3]">
+      <div className="px-2 text-[#155EEF]">
         <svg
           width="12"
           height="8"
@@ -2160,7 +2160,7 @@ const TravelerDetailsForm = ({
               }`}
             >
               <div className="flex items-center gap-2 justify-between mb-3">
-                <div className="w-fit p-2 rounded-xl text-[#028FA3] bg-[#028FA30D] font-medium text-base">
+                <div className="w-fit p-2 rounded-xl text-[#155EEF] bg-[#155EEF0D] font-medium text-base">
                   {label}
                 </div>
                 <div className="flex gap-2">
@@ -2274,8 +2274,8 @@ const TravelerDetailsForm = ({
                           ...provided,
                           backgroundColor: "transparent",
                           border: state.isFocused
-                            ? "2px solid #028FA3"
-                            : "1px solid #028FA350",
+                            ? "2px solid #155EEF"
+                            : "1px solid #155EEF50",
                           boxShadow: "none",
                           borderRadius: "0.5rem",
                           padding: "0.28rem 0.3rem",
@@ -2295,14 +2295,14 @@ const TravelerDetailsForm = ({
                         }),
                         dropdownIndicator: (provided) => ({
                           ...provided,
-                          color: "#028FA3",
+                          color: "#155EEF",
                         }),
                       }}
                     />
 
                     <label
                       htmlFor="gender"
-                      className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                      className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                     >
                       Title <span className="text-red-500">*</span>
                     </label>
@@ -2322,7 +2322,7 @@ const TravelerDetailsForm = ({
                         (inputRefs.current[`firstName-0-${travelerIndex}`] = el)
                       }
                       name={`firstName-0-${travelerIndex}`}
-                      className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                      className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                       placeholder=" "
                       id={`firstname-0-${travelerIndex}`}
                       type="text"
@@ -2340,7 +2340,7 @@ const TravelerDetailsForm = ({
                     />
                     <label
                       htmlFor={`firstname-0-${travelerIndex}`}
-                      className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                      className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                     >
                       First Name <span className="text-red-500">*</span>
                     </label>
@@ -2361,7 +2361,7 @@ const TravelerDetailsForm = ({
                         (inputRefs.current[`lastName-0-${travelerIndex}`] = el)
                       }
                       name={`lastName-0-${travelerIndex}`}
-                      className="block cursor-pointer  px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                      className="block cursor-pointer  px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                       placeholder=" "
                       id={`lastname-0-${travelerIndex}`}
                       type="text"
@@ -2379,7 +2379,7 @@ const TravelerDetailsForm = ({
                     />
                     <label
                       htmlFor={`lastname-0-${travelerIndex}`}
-                      className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                      className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                     >
                       Last Name <span className="text-red-500">*</span>
                     </label>
@@ -2403,7 +2403,7 @@ const TravelerDetailsForm = ({
                           (inputRefs.current[`email-0-${travelerIndex}`] = el)
                         }
                         name={`email-0-${travelerIndex}`}
-                        className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                        className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                         placeholder=" "
                         id={`email-0-${travelerIndex}`}
                         type="email"
@@ -2420,7 +2420,7 @@ const TravelerDetailsForm = ({
                       />
                       <label
                         htmlFor={`email-0-${travelerIndex}`}
-                        className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                        className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                       >
                         Email <span className="text-red-500">*</span>
                       </label>
@@ -2444,7 +2444,7 @@ const TravelerDetailsForm = ({
                           el)
                       }
                       name={`dateOfBirth-0-${travelerIndex}`}
-                      className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                      className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                       placeholder=" "
                       id={`dateOfBirth-0-${travelerIndex}`}
                       type="date"
@@ -2462,7 +2462,7 @@ const TravelerDetailsForm = ({
                     />
                     <label
                       htmlFor={`dateOfBirth-0-${travelerIndex}`}
-                      className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                      className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                     >
                       Date of Birth
                       {isDobRequired && <span className="text-red-500">*</span>}
@@ -2525,8 +2525,8 @@ const TravelerDetailsForm = ({
                               ...provided,
                               backgroundColor: "transparent",
                               border: state.isFocused
-                                ? "2px solid #028FA3"
-                                : "1px solid #028FA350",
+                                ? "2px solid #155EEF"
+                                : "1px solid #155EEF50",
                               boxShadow: "none",
                               borderRadius: "0.5rem",
                               padding: "0.28rem 0.3rem",
@@ -2546,13 +2546,13 @@ const TravelerDetailsForm = ({
                             }),
                             dropdownIndicator: (provided) => ({
                               ...provided,
-                              color: "#028FA3",
+                              color: "#155EEF",
                             }),
                           }}
                         />
                         <label
                           htmlFor={`country-0-${travelerIndex}`}
-                          className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                          className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                         >
                           Country <span className="text-red-500">*</span>
                         </label>
@@ -2597,8 +2597,8 @@ const TravelerDetailsForm = ({
                               ...provided,
                               backgroundColor: "transparent",
                               border: state.isFocused
-                                ? "2px solid #028FA3"
-                                : "1px solid #028FA350",
+                                ? "2px solid #155EEF"
+                                : "1px solid #155EEF50",
                               boxShadow: "none",
                               borderRadius: "0.5rem",
                               padding: "0.28rem 0.3rem",
@@ -2618,13 +2618,13 @@ const TravelerDetailsForm = ({
                             }),
                             dropdownIndicator: (provided) => ({
                               ...provided,
-                              color: "#028FA3",
+                              color: "#155EEF",
                             }),
                           }}
                         />
                         <label
                           htmlFor={`city-0-${travelerIndex}`}
-                          className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                          className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                         >
                           City <span className="text-red-500">*</span>
                         </label>
@@ -2648,7 +2648,7 @@ const TravelerDetailsForm = ({
                                 el)
                             }
                             name={`contact-0-${travelerIndex}`}
-                            className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                            className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                             placeholder=" "
                             id={`contact-0-${travelerIndex}`}
                             type="text"
@@ -2666,7 +2666,7 @@ const TravelerDetailsForm = ({
                           />
                           <label
                             htmlFor={`contact-0-${travelerIndex}`}
-                            className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-9 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                            className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-9 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                           >
                             Contact number{" "}
                             <span className="text-red-500">*</span>
@@ -2695,7 +2695,7 @@ const TravelerDetailsForm = ({
                               el)
                           }
                           name={`contact-0-${travelerIndex}`}
-                          className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                          className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                           placeholder=" "
                           id={`contact-0-${travelerIndex}`}
                           type="text"
@@ -2713,7 +2713,7 @@ const TravelerDetailsForm = ({
                         />
                         <label
                           htmlFor={`contact-0-${travelerIndex}`}
-                          className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-9 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                          className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-9 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                         >
                           Contact number <span className="text-red-500">*</span>
                         </label>
@@ -2742,7 +2742,7 @@ const TravelerDetailsForm = ({
                               ] = el)
                             }
                             name={`address1-0-${travelerIndex}`}
-                            className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                            className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                             placeholder=" "
                             id={`address1-0-${travelerIndex}`}
                             type="text"
@@ -2760,7 +2760,7 @@ const TravelerDetailsForm = ({
                           />
                           <label
                             htmlFor={`address1-0-${travelerIndex}`}
-                            className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                            className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                           >
                             Address 1
                             {/* <span className="text-red-500">*</span> */}
@@ -2778,7 +2778,7 @@ const TravelerDetailsForm = ({
                       <div className="w-full sm:w-1/2">
                         <div className="relative w-full min-w-[50px] h-10">
                           <input
-                            className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                            className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                             placeholder=" "
                             id={`address2-0-${travelerIndex}`}
                             type="text"
@@ -2796,7 +2796,7 @@ const TravelerDetailsForm = ({
                           />
                           <label
                             htmlFor={`address2-0-${travelerIndex}`}
-                            className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                            className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                           >
                             Address 2
                           </label>
@@ -2833,7 +2833,7 @@ const TravelerDetailsForm = ({
               {travelerDetails.map((roomTravelers, roomIndex) => (
                 <div key={`room-${roomIndex}`} className="mb-6">
                   {/* Room Header */}
-                  <div className="w-fit px-3 py-1 mb-3 rounded-xl font-semibold text-[#028FA3] bg-[#028FA30D] text-lg">
+                  <div className="w-fit px-3 py-1 mb-3 rounded-xl font-semibold text-[#155EEF] bg-[#155EEF0D] text-lg">
                     {`Room ${roomIndex + 1}`}
                   </div>
                   {roomTravelers.map((traveler, travelerIdx) => {
@@ -2857,7 +2857,7 @@ const TravelerDetailsForm = ({
                         }`}
                       >
                         <div className="flex items-center gap-2 justify-between mb-2">
-                          <div className="w-fit p-2 rounded-xl text-[#028FA3] bg-[#028FA30D] font-medium text-base">
+                          <div className="w-fit p-2 rounded-xl text-[#155EEF] bg-[#155EEF0D] font-medium text-base">
                             {label}
                           </div>
                           <div className="flex gap-2">
@@ -2978,8 +2978,8 @@ const TravelerDetailsForm = ({
                                     ...provided,
                                     backgroundColor: "transparent",
                                     border: state.isFocused
-                                      ? "2px solid #028FA3"
-                                      : "1px solid #028FA350",
+                                      ? "2px solid #155EEF"
+                                      : "1px solid #155EEF50",
                                     boxShadow: "none",
                                     borderRadius: "0.5rem",
                                     padding: "0.28rem 0.3rem",
@@ -2999,13 +2999,13 @@ const TravelerDetailsForm = ({
                                   }),
                                   dropdownIndicator: (provided) => ({
                                     ...provided,
-                                    color: "#028FA3",
+                                    color: "#155EEF",
                                   }),
                                 }}
                               />
                               <label
                                 htmlFor={`title-${roomIndex}-${travelerIdx}`}
-                                className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                                className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                               >
                                 Title <span className="text-red-500">*</span>
                               </label>
@@ -3029,7 +3029,7 @@ const TravelerDetailsForm = ({
                                   ] = el)
                                 }
                                 name={`firstName-${roomIndex}-${travelerIdx}`}
-                                className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                                className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                                 placeholder=" "
                                 id={`firstname-${roomIndex}-${travelerIdx}`}
                                 type="text"
@@ -3047,7 +3047,7 @@ const TravelerDetailsForm = ({
                               />
                               <label
                                 htmlFor={`firstname-${roomIndex}-${travelerIdx}`}
-                                className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                                className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                               >
                                 First Name{" "}
                                 <span className="text-red-500">*</span>
@@ -3072,7 +3072,7 @@ const TravelerDetailsForm = ({
                                   ] = el)
                                 }
                                 name={`lastName-${roomIndex}-${travelerIdx}`}
-                                className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                                className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                                 placeholder=" "
                                 id={`lastname-${roomIndex}-${travelerIdx}`}
                                 type="text"
@@ -3090,7 +3090,7 @@ const TravelerDetailsForm = ({
                               />
                               <label
                                 htmlFor={`lastname-${roomIndex}-${travelerIdx}`}
-                                className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                                className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                               >
                                 Last Name{" "}
                                 <span className="text-red-500">*</span>
@@ -3111,7 +3111,7 @@ const TravelerDetailsForm = ({
                               <div className="relative w-full min-w-[50px] h-10">
                                 <input
                                   name={`age-${roomIndex}-${travelerIdx}`}
-                                  className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                                  className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                                   placeholder=" "
                                   id={`age-${roomIndex}-${travelerIdx}`}
                                   type="number"
@@ -3120,7 +3120,7 @@ const TravelerDetailsForm = ({
                                 />
                                 <label
                                   htmlFor={`age-${roomIndex}-${travelerIdx}`}
-                                  className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                                  className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                                 >
                                   Age
                                 </label>
@@ -3141,7 +3141,7 @@ const TravelerDetailsForm = ({
                                     ] = el)
                                   }
                                   name={`email-${roomIndex}-${travelerIdx}`}
-                                  className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                                  className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                                   placeholder=" "
                                   id={`email-${roomIndex}-${travelerIdx}`}
                                   type="email"
@@ -3158,7 +3158,7 @@ const TravelerDetailsForm = ({
                                 />
                                 <label
                                   htmlFor={`email-${roomIndex}-${travelerIdx}`}
-                                  className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                                  className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                                 >
                                   Email <span className="text-red-500">*</span>
                                 </label>
@@ -3185,7 +3185,7 @@ const TravelerDetailsForm = ({
                                   ] = el)
                                 }
                                 name={`dateOfBirth-${roomIndex}-${travelerIdx}`}
-                                className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                                className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                                 placeholder=" "
                                 id={`dateOfBirth-${roomIndex}-${travelerIdx}`}
                                 type="date"
@@ -3203,7 +3203,7 @@ const TravelerDetailsForm = ({
                               />
                               <label
                                 htmlFor={`dateOfBirth-${roomIndex}-${travelerIdx}`}
-                                className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                                className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                               >
                                 Date of Birth{" "}
                                 <span className="text-red-500">*</span>
@@ -3270,8 +3270,8 @@ const TravelerDetailsForm = ({
                                       ...provided,
                                       backgroundColor: "transparent",
                                       border: state.isFocused
-                                        ? "2px solid #028FA3"
-                                        : "1px solid #028FA350",
+                                        ? "2px solid #155EEF"
+                                        : "1px solid #155EEF50",
                                       boxShadow: "none",
                                       borderRadius: "0.5rem",
                                       padding: "0.28rem 0.3rem",
@@ -3291,13 +3291,13 @@ const TravelerDetailsForm = ({
                                     }),
                                     dropdownIndicator: (provided) => ({
                                       ...provided,
-                                      color: "#028FA3",
+                                      color: "#155EEF",
                                     }),
                                   }}
                                 />
                                 <label
                                   htmlFor={`country-${roomIndex}-${travelerIdx}`}
-                                  className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                                  className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                                 >
                                   Country{" "}
                                   <span className="text-red-500">*</span>
@@ -3349,8 +3349,8 @@ const TravelerDetailsForm = ({
                                       ...provided,
                                       backgroundColor: "transparent",
                                       border: state.isFocused
-                                        ? "2px solid #028FA3"
-                                        : "1px solid #028FA350",
+                                        ? "2px solid #155EEF"
+                                        : "1px solid #155EEF50",
                                       boxShadow: "none",
                                       borderRadius: "0.5rem",
                                       padding: "0.28rem 0.3rem",
@@ -3370,13 +3370,13 @@ const TravelerDetailsForm = ({
                                     }),
                                     dropdownIndicator: (provided) => ({
                                       ...provided,
-                                      color: "#028FA3",
+                                      color: "#155EEF",
                                     }),
                                   }}
                                 />
                                 <label
                                   htmlFor={`city-${roomIndex}-${travelerIdx}`}
-                                  className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                                  className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                                 >
                                   City <span className="text-red-500">*</span>
                                 </label>
@@ -3401,7 +3401,7 @@ const TravelerDetailsForm = ({
                                       ] = el)
                                     }
                                     name={`contact-${roomIndex}-${travelerIdx}`}
-                                    className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                                    className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                                     placeholder=" "
                                     id={`contact-${roomIndex}-${travelerIdx}`}
                                     type="text"
@@ -3419,7 +3419,7 @@ const TravelerDetailsForm = ({
                                   />
                                   <label
                                     htmlFor={`contact-${roomIndex}-${travelerIdx}`}
-                                    className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-9 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                                    className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-9 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                                   >
                                     Contact number{" "}
                                     <span className="text-red-500">*</span>
@@ -3453,7 +3453,7 @@ const TravelerDetailsForm = ({
                                     ] = el)
                                   }
                                   name={`address1-${roomIndex}-${travelerIdx}`}
-                                  className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                                  className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                                   placeholder=" "
                                   id={`address1-${roomIndex}-${travelerIdx}`}
                                   type="text"
@@ -3471,7 +3471,7 @@ const TravelerDetailsForm = ({
                                 />
                                 <label
                                   htmlFor={`address1-${roomIndex}-${travelerIdx}`}
-                                  className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                                  className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                                 >
                                   Address 1{" "}
                                   <span className="text-red-500">*</span>
@@ -3488,7 +3488,7 @@ const TravelerDetailsForm = ({
                             <div className="w-full sm:w-1/2">
                               <div className="relative w-full min-w-[50px] h-10">
                                 <input
-                                  className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#028FA330] border-1 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 border-2 peer"
+                                  className="block cursor-pointer px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-[#155EEF30] border-1 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 border-2 peer"
                                   placeholder=" "
                                   id={`address2-${roomIndex}-${travelerIdx}`}
                                   type="text"
@@ -3506,7 +3506,7 @@ const TravelerDetailsForm = ({
                                 />
                                 <label
                                   htmlFor={`address2-${roomIndex}-${travelerIdx}`}
-                                  className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                                  className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                                 >
                                   Address 2
                                 </label>

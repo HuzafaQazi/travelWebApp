@@ -605,7 +605,7 @@ const justSelectedRef = useRef(false);
   return (
     <>
       <Head>
-        <title>QuGo | Hotel Result</title>
+        <title>WeynGo | Hotel Result</title>
       </Head>
       <div id={style.banner} className={style.topbanner}>
         <div className={style.headerCommonbg}></div>

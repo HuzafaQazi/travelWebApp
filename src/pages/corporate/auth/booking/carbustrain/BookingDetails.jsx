@@ -151,7 +151,7 @@ const TrainBookingDetailsPage = ({ isCorporateUser = false }) => {
     return (
       <div className="flex items-center justify-center min-h-screen bg-gray-100">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-[#028fa3] border-solid mx-auto mb-4"></div>
+          <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-[#155EEF] border-solid mx-auto mb-4"></div>
           <p className="text-lg text-gray-600 font-medium">
             Loading booking details...
           </p>
@@ -232,7 +232,7 @@ const TrainBookingDetailsPage = ({ isCorporateUser = false }) => {
             <h2 className="text-3xl font-bold text-gray-900 flex items-center">
               <FontAwesomeIcon
                 icon={transport.icon}
-                className="w-8 h-8 text-[#028fa3] mr-3"
+                className="w-8 h-8 text-[#155EEF] mr-3"
               />
               {transport.name} Booking Details
             </h2>
@@ -240,7 +240,7 @@ const TrainBookingDetailsPage = ({ isCorporateUser = false }) => {
             <div className="flex flex-col sm:flex-row gap-2">
               {bookingStatus === "booked" && booking.invoiceUrl && userType === 1 && (
                 <button
-                  className="px-6 py-2 bg-[#028fa3] text-white rounded-full hover:bg-[#027a8c] transition-colors duration-300 shadow-md flex items-center"
+                  className="px-6 py-2 bg-[#155EEF] text-white rounded-full hover:bg-[#027a8c] transition-colors duration-300 shadow-md flex items-center"
                   onClick={() => downloadFile("invoice")}
                   disabled={isInvoiceLoading}
                 >
@@ -261,7 +261,7 @@ const TrainBookingDetailsPage = ({ isCorporateUser = false }) => {
               )}
               {bookingStatus === "booked" && booking.ticketUrl && (
                 <button
-                  className="px-6 py-2 bg-[#028fa3] text-white rounded-full hover:bg-[#027a8c] transition-colors duration-300 shadow-md flex items-center"
+                  className="px-6 py-2 bg-[#155EEF] text-white rounded-full hover:bg-[#027a8c] transition-colors duration-300 shadow-md flex items-center"
                   onClick={() => downloadFile("ticket")}
                   disabled={isTicketLoading}
                 >
@@ -282,7 +282,7 @@ const TrainBookingDetailsPage = ({ isCorporateUser = false }) => {
               )}
               <button
                 onClick={() => router.back()}
-                className="px-6 py-2 bg-[#028fa3] text-white rounded-full hover:bg-[#027a8c] transition-colors duration-300 shadow-md flex items-center"
+                className="px-6 py-2 bg-[#155EEF] text-white rounded-full hover:bg-[#027a8c] transition-colors duration-300 shadow-md flex items-center"
               >
                 <svg
                   className="w-5 h-5 mr-2"
@@ -304,13 +304,13 @@ const TrainBookingDetailsPage = ({ isCorporateUser = false }) => {
           </div>
  
           {/* Main Booking Card */}
-          <div className="bg-white rounded-2xl shadow-lg p-6 mb-8 border-l-4 border-[#028fa3] transition-transform transform hover:scale-[1.01] duration-300">
+          <div className="bg-white rounded-2xl shadow-lg p-6 mb-8 border-l-4 border-[#155EEF] transition-transform transform hover:scale-[1.01] duration-300">
             {/* Header Section */}
             <div className="flex items-center justify-between mb-6">
               <div className="flex items-center">
                 <FontAwesomeIcon
                   icon={transport.icon}
-                  className="w-7 h-7 text-[#028fa3] mr-3"
+                  className="w-7 h-7 text-[#155EEF] mr-3"
                 />
                 <h3 className="text-2xl font-semibold text-gray-800">
                   {origin} to {destination}
@@ -339,7 +339,7 @@ const TrainBookingDetailsPage = ({ isCorporateUser = false }) => {
                 <p className="flex items-center text-sm">
                   <FontAwesomeIcon
                     icon={faCalendarAlt}
-                    className="w-5 h-5 text-[#028fa3] mr-2"
+                    className="w-5 h-5 text-[#155EEF] mr-2"
                   />
                   <span className="font-semibold">Travel Date:</span>
                   <span className="ml-2">
@@ -375,7 +375,7 @@ const TrainBookingDetailsPage = ({ isCorporateUser = false }) => {
                 <p className="flex items-center text-sm">
                   <FontAwesomeIcon
                     icon={faMoneyBillWave}
-                    className="w-5 h-5 text-[#028fa3] mr-2"
+                    className="w-5 h-5 text-[#155EEF] mr-2"
                   />
                   <span className="font-semibold">Total Amount:</span>
                   <span className="ml-2">₹{totalAmount.toLocaleString()}</span>
@@ -412,7 +412,7 @@ const TrainBookingDetailsPage = ({ isCorporateUser = false }) => {
                 </p>
                 <p className="text-sm">
                   <span className="font-semibold">Net Amount:</span>
-                  <span className="ml-2 font-bold text-[#028fa3]">
+                  <span className="ml-2 font-bold text-[#155EEF]">
                     ₹{netAmount.toLocaleString()}
                   </span>
                 </p>
@@ -425,7 +425,7 @@ const TrainBookingDetailsPage = ({ isCorporateUser = false }) => {
                 <h4 className="text-lg font-semibold text-gray-800 flex items-center mb-3">
                   <FontAwesomeIcon
                     icon={faInfoCircle}
-                    className="w-5 h-5 text-[#028fa3] mr-2"
+                    className="w-5 h-5 text-[#155EEF] mr-2"
                   />
                   Quote Details
                 </h4>
@@ -516,7 +516,7 @@ const TrainBookingDetailsPage = ({ isCorporateUser = false }) => {
               <h4 className="text-xl font-semibold text-gray-800 flex items-center mb-4">
                 <FontAwesomeIcon
                   icon={faUser}
-                  className="w-6 h-6 text-[#028fa3] mr-3"
+                  className="w-6 h-6 text-[#155EEF] mr-3"
                 />
                 Passengers
               </h4>
@@ -524,7 +524,7 @@ const TrainBookingDetailsPage = ({ isCorporateUser = false }) => {
                 {passengers.map((passenger, index) => (
                   <div
                     key={passenger._id || index}
-                    className="bg-white rounded-xl shadow-md p-5 border-l-4 border-[#028fa3] transition-transform transform hover:scale-[1.01] duration-300"
+                    className="bg-white rounded-xl shadow-md p-5 border-l-4 border-[#155EEF] transition-transform transform hover:scale-[1.01] duration-300"
                   >
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-gray-700">
                       <div className="space-y-2">
@@ -594,7 +594,7 @@ const TrainBookingDetailsPage = ({ isCorporateUser = false }) => {
               <h4 className="text-xl font-semibold text-gray-800 flex items-center mb-4">
                 <FontAwesomeIcon
                   icon={faRoute}
-                  className="w-6 h-6 text-[#028fa3] mr-3"
+                  className="w-6 h-6 text-[#155EEF] mr-3"
                 />
                 Journeys
               </h4>
@@ -602,7 +602,7 @@ const TrainBookingDetailsPage = ({ isCorporateUser = false }) => {
                 {journeys.map((journey, index) => (
                   <div
                     key={journey._id || index}
-                    className="bg-white rounded-xl shadow-md p-5 border-l-4 border-[#028fa3] transition-transform transform hover:scale-[1.01] duration-300"
+                    className="bg-white rounded-xl shadow-md p-5 border-l-4 border-[#155EEF] transition-transform transform hover:scale-[1.01] duration-300"
                   >
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-gray-700">
                       <div className="space-y-2">

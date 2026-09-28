@@ -23,7 +23,7 @@ const TravellerDetails = ({ travellers, travelCategory }) => {
             Traveler Details
             <FontAwesomeIcon
               icon={isOpen ? faCaretUp : faCaretDown}
-              color="#028fa3"
+              color="#155EEF"
             />
           </div>
           {isOpen && (
@@ -47,7 +47,7 @@ const TravellerDetails = ({ travellers, travelCategory }) => {
                   >
                     <div className="flex flex-col h-fit">
                     
-                      <span className="text-[#028fa3] font-medium">
+                      <span className="text-[#155EEF] font-medium">
                         {traveler?.data?.name ?? traveler?.name}
                       </span>
                       <span className="text-sm font-medium">

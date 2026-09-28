@@ -565,7 +565,7 @@ const SideSheet = ({
                     <div className="mt-2 text-right">
                       <button
                         onClick={() => handleRemoveFlight(flightGroup)}
-                        className="text-[#028FA3] hover:text-[#026d7d] transition-colors"
+                        className="text-[#155EEF] hover:text-[#026d7d] transition-colors"
                         title="Remove flight"
                       >
                         <FontAwesomeIcon icon={faCircleMinus} size="lg" />

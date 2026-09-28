@@ -217,8 +217,8 @@ const ViewMore = ({ onClose, data }) => {
             onClick={() => handleTabClick(tab)}
             className={`pb-2 cursor-pointer ${
               selectedTab === tab
-                ? "border-b-2 border-[#028FA3] text-[#028FA3] font-semibold"
-                : "border-b-2 border-transparent text-black hover:border-[#028FA3] hover:text-[#028FA3]"
+                ? "border-b-2 border-[#155EEF] text-[#155EEF] font-semibold"
+                : "border-b-2 border-transparent text-black hover:border-[#155EEF] hover:text-[#155EEF]"
             }`}
           >
             {tab}
@@ -356,7 +356,7 @@ const ViewMore = ({ onClose, data }) => {
               <div key={index} className="flex items-center">
                 <FontAwesomeIcon
                   icon={faCheck}
-                  className="text-[#028FA3] mr-2"
+                  className="text-[#155EEF] mr-2"
                 />
                 <span className="text-sm">{facility}</span>
               </div>
@@ -368,7 +368,7 @@ const ViewMore = ({ onClose, data }) => {
                 <div key={index} className="flex items-center">
                   <FontAwesomeIcon
                     icon={faCheck}
-                    className="text-[#028FA3] mr-2"
+                    className="text-[#155EEF] mr-2"
                   />
                   <span className="text-sm">{facility}</span>
                 </div>
@@ -378,7 +378,7 @@ const ViewMore = ({ onClose, data }) => {
             {facilities.length > 5 && (
               <button
                 onClick={() => setShowAll(!showAll)}
-                className="text-[#028FA3] text-sm mt-2 font-medium hover:underline"
+                className="text-[#155EEF] text-sm mt-2 font-medium hover:underline"
               >
                 {showAll ? "View Less" : "View More"}
               </button>

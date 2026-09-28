@@ -86,7 +86,7 @@ export default function Navigation() {
             <button
               className={`${
                 activeTab === 1
-                  ? "border-b-2 border-[#028fa3] text-[#028fa3] font-bold"
+                  ? "border-b-2 border-[#155EEF] text-[#155EEF] font-bold"
                   : "text-[#1C1C1C]"
               } px-3 py-2 flex gap-2 items-center text-sm sm:text-base`}
               onClick={() => setActiveTab(1)}
@@ -110,7 +110,7 @@ export default function Navigation() {
             <button
               className={`${
                 activeTab === 2
-                  ? "border-b-2 border-[#028fa3] text-[#028fa3] font-bold"
+                  ? "border-b-2 border-[#155EEF] text-[#155EEF] font-bold"
                   : "text-[#1C1C1C]"
               } px-3 py-2 flex gap-2 items-center text-sm sm:text-base`}
               onClick={() => setActiveTab(2)}
@@ -134,7 +134,7 @@ export default function Navigation() {
             <button
               className={`${
                 activeTab === 3
-                  ? "border-b-2 border-[#028fa3] text-[#028fa3] font-bold"
+                  ? "border-b-2 border-[#155EEF] text-[#155EEF] font-bold"
                   : "text-[#1C1C1C]"
               } px-3 py-2 flex gap-2 items-center text-sm sm:text-base`}
               onClick={() => setActiveTab(3)}
@@ -149,7 +149,7 @@ export default function Navigation() {
             <button
               className={`${
                 activeTab === 4
-                  ? "border-b-2 border-[#028fa3] text-[#028fa3] font-bold"
+                  ? "border-b-2 border-[#155EEF] text-[#155EEF] font-bold"
                   : "text-[#1C1C1C]"
               } px-3 py-2 flex gap-2 items-center text-sm sm:text-base`}
               onClick={() => setActiveTab(4)}
@@ -163,7 +163,7 @@ export default function Navigation() {
             <button
               className={`${
                 activeTab === 5
-                  ? "border-b-2 border-[#028fa3] text-[#028fa3] font-bold"
+                  ? "border-b-2 border-[#155EEF] text-[#155EEF] font-bold"
                   : "text-[#1C1C1C]"
               } px-3 py-2 flex gap-2 items-center text-sm sm:text-base`}
               onClick={() => setActiveTab(5)}
@@ -178,7 +178,7 @@ export default function Navigation() {
 
           {hasAnyPolicy && (
             <button
-              className="underline text-[#028fa3] items-end text-xs sm:text-base font-semibold mr-4"
+              className="underline text-[#155EEF] items-end text-xs sm:text-base font-semibold mr-4"
               onClick={() => setIsOpen(true)}
             >
               Travel Policy{" "}

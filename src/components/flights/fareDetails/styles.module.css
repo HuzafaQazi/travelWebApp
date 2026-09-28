@@ -1,5 +1,5 @@
 .flightFareDetailsHead {
-  color: #028fa3;
+  color: #155EEF;
   width: 90%;
   margin-left: 5%;
   font-size: 14px;
@@ -23,7 +23,7 @@
 }
 
 .selectedbtn {
-  background-color: #028fa3 !important;
+  background-color: #155EEF !important;
   color: #ffffff !important;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .flightFareDetailsActive {
-  background: rgba(2, 143, 163, 0.07);
+  background: rgba(21, 94, 239, 0.07);
   padding: 1% 5%;
   border-radius: 15px;
   font-weight: 500;
@@ -83,7 +83,7 @@
   padding-top: 3%;
   background: var(
     --Gradient,
-    linear-gradient(90deg, #028fa3 0%, #efc007 121.58%)
+    linear-gradient(90deg, #155EEF 0%, #efc007 121.58%)
   );
   display: flex;
   justify-content: space-between;
@@ -104,7 +104,7 @@
   padding-left: 2%;
   width: 15%;
   /* height: fit-content; */
-  /* border-left: 3px solid #028fa3; */
+  /* border-left: 3px solid #155EEF; */
 }
 
 .cabinClassFacility {
@@ -140,10 +140,10 @@
 }
 
 .FareDetailsSelectBtn {
-  border: 1px solid #028fa3;
+  border: 1px solid #155EEF;
   border-radius: 4px;
   background-color: #ffffff;
-  color: #028fa3;
+  color: #155EEF;
   padding: 5% 0%;
   font-size: 12px;
   text-align: -webkit-center;
@@ -166,6 +166,6 @@
     width: 15%;
     text-align: center;
     /* height: fit-content; */
-    /* border-left: 3px solid #028fa3; */
+    /* border-left: 3px solid #155EEF; */
   }
 }

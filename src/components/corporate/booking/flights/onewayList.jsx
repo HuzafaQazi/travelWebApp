@@ -449,7 +449,7 @@ export default function OneWayList({
         >
           <button
             onClick={onClose}
-            className="bg-white  text-[#028fa3] text-lg ml-2"
+            className="bg-white  text-[#155EEF] text-lg ml-2"
           >
             <FontAwesomeIcon icon={faArrowLeft} />
           </button>
@@ -651,8 +651,8 @@ export default function OneWayList({
             key={`${wayindex}+${index}`}
             className={`p-2 py-3 pb-2 pt-3 mb-3 flex flex-col border-1 rounded-lg w-full cursor-pointer transition-all duration-200 ${
               isSelected && journeyType !== "1"
-                ? "border-[#028fa3] shadow-lg bg-[#028fa308]"
-                : "border-[#028fa350] shadow-md hover:shadow-lg"
+                ? "border-[#155EEF] shadow-lg bg-[#155EEF08]"
+                : "border-[#155EEF50] shadow-md hover:shadow-lg"
             }`} // style={{ boxShadow: "4px 4px 4px 4px rgba(22, 155, 176, 0.05)" }}
           >
             {/* twoway flight ui */}
@@ -696,12 +696,12 @@ export default function OneWayList({
                             ? handleSelection(index, index)
                             : null
                         }
-                        className={`text-[#028fa3] border border-[#028fa3] rounded-lg px-3 py-1 text-sm hover:bg-[#028fa3] hover:text-white transition
+                        className={`text-[#155EEF] border border-[#155EEF] rounded-lg px-3 py-1 text-sm hover:bg-[#155EEF] hover:text-white transition
                        
                       ${
                         flightsSelected?.[wayindex]?.resultIndex ===
                         flight?.resultIndex
-                          ? "bg-[#028fa3] text-white"
+                          ? "bg-[#155EEF] text-white"
                           : ""
                       }
                       ${
@@ -888,12 +888,12 @@ export default function OneWayList({
                             ? handleSelection(index, index)
                             : null
                         }
-                        className={`text-[#028fa3] border border-[#028fa3] rounded-lg px-3 py-1 text-sm hover:bg-[#028fa3] hover:text-white transition
+                        className={`text-[#155EEF] border border-[#155EEF] rounded-lg px-3 py-1 text-sm hover:bg-[#155EEF] hover:text-white transition
                      
                     ${
                       flightsSelected?.[wayindex]?.resultIndex ===
                       flight.resultIndex
-                        ? "bg-[#028fa3] text-white"
+                        ? "bg-[#155EEF] text-white"
                         : ""
                     }
                     ${
@@ -944,7 +944,7 @@ export default function OneWayList({
                     onMouseLeave={() => setHoveredButtonIndex(null)}
                   >
                     <button
-                      className={`bg-[#028fa3] text-white text-nowrap text-xxs sm:text-sm p-2 rounded-lg min-w-16 sm:min-w-20 flex items-center justify-center ${
+                      className={`bg-[#155EEF] text-white text-nowrap text-xxs sm:text-sm p-2 rounded-lg min-w-16 sm:min-w-20 flex items-center justify-center ${
                         isOutOfPolicySendApproval
                           ? "cursor-not-allowed opacity-70"
                           : "hover:bg-[#027a8c] cursor-pointer"
@@ -1053,7 +1053,7 @@ export default function OneWayList({
                 <div>
                   {filteredFareClassification.length > 0 && (
                     <button
-                      className={`font-base text-xxs sm:text-sm text-[#028fa3] px-2 py-1  mt-1 border-1  border-[#028fa3] rounded-lg ${
+                      className={`font-base text-xxs sm:text-sm text-[#155EEF] px-2 py-1  mt-1 border-1  border-[#155EEF] rounded-lg ${
                         journeyType === "1" ? "mr-0 sm:mr-6" : "mr-0"
                       }`}
                       onClick={() => handleToggle(flight, index)}
@@ -1067,7 +1067,7 @@ export default function OneWayList({
                 </div>
               </div>
             }
-            <div className="flex items-center gap-5 mt-2 text-[#028fa3] text-xxs sm:text-xs font-light">
+            <div className="flex items-center gap-5 mt-2 text-[#155EEF] text-xxs sm:text-xs font-light">
               <button
                 className="font-medium text-[#000000]"
                 // onClick={() => handleTabClick("fareDetails", flight, index)}
@@ -1082,7 +1082,7 @@ export default function OneWayList({
                 Flight Details
               </button>
               {/* <button
-                className="text-[#028fa3] font-medium hover:underline"
+                className="text-[#155EEF] font-medium hover:underline"
                 onClick={() =>
                   !(
                     loadingFareRules &&
@@ -1098,7 +1098,7 @@ export default function OneWayList({
                   : "View Fare Rules"}
               </button> */}
               <button
-                className="text-[#028fa3] font-medium hover:underline"
+                className="text-[#155EEF] font-medium hover:underline"
                 data-fare-toggle="true"
                 // onClick={() => handleFareRuleClick(flight.fare, index)}
                 onClick={(e) => {

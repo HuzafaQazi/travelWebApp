@@ -1222,7 +1222,7 @@ export default function Review() {
       return (
         <div className="mt-4 w-full pb-10" ref={sendForApprovalRef}>
           <button
-            className={`bg-[#028fa3] text-white text-sm rounded-full p-2 px-4 w-fit ${
+            className={`bg-[#155EEF] text-white text-sm rounded-full p-2 px-4 w-fit ${
               isOutOfPolicySendApproval && "cursor-not-allowed"
             }`}
             onClick={!isOutOfPolicySendApproval ? handleApproverSubmit : null}
@@ -1239,7 +1239,7 @@ export default function Review() {
       return (
         <div className="mt-4 w-full pb-10" ref={sendForApprovalRef}>
           <button
-            className={`w-fit px-4 mt-5 flex flex-col items-center bg-[#028fa3] p-2 rounded-full text-white peer-checked:pointer-events-auto ${
+            className={`w-fit px-4 mt-5 flex flex-col items-center bg-[#155EEF] p-2 rounded-full text-white peer-checked:pointer-events-auto ${
               isOutOfPolicySendApproval && "opacity-50 cursor-not-allowed"
             }`}
             type="button"
@@ -1292,13 +1292,13 @@ export default function Review() {
           <div className="flex items-center justify-center mx-2 sm:mx-0 space-x-1 sm:space-x-5">
             <div
               className={`flex flex-col sm:flex-row justify-center items-center space-x-2 cursor-pointer ${
-                activeStep === 1 ? "text-[#028fa3]" : "text-gray-700"
+                activeStep === 1 ? "text-[#155EEF]" : "text-gray-700"
               }`}
               onClick={() => scrollToSection(reviewDetailsRef, 1)}
             >
               <div
                 className={`rounded-full w-5 h-5 flex items-center justify-center text-white font-bold text-xxxs sm:text-xs ${
-                  activeStep === 1 ? "bg-[#028fa3]" : "bg-gray-400"
+                  activeStep === 1 ? "bg-[#155EEF]" : "bg-gray-400"
                 }`}
               >
                 1
@@ -1311,13 +1311,13 @@ export default function Review() {
             <div className="w-5 sm:w-12 h-[1px] bg-gray-300 mx-2 sm:mx-4" />
             <div
               className={`flex flex-col sm:flex-row items-center space-x-2 cursor-pointer ${
-                activeStep === 2 ? "text-[#028fa3]" : "text-gray-700"
+                activeStep === 2 ? "text-[#155EEF]" : "text-gray-700"
               }`}
               onClick={() => scrollToSection(travelerDetailsRef, 2)}
             >
               <div
                 className={`rounded-full w-5 h-5 flex items-center justify-center text-white font-bold text-xxxs sm:text-xs ${
-                  activeStep === 2 ? "bg-[#028fa3]" : "bg-gray-400"
+                  activeStep === 2 ? "bg-[#155EEF]" : "bg-gray-400"
                 }`}
               >
                 2
@@ -1337,13 +1337,13 @@ export default function Review() {
                 <>
                   <div
                     className={`flex flex-col sm:flex-row items-center space-x-2 cursor-pointer ${
-                      activeStep === 3 ? "text-[#028fa3]" : "text-gray-700"
+                      activeStep === 3 ? "text-[#155EEF]" : "text-gray-700"
                     }`}
                     onClick={() => scrollToSection(selectAddonsRef, 3)}
                   >
                     <div
                       className={`rounded-full w-5 h-5 flex items-center justify-center text-white font-bold text-xxxs sm:text-xs ${
-                        activeStep === 3 ? "bg-[#028fa3]" : "bg-gray-400"
+                        activeStep === 3 ? "bg-[#155EEF]" : "bg-gray-400"
                       }`}
                     >
                       3
@@ -1358,13 +1358,13 @@ export default function Review() {
               )}
             <div
               className={`flex flex-col sm:flex-row items-center space-x-2 cursor-pointer ${
-                activeStep === 4 ? "text-[#028fa3]" : "text-gray-700"
+                activeStep === 4 ? "text-[#155EEF]" : "text-gray-700"
               }`}
               onClick={() => scrollToSection(sendForApprovalRef, 4)}
             >
               <div
                 className={`rounded-full w-5 h-5 flex items-center justify-center text-white font-bold text-xxxs sm:text-xs ${
-                  activeStep === 4 ? "bg-[#028fa3]" : "bg-gray-400"
+                  activeStep === 4 ? "bg-[#155EEF]" : "bg-gray-400"
                 }`}
               >
                 {ssrResponse &&
@@ -1446,7 +1446,7 @@ export default function Review() {
                       type="text"
                       id="workEmail"
                       name="workEmail"
-                      className="block px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-gray-300 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 peer"
+                      className="block px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-gray-300 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 peer"
                       placeholder=" "
                       value={
                         travelers && travelers.length > 0
@@ -1459,7 +1459,7 @@ export default function Review() {
                     />
                     <label
                       for="workEmail"
-                      className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                      className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                     >
                       Work Email
                       <span className="text-red-500 absolute  right-[-5px] m-1 mt-0">
@@ -1474,7 +1474,7 @@ export default function Review() {
                       type="tel"
                       id="mobile"
                       name="mobile"
-                      className="block px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-gray-300 dark:focus:border-[#028fa3] focus:outline-none focus:ring-0 focus:border-[#028fa3]-600 peer"
+                      className="block px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-black dark:border-gray-300 dark:focus:border-[#155EEF] focus:outline-none focus:ring-0 focus:border-[#155EEF]-600 peer"
                       placeholder=" "
                       value={
                         travelers && travelers.length > 0
@@ -1487,7 +1487,7 @@ export default function Review() {
                     />
                     <label
                       for="mobile"
-                      className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-9 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#028fa3] peer-focus:dark:text-[#028fa3] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
+                      className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-9 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-[#155EEF] peer-focus:dark:text-[#155EEF] peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1"
                     >
                       Mobile Number
                       <span className="text-red-500 absolute  right-[-5px] m-1 mt-0">
@@ -1520,13 +1520,13 @@ export default function Review() {
                     </span>
                   </div>
                   {/* seats/meals/baggage button */}
-                  <div className="p-2 mt-4 bg-[#028FA317] flex justify-between w-full">
+                  <div className="p-2 mt-4 bg-[#155eef17] flex justify-between w-full">
                     {seatDynamic.length > 0 && (
                       <button
                         className={`${
                           activeButton === "Seats"
-                            ? "bg-[#028fa3] text-white"
-                            : "text-[#028fa3]"
+                            ? "bg-[#155EEF] text-white"
+                            : "text-[#155EEF]"
                         } px-4 py-2 rounded w-2/6`}
                         onClick={() => setActiveButton("Seats")}
                       >
@@ -1537,8 +1537,8 @@ export default function Review() {
                       <button
                         className={`${
                           activeButton === "Meals"
-                            ? "bg-[#028fa3] text-white"
-                            : "text-[#028fa3]"
+                            ? "bg-[#155EEF] text-white"
+                            : "text-[#155EEF]"
                         } px-4 py-2 rounded w-2/6`}
                         onClick={() => setActiveButton("Meals")}
                       >
@@ -1549,8 +1549,8 @@ export default function Review() {
                       <button
                         className={`${
                           activeButton === "Baggage"
-                            ? "bg-[#028fa3] text-white"
-                            : "text-[#028fa3]"
+                            ? "bg-[#155EEF] text-white"
+                            : "text-[#155EEF]"
                         } px-4 py-2 rounded w-2/6`}
                         onClick={() => setActiveButton("Baggage")}
                       >
@@ -1626,7 +1626,7 @@ export default function Review() {
               </div>
             )}
             {/* GST details */}
-            <div className="border-[1px] border-[#028FA32E] shadow-[6px_6px_30px_0px_#7D99B40D] rounded-md mt-3 p-3 bg-white">
+            <div className="border-[1px] border-[#155EEF2E] shadow-[6px_6px_30px_0px_#7D99B40D] rounded-md mt-3 p-3 bg-white">
               <GSTDetails
                 companyName={
                   userDetails?.loggedInDetails?.companyDetails?.companyName

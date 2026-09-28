@@ -24,7 +24,7 @@
   line-height: 20px;
   letter-spacing: 0.10000000149011612px;
   text-align: center;
-  color: #028fa3;
+  color: #155EEF;
 }
 
 .switchContainer {
@@ -39,7 +39,7 @@
   border: none !important;
   outline: none !important;
   background: transparent;
-  color: #028fa3;
+  color: #155EEF;
   position: absolute;
   font-size: 20px;
   top: 0;
@@ -118,7 +118,7 @@
   align-items: center;
   padding: 5px;
   border-radius: 13px;
-  background: #028fa34d;
+  background: #155EEF4d;
   width: fit-content;
   height: 38px;
   cursor: pointer;
@@ -138,12 +138,12 @@
 
 .walletInfo {
   font-size: 11px;
-  color: rgba(2, 143, 163, 1);
+  color: rgba(21, 94, 239, 1);
   margin-left: 6px;
 }
 
 .walletLabel {
-  color: #028fa3;
+  color: #155EEF;
   font-weight: bold;
 }
 
@@ -158,7 +158,7 @@
 }
 
 .walletAmount {
-  color: #028fa3;
+  color: #155EEF;
   margin-right: 4px;
   text-wrap: nowrap;
 }
@@ -200,7 +200,7 @@
     padding: 2% 4%;
     border: none;
     background: transparent;
-    color: #028fa3;
+    color: #155EEF;
     position: absolute;
     top: 0;
     right: 0;

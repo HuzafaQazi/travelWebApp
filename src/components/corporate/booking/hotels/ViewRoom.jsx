@@ -572,7 +572,7 @@ const ViewRoom = ({
             return (
               <div
                 key={index}
-                className={`mt-4 p-4 rounded-lg border-1 border-[#028FA350] ${roomStyle}`}
+                className={`mt-4 p-4 rounded-lg border-1 border-[#155EEF50] ${roomStyle}`}
               >
                 <div className="text-[#171A19] flex flex-col gap-1 font-medium text-base py-1">
                   {room.roomTypeName}
@@ -584,13 +584,13 @@ const ViewRoom = ({
                   onMouseEnter={() => setHoveredRoomIndex(index)}
                   onMouseLeave={() => setHoveredRoomIndex(null)}
                 >
-                  <button class=" text-[#028fa3] px-1 py-0 rounded-md underline">
+                  <button class=" text-[#155EEF] px-1 py-0 rounded-md underline">
                     Cancellation Policy
                   </button>
                   {hoveredRoomIndex === index && (
                     <div className="absolute hidden group-hover:block top-full mt-0 -left-[40%] sm:left-0 w-fit p-2 border border-gray-300 z-[50] rounded-md shadow-md bg-white">
                       <table className="sm:w-[550px] text-sm text-center border-collapse">
-                        <thead className="bg-[#028fa3] text-white">
+                        <thead className="bg-[#155EEF] text-white">
                           <tr>
                             <th className="px-2 py-1 border ">Room</th>
                             <th className="px-2 py-1 border ">
@@ -652,7 +652,7 @@ const ViewRoom = ({
                       onMouseLeave={() => setHoveredButtonIndex(null)}
                     >
                       <button
-                        className={`bg-white border border-[#028FA350] text-[#028FA3] p-1 px-2 rounded-2xl ${(!isSelectable && !isSelected) ||
+                        className={`bg-white border border-[#155EEF50] text-[#155EEF] p-1 px-2 rounded-2xl ${(!isSelectable && !isSelected) ||
                           isSingleRoomApprovalRequired
                           ? "opacity-50 cursor-not-allowed"
                           : ""
@@ -710,7 +710,7 @@ const ViewRoom = ({
         </div>
 
         {selectedRooms.length > 0 && (
-          <div className="fixed bottom-0 left-0 w-full p-3 py-1 px-4 bg-[#028FA3] shadow-lg z-50 flex justify-between items-center text-white">
+          <div className="fixed bottom-0 left-0 w-full p-3 py-1 px-4 bg-[#155EEF] shadow-lg z-50 flex justify-between items-center text-white">
             <div className="flex flex-col justify-center items-left">
               <div className="text-sm sm:text-base font-semibold">
                 {selectedRooms.length} Room
@@ -761,7 +761,7 @@ const ViewRoom = ({
               >
                 <button
                   disabled={loading || isApprovalRequiredBooking}
-                  className={`bg-white text-[#028FA3] w-full mx-0 sm:mx-[25%] text-xxs sm:text-base py-2 px-4 rounded-lg  ${isApprovalRequiredBooking
+                  className={`bg-white text-[#155EEF] w-full mx-0 sm:mx-[25%] text-xxs sm:text-base py-2 px-4 rounded-lg  ${isApprovalRequiredBooking
                     ? "cursor-not-allowed opacity-70"
                     : "cursor-pointer"
                     }`}

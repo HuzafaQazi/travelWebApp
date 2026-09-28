@@ -3,7 +3,7 @@
   flex-direction: row;
   height: 60px;
   align-items: center;
-  background-color: #028fa3;
+  background-color: #155EEF;
   border-bottom: 1px solid #fff;
 }
 
@@ -13,9 +13,9 @@
 }
 
 .modalheader .modalheaderlogo {
-  height: 30px;
-  width: 100px;
-  /* max-width: 150px; */
+  height: 35px;
+  width: 120px;
+  object-fit: contain;
   margin-top: 4px;
 }
 
@@ -33,7 +33,7 @@
   line-height: 20px;
   letter-spacing: 0.10000000149011612px;
   text-align: center;
-  color: #028fa3;
+  color: #155EEF;
 }
 
 .switchContainer {
@@ -123,6 +123,8 @@
 
 .CorpLogo {
   width: 100px;
+  height: auto;
+  object-fit: contain;
   padding-right: 4px;
 }
 

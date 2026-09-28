@@ -19,7 +19,7 @@
   /* position: absolute;
     right: 18px;
     top: 16px; */
-  background-color: rgba(2, 143, 163, 1);
+  background-color: rgba(21, 94, 239, 1);
   border: none;
 }
 
@@ -51,11 +51,11 @@
 }
 
 .loginbutton:hover {
-  background-color: rgba(2, 143, 163, 1);
+  background-color: rgba(21, 94, 239, 1);
 }
 
 .loginbutton:active {
-  background-color: rgba(2, 143, 163, 1);
+  background-color: rgba(21, 94, 239, 1);
 }
 
 .customnavlink {
@@ -65,7 +65,7 @@
 .customnavlink:hover {
   color: #fff;
   /* Hover tab text color */
-  background-color: #028fa3;
+  background-color: #155EEF;
   /* Hover tab background color */
 }
 
@@ -94,7 +94,7 @@
 
 .modalbg {
   background-color: "lightblue";
-  /* background-color: "#028FA3"; */
+  /* background-color: "#155EEF"; */
   padding: "20px";
 }
 
@@ -107,7 +107,7 @@
 }
 
 .searchHotelButton {
-  background-color: #0290a3 !important;
+  background-color: #155EEF !important;
   color: #ffffff !important;
   border-radius: 19px 19px 0px 0px;
 }
@@ -164,7 +164,7 @@
   padding-bottom: 40px;
   background: rgba(255, 255, 255, 0.8);
   /* border-radius: 4px; */
-  box-shadow: 0px 4px 8px 7px rgba(2, 143, 163, 0.07);
+  box-shadow: 0px 4px 8px 7px rgba(21, 94, 239, 0.07);
   border-radius: 0px 19px 19px 19px;
   color: black;
   width: 75vw;
@@ -206,7 +206,7 @@
   display: inline-block;
   padding: 10px 20px;
   background-color: #eaeaea;
-  background: #028fa3;
+  background: #155EEF;
   border-radius: 25.5px;
   font-family: "Gotham";
   font-style: normal;
@@ -410,7 +410,7 @@
 }
 
 .hotelSearchButton div {
-  background: #0290a3;
+  background: #155EEF;
   border-radius: 47.5px;
 }
 
@@ -424,7 +424,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0290a3;
+  background-color: #155EEF;
   /* height: 80%; */
   width: 100%;
   /* min-height: 100px; */

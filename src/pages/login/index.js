@@ -473,7 +473,7 @@ export default function Signin({ closePopup }) {
             <div>
               <p className={style.title}>Login</p>
               <p className={style.titledescription}>
-                Access Your Travel Solutions, Anytime, Anywhere with Qugo!
+                Access Your Travel Solutions, Anytime, Anywhere with WeynGo!
               </p>
 
               {!isInternational ? (

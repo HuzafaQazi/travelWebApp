@@ -39,7 +39,7 @@ const Schedule = () => {
               }
               50% {
                 transform: scale(4);
-                color: #028fa3;
+                color: #155EEF;
               }
               100% {
                 transform: scale(3);

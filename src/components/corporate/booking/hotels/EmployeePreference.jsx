@@ -40,7 +40,7 @@ const EmployeePreferenceSideSheet = ({ isOpen, onClose }) => {
                     }`}
             >
                 <div className="flex items-center justify-between px-4 py-2">
-                    <div className=" flex text-base text-[#171A19] font-semibold items-center">Preferences <FontAwesomeIcon icon={faPencil} onClick={handlePencilClick} className='text-[#FFFFFF] text-xxs bg-[#028FA3] rounded-full p-1 ml-1' /></div>
+                    <div className=" flex text-base text-[#171A19] font-semibold items-center">Preferences <FontAwesomeIcon icon={faPencil} onClick={handlePencilClick} className='text-[#FFFFFF] text-xxs bg-[#155EEF] rounded-full p-1 ml-1' /></div>
                     <button onClick={onClose} className="text-gray-600 hover:text-gray-900">
                         <FontAwesomeIcon icon={faCircleXmark} className='text-[#878786]' />
                     </button>
@@ -54,8 +54,8 @@ const EmployeePreferenceSideSheet = ({ isOpen, onClose }) => {
                                     key={tab}
                                     onClick={() => handleTabClick(tab)}
                                     className={`pb-2 cursor-pointer ${selectedTab === tab
-                                        ? 'border-b-2 border-[#028FA3] text-[#028FA3] font-semibold'
-                                        : 'border-b-2 border-transparent text-black hover:border-[#028FA3] hover:text-[#028FA3]'
+                                        ? 'border-b-2 border-[#155EEF] text-[#155EEF] font-semibold'
+                                        : 'border-b-2 border-transparent text-black hover:border-[#155EEF] hover:text-[#155EEF]'
                                         }`}
                                 >
                                     {tab}
@@ -64,7 +64,7 @@ const EmployeePreferenceSideSheet = ({ isOpen, onClose }) => {
                         </div>
 
                         <div ref={flightRef} className='mt-4' >
-                            <div className='text-[#028FA3] text-base font-medium mt-2'>Flight</div>
+                            <div className='text-[#155EEF] text-base font-medium mt-2'>Flight</div>
 
                             <div>
                                 <div className='text-[#171A19] text-sm font-semibold mt-2'>Preferred Seat</div>
@@ -247,7 +247,7 @@ const EmployeePreferenceSideSheet = ({ isOpen, onClose }) => {
                         </div>
 
                         <div ref={hotelRef} className='mt-4'>
-                            <div className='text-[#028FA3] text-base font-medium'>Hotel</div>
+                            <div className='text-[#155EEF] text-base font-medium'>Hotel</div>
 
                             <div>
                                 <div className='text-[#171A19] text-sm font-semibold mt-2'>Preferred Hotel</div>
@@ -296,8 +296,8 @@ const EmployeePreferenceSideSheet = ({ isOpen, onClose }) => {
                                     key={tab}
                                     onClick={() => handleTabClick(tab)}
                                     className={`pb-2 cursor-pointer ${selectedTab === tab
-                                        ? 'border-b-2 border-[#028FA3] text-[#028FA3] font-semibold'
-                                        : 'border-b-2 border-transparent text-black hover:border-[#028FA3] hover:text-[#028FA3]'
+                                        ? 'border-b-2 border-[#155EEF] text-[#155EEF] font-semibold'
+                                        : 'border-b-2 border-transparent text-black hover:border-[#155EEF] hover:text-[#155EEF]'
                                         }`}
                                 >
                                     {tab}
@@ -305,14 +305,14 @@ const EmployeePreferenceSideSheet = ({ isOpen, onClose }) => {
                             ))}
                         </div>
                         <div ref={flightRef} className='mt-4'>
-                            <div className='text-[#028FA3] text-base font-medium mt-2'>Flight</div>
+                            <div className='text-[#155EEF] text-base font-medium mt-2'>Flight</div>
                             <div>
                                 <div className='text-[#171A19] text-sm font-semibold mt-2'>Preferred Seat</div>
                                 <div className="grid grid-cols-4 my-2">
-                                    <div className='text-[#028FA3] bg-[#028FA312] text-sm font-medium w-fit p-2 rounded-full my-1'>
+                                    <div className='text-[#155EEF] bg-[#155eef12] text-sm font-medium w-fit p-2 rounded-full my-1'>
                                         Window Seat
                                     </div>
-                                    <div className='text-[#028FA3] bg-[#028FA312] text-sm font-medium w-fit p-2 rounded-full my-1'>
+                                    <div className='text-[#155EEF] bg-[#155eef12] text-sm font-medium w-fit p-2 rounded-full my-1'>
                                         Free Seat
                                     </div>
                                 </div>
@@ -320,10 +320,10 @@ const EmployeePreferenceSideSheet = ({ isOpen, onClose }) => {
                             <div>
                                 <div className='text-[#171A19] text-sm font-semibold mt-2'>Preferred Meal</div>
                                 <div className="grid grid-cols-4 my-2">
-                                    <div className='text-[#028FA3] bg-[#028FA312] text-sm font-medium w-fit p-2 rounded-full my-1'>
+                                    <div className='text-[#155EEF] bg-[#155eef12] text-sm font-medium w-fit p-2 rounded-full my-1'>
                                         Veg
                                     </div>
-                                    <div className='text-[#028FA3] bg-[#028FA312] text-sm font-medium w-fit p-2 rounded-full my-1'>
+                                    <div className='text-[#155EEF] bg-[#155eef12] text-sm font-medium w-fit p-2 rounded-full my-1'>
                                         Non Veg
                                     </div>
                                 </div>
@@ -331,10 +331,10 @@ const EmployeePreferenceSideSheet = ({ isOpen, onClose }) => {
                             <div>
                                 <div className='text-[#171A19] text-sm font-semibold mt-2'>Preferred Sorting Options</div>
                                 <div className="grid grid-cols-4 my-2">
-                                    <div className='text-[#028FA3] bg-[#028FA312] text-sm font-medium w-fit p-2 rounded-full my-1'>
+                                    <div className='text-[#155EEF] bg-[#155eef12] text-sm font-medium w-fit p-2 rounded-full my-1'>
                                         Evening Travel time
                                     </div>
-                                    <div className='text-[#028FA3] bg-[#028FA312] text-sm font-medium w-fit p-2 rounded-full my-1'>
+                                    <div className='text-[#155EEF] bg-[#155eef12] text-sm font-medium w-fit p-2 rounded-full my-1'>
                                         Day Travel time
                                     </div>
                                 </div>
@@ -342,19 +342,19 @@ const EmployeePreferenceSideSheet = ({ isOpen, onClose }) => {
                             <div>
                                 <div className='text-[#171A19] text-sm font-semibold mt-2'>Preferred Airline</div>
                                 <div className="grid grid-cols-5 my-2">
-                                    <div className='text-[#028FA3] bg-[#028FA312] text-sm font-medium w-fit p-2 rounded-full my-1'>
+                                    <div className='text-[#155EEF] bg-[#155eef12] text-sm font-medium w-fit p-2 rounded-full my-1'>
                                         Indigo
                                     </div>
-                                    <div className='text-[#028FA3] bg-[#028FA312] text-sm font-medium w-fit p-2 rounded-full my-1'>
+                                    <div className='text-[#155EEF] bg-[#155eef12] text-sm font-medium w-fit p-2 rounded-full my-1'>
                                         Vistara
                                     </div>
-                                    <div className='text-[#028FA3] bg-[#028FA312] text-sm font-medium w-fit p-2 rounded-full my-1'>
+                                    <div className='text-[#155EEF] bg-[#155eef12] text-sm font-medium w-fit p-2 rounded-full my-1'>
                                         AirIndia
                                     </div>
-                                    <div className='text-[#028FA3] bg-[#028FA312] text-sm font-medium w-fit p-2 rounded-full my-1'>
+                                    <div className='text-[#155EEF] bg-[#155eef12] text-sm font-medium w-fit p-2 rounded-full my-1'>
                                         SpiceJet
                                     </div>
-                                    <div className='text-[#028FA3] bg-[#028FA312] text-sm font-medium w-fit p-2 rounded-full my-1'>
+                                    <div className='text-[#155EEF] bg-[#155eef12] text-sm font-medium w-fit p-2 rounded-full my-1'>
                                         GoFirst
                                     </div>
                                 </div>
@@ -362,24 +362,24 @@ const EmployeePreferenceSideSheet = ({ isOpen, onClose }) => {
                             <div>
                                 <div className='text-[#171A19] text-sm font-semibold mt-2'>Preferred Row</div>
                                 <div className="grid grid-cols-4 my-2">
-                                    <div className='text-[#028FA3] bg-[#028FA312] text-sm font-medium w-fit p-2 rounded-full my-1'>
+                                    <div className='text-[#155EEF] bg-[#155eef12] text-sm font-medium w-fit p-2 rounded-full my-1'>
                                         5-10
                                     </div>
-                                    <div className='text-[#028FA3] bg-[#028FA312] text-sm font-medium w-fit p-2 rounded-full my-1'>
+                                    <div className='text-[#155EEF] bg-[#155eef12] text-sm font-medium w-fit p-2 rounded-full my-1'>
                                         10-15
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div ref={hotelRef} className='mt-4' >
-                            <div className='text-[#028FA3] text-base font-medium'>Hotel</div>
+                            <div className='text-[#155EEF] text-base font-medium'>Hotel</div>
                             <div>
                                 <div className='text-[#171A19] text-sm font-semibold mt-2'>Preferred Room type</div>
                                 <div className="grid grid-cols-4 my-2">
-                                    <div className='text-[#028FA3] bg-[#028FA312] text-sm font-medium w-fit p-2 rounded-full my-1'>
+                                    <div className='text-[#155EEF] bg-[#155eef12] text-sm font-medium w-fit p-2 rounded-full my-1'>
                                         Single room
                                     </div>
-                                    <div className='text-[#028FA3] bg-[#028FA312] text-sm font-medium w-fit p-2 rounded-full my-1'>
+                                    <div className='text-[#155EEF] bg-[#155eef12] text-sm font-medium w-fit p-2 rounded-full my-1'>
                                         Double room
                                     </div>
                                 </div>
@@ -387,10 +387,10 @@ const EmployeePreferenceSideSheet = ({ isOpen, onClose }) => {
                             <div>
                                 <div className='text-[#171A19] text-sm font-semibold mt-2'>Preferred Room facilities</div>
                                 <div className="grid grid-cols-4 my-2">
-                                    <div className='text-[#028FA3] bg-[#028FA312] text-sm font-medium w-fit p-2 rounded-full my-1'>
+                                    <div className='text-[#155EEF] bg-[#155eef12] text-sm font-medium w-fit p-2 rounded-full my-1'>
                                         Breakfast included
                                     </div>
-                                    <div className='text-[#028FA3] bg-[#028FA312] text-sm font-medium w-fit p-2 rounded-full my-1'>
+                                    <div className='text-[#155EEF] bg-[#155eef12] text-sm font-medium w-fit p-2 rounded-full my-1'>
                                         Lunch included
                                     </div>
                                 </div>

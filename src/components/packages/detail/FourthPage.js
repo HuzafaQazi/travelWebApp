@@ -7,7 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import StarRatings from "react-star-ratings";
-import qugoLogo from "../../../../public/img/Qugo Logo mobile.png";
+import weyngoLogo from "../../../../public/img/weyngo_logo.png";
 import { redirectPackageDetail } from "../../../../utils/pageredirection";
 import styles from "./style.module.css";
 
@@ -130,8 +130,8 @@ const FourthPage = ({ related_packages }) => {
                         <div className={styles.logo}>
                           <Image
                             className={styles.qugoLogo}
-                            src={qugoLogo}
-                            alt="logo"
+                            src={weyngoLogo}
+                            alt="WeynGo logo"
                           />
                         </div>
                         <div className={styles.tripDuration}>

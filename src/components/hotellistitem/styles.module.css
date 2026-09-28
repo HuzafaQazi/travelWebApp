@@ -37,7 +37,7 @@
 
 .clickview {
   display: inline-block;
-  color: rgba(2, 143, 163, 1);
+  color: rgba(21, 94, 239, 1);
 }
 
 .starimage {
@@ -99,7 +99,7 @@
 
 .tooltipText {
   visibility: hidden;
-  background-color: rgba(2, 143, 163, 1);
+  background-color: rgba(21, 94, 239, 1);
   color: #ffffff;
   text-align: center;
   font-size: 15px;
@@ -170,7 +170,7 @@
 }
 
 .solidbutton {
-  background-color: rgba(2, 143, 163, 1);
+  background-color: rgba(21, 94, 239, 1);
   border: none;
   color: white;
   padding: 4px;

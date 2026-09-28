@@ -509,7 +509,7 @@ const HotelListingItem = (props) => {
                 : "View more"}
               <FontAwesomeIcon
                 icon={viewOpen ? faCaretUp : faCaretDown}
-                color="rgba(2, 143, 163, 1)"
+                color="rgba(21, 94, 239, 1)"
                 style={{ fontSize: "16px", marginLeft: "8px" }}
                 className={style.caretIcon}
               />

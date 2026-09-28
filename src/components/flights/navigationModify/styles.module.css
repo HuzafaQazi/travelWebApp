@@ -219,7 +219,7 @@
   width: 125%;
   height: 3px;
   border-radius: 5px;
-  background-color: #028fa3;
+  background-color: #155EEF;
 }
 
 .activeLink::before {
@@ -231,8 +231,8 @@
   height: 100%;
   background: linear-gradient(
     180deg,
-    rgba(2, 143, 163, 0) 0%,
-    rgba(2, 143, 163, 0.5) 160%
+    rgba(21, 94, 239, 0) 0%,
+    rgba(21, 94, 239, 0.5) 160%
   );
 }
 
@@ -376,7 +376,7 @@
 }
 
 .featureDetails {
-  color: #028fa3;
+  color: #155EEF;
   margin-left: 5%;
   width: fit-content;
 }
@@ -469,7 +469,7 @@
   width: 9%;
   margin-left: 45%;
   height: 4px;
-  background-color: #028fa3;
+  background-color: #155EEF;
   margin-bottom: 5%;
 }
 
@@ -529,7 +529,7 @@
   width: 300%; /* Adjust the width as needed */
   /* max-width: 100%;  */
   background-color: #fff;
-  color: #028fa3;
+  color: #155EEF;
   text-align: left;
   border-radius: 6px;
   padding: 5px;
@@ -547,7 +547,7 @@
   width: 300%; /* Adjust the width as needed */
   /* max-width: 100%;  */
   background-color: #fff;
-  color: #028fa3;
+  color: #155EEF;
   text-align: left;
   border-radius: 6px;
   padding: 5px;
@@ -646,7 +646,7 @@
   padding: 4%;
   padding-left: 4%;
   padding-right: 4%;
-  color: #028fa3;
+  color: #155EEF;
 }
 
 .travelersHeadPopup {
@@ -670,7 +670,7 @@
 }
 
 .toggleButton {
-  background: #028fa3;
+  background: #155EEF;
   height: fit-content;
   text-wrap: nowrap;
   width: fit-content;
@@ -730,13 +730,13 @@
   padding-top: 2%;
   padding-bottom: 2%;
   border-radius: 8px;
-  background-color: #028fa3;
+  background-color: #155EEF;
   color: #ffffff;
   border: none;
 }
 
 .highlight {
-  border: 1px solid #028fa3;
+  border: 1px solid #155EEF;
 }
 
 .swapIcon {
@@ -747,7 +747,7 @@
 
 .interIcon {
   transform: rotate(90deg);
-  color: #028fa3;
+  color: #155EEF;
   background-color: #ffffff;
   padding: 1%;
   font-size: 25px;
@@ -797,7 +797,7 @@
   .closeButton {
     padding: 2% 4%;
     border: none;
-    background: #028fa3;
+    background: #155EEF;
     color: #ffffff;
   }
 
@@ -816,7 +816,7 @@
   }
 
   .bottomSheetPara {
-    color: #028fa3;
+    color: #155EEF;
     font-size: 12px;
   }
 
@@ -854,7 +854,7 @@
     padding: 1% 10%;
     border: none;
     border-radius: 4px;
-    background: #028fa3;
+    background: #155EEF;
     color: #ffffff;
     box-shadow: 0px 4px 4px 0px rgba(35, 31, 32, 0.12);
   }
@@ -867,7 +867,7 @@
   }
 
   .qugoColor {
-    color: #028fa3;
+    color: #155EEF;
     font-weight: 700;
   }
 
@@ -1315,17 +1315,17 @@
   .outinDetails {
     display: flex;
     flex-direction: column;
-    color: #028fa3;
+    color: #155EEF;
   }
 
   .openRecent {
     border-radius: 50px;
     font-size: 9px;
     padding-left: 2%;
-    color: #028fa3;
+    color: #155EEF;
     background-color: #ffffff;
     padding-right: 2%;
-    border: 1px solid #028fa3;
+    border: 1px solid #155EEF;
   }
 
   .bottomSheetCalender {
@@ -1366,7 +1366,7 @@
     height: fit-content;
     border-radius: 6px;
     border: none;
-    background-color: #028fa3;
+    background-color: #155EEF;
     color: white;
     font-size: 18px;
     height: 12%;
@@ -1393,7 +1393,7 @@
   .dateHighlight {
     font-size: 18px;
     font-weight: 500;
-    color: #028fa3;
+    color: #155EEF;
   }
 
   .customCalendarFlights {
@@ -1404,7 +1404,7 @@
   }
 
   .active {
-    border: 1px solid #028fa3;
+    border: 1px solid #155EEF;
   }
 
   .bigFrontDate {

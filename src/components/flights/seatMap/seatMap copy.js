@@ -178,7 +178,7 @@ function SeatMap({
     { status: "Unoccupied", color: "white" },
     { status: "Reserved", color: "yellow" },
     { status: "Occupied", color: "grey" },
-    { status: "Selected", color: "#028fa3" },
+    { status: "Selected", color: "#155EEF" },
   ];
 
   return (
@@ -198,7 +198,7 @@ function SeatMap({
               <h4>Seat details</h4>
               <span style={{ fontWeight: "bold" }}>
                 Seat number :{" "}
-                <span style={{ fontWeight: "normal", color: "#028fa3" }}>
+                <span style={{ fontWeight: "normal", color: "#155EEF" }}>
                   {
                     passenger[passengerIndex].seatDynamic?.[
                       ssrDestinationIndex
@@ -209,7 +209,7 @@ function SeatMap({
               <br />
               <span style={{ fontWeight: "bold" }}>
                 Price :{" "}
-                <span style={{ fontWeight: "normal", color: "#028fa3" }}>
+                <span style={{ fontWeight: "normal", color: "#155EEF" }}>
                   {
                     passenger[passengerIndex].seatDynamic[ssrDestinationIndex][
                       seatStopsIndex[ssrDestinationIndex]

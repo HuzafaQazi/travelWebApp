@@ -41,7 +41,7 @@ const BookingRequestSent = ({ handleRedirect }) => {
           </div>
           <div
             onClick={() => handleRedirect(2)}
-            className="text-[#028FA3] text-lg font-medium cursor-pointer"
+            className="text-[#155EEF] text-lg font-medium cursor-pointer"
           >
             View All{" "}
             <span>

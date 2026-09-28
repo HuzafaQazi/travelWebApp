@@ -291,7 +291,7 @@ export default function CommonApproval() {
   //         {isCab && (
   //           <div className="w-full md:w-1/3 border border-gray-200 rounded-md p-3">
   //             <div className="flex items-center gap-2 mb-2">
-  //               <FontAwesomeIcon icon={faCar} className="text-[#028fa3]" />
+  //               <FontAwesomeIcon icon={faCar} className="text-[#155EEF]" />
   //               <span className="font-semibold">Cab Details</span>
   //             </div>
   //             <div className="text-sm">
@@ -316,7 +316,7 @@ export default function CommonApproval() {
   //             <div className="flex items-center gap-2">
   //               <FontAwesomeIcon
   //                 icon={faMapMarkedAlt}
-  //                 className="text-[#028fa3]"
+  //                 className="text-[#155EEF]"
   //               />
   //               <span className="font-semibold">Route</span>
   //             </div>
@@ -335,7 +335,7 @@ export default function CommonApproval() {
   //               </div>
   //             </div>
   //             <div className="flex items-center gap-2 mt-2">
-  //               <FontAwesomeIcon icon={faClock} className="text-[#028fa3]" />
+  //               <FontAwesomeIcon icon={faClock} className="text-[#155EEF]" />
   //               <span className="font-semibold">Travel Details</span>
   //             </div>
   //             <div>
@@ -428,7 +428,7 @@ export default function CommonApproval() {
               {isCab && journey.cabType && (
                 <div className="w-full md:w-1/3 border border-gray-200 rounded-md p-3 bg-gray-50">
                   <div className="flex items-center gap-2 mb-2">
-                    <FontAwesomeIcon icon={faCar} className="text-[#028fa3]" />
+                    <FontAwesomeIcon icon={faCar} className="text-[#155EEF]" />
                     <span className="font-semibold">Cab Details</span>
                   </div>
                   <div className="text-sm">
@@ -458,7 +458,7 @@ export default function CommonApproval() {
                     <div className="flex items-center gap-2 mb-2">
                       <FontAwesomeIcon
                         icon={faMapMarkedAlt}
-                        className="text-[#028fa3]"
+                        className="text-[#155EEF]"
                       />
                       <span className="font-semibold">Route</span>
                     </div>
@@ -491,7 +491,7 @@ export default function CommonApproval() {
                   {/* Departure Date */}
                   <div>
                     <div className="flex items-center gap-2 mb-2">
-                      <FontAwesomeIcon icon={faClock} className="text-[#028fa3]" />
+                      <FontAwesomeIcon icon={faClock} className="text-[#155EEF]" />
                       <span className="font-semibold">Travel Details</span>
                     </div>
                     <div className="pl-7">
@@ -508,7 +508,7 @@ export default function CommonApproval() {
                       <div className="flex items-center gap-2 mb-2">
                         <FontAwesomeIcon
                           icon={faMoneyBillWave}
-                          className="text-[#028fa3]"
+                          className="text-[#155EEF]"
                         />
                         <span className="font-semibold">Amount Details</span>
                       </div>
@@ -532,7 +532,7 @@ export default function CommonApproval() {
                         {journey.quoteAmount > 0 && (
                           <div className="flex justify-between">
                             <span className="text-gray-600">Quote Amount:</span>
-                            <span className="font-medium text-[#028fa3]">
+                            <span className="font-medium text-[#155EEF]">
                               ₹{journey.quoteAmount.toLocaleString()}
                             </span>
                           </div>
@@ -547,7 +547,7 @@ export default function CommonApproval() {
                       <div className="flex items-center gap-2 mb-2">
                         <FontAwesomeIcon
                           icon={faInfoCircle}
-                          className="text-[#028fa3]"
+                          className="text-[#155EEF]"
                         />
                         <span className="font-semibold">Additional Information</span>
                       </div>
@@ -586,7 +586,7 @@ export default function CommonApproval() {
           {journeys.some(j => j.quoteAmount > 0) && (
             <div className="flex justify-between items-center mt-2">
               <span className="font-semibold">Total Quote Amount:</span>
-              <span className="font-bold text-lg text-[#028fa3]">
+              <span className="font-bold text-lg text-[#155EEF]">
                 ₹{journeys.reduce((sum, j) => sum + (j.quoteAmount || 0), 0).toLocaleString()}
               </span>
             </div>
@@ -606,7 +606,7 @@ export default function CommonApproval() {
       </div>
       {isLoading ? (
         <div className="flex justify-center items-center h-screen">
-          <FontAwesomeIcon icon={faSpinner} spin size="2x" color="#028fa3" />
+          <FontAwesomeIcon icon={faSpinner} spin size="2x" color="#155EEF" />
         </div>
       ) : errorMessage || !approvalData ? (
         <div className="flex items-center justify-center h-screen bg-gray-100">
@@ -649,7 +649,7 @@ export default function CommonApproval() {
                     approvalData?.paymentStatus !== "SUCCESS" &&
                     userDetails?.userId === approvalData?.userId && (
                       <button
-                        className="bg-[#028fa3] w-full text-white text-xxs sm:text-sm py-1 p-3 rounded-lg"
+                        className="bg-[#155EEF] w-full text-white text-xxs sm:text-sm py-1 p-3 rounded-lg"
                         onClick={openCancelModal}
                       >
                         Cancel Request
@@ -657,7 +657,7 @@ export default function CommonApproval() {
                     )}
                   {approvalData?.approvalStatus === "Declined" && (
                     <button
-                      className="bg-[#028fa3] w-full text-white text-sm p-3 mt-5 rounded-lg"
+                      className="bg-[#155EEF] w-full text-white text-sm p-3 mt-5 rounded-lg"
                       onClick={() => router.push("/")}
                     >
                       Go to Homepage
@@ -703,7 +703,7 @@ export default function CommonApproval() {
                 {approvalData?.bookingdetails?.passengers?.length > 0 ? (
                   <div className="overflow-x-auto">
                     <table className="min-w-full divide-y divide-gray-200">
-                      <thead className="bg-[#028fa3]">
+                      <thead className="bg-[#155EEF]">
                         <tr>
                           <th className="px-4 py-2 text-left text-xs font-semibold text-white uppercase tracking-wider">
                             Traveler Name
@@ -760,7 +760,7 @@ export default function CommonApproval() {
                   </div>
                 )}
               </div>
-              <div className="border-[1px] border-[#028FA32E] shadow-[6px_6px_30px_0px_#7D99B40D] rounded-md mt-2 p-3 bg-white">
+              <div className="border-[1px] border-[#155EEF2E] shadow-[6px_6px_30px_0px_#7D99B40D] rounded-md mt-2 p-3 bg-white">
                 <GSTDetails
                   companyName={approvalData?.companyDetails?.companyName}
                   gstNumber={approvalData?.companyDetails?.gst}
@@ -789,7 +789,7 @@ export default function CommonApproval() {
                 approvalData?.paymentStatus !== "SUCCESS" &&
                 userDetails?.userId === approvalData?.userId && (
                   <button
-                    className="bg-[#028fa3] w-full text-white text-sm p-3 mt-5 rounded-lg"
+                    className="bg-[#155EEF] w-full text-white text-sm p-3 mt-5 rounded-lg"
                     onClick={openCancelModal}
                   >
                     Cancel Request
@@ -797,7 +797,7 @@ export default function CommonApproval() {
                 )}
               {approvalData?.approvalStatus === "Declined" && (
                 <button
-                  className="bg-[#028fa3] w-full text-white text-sm p-3 mt-5 rounded-lg"
+                  className="bg-[#155EEF] w-full text-white text-sm p-3 mt-5 rounded-lg"
                   onClick={() => router.push("/")}
                 >
                   Go to Homepage
@@ -837,7 +837,7 @@ export default function CommonApproval() {
                   {/* <div>Rs. {formatPrice(ssrFare)}</div> */}
                 </div>
  
-                <div className="p-2 py-3 flex w-full justify-between mt-1 rounded-md text-base sm:text-lg bg-[#028FA30F] text-[#028fa3]">
+                <div className="p-2 py-3 flex w-full justify-between mt-1 rounded-md text-base sm:text-lg bg-[#155EEF0F] text-[#155EEF]">
                   <div className="font-semibold">Total Price</div>
                   {/* <div>Rs. {formatPrice(totalFare)}</div> */}
                   <div>{formatPrice(approvalData?.bookingdetails?.booking?.netAmount)}</div>

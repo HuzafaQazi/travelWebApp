@@ -72,7 +72,7 @@
 .filterchip {
   background-color: white;
   border: none;
-  color: rgba(2, 143, 163, 1);
+  color: rgba(21, 94, 239, 1);
   padding: 4px;
   padding-left: 8px;
   padding-right: 8px;
@@ -95,7 +95,7 @@
   background-color: white;
   margin-top: 20px;
   padding: 8px;
-  color: rgba(2, 143, 163, 1);
+  color: rgba(21, 94, 239, 1);
   /* display: block; */
 }
 
@@ -136,7 +136,7 @@
   background-color: rgb(241, 236, 236);
   margin-top: 12px;
   padding: 8px;
-  color: rgba(2, 143, 163, 1);
+  color: rgba(21, 94, 239, 1);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-size: small;
   margin-bottom: 18px;
@@ -185,7 +185,7 @@
 
 .billtext {
   border: none;
-  color: rgba(2, 143, 163, 1);
+  color: rgba(21, 94, 239, 1);
   padding: 4px;
   width: max-content;
   padding-left: 0px;
@@ -199,7 +199,7 @@
 }
 
 .solidbutton {
-  background-color: rgba(2, 143, 163, 1);
+  background-color: rgba(21, 94, 239, 1);
   border: none;
   color: white;
   padding: 4px;
@@ -312,8 +312,8 @@ margin-right: -90px;
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  border: 1px solid rgba(2, 143, 163, 1);
-  color: rgba(2, 143, 163, 1);
+  border: 1px solid rgba(21, 94, 239, 1);
+  color: rgba(21, 94, 239, 1);
   font-weight: bold;
 }
 
@@ -348,8 +348,8 @@ margin-right: -90px;
   height: 30px; */
   border-radius: 12px;
   margin-top: 8px;
-  border: 1px solid rgba(2, 143, 163, 1);
-  color: rgba(2, 143, 163, 1);
+  border: 1px solid rgba(21, 94, 239, 1);
+  color: rgba(21, 94, 239, 1);
   padding: 4px;
   padding-left: 8px;
   padding-right: 8px;
@@ -371,9 +371,7 @@ margin-right: -90px;
 
 
 .selectedFilter {
-  background-color: rgba(2,
-      143,
-      163,
+  background-color: rgba(21, 94, 239,
       1);
   /* Background color for the selected filter */
   color: #fff;
@@ -405,7 +403,7 @@ margin-right: -90px;
   margin-top: 10px;
   padding: 5px 10px;
   border: 1px solid #ccc;
-  background-color: rgba(2, 143, 163, 1);
+  background-color: rgba(21, 94, 239, 1);
   border-radius: 10px;
   text-align: center;
   color: white;
@@ -486,8 +484,8 @@ margin-right: -90px;
 }
 
 .starCheckbox:checked {
-  border-color: rgba(2, 143, 163, 1);
-  background-color: rgba(2, 143, 163, 1);
+  border-color: rgba(21, 94, 239, 1);
+  background-color: rgba(21, 94, 239, 1);
 }
 
 .starCheckbox:checked::after {
@@ -532,8 +530,8 @@ margin-right: -90px;
 }
 
 .mcheckbox:checked+.checkboxCustom {
-  border-color: rgba(2, 143, 163, 1);
-  background-color: rgba(2, 143, 163, 1);
+  border-color: rgba(21, 94, 239, 1);
+  background-color: rgba(21, 94, 239, 1);
 }
 
 .mcheckbox:checked+.checkboxCustom::after {
@@ -656,8 +654,8 @@ margin-right: -90px;
     display: inline;
     align-self: center;
     font-size: 12px;
-    color: #028FA3;
-    border: 1px solid #028FA3;
+    color: #155EEF;
+    border: 1px solid #155EEF;
     padding: 5px 8px;
     border-radius: 18px;
     margin-top: 23px;
@@ -665,7 +663,7 @@ margin-right: -90px;
   }
 
   .filtertext {
-    color: #028FA3;
+    color: #155EEF;
     display: flex;
     justify-content: space-between;
   }
@@ -676,7 +674,7 @@ margin-right: -90px;
     bottom: 0;
     width: 100%;
     height: fit-content;
-    background-color: rgba(2, 143, 163, 1);
+    background-color: rgba(21, 94, 239, 1);
     z-index: 999;
     padding-top: 0%;
     border-bottom-left-radius: 0px;
@@ -686,7 +684,7 @@ margin-right: -90px;
   .whitecard {
     margin-top: 0px;
     padding-bottom: 0px;
-    background-color: rgba(2, 143, 163, 1);
+    background-color: rgba(21, 94, 239, 1);
   }
 
   .elevatedCard {
@@ -746,7 +744,7 @@ margin-right: -90px;
 
   .solidbutton {
     background-color: #fff;
-    color: rgba(2, 143, 163, 1);
+    color: rgba(21, 94, 239, 1);
     font-size: 14px;
     padding: 5px 16px;
     margin-top: 8px;
@@ -762,7 +760,7 @@ margin-right: -90px;
 
   .outlinedButton {
     background-color: #fff;
-    color: #028FA3;
+    color: #155EEF;
     font-size: 14px;
   }
   .clearButton {

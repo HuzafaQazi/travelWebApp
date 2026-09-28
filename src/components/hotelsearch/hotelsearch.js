@@ -17,7 +17,7 @@ export default function HotelSearch() {
               <Image
                 className={style.qugoLogo}
                 src={qugologo}
-                alt="Qugo Logo"
+                alt="WeynGo Logo"
               />
             </div>
           </div>

@@ -530,7 +530,7 @@ export default function HeaderNew(props) {
   return (
     <>
       <Head>
-        <title>qugo | Hotel Result</title>
+        <title>WeynGo | Hotel Result</title>
       </Head>
       <div id={style.banner} className={style.topbanner}>
         <header
@@ -546,7 +546,7 @@ export default function HeaderNew(props) {
                 <Image
                   className={style.qugoLogo}
                   src={qugologo}
-                  alt="Qugo Logo"
+                  alt="WeynGo Logo"
                   onClick={goToHome}
                 />
               </div>

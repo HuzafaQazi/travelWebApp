@@ -53,7 +53,7 @@ export default function ProfileHeader({ isCorporateUser, walletBalance }) {
           <Image
             src={qugologo}
             className={style.modalheaderlogo}
-            alt="Unable to load qugo logo"
+            alt="WeynGo Logo"
             onClick={goToHome}
             style={{ cursor: "pointer" }}
           />
@@ -89,7 +89,7 @@ export default function ProfileHeader({ isCorporateUser, walletBalance }) {
 
         <button className={style.switchContainer} onClick={switchToCorporate}>
           <span className={style.switch}>Switch to</span>
-          <Image className={style.CorpLogo} src={corporate} alt="qugoLogo" />
+          <Image className={style.CorpLogo} src={corporate} alt="WeynGo Corporate Logo" />
         </button>
 
         <div className={style.modaltitle} onClick={goToProfile}>

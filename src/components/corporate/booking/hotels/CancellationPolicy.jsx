@@ -74,7 +74,7 @@ const CancellationPolicy = ({ roomData }) => {
             onClick={() => setIsPolicyOpen(!isPolicyOpen)}
           >
             Cancellation Policy
-            <FontAwesomeIcon icon={faCaretDown} color="#028fa3" />
+            <FontAwesomeIcon icon={faCaretDown} color="#155EEF" />
           </div>
 
           {isPolicyOpen && (
@@ -137,7 +137,7 @@ const CancellationPolicy = ({ roomData }) => {
                               : ""
                           }`}
                         >
-                          <p className="mt-2 text-sm text-[#028FA3]">
+                          <p className="mt-2 text-sm text-[#155EEF]">
                             {policy.charges}
                           </p>
                         </div>

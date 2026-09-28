@@ -388,7 +388,7 @@ export const formatDateWithDiv = (dateString, style) => {
   return (
     <div className={style.fromToDate}>
       {day},{" "}
-      <span style={{ color: "#028fa3" }}>
+      <span style={{ color: "#155EEF" }}>
         {month} {dateDay}
         {dateDay % 10 === 1 && dateDay !== 11
           ? "st"

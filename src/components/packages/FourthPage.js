@@ -3,8 +3,7 @@ import styles from "./style.module.css";
 import VerticalSlides from "./VerticalSlides";
 import Image from "next/image";
 import Link from "next/link";
-// import qugoLogo from "../../../../public/img/Qugo Logo mobile.png";
-import qugoLogo from "../../../public/img/Qugo Logo mobile.png";
+import weyngoLogo from "../../../public/img/weyngo_logo.png";
 import borderart from "../../../public/img/topattractionsArt.png";
 import Loader from "@/components/loader/loader";
 import { redirectPackageDetail } from "../../../utils/pageredirection";
@@ -99,8 +98,8 @@ const FourthPage = ({ top_selling_packages }) => {
                   <div className={styles.logo}>
                     <Image
                       className={styles.qugoLogo}
-                      src={qugoLogo}
-                      alt="logo"
+                      src={weyngoLogo}
+                      alt="WeynGo logo"
                     />
                   </div>
                   <div className={styles.activitiesCardtripDuration}>

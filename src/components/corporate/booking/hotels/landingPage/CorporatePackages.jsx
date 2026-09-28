@@ -48,7 +48,7 @@ const CorporatePackages = () => {
           <div className="text-[#1C1C1C] text-lg font-semibold">
             Corporate Packages
           </div>
-          <div className="text-[#028FA3] text-lg font-medium flex items-center cursor-pointer">
+          <div className="text-[#155EEF] text-lg font-medium flex items-center cursor-pointer">
             View All
             <FontAwesomeIcon icon={faChevronRight} className="h-4 ml-1" />
           </div>

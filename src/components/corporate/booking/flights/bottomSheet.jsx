@@ -79,7 +79,7 @@ export default function BottomSheet({
             </div>
 
             <div className="flex justify-center gap-3 items-center">
-              <div className="text-[#028fa3] flex items-center sm:block">
+              <div className="text-[#155EEF] flex items-center sm:block">
                 <span>
                   <FontAwesomeIcon
                     icon={faPlane}
@@ -91,7 +91,7 @@ export default function BottomSheet({
                 </span>
               </div>
               <button
-                className="font-bold text-white text-xs sm:text-lg p-2 bg-[#028fa3] rounded-lg "
+                className="font-bold text-white text-xs sm:text-lg p-2 bg-[#155EEF] rounded-lg "
                 onClick={handleSideSheetOpen}
               >
                 REVIEW & SHARE

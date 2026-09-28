@@ -12,7 +12,7 @@
 }
 
 .cancellationPolicy {
-  color: #028fa3;
+  color: #155EEF;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -91,7 +91,7 @@
 
 .clickview {
   display: inline-block;
-  color: rgba(2, 143, 163, 1);
+  color: rgba(21, 94, 239, 1);
 }
 
 .starimage {
@@ -114,7 +114,7 @@
 
 .viewmore {
   font-weight: 400;
-  color: rgba(2, 143, 163, 1);
+  color: rgba(21, 94, 239, 1);
   text-decoration: underline;
   font-size: 16px;
   user-select: none;
@@ -162,7 +162,7 @@
 
 .viewmore {
   font-weight: 400;
-  color: rgba(2, 143, 163, 1);
+  color: rgba(21, 94, 239, 1);
   text-decoration: underline;
   font-size: 16px;
 }
@@ -183,7 +183,7 @@
 }
 
 .solidbutton {
-  background-color: rgba(2, 143, 163, 1);
+  background-color: rgba(21, 94, 239, 1);
   border: none;
   color: white;
   padding: 4px;
@@ -226,7 +226,7 @@
 }
 
 .solidbuttonDisabled {
-  background-color: rgba(2, 143, 163, 1);
+  background-color: rgba(21, 94, 239, 1);
   opacity: 0.6;
   border: none;
   color: white;

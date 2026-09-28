@@ -658,7 +658,7 @@ export default function ReviewBooking() {
     return (
       <div className="mt-4 w-full pb-10">
         <button
-          className={`w-fit px-4 mt-5 flex flex-col items-center bg-[#028fa3] p-2 rounded-full text-white ${
+          className={`w-fit px-4 mt-5 flex flex-col items-center bg-[#155EEF] p-2 rounded-full text-white ${
             !proceedToggle && "opacity-50 cursor-not-allowed"
           }`}
           type="button"
@@ -737,7 +737,7 @@ export default function ReviewBooking() {
                   onClick={handleProceedToggle}
                   checked={proceedToggle}
                   value=""
-                  class="w-4 h-4 cursor-pointer text-[#028fa3] bg-gray-900 border-gray-300 rounded focus:ring-[#028fa3] dark:focus:ring-[#028fa3] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                  class="w-4 h-4 cursor-pointer text-[#155EEF] bg-gray-900 border-gray-300 rounded focus:ring-[#155EEF] dark:focus:ring-[#155EEF] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                 />
                 <label
                   for="link-checkbox"
@@ -747,7 +747,7 @@ export default function ReviewBooking() {
                   <a
                     target="_blank"
                     href="/bookingtermsandconditions"
-                    class="text-[#028fa3] underline"
+                    class="text-[#155EEF] underline"
                   >
                     Terms of use{" "}
                   </a>
@@ -755,7 +755,7 @@ export default function ReviewBooking() {
                   <a
                     target="_blank"
                     href="/bookingprivacypolicy"
-                    class="text-[#028fa3] underline"
+                    class="text-[#155EEF] underline"
                   >
                     {" "}
                     Privacy Policy

@@ -1,6 +1,7 @@
 .qugoLogo {
   width: 200px;
   height: 55px;
+  object-fit: contain;
 }
 
 .container {
@@ -38,7 +39,7 @@
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
-  background-color: rgba(2, 143, 163, 1);
+  background-color: rgba(21, 94, 239, 1);
   color: white;
   border: none;
   font-family: "Roboto";
@@ -58,14 +59,14 @@
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
-  color: rgba(2, 143, 163, 1);
+  color: rgba(21, 94, 239, 1);
   background-color: white;
   border: none;
 }
 
 .searchButton[disabled],
 .searchButton.loading {
-  background-color: rgba(2, 143, 163, 1);
+  background-color: rgba(21, 94, 239, 1);
   color: rgb(251, 252, 252);
   border: none;
 }
@@ -77,7 +78,7 @@
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
-  color: rgba(2, 143, 163, 1);
+  color: rgba(21, 94, 239, 1);
   background-color: white;
   border: none;
 }
@@ -148,7 +149,7 @@
   width: 125%;
   height: 3px;
   border-radius: 5px;
-  background-color: #028fa3;
+  background-color: #155EEF;
 }
 
 .navbar-link:active::before {
@@ -160,8 +161,8 @@
   height: 120%;
   background: linear-gradient(
     180deg,
-    rgba(2, 143, 163, 0) 0%,
-    rgba(2, 143, 163, 0.5) 160%
+    rgba(21, 94, 239, 0) 0%,
+    rgba(21, 94, 239, 0.5) 160%
   );
 }
 
@@ -208,6 +209,7 @@ select#rooms:hover option {
 .qugoLogo {
   width: 100px;
   height: 30px;
+  object-fit: contain;
   margin-top: 4px;
   cursor: pointer;
 }
@@ -244,7 +246,7 @@ select#rooms:hover option {
 }
 
 .backButton {
-  background-color: rgba(2, 143, 163, 1);
+  background-color: rgba(21, 94, 239, 1);
   color: white;
   font-family: "Roboto";
   border: none;
@@ -258,11 +260,11 @@ select#rooms:hover option {
 }
 
 .backButton:hover {
-  background-color: rgba(2, 143, 163, 0.2);
+  background-color: rgba(21, 94, 239, 0.2);
 }
 
 .backButton:active {
-  background-color: rgba(2, 143, 163, 0.4);
+  background-color: rgba(21, 94, 239, 0.4);
 }
 
 .dropdown-option {
@@ -271,11 +273,11 @@ select#rooms:hover option {
 }
 
 .dropdown-option:hover {
-  background-color: rgba(2, 143, 163, 1);
+  background-color: rgba(21, 94, 239, 1);
 }
 
 .active-option {
-  background-color: rgba(2, 143, 163, 1);
+  background-color: rgba(21, 94, 239, 1);
 }
 
 .searchHotelButton {
@@ -284,7 +286,7 @@ select#rooms:hover option {
 }
 
 .HotelButton {
-  background-color: #0290a3 !important;
+  background-color: #155EEF !important;
   color: #ffffff !important;
   border-radius: 19px 19px 0px 0px;
 }
@@ -297,7 +299,7 @@ select#rooms:hover option {
   width: 125%;
   height: 3px;
   border-radius: 5px;
-  background-color: #028fa3;
+  background-color: #155EEF;
 }
 .searchHotelButton::before {
   content: "";
@@ -308,8 +310,8 @@ select#rooms:hover option {
   height: 120%;
   background: linear-gradient(
     180deg,
-    rgba(2, 143, 163, 0) 0%,
-    rgba(2, 143, 163, 0.5) 160%
+    rgba(21, 94, 239, 0) 0%,
+    rgba(21, 94, 239, 0.5) 160%
   );
 }
 

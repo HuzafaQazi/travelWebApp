@@ -66,7 +66,7 @@ const WalletPaymentModal = ({
           </button>
           {payableAmount === 0 ? (
             <button
-              className={`p-2 px-4 rounded-lg text-white transition-colors duration-300 bg-[#028FA3] ${
+              className={`p-2 px-4 rounded-lg text-white transition-colors duration-300 bg-[#155EEF] ${
                 loading ? "opacity-50 cursor-not-allowed" : ""
               }`}
               onClick={handleProceed}
@@ -83,7 +83,7 @@ const WalletPaymentModal = ({
             </button>
           ) : (
             <button
-              className={`p-2 px-4 rounded-lg text-white transition-colors duration-300 bg-[#028FA3] ${
+              className={`p-2 px-4 rounded-lg text-white transition-colors duration-300 bg-[#155EEF] ${
                 loading ? "opacity-50 cursor-not-allowed" : ""
               }`}
               onClick={handleProceed}
@@ -114,7 +114,7 @@ const WalletPaymentModal = ({
                 type="checkbox"
                 checked={walletSelected}
                 onChange={handleWalletToggle}
-                className="form-checkbox h-5 w-5 text-[#028FA3]"
+                className="form-checkbox h-5 w-5 text-[#155EEF]"
               />
               <span className="ml-2 text-sm">
                 Use wallet balance (Available: Rs{" "}

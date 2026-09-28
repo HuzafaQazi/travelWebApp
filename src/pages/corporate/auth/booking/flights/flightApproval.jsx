@@ -342,7 +342,7 @@ export default function FlightApproval() {
   const renderActionButton = () => {
     return (
       <button
-        className="w-fit min-w-32 px-4 mt-5 flex flex-col items-center bg-[#028fa3] p-2 rounded-full text-white peer-checked:pointer-events-auto"
+        className="w-fit min-w-32 px-4 mt-5 flex flex-col items-center bg-[#155EEF] p-2 rounded-full text-white peer-checked:pointer-events-auto"
         type="button"
         onClick={initiatePayment}
         disabled={isBookingLoading}
@@ -472,7 +472,7 @@ export default function FlightApproval() {
                       userDetails?.userId === approvalData?.userId && (
                         <div className="w-full">
                           <button
-                            className="bg-[#028fa3] w-full text-white text-xxs sm:text-sm py-1 p-3 rounded-lg"
+                            className="bg-[#155EEF] w-full text-white text-xxs sm:text-sm py-1 p-3 rounded-lg"
                             onClick={openCancelModal}
                           >
                             Cancel Request
@@ -482,7 +482,7 @@ export default function FlightApproval() {
                     {approvalData?.approvalStatus === "Declined" && (
                       <div className="w-full">
                         <button
-                          className="bg-[#028fa3] w-full text-white text-sm p-3 mt-5 rounded-lg"
+                          className="bg-[#155EEF] w-full text-white text-sm p-3 mt-5 rounded-lg"
                           onClick={() => router.push("/")}
                         >
                           Go to Homepage
@@ -547,7 +547,7 @@ export default function FlightApproval() {
                 </div>
 
                 {/* GST details */}
-                <div className="border-[1px] border-[#028FA32E] shadow-[6px_6px_30px_0px_#7D99B40D] rounded-md mt-2 p-3 bg-white">
+                <div className="border-[1px] border-[#155EEF2E] shadow-[6px_6px_30px_0px_#7D99B40D] rounded-md mt-2 p-3 bg-white">
                   <GSTDetails
                     companyName={approvalData?.companyDetails?.companyName}
                     gstNumber={approvalData?.companyDetails?.gst}
@@ -626,7 +626,7 @@ export default function FlightApproval() {
                     userDetails?.userId === approvalData?.userId && (
                       <div className="w-full">
                         <button
-                          className="bg-[#028fa3] w-full text-white text-sm p-3 mt-5 rounded-lg"
+                          className="bg-[#155EEF] w-full text-white text-sm p-3 mt-5 rounded-lg"
                           onClick={openCancelModal}
                         >
                           Cancel Request
@@ -636,7 +636,7 @@ export default function FlightApproval() {
                   {approvalData?.approvalStatus === "Declined" && (
                     <div className="w-full">
                       <button
-                        className="bg-[#028fa3] w-full text-white text-sm p-3 mt-5 rounded-lg"
+                        className="bg-[#155EEF] w-full text-white text-sm p-3 mt-5 rounded-lg"
                         onClick={() => router.push("/")}
                       >
                         Go to Homepage

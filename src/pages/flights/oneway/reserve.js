@@ -203,7 +203,7 @@ export default function FlightReserve() {
     return (
       <div className={style.fromToDate}>
         {day},{" "}
-        <span style={{ color: "#028fa3" }}>
+        <span style={{ color: "#155EEF" }}>
           {month} {dateDay}
           {dateDay % 10 === 1 && dateDay !== 11
             ? "st"
@@ -695,7 +695,7 @@ export default function FlightReserve() {
                 {origin?.airport?.airportName}, {origin?.airport?.countryName}
                 <br />
                 {origin?.airport?.terminal && (
-                  <span style={{ color: "#028fa3" }}>
+                  <span style={{ color: "#155EEF" }}>
                     Terminal {origin?.airport?.terminal}
                   </span>
                 )}
@@ -712,7 +712,7 @@ export default function FlightReserve() {
                 {destination?.airport?.countryName}
                 <br />
                 {destination?.airport?.terminal && (
-                  <span style={{ color: "#028fa3" }}>
+                  <span style={{ color: "#155EEF" }}>
                     Terminal {destination?.airport?.terminal}
                   </span>
                 )}
@@ -919,7 +919,7 @@ export default function FlightReserve() {
               }}
               className={style.travelerNames}
             >
-              {/* <FontAwesomeIcon icon={faPenToSquare} style={{ color: '#028fa3' }} onClick={handleIconClick} /> */}
+              {/* <FontAwesomeIcon icon={faPenToSquare} style={{ color: '#155EEF' }} onClick={handleIconClick} /> */}
               {totalPassengerCount} Passengers | {adultCount} Adults |{" "}
               {childCount} Children | {infantCount} Infants
             </div>

@@ -155,7 +155,7 @@ const RequestModal = ({
                   <FontAwesomeIcon
                     icon={faXmarkCircle}
                     color="#000000"
-                    className="hover:text-[#028FA3]"
+                    className="hover:text-[#155EEF]"
                   />
                 </button>
               </div>
@@ -192,7 +192,7 @@ const RequestModal = ({
                           <p className="font-medium text-xs sm:text-base">
                             {traveller.label}
                           </p>
-                          <div className="border text-[#028FA3] border-gray-300 p-2 rounded-lg mt-1">
+                          <div className="border text-[#155EEF] border-gray-300 p-2 rounded-lg mt-1">
                             <MultiInput
                               tags={traveller?.data?.approverUserDetails?.map(
                                 (a) => ({
@@ -270,7 +270,7 @@ const RequestModal = ({
                           ? "Please specify your reason for travel"
                           : "Please mention the reason for cancelling the request here."
                       }
-                      className="mt-2 w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-[#028FA3]"
+                      className="mt-2 w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-[#155EEF]"
                       rows={4}
                     />
                     <div className="text-red-500 text-xs mt-1">
@@ -290,7 +290,7 @@ const RequestModal = ({
             <div className="flex gap-2 items-center justify-center p-6 border-t border-solid border-blueGray-200 rounded-b">
               {buttonConfig.cancel && (
                 <button
-                  className="text-gray-400 background-transparent border rounded border-gray-300 px-3 py-2 text-sm outline-none focus:outline-none mr-1 mb-2 ease-linear transition-all duration-150 hover:bg-[#028fa3] hover:text-white"
+                  className="text-gray-400 background-transparent border rounded border-gray-300 px-3 py-2 text-sm outline-none focus:outline-none mr-1 mb-2 ease-linear transition-all duration-150 hover:bg-[#155EEF] hover:text-white"
                   type="button"
                   onClick={onClose}
                 >
@@ -298,7 +298,7 @@ const RequestModal = ({
                 </button>
               )}
               <button
-                className={`bg-[#028fa3] min-w-40 text-white active:bg-[#028fa3] text-sm px-3 py-2 rounded outline-none focus:outline-none mb-2 ease-linear transition-all duration-150 ${
+                className={`bg-[#155EEF] min-w-40 text-white active:bg-[#155EEF] text-sm px-3 py-2 rounded outline-none focus:outline-none mb-2 ease-linear transition-all duration-150 ${
                   !buttonConfig.cancel ? "w-[30%]" : ""
                 }`}
                 type="button"

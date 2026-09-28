@@ -86,7 +86,7 @@ export default function BookingDetails(props) {
     return (
       <div className={style.fromToDate}>
         {day},{" "}
-        <span style={{ color: "#028fa3" }}>
+        <span style={{ color: "#155EEF" }}>
           {month} {dateDay}
           {dateDay % 10 === 1 && dateDay !== 11
             ? "st"
@@ -263,7 +263,7 @@ export default function BookingDetails(props) {
               <div className={style.logo}>
                 <FontAwesomeIcon
                   icon={faPlaneUp}
-                  color="#028fa3"
+                  color="#155EEF"
                 />
                 <span className={style.desktopClass1}>{segment?.[0]?.airline?.airlineName}</span>
                 <div>
@@ -316,7 +316,7 @@ export default function BookingDetails(props) {
               <div style={{ width: "35%", color: "#878786" }}>
                 {origin?.airport?.airportName}, {origin?.airport?.countryName}
                 <br />
-                <span style={{ color: "#028fa3" }}>
+                <span style={{ color: "#155EEF" }}>
                   Terminal {origin?.airport?.terminal}
                 </span>
               </div>
@@ -331,7 +331,7 @@ export default function BookingDetails(props) {
                 {destination?.airport?.airportName},{" "}
                 {destination?.airport?.countryName}
                 <br />
-                <span style={{ color: "#028fa3" }}>
+                <span style={{ color: "#155EEF" }}>
                   Terminal {destination?.airport?.terminal}
                 </span>
               </div>

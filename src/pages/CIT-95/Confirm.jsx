@@ -945,7 +945,7 @@ const BookingConfirmation = () => {
               )}
               <p className="mt-8 text-sm text-gray-500 text-center">
                 © {new Date().getFullYear()} CIT-95 Pearl Jubilee Alumni Meet.
-                Powered by Qugo MICE.
+                Powered by WeynGo MICE.
               </p>
             </div>
           </div>

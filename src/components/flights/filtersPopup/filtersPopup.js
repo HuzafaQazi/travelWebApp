@@ -488,7 +488,7 @@ const FiltersPop = ({
             <div className={style.filterSheetHead}>
               <h2
                 className={style.headFiltersBottom}
-                style={{ color: "#028fa3" }}
+                style={{ color: "#155EEF" }}
               >
                 Filters for your best search
               </h2>
@@ -518,7 +518,7 @@ const FiltersPop = ({
                     <div className="flex">
                       <label class="inline-flex items-center cursor-pointer">
                         <input type="checkbox" value="" class="sr-only peer" />
-                        <div class="relative w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-300 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#028fa3]"></div>
+                        <div class="relative w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-300 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#155EEF]"></div>
                       </label>
                     </div>
                     <div className="text-xs">In-policy options only</div>
@@ -814,7 +814,7 @@ const FiltersPop = ({
                 </button>
                 <button
                   className={style.filtersBtn}
-                  style={{ backgroundColor: "#028FA3" }}
+                  style={{ backgroundColor: "#155EEF" }}
                   onClick={() =>
                     wayType && wayType === "multicity"
                       ? applyMultiCityFilters(true)

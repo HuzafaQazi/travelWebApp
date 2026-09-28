@@ -83,9 +83,9 @@ const SecondPage = ({ countryname, description, top_seller_packages, gallery_ima
                   <div className={styles.popTopContent}>
                     <Image
                       className={styles.popLogo}
-                      src="/img/Qugo Logo white-01.png"
-                      alt="Qugologo"
-                      width={40}
+                      src="/img/weyngo_logo_white.png"
+                      alt="WeynGo Logo"
+                      width={60}
                       height={20}
                     />
                     <div className={styles.tripDuration}>

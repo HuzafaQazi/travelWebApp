@@ -2,7 +2,7 @@ import styles from "./styles.module.css";
 import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 import luxeBg from "../../../../public/img/Rectangle 1862.png";
-import qugoLogo from "../../../../public/img/Qugo Logo resize 2-01.png";
+import weyngoLogo from "../../../../public/img/weyngo_logo.png";
 import gemsofindiabg from "../../../../public/img/gemofindiaBg.png";
 import Link from "next/link";
 import { redirectPackageDetail } from "../../../../utils/pageredirection";
@@ -171,7 +171,7 @@ export default function Offers({ gems_of_india, luxe_destinations }) {
       {luxe_destinations?.length > 0 && (
         <div className={styles.luxe}>
           <h2 className={styles.topHeading}>
-            Luxe <span className={styles.qugoColor}>QuGo</span> Destinations
+            Luxe <span className={styles.qugoColor}>WeynGo</span> Destinations
           </h2>
           <div className={styles.headingUnderline}></div>
           <div className={styles.luxeContainer}>
@@ -182,9 +182,10 @@ export default function Offers({ gems_of_india, luxe_destinations }) {
                 <div className={styles.logo}>
                   <Image
                     className={styles.logoimg}
-                    src={qugoLogo}
-                    alt="qugoLogo"
+                    src={weyngoLogo}
+                    alt="WeynGo Logo"
                     objectFit="contain"
+                    priority
                   />
                 </div>
                 <div className={styles.description}>

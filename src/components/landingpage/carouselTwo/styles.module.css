@@ -4,21 +4,21 @@
 }
 
 .carouseltwo {
-  background-color: #ffffff;
+  background-color: #F8FAFC;
   margin-top: 3%;
   text-align: center;
 }
 
 .topHeading {
-  color: black;
+  color: #071B49;
   font-variant: small-caps;
   margin-bottom: 1%;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 2vw;
 }
 
 .qugoColor {
-  color: #028fa3;
+  color: #2589FF;
   font-weight: 700;
 }
 
@@ -26,7 +26,8 @@
   width: 9%;
   margin-left: 45%;
   height: 4px;
-  background-color: #028fa3;
+  background: linear-gradient(90deg, #155EEF 0%, #6D28D9 100%);
+  border-radius: 2px;
   margin-bottom: 10px;
 }
 
@@ -86,7 +87,8 @@
   transform: translateY(-50%);
   width: 60px;
   height: 60px;
-  background-color: #00adaf;
+  background: linear-gradient(135deg, #155EEF 0%, #6D28D9 100%);
+  box-shadow: 0 4px 14px rgba(21, 94, 239, 0.35);
   color: #fff;
   font-size: 30px;
   border: none;
@@ -94,13 +96,22 @@
   cursor: pointer;
   z-index: 1;
   overflow: visible;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carouselControl:hover {
+  transform: translateY(-50%) scale(1.08);
+  box-shadow: 0 6px 20px rgba(21, 94, 239, 0.45);
 }
 
 @media (min-width: 600px) and (max-width: 820px) {
   .carouselControl {
     width: 40px;
     height: 40px;
-    background-color: #00adaf;
+    background: linear-gradient(135deg, #155EEF 0%, #6D28D9 100%);
     color: #fff;
     font-size: 20px;
   }
@@ -138,6 +149,13 @@
   height: 9dvh;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.qugoLogo {
+  width: 65px;
+  height: auto;
+  object-fit: contain;
 }
 
 .countryName {
@@ -200,8 +218,9 @@
   }
 
   .qugoLogo {
-    width: 40px;
-    height: 16px;
+    width: 48px;
+    height: auto;
+    object-fit: contain;
   }
 
   .noOfDays {

@@ -63,7 +63,7 @@ export default function Baggage({
                 key={index + "-" + baggageIndex}
                 className={`${
                   activeFlight === index && baggageSegment === baggageIndex
-                    ? "border-[#028fa3] text-[#028fa3]"
+                    ? "border-[#155EEF] text-[#155EEF]"
                     : "text-gray-900"
                 } px-4 py-2 border-b`}
                 onClick={() => {
@@ -86,7 +86,7 @@ export default function Baggage({
                 key={index}
                 className={`flex rounded-md min-w-28 sm:min-w-36 flex-col gap-2 items-center p-2 ${
                   travelerIndex === index
-                    ? "text-[#028fa3] border border-[#028FA32B]"
+                    ? "text-[#155EEF] border border-[#155EEF2B]"
                     : " border-[1px] border-[#0000000F] bg-custom-shadow1"
                 }`}
                 onClick={() => setTravelerIndex(index)}
@@ -99,7 +99,7 @@ export default function Baggage({
                       }`.trim()
                     : `Passenger ${index + 1}`}
                 </div>
-                <div className="bg-[#028FA30F] text-xxs sm:text-sm rounded-full p-1 px-3">
+                <div className="bg-[#155EEF0F] text-xxs sm:text-sm rounded-full p-1 px-3">
                   {getBaggageName(index)}
                 </div>
               </div>
@@ -118,7 +118,7 @@ export default function Baggage({
                     relative border-b p-3 text-xs sm:text-base border-gray-300
                     flex justify-between 
                     cursor-pointer
-                    hover:bg-[#028FA30D] hover:border-l-[5px] hover:border-[#028fa3]
+                    hover:bg-[#155EEF0D] hover:border-l-[5px] hover:border-[#155EEF]
                   `}
                   onClick={() => handleBaggageClick(baggageItem)}
                 >
@@ -139,7 +139,7 @@ export default function Baggage({
                       <span
                         className={`w-5 h-5 border border-black rounded-full cursor-pointer ${
                           isSelected(baggageItem)
-                            ? "bg-[#028fa3] border-[#028fa3]"
+                            ? "bg-[#155EEF] border-[#155EEF]"
                             : ""
                         }`}
                       ></span>

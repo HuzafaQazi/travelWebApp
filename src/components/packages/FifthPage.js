@@ -62,9 +62,9 @@ const FifthPage = ({ country_name, all_packages }) => {
                   <div className={styles.newlyAddedTopContent}>
                     <Image
                       className={styles.newlyAddedLogo}
-                      src="/img/Qugo Logo white-01.png"
-                      alt="Qugologo"
-                      width={50}
+                      src="/img/weyngo_logo_white.png"
+                      alt="WeynGo logo"
+                      width={65}
                       height={20}
                     />
                     <div className={styles.newlyAddedtripDuration}>

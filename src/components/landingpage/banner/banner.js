@@ -164,15 +164,15 @@ export default function Banner({
       boxShadow: "none",
       fontSize: "14px",
       fontWeight: "500",
-      color: windowWidth <= 768 ? "white" : "#028fa3",
+      color: windowWidth <= 768 ? "white" : "#155EEF",
       paddingLeft: "0.1rem",
       "&:hover": {
         borderColor: "#d1d5db",
       },
       "&:focus-within": {
         backgroundColor: windowWidth <= 768 ? "transparent" : "white",
-        boxShadow: windowWidth <= 768 ? "none" : "0 0 0 1px #028fa3",
-        borderColor: windowWidth <= 768 ? "transparent" : "#028fa3",
+        boxShadow: windowWidth <= 768 ? "none" : "0 0 0 1px #155EEF",
+        borderColor: windowWidth <= 768 ? "transparent" : "#155EEF",
       },
     }),
     placeholder: (base) => ({
@@ -182,7 +182,7 @@ export default function Banner({
     }),
     singleValue: (base) => ({
       ...base,
-      color: windowWidth <= 768 ? "white" : "#028fa3",
+      color: windowWidth <= 768 ? "white" : "#155EEF",
       fontWeight: 500,
       fontSize: "14px",
       width: "100%",
@@ -192,7 +192,7 @@ export default function Banner({
       padding: 0,
       margin: 0,
       fontSize: "14px",
-      color: windowWidth <= 768 ? "white" : "#028fa3",
+      color: windowWidth <= 768 ? "white" : "#155EEF",
       width: "100% !important",
       minWidth: "100% !important",
       maxWidth: "100% !important",
@@ -736,7 +736,7 @@ export default function Banner({
                             <FontAwesomeIcon
                               icon={faCity}
                               size="sm"
-                              color="#028fa3"
+                              color="#155EEF"
                             />
                             <span className="font-semibold ml-2 text-nowrap">
                               {option.cityname} ({option.countryalpha2code})
@@ -752,7 +752,7 @@ export default function Banner({
                             <FontAwesomeIcon
                               icon={faBed}
                               size="sm"
-                              color="#028fa3"
+                              color="#155EEF"
                             />
                             <span className="font-semibold ml-2 text-nowrap">
                               {option.hotelname}
@@ -801,7 +801,7 @@ export default function Banner({
                         id="checkinTime"
                         style={{
                           background: "white",
-                          color: "#028fa3",
+                          color: "#155EEF",
                           border: "none",
                           borderBottom: "0.11px solid white",
                           borderRadius: "8px",
@@ -849,7 +849,7 @@ export default function Banner({
                         id="checkoutTime"
                         style={{
                           background: "white",
-                          color: "#028fa3",
+                          color: "#155EEF",
                           border: "none",
                           borderBottom: "0.11px solid white",
                           borderRadius: "8px",
@@ -887,7 +887,7 @@ export default function Banner({
                       alignItems: "center",
                       justifyContent: "space-between",
                       border: "none",
-                      color: "#028fa3",
+                      color: "#155EEF",
                       fontWeight: "500",
                       borderRadius: "4px",
                     }}

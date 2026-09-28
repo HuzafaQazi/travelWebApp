@@ -557,7 +557,7 @@ const FiltersPop1 = ({
             <div className={style.filterSheetHead}>
               <h2
                 className={style.headFiltersBottom}
-                style={{ color: "#028fa3" }}
+                style={{ color: "#155EEF" }}
               >
                 Filters for your best search
               </h2>
@@ -909,7 +909,7 @@ const FiltersPop1 = ({
                 </button>
                 <button
                   className={style.filtersBtn}
-                  style={{ backgroundColor: "#028FA3" }}
+                  style={{ backgroundColor: "#155EEF" }}
                   onClick={() =>
                     type === "all"
                       ? applyDesktopFilters(true)

@@ -150,7 +150,7 @@ export default function TravelPolicy({
               <span onClick={onClose}>
                 <FontAwesomeIcon
                   icon={faXmark}
-                  className="text-[#028FA3] text-sm bg-[#028FA321] rounded-full p-1 cursor-pointer"
+                  className="text-[#155EEF] text-sm bg-[#155EEF21] rounded-full p-1 cursor-pointer"
                 />
               </span>
             </div>
@@ -161,8 +161,8 @@ export default function TravelPolicy({
                   <div
                     key={trav.id}
                     className={`px-3 py-1 cursor-pointer rounded-2xl text-sm whitespace-nowrap ${trav.value === selectedTravelerId
-                      ? "bg-[#028fa3] text-white font-semibold"
-                      : "text-[#028fa3] font-medium border-1 border-[#028fa350]"
+                      ? "bg-[#155EEF] text-white font-semibold"
+                      : "text-[#155EEF] font-medium border-1 border-[#155EEF50]"
                       }`}
                     onClick={() => setSelectedTravelerId(trav.value)}
                   >
@@ -178,7 +178,7 @@ export default function TravelPolicy({
                     {hasFlights && (
                       <button
                         className={`py-2 px-4 text-xs sm:text-base ${activeTab === "flight"
-                          ? "border-b-2 border-[#028fa3] text-[#028fa3] font-bold"
+                          ? "border-b-2 border-[#155EEF] text-[#155EEF] font-bold"
                           : "text-gray-400"
                           } flex gap-2 items-center whitespace-nowrap`}
                         onClick={() => setActiveTab("flight")}
@@ -190,7 +190,7 @@ export default function TravelPolicy({
                     {hasHotels && (
                       <button
                         className={`py-2 px-4 text-xs sm:text-base ${activeTab === "hotel"
-                          ? "border-b-2 border-[#028fa3] text-[#028fa3] font-bold"
+                          ? "border-b-2 border-[#155EEF] text-[#155EEF] font-bold"
                           : "text-gray-400"
                           } flex gap-2 items-center whitespace-nowrap`}
                         onClick={() => setActiveTab("hotel")}
@@ -202,7 +202,7 @@ export default function TravelPolicy({
                     {hasTrains && (
                       <button
                         className={`py-2 px-4 text-xs sm:text-base ${activeTab === "train"
-                          ? "border-b-2 border-[#028fa3] text-[#028fa3] font-bold"
+                          ? "border-b-2 border-[#155EEF] text-[#155EEF] font-bold"
                           : "text-gray-400"
                           } flex gap-2 items-center whitespace-nowrap`}
                         onClick={() => setActiveTab("train")}
@@ -214,7 +214,7 @@ export default function TravelPolicy({
                     {hasBuses && (
                       <button
                         className={`py-2 px-4 text-xs sm:text-base ${activeTab === "bus"
-                          ? "border-b-2 border-[#028fa3] text-[#028fa3] font-bold"
+                          ? "border-b-2 border-[#155EEF] text-[#155EEF] font-bold"
                           : "text-gray-400"
                           } flex gap-2 items-center whitespace-nowrap`}
                         onClick={() => setActiveTab("bus")}
@@ -226,7 +226,7 @@ export default function TravelPolicy({
                     {hasCars && (
                       <button
                         className={`py-2 px-4 text-xs sm:text-base ${activeTab === "car"
-                          ? "border-b-2 border-[#028fa3] text-[#028fa3] font-bold"
+                          ? "border-b-2 border-[#155EEF] text-[#155EEF] font-bold"
                           : "text-gray-400"
                           } flex gap-2 items-center whitespace-nowrap`}
                         onClick={() => setActiveTab("car")}

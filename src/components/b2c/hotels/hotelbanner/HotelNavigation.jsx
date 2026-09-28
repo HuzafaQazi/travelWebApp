@@ -368,8 +368,8 @@ export default function ListNavigation({
       },
       "&:focus-within": {
         backgroundColor: "white",
-        boxShadow: "0 0 0 1px #028fa3",
-        borderColor: "#028fa3",
+        boxShadow: "0 0 0 1px #155EEF",
+        borderColor: "#155EEF",
       },
     }),
     placeholder: (base) => ({
@@ -510,7 +510,7 @@ export default function ListNavigation({
                             <FontAwesomeIcon
                               icon={faCity}
                               size="sm"
-                              color="#028fa3"
+                              color="#155EEF"
                             />
                             <span className="font-semibold ml-2 text-nowrap">
                               {option.label}
@@ -526,7 +526,7 @@ export default function ListNavigation({
                             <FontAwesomeIcon
                               icon={faBed}
                               size="sm"
-                              color="#028fa3"
+                              color="#155EEF"
                             />
                             <span className="font-semibold ml-2 text-nowrap">
                               {option.label}
@@ -587,7 +587,7 @@ export default function ListNavigation({
                     className="absolute w-fit h-fit z-10 mt-1 bg-white shadow-lg rounded-lg"
                   >
                     <div className="w-full h-full">
-                      <div className="w-full h-fit border p-3 flex gap-2 items-center justify-between rounded-xl !border-[#028fa3]">
+                      <div className="w-full h-fit border p-3 flex gap-2 items-center justify-between rounded-xl !border-[#155EEF]">
                         <div className="text-[#171A19CC] text-base">
                           {checkInDate && checkOutDate
                             ? `Total Number of ${
@@ -722,7 +722,7 @@ export default function ListNavigation({
                     className="absolute right-0 sm:right-auto w-fit h-fit z-10 mt-1 bg-white shadow-lg rounded-lg"
                   >
                     <div className="w-full h-full">
-                      <div className="w-full h-fit border p-3 flex gap-2 items-center justify-between rounded-xl !border-[#028fa3]">
+                      <div className="w-full h-fit border p-3 flex gap-2 items-center justify-between rounded-xl !border-[#155EEF]">
                         <div className="text-[#171A19CC] text-base">
                           {checkInDate && checkOutDate
                             ? `Total Number of ${
@@ -877,7 +877,7 @@ export default function ListNavigation({
                     </span>
                     <div className="flex items-center gap-2">
                       <button
-                        className="p-1 border rounded-full text-gray-600 flex items-center justify-center hover:border-[#028FA3] hover:text-[#028FA3] active:border-[#028FA3] active:text-[#028FA3]"
+                        className="p-1 border rounded-full text-gray-600 flex items-center justify-center hover:border-[#155EEF] hover:text-[#155EEF] active:border-[#155EEF] active:text-[#155EEF]"
                         onClick={decrementRoomCount}
                         disabled={selectedRooms <= 1}
                       >
@@ -887,7 +887,7 @@ export default function ListNavigation({
                         {selectedRooms}
                       </span>
                       <button
-                        className="p-1 border rounded-full text-gray-600 flex items-center justify-center hover:border-[#028FA3] hover:text-[#028FA3] active:border-[#028FA3] active:text-[#028FA3]"
+                        className="p-1 border rounded-full text-gray-600 flex items-center justify-center hover:border-[#155EEF] hover:text-[#155EEF] active:border-[#155EEF] active:text-[#155EEF]"
                         onClick={incrementRoomCount}
                       >
                         <FontAwesomeIcon icon={faPlus} />
@@ -908,7 +908,7 @@ export default function ListNavigation({
                         <span className="text-xs font-semibold">Adults</span>
                         <div className="flex items-center gap-2">
                           <button
-                            className="p-1 border rounded-full text-gray-600 flex items-center justify-center hover:border-[#028FA3] hover:text-[#028FA3] active:border-[#028FA3] active:text-[#028FA3]"
+                            className="p-1 border rounded-full text-gray-600 flex items-center justify-center hover:border-[#155EEF] hover:text-[#155EEF] active:border-[#155EEF] active:text-[#155EEF]"
                             onClick={() => decrementAdults(index)}
                             disabled={room.adults <= 1}
                           >
@@ -918,7 +918,7 @@ export default function ListNavigation({
                             {room.adults}
                           </span>
                           <button
-                            className="p-1 border rounded-full text-gray-600 flex items-center justify-center hover:border-[#028FA3] hover:text-[#028FA3] active:border-[#028FA3] active:text-[#028FA3]"
+                            className="p-1 border rounded-full text-gray-600 flex items-center justify-center hover:border-[#155EEF] hover:text-[#155EEF] active:border-[#155EEF] active:text-[#155EEF]"
                             onClick={() => incrementAdults(index)}
                             disabled={room.adults >= 8}
                           >
@@ -930,7 +930,7 @@ export default function ListNavigation({
                         <span className="text-xs font-semibold">Children</span>
                         <div className="flex items-center gap-2">
                           <button
-                            className="p-1 border rounded-full text-gray-600 flex items-center justify-center hover:border-[#028FA3] hover:text-[#028FA3] active:border-[#028FA3] active:text-[#028FA3]"
+                            className="p-1 border rounded-full text-gray-600 flex items-center justify-center hover:border-[#155EEF] hover:text-[#155EEF] active:border-[#155EEF] active:text-[#155EEF]"
                             onClick={() => decrementChildren(index)}
                             disabled={room.children <= 0}
                           >
@@ -940,7 +940,7 @@ export default function ListNavigation({
                             {room.children}
                           </span>
                           <button
-                            className="p-1 border rounded-full text-gray-600 flex items-center justify-center hover:border-[#028FA3] hover:text-[#028FA3] active:border-[#028FA3] active:text-[#028FA3]"
+                            className="p-1 border rounded-full text-gray-600 flex items-center justify-center hover:border-[#155EEF] hover:text-[#155EEF] active:border-[#155EEF] active:text-[#155EEF]"
                             onClick={() => incrementChildren(index)}
                             disabled={room.children >= 4}
                           >
@@ -988,7 +988,7 @@ export default function ListNavigation({
             <button
               onClick={handleSearch}
               disabled={loading}
-              className="bg-[#028FA326] text-[#028FA3] p-3 rounded-lg w-full h-16"
+              className="bg-[#155EEF15] text-[#155EEF] font-semibold p-3 rounded-lg w-full h-16 hover:bg-[#155EEF25] transition-colors"
             >
               {loading ? (
                 <FontAwesomeIcon icon={faSpinner} spin />
@@ -1005,10 +1005,10 @@ export default function ListNavigation({
           <button
             type="submit"
             onClick={handleSearch}
-            className="w-full h-12 bg-[#028fa3] text-white rounded-full"
+            className="w-full h-12 bg-gradient-to-r from-[#155EEF] to-[#6D28D9] text-white font-semibold rounded-full flex items-center justify-center shadow-lg hover:shadow-xl hover:opacity-95 transition-all text-base sm:text-lg"
             disabled={loading}
           >
-            {loading ? <FontAwesomeIcon icon={faSpinner} spin /> : "Search"}
+            {loading ? <FontAwesomeIcon icon={faSpinner} spin /> : "Search Hotels"}
           </button>
         </div>
       )}

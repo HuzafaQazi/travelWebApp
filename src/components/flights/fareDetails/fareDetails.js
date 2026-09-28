@@ -231,7 +231,7 @@ const FareDetails = ({
                     <div
                       className={style.cabinOption}
                       style={{
-                        borderLeft: "5px solid #028fa3",
+                        borderLeft: "5px solid #155EEF",
                         fontSize: "12px",
                       }}
                     >

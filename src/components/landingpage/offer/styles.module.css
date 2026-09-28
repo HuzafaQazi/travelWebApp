@@ -1,24 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&display=swap");
 .offers {
-  background-color: #ffffff;
+  background-color: #F8FAFC;
   margin-top: 3%;
   text-align: center;
 }
 
 .topHeading {
-  color: black;
+  color: #071B49;
   font-variant: small-caps;
   margin-bottom: 1%;
   font-size: 2vw;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .headingUnderline {
   width: 9%;
   margin-left: 45%;
   height: 4px;
-  background-color: #028fa3;
+  background: linear-gradient(90deg, #155EEF 0%, #6D28D9 100%);
+  border-radius: 2px;
   margin-bottom: 10px;
 }
 
@@ -37,7 +38,7 @@
 }
 
 .offerLink {
-  color: #028fa3;
+  color: #155EEF;
   font-weight: 500;
   text-decoration: none;
   display: flex;
@@ -222,13 +223,13 @@
 }
 
 .luxe {
-  background-color: #ffffff;
+  background-color: #F8FAFC;
   margin-top: 2%;
   text-align: center;
 }
 
 .qugoColor {
-  color: #028fa3;
+  color: #2589FF;
   font-weight: 700;
 }
 
@@ -291,7 +292,9 @@
 
 .logoimg {
   width: 15vw;
-  height: 40%;
+  height: auto;
+  max-height: 75px;
+  object-fit: contain;
 }
 
 .description {
@@ -307,11 +310,13 @@
 .enquiryBtn {
   padding: 2% 5%;
   font-size: 1.5vw;
-  background: #028fa3;
+  background: linear-gradient(90deg, #155EEF 0%, #6D28D9 100%);
   color: #ffffff;
   border: none;
-  border-radius: 3px;
-  box-shadow: 2px 6px 12px 0px rgba(0, 0, 0, 0.17);
+  border-radius: 6px;
+  box-shadow: 2px 6px 12px 0px rgba(21, 94, 239, 0.25);
+  cursor: pointer;
+  transition: opacity 0.2s ease;
 }
 
 .rightContent {
@@ -474,5 +479,10 @@
 
   .luxecardbg {
     height: 65px;
+  }
+
+  .logoimg {
+    width: 90px;
+    max-height: 40px;
   }
 }

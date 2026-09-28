@@ -65,7 +65,7 @@
   text-wrap: nowrap;
   font-size: 12px;
   color: #ffffff;
-  background-color: #028fa3;
+  background-color: #155EEF;
   border: none;
   padding: 3% 2%;
   font-weight: 500;
@@ -91,7 +91,7 @@
   margin-top: 2%;
   font-size: 12px;
   font-weight: 500;
-  color: #028fa3;
+  color: #155EEF;
 }
 
 .detailsHeading {
@@ -107,7 +107,7 @@
   margin-top: 2%;
   padding: 2% 3%;
   border-radius: 15px;
-  border: 0.35px solid rgba(2, 143, 163, 0.39);
+  border: 0.35px solid rgba(21, 94, 239, 0.39);
 }
 
 .airlinesLogoClass {
@@ -121,7 +121,7 @@
 
 .pnrNum {
   font-size: 12px;
-  color: #028fa3;
+  color: #155EEF;
   line-height: 1;
 }
 
@@ -143,7 +143,7 @@
 .fromToTime {
   font-size: 18px;
   font-weight: 500;
-  color: #028fa3;
+  color: #155EEF;
   height: 20px;
 }
 
@@ -200,7 +200,7 @@
   font-size: 12px;
   background-color: #ffffff;
   border-radius: 15px;
-  border: 0.35px solid rgba(2, 143, 163, 0.35);
+  border: 0.35px solid rgba(21, 94, 239, 0.35);
   box-shadow: 0px 4px 4px 0px rgba(145, 178, 228, 0.15);
 }
 
@@ -216,8 +216,8 @@
   padding: 1% 3%;
   margin-top: 2%;
   justify-content: space-between;
-  background-color: rgba(2, 143, 163, 0.1);
-  color: #028fa3;
+  background-color: rgba(21, 94, 239, 0.1);
+  color: #155EEF;
   font-size: 18px;
   font-weight: 500;
   border-bottom-left-radius: 15px;
@@ -235,8 +235,8 @@
   border-radius: 15px;
   text-wrap: nowrap;
   font-size: 14px;
-  color: #028fa3;
-  border: 0.35px solid rgba(2, 143, 163, 0.35);
+  color: #155EEF;
+  border: 0.35px solid rgba(21, 94, 239, 0.35);
   box-shadow: 0px 4px 4px 0px rgba(145, 178, 228, 0.15);
 }
 
@@ -259,7 +259,7 @@
   justify-content: space-between;
   padding: 2% 3%;
   color: #ffffff;
-  background: linear-gradient(90deg, #028fa3 0%, #efc007 121.58%);
+  background: linear-gradient(90deg, #155EEF 0%, #efc007 121.58%);
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
 }
@@ -294,8 +294,8 @@
   border-radius: 15px;
   text-wrap: nowrap;
   font-size: 12px;
-  color: #028fa3;
-  border: 0.35px solid rgba(2, 143, 163, 0.35);
+  color: #155EEF;
+  border: 0.35px solid rgba(21, 94, 239, 0.35);
   box-shadow: 0px 4px 4px 0px rgba(145, 178, 228, 0.15);
 }
 
@@ -396,14 +396,14 @@
   .desktopWay {
     display: block;
     padding: 1% 10%;
-    border: 1px solid rgba(2, 143, 163, 0.46);
+    border: 1px solid rgba(21, 94, 239, 0.46);
     border-radius: 8px;
     font-size: 1.2vw;
   }
 
   .desktopClass {
     padding: 1% 10%;
-    border: 1px solid rgba(2, 143, 163, 0.46);
+    border: 1px solid rgba(21, 94, 239, 0.46);
     border-radius: 8px;
     font-size: 1.2vw;
   }
@@ -468,7 +468,7 @@
 
   .desktopPriceHead {
     display: block;
-    border-left: 4px solid #028fa3;
+    border-left: 4px solid #155EEF;
     font-size: 2vw;
     padding-left: 2.5%;
   }
@@ -494,7 +494,7 @@
     display: block;
     font-size: 2vw;
     color: #878786;
-    border-left: 4px solid #028fa3;
+    border-left: 4px solid #155EEF;
     padding: 0% 2.5%;
   }
 

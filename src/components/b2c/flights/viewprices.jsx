@@ -165,7 +165,7 @@ export default function ViewPrices({
               onClick={() =>
                 handleSelectButtonClickParent(option, updatedIndex)
               }
-              className={`text-[#028fa3] border-1  border-[#028fa3] rounded-lg px-1 py-1 text-xxxs sm:text-sm hover:bg-[#028fa3] hover:text-white transition w-[65px] sm:w-[90px]`}
+              className={`text-[#155EEF] border-1  border-[#155EEF] rounded-lg px-1 py-1 text-xxxs sm:text-sm hover:bg-[#155EEF] hover:text-white transition w-[65px] sm:w-[90px]`}
               disabled={bookBtnLoader}
             >
               {bookBtnLoader && selectedButtonIndex === updatedIndex ? (
@@ -189,10 +189,10 @@ export default function ViewPrices({
           >
             <button
               onClick={() => setSegmentData(option)}
-              className={`text-[#028fa3] border border-[#028fa3] rounded-lg px-3 py-1 text-sm hover:bg-[#028fa3] hover:text-white transition ${
+              className={`text-[#155EEF] border border-[#155EEF] rounded-lg px-3 py-1 text-sm hover:bg-[#155EEF] hover:text-white transition ${
                 flightsSelected[destinationIndex]?.resultIndex ===
                 option.resultIndex
-                  ? "bg-[#028fa3] text-white"
+                  ? "bg-[#155EEF] text-white"
                   : ""
               }`}
               disabled={
@@ -218,9 +218,9 @@ export default function ViewPrices({
           >
             <button
               onClick={() => setSegmentData(option)}
-              className={`text-[#028fa3] border border-[#028fa3] rounded-lg px-3 py-1 text-sm hover:bg-[#028fa3] hover:text-white transition ${
+              className={`text-[#155EEF] border border-[#155EEF] rounded-lg px-3 py-1 text-sm hover:bg-[#155EEF] hover:text-white transition ${
                 flightsSelected?.resultIndex === option.resultIndex
-                  ? "bg-[#028fa3] text-white"
+                  ? "bg-[#155EEF] text-white"
                   : ""
               }`}
               disabled={flightsSelected?.resultIndex === option.resultIndex}
@@ -270,7 +270,7 @@ export default function ViewPrices({
                   journeyType === "2"
                     ? "grid-cols-5" // For one-way journey
                     : "grid-cols-[1fr_1fr_1fr_1fr_2fr]" // For round-trip or other types
-                } ${isSelected ? "bg-[#028fa308] border-[#028fa3]" : ""}`}
+                } ${isSelected ? "bg-[#155EEF08] border-[#155EEF]" : ""}`}
               >
                 {/* Fare Type */}
                 <div>
@@ -315,7 +315,7 @@ export default function ViewPrices({
                 {/* Fare Rules */}
                 <div>
                   <button
-                    className="text-[#028fa3] hover:underline"
+                    className="text-[#155EEF] hover:underline"
                     data-fare-toggle="true"
                     // onClick={() =>
                     //   !(

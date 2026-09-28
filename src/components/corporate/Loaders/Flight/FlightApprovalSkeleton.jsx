@@ -27,7 +27,7 @@ const FlightApprovalSkeleton = () => {
           </div>
 
           {/* GST Details Skeleton */}
-          <div className="border-[1px] border-[#028FA32E] shadow-[6px_6px_30px_0px_#7D99B40D] rounded-md mt-3 p-3 bg-white space-y-4">
+          <div className="border-[1px] border-[#155EEF2E] shadow-[6px_6px_30px_0px_#7D99B40D] rounded-md mt-3 p-3 bg-white space-y-4">
             <div className="h-6 bg-gray-300 animate-pulse rounded-md" />
             <div className="h-6 bg-gray-300 animate-pulse rounded-md" />
           </div>

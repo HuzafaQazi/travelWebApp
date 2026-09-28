@@ -2,7 +2,7 @@ import styles from "./style.module.css";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
 import { useState } from "react";
-import qugoLogo from "../../../public/img/Qugo Logo mobile.png";
+import weyngoLogo from "../../../public/img/weyngo_logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAngleDoubleLeft,
@@ -122,8 +122,8 @@ const FourthPage = ({ trending_packages, countryname }) => {
                       <div className={styles.logo}>
                         <Image
                           className={styles.qugoLogo}
-                          src={qugoLogo}
-                          alt="logo"
+                          src={weyngoLogo}
+                          alt="WeynGo logo"
                         />
                       </div>
                       <div className={styles.tripDuration}>

@@ -2251,7 +2251,7 @@ const SideSheet = ({ isOpen, onClose, flightData, parentLoader }) => {
             </div>
 
             <div className={style.guestDetailsHead}>
-              <span style={{ marginRight: "8%", color: "#028fa3" }}>
+              <span style={{ marginRight: "8%", color: "#155EEF" }}>
                 Guest Details
               </span>
               <hr className={style.horizontalRule} />
@@ -2570,7 +2570,7 @@ const SideSheet = ({ isOpen, onClose, flightData, parentLoader }) => {
                               className={style.pointer}
                               style={{
                                 backgroundColor: "white",
-                                color: "#028FA3",
+                                color: "#155EEF",
                               }}
                               onClick={() => setBaggageIndex(null)}
                             />
@@ -2628,7 +2628,7 @@ const SideSheet = ({ isOpen, onClose, flightData, parentLoader }) => {
                               className={style.pointer}
                               style={{
                                 backgroundColor: "white",
-                                color: "#028FA3",
+                                color: "#155EEF",
                               }}
                               onClick={() => setMealIndex(null)}
                             />

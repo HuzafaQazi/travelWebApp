@@ -1,7 +1,7 @@
 import styles from "./styles.module.css";
 import Image from "next/image";
 import { useRef } from "react";
-import qugoLogo from "../../../../public/img/Qugo Logo mobile.png";
+import weyngoLogo from "../../../../public/img/weyngo_logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAngleDoubleLeft,
@@ -39,7 +39,7 @@ export default function SecondCarousel({ top_destinations }) {
       {top_destinations?.length > 0 && (
         <div className={styles.carouseltwo}>
           <div className={styles.topHeading}>
-            Top <span className={styles.qugoColor}>QuGo</span> Destinations
+            Top <span className={styles.qugoColor}>WeynGo</span> Destinations
           </div>
           <div className={styles.headingUnderline}></div>
           <div className={styles.topDestinations}>
@@ -67,8 +67,8 @@ export default function SecondCarousel({ top_destinations }) {
                         <div className={styles.logo}>
                           <Image
                             className={styles.qugoLogo}
-                            src={qugoLogo}
-                            alt="logo"
+                            src={weyngoLogo}
+                            alt="WeynGo logo"
                           />
                         </div>
                         <div className={styles.countryName}>

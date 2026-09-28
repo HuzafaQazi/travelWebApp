@@ -4345,7 +4345,7 @@ export default function Booking() {
                                   new Date(
                                     room?.CancellationPolicies[0]?.FromDate
                                   ) && (
-                                  <div style={{ color: "#028fa3" }}>
+                                  <div style={{ color: "#155EEF" }}>
                                     Free cancellation Before{" "}
                                     {new Date(
                                       room?.CancellationPolicies[0]?.FromDate

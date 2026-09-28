@@ -14,13 +14,13 @@
 }
 
 .cancel::-webkit-scrollbar-thumb {
-    background-color: #028FA3;
+    background-color: #155EEF;
     border-radius: 5px;
 }
 
 .cancel::-webkit-scrollbar-track {
     top: 2px;
-    background-color: #028FA330;
+    background-color: #155EEF30;
     /* Background color of the scrollbar track */
     border-radius: 5px;
     /* Round the corners of the scrollbar track */
@@ -40,13 +40,13 @@
 }
 
 .ViewContainer::-webkit-scrollbar-thumb {
-    background-color: #028FA3;
+    background-color: #155EEF;
     border-radius: 5px;
 }
 
 .ViewContainer::-webkit-scrollbar-track {
     top: 2px;
-    background-color: #028FA330;
+    background-color: #155EEF30;
     /* Background color of the scrollbar track */
     border-radius: 5px;
     /* Round the corners of the scrollbar track */

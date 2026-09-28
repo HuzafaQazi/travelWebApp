@@ -296,7 +296,7 @@ export default function HomePage({ serverLoading, apiData }) {
   const [pageLoading, setPageLoading] = useState(false);
   const divStyles = useMemo(
     () => ({
-      backgroundColor: "#ffffff",
+      backgroundColor: "#F8FAFC",
       overflowX: "hidden",
     }),
     []

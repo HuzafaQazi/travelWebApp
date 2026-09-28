@@ -27,7 +27,7 @@ const MultiInput = ({
     return (
       <div
         key={tagKey}
-        className="flex items-center gap-2 px-3 py-1 self-center bg-[#028FA31A] rounded-full text-sm"
+        className="flex items-center gap-2 px-3 py-1 self-center bg-[#155EEF1A] rounded-full text-sm"
       >
         <span>
           {tagText}

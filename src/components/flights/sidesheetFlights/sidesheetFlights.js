@@ -2333,7 +2333,7 @@ const SideSheet = ({
             </div>
 
             <div className={style.guestDetailsHead}>
-              <span style={{ marginRight: "8%", color: "#028fa3" }}>
+              <span style={{ marginRight: "8%", color: "#155EEF" }}>
                 Guest Details
               </span>
               <hr className={style.horizontalRule} />
@@ -2693,7 +2693,7 @@ const SideSheet = ({
                                 className={style.pointer}
                                 style={{
                                   backgroundColor: "white",
-                                  color: "#028FA3",
+                                  color: "#155EEF",
                                   fontSize: "20px",
                                 }}
                                 onClick={() =>
@@ -2747,7 +2747,7 @@ const SideSheet = ({
                           className={style.pointer}
                           style={{
                             backgroundColor: "white",
-                            color: "#028FA3",
+                            color: "#155EEF",
                             fontSize: "20px",
                           }}
                           onClick={() =>
@@ -2795,7 +2795,7 @@ const SideSheet = ({
                               className={style.pointer}
                               style={{
                                 backgroundColor: "white",
-                                color: "#028FA3",
+                                color: "#155EEF",
                               }}
                               onClick={() => setBaggageIndex(null)}
                             />
@@ -2858,7 +2858,7 @@ const SideSheet = ({
                               className={style.pointer}
                               style={{
                                 backgroundColor: "white",
-                                color: "#028FA3",
+                                color: "#155EEF",
                               }}
                               onClick={() => setMealIndex(null)}
                             />

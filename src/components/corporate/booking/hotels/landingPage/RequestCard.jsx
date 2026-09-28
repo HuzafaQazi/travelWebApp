@@ -276,7 +276,7 @@ const RequestCard = ({
       case "cancelled":
         return "bg-[#E53944]";
       case "quoted":
-        return "bg-[#028fa3]";
+        return "bg-[#155EEF]";
       default:
         return "";
     }
@@ -383,7 +383,7 @@ const RequestCard = ({
       <div className="flex gap-2">
         <button
           onClick={() => openConfirmationModal("approve")}
-          className="w-1/2 bg-[#028FA3] p-2  text-[#FFFFFF] rounded-lg text-xs sm:text-sm font-bold mt-2"
+          className="w-1/2 bg-[#155EEF] p-2  text-[#FFFFFF] rounded-lg text-xs sm:text-sm font-bold mt-2"
         >
           APPROVE
         </button>
@@ -854,7 +854,7 @@ const RequestCard = ({
                         // Show the "Proceed to Pay" button if the payment has not been completed
                         <button
                           onClick={handleProceedToPay}
-                          className="w-full bg-[#028FA3] p-3 text-[#FFFFFF] rounded-lg text-xs md:text-base font-bold mt-2"
+                          className="w-full bg-[#155EEF] p-3 text-[#FFFFFF] rounded-lg text-xs md:text-base font-bold mt-2"
                         >
                           Proceed to Pay | Rs{" "}
                           {formatPrice(
@@ -872,7 +872,7 @@ const RequestCard = ({
                   <button
                     onClick={showCancelRequestModel}
                     disabled={loading}
-                    className="w-full bg-[#028FA3] p-3 text-[#FFFFFF] rounded-lg text-xs sm:text-base font-bold mt-2"
+                    className="w-full bg-[#155EEF] p-3 text-[#FFFFFF] rounded-lg text-xs sm:text-base font-bold mt-2"
                   >
                     {loading ? (
                       <>
@@ -891,7 +891,7 @@ const RequestCard = ({
                   {/* <div className="flex gap-2">
                   <button
                     onClick={() => openConfirmationModal("approve")}
-                    className="w-1/2 bg-[#028FA3] p-2 text-[#FFFFFF] rounded-lg text-xs sm:text-sm font-bold mt-2"
+                    className="w-1/2 bg-[#155EEF] p-2 text-[#FFFFFF] rounded-lg text-xs sm:text-sm font-bold mt-2"
                   >
                     APPROVE
                   </button>
@@ -959,7 +959,7 @@ const RequestCard = ({
               <button
                 className={`p-2 px-4 rounded-lg text-white transition-colors duration-300 ${
                   confirmationType === "approve"
-                    ? "bg-[#028FA3]"
+                    ? "bg-[#155EEF]"
                     : "bg-red-600 hover:bg-red-800"
                 }`}
                 onClick={

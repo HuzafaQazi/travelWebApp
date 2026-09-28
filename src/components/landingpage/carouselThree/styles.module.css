@@ -1,23 +1,24 @@
 .unexplored {
-  background-color: #ffffff;
+  background-color: #F8FAFC;
   margin-top: 3%;
   text-align: center;
   margin-bottom: 3%;
 }
 
 .topHeading {
-  color: black;
+  color: #071B49;
   font-variant: small-caps;
   margin-bottom: 1%;
   font-size: 2vw;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .headingUnderline {
   width: 9%;
   margin-left: 45%;
   height: 4px;
-  background-color: #028fa3;
+  background: linear-gradient(90deg, #155EEF 0%, #6D28D9 100%);
+  border-radius: 2px;
   margin-bottom: 10px;
 }
 
@@ -161,7 +162,7 @@
 
 .discountedPrice {
   font-size: 2.5vw;
-  color: #028fa3;
+  color: #155EEF;
   text-wrap: nowrap;
 }
 
@@ -172,12 +173,17 @@
   border-radius: 4px;
   float: right;
   border: none;
-  background: #028fa3;
+  background: linear-gradient(90deg, #155EEF 0%, #6D28D9 100%);
   color: #ffffff;
   box-shadow: 5px 5px 6px 0px rgba(0, 0, 0, 0.25),
     4px 4px 8px 0px rgba(0, 0, 0, 0.25),
     -2px -2px 6px 0px rgba(255, 255, 255, 0.2),
     -6px -4px 15px 0px rgba(255, 255, 255, 0.3);
+  transition: opacity 0.2s ease;
+}
+
+.bookNowButton:hover {
+  opacity: 0.9;
 }
 
 .favoriteIcon {

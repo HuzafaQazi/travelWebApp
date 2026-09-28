@@ -2,7 +2,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import headLogo from "../../../../public/img/brand_logo.png";
-import qugoLogo from "../../../../public/img/brand_logo_mobile.png";
+import weyngoLogoMobile from "../../../../public/img/brand_logo_mobile.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import config from "@/config";
@@ -34,25 +34,25 @@ import HeaderSkeleton from "@/components/b2c/Loaders/skeletons/HeaderSkeleton";
 
 const routeBackgroundColors = {
   "/": "bg-white",
-  "/flights/oneway/list": "bg-[#028fa34d]",
-  "/flights/oneway/review": "bg-[#028fa34d]",
-  "/flights/confirmation": "bg-[#028fa34d]",
-  "/flights/twoway/list": "bg-[#028fa34d]",
-  "/flights/twoway/review": "bg-[#028fa34d]",
-  "/flights/multicity/list": "bg-[#028fa34d]",
-  "/flights/multicity/review": "bg-[#028fa34d]",
-  "/walletDetails": "bg-[#028fa34d]",
-  "/newBookingPage": "bg-[#028fa34d]",
-  "/confirmbooking": "bg-[#028fa34d]",
-  "/bookingdetail": "bg-[#028fa34d]",
-  "/CIT-95/Confirm": "bg-[#028fa34d]",
-  "/profile": "bg-[#028fa34d]",
-  "/bookings/confirmation": "bg-[#028fa34d]",
-  "/bookings/hotels/confirmation": "bg-[#028fa34d]",
-  "/bookings/flightlisting": "bg-[#028fa34d]",
-  "/bookings/review": "bg-[#028fa34d]",
-  "/bookings/hotels/hotellisting": "bg-[#028fa34d]",
-  "/bookings/hotels/review": "bg-[#028fa34d]",
+  "/flights/oneway/list": "bg-[#155EEF4d]",
+  "/flights/oneway/review": "bg-[#155EEF4d]",
+  "/flights/confirmation": "bg-[#155EEF4d]",
+  "/flights/twoway/list": "bg-[#155EEF4d]",
+  "/flights/twoway/review": "bg-[#155EEF4d]",
+  "/flights/multicity/list": "bg-[#155EEF4d]",
+  "/flights/multicity/review": "bg-[#155EEF4d]",
+  "/walletDetails": "bg-[#155EEF4d]",
+  "/newBookingPage": "bg-[#155EEF4d]",
+  "/confirmbooking": "bg-[#155EEF4d]",
+  "/bookingdetail": "bg-[#155EEF4d]",
+  "/CIT-95/Confirm": "bg-[#155EEF4d]",
+  "/profile": "bg-[#155EEF4d]",
+  "/bookings/confirmation": "bg-[#155EEF4d]",
+  "/bookings/hotels/confirmation": "bg-[#155EEF4d]",
+  "/bookings/flightlisting": "bg-[#155EEF4d]",
+  "/bookings/review": "bg-[#155EEF4d]",
+  "/bookings/hotels/hotellisting": "bg-[#155EEF4d]",
+  "/bookings/hotels/review": "bg-[#155EEF4d]",
 };
 
 const routeTextColors = {
@@ -267,9 +267,9 @@ export default function CommonHeader(props) {
         <div className="hidden md:flex justify-between pt-2 pb-2 pr-4">
           <div className="mt-2 pl-4">
             <Image
-              className="w-[60px] h-[25px] cursor-pointer"
-              src={isHome ? qugoLogo : headLogo}
-              alt="headLogo"
+              className="w-[120px] h-auto cursor-pointer"
+              src={isHome ? weyngoLogoMobile : headLogo}
+              alt="WeynGo Logo"
               onClick={goToHome}
             />
           </div>
@@ -282,9 +282,9 @@ export default function CommonHeader(props) {
           <div className="flex items-center justify-between gap-2">
             <div className="flex-shrink-0">
               <Image
-                className="w-[50px] h-[23px] cursor-pointer"
-                src={isHome ? qugoLogo : headLogo}
-                alt="headLogo"
+                className="w-[90px] h-auto cursor-pointer"
+                src={isHome ? weyngoLogoMobile : headLogo}
+                alt="WeynGo Logo"
                 onClick={goToHome}
               />
             </div>
@@ -301,9 +301,9 @@ export default function CommonHeader(props) {
       <div className="hidden md:flex justify-between pt-2 pb-2 pr-4">
         <div className="mt-2 pl-4">
           <Image
-            className="w-[90px] h-auto cursor-pointer"
-            src={isHome ? qugoLogo : headLogo}
-            alt="headLogo"
+            className="w-[130px] sm:w-[150px] h-auto cursor-pointer"
+            src={isHome ? weyngoLogoMobile : headLogo}
+            alt="WeynGo Logo"
             onClick={goToHome}
           />
         </div>
@@ -322,10 +322,10 @@ export default function CommonHeader(props) {
                       src={walletImg}
                       alt="walletImg"
                     />
-                    <div className="text-[11px] text-[#028fa3]">
+                    <div className="text-[11px] text-[#155EEF]">
                       <div className="font-bold sm:inline hidden">Wallet</div>
                       <div className="flex sm:flex-row flex-col">
-                        <div className="text-[#028fa3] sm:mr-1 sm:font-normal font-[400] sm:text-[11px] text-[10px]">
+                        <div className="text-[#155EEF] sm:mr-1 sm:font-normal font-[400] sm:text-[11px] text-[10px]">
                           Rs .{walletBalance || 0}
                         </div>
                         <span
@@ -347,19 +347,19 @@ export default function CommonHeader(props) {
               className={`flex flex-col items-center ${walletBackgroundColor} rounded-lg px-2 py-1`}
               onClick={switchToCorporate}
             >
-              <div className="font-roboto text-xs font-normal leading-5 tracking-tight text-[#028fa3]">
+              <div className="font-roboto text-xs font-normal leading-5 tracking-tight text-[#155EEF]">
                 Switch to
               </div>
               <Image
                 className="w-[100px] pr-1"
                 src={corporate}
-                alt="qugoLogo"
+                alt="WeynGo Corporate Logo"
               />
             </button>
           )}
 
           {/* <div
-            className="bg-[#028fa3] text-white px-2 py-1 text-lg cursor-pointer rounded-lg shadow-md"
+            className="bg-[#155EEF] text-white px-2 py-1 text-lg cursor-pointer rounded-lg shadow-md"
             onClick={handleOpenLoginModal}
           >
             Event
@@ -368,7 +368,7 @@ export default function CommonHeader(props) {
           <div className="self-center ml-2">
             {!isLoggedIn ? (
               <Button
-                className="bg-[#028fa3] text-white rounded-lg px-4 py-2 border-none"
+                className="bg-[#155EEF] hover:bg-[#1048b8] text-white rounded-lg px-4 py-2 border-none transition-colors"
                 onClick={openPopup}
               >
                 Login
@@ -395,9 +395,9 @@ export default function CommonHeader(props) {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Image
-              className="w-[50px] h-[23px] cursor-pointer"
+              className="w-[90px] h-auto cursor-pointer"
               src={headLogo}
-              alt="headLogo"
+              alt="WeynGo Logo"
               onClick={goToHome}
             />
           </div>
@@ -412,7 +412,7 @@ export default function CommonHeader(props) {
                 >
                   {/* Corporate Button */}
                   <button
-                    className="px-2 h-[24px] text-[12px] text-[#028fa3] font-medium flex items-center justify-center rounded-full hover:bg-white/50 transition-colors"
+                    className="px-2 h-[24px] text-[12px] text-[#155EEF] font-medium flex items-center justify-center rounded-full hover:bg-white/50 transition-colors"
                     onClick={switchToCorporate}
                   >
                     corporate
@@ -423,7 +423,7 @@ export default function CommonHeader(props) {
 
                   {/* Event Button */}
                   {/* <button
-                    className="px-2 h-[24px] text-[12px] text-[#028fa3] font-medium flex items-center justify-center rounded-full hover:bg-white/50 transition-colors"
+                    className="px-2 h-[24px] text-[12px] text-[#155EEF] font-medium flex items-center justify-center rounded-full hover:bg-white/50 transition-colors"
                     onClick={handleOpenLoginModal}
                   >
                     Event
@@ -450,7 +450,7 @@ export default function CommonHeader(props) {
                     className={`${walletBackgroundColor} rounded-full w-fit px-3 h-[28px] flex items-center justify-center`}
                     onClick={openPopup}
                   >
-                    <div className="text-[12px] text-[#028fa3]">Login</div>
+                    <div className="text-[12px] text-[#155EEF]">Login</div>
                   </button>
                 ) : (
                   <button
@@ -459,7 +459,7 @@ export default function CommonHeader(props) {
                   >
                     <FontAwesomeIcon
                       icon={faUser}
-                      className="text-[12px] text-[#028fa3]"
+                      className="text-[12px] text-[#155EEF]"
                     />
                   </button>
                 )}
@@ -471,7 +471,7 @@ export default function CommonHeader(props) {
               <>
                 {/* Event Button */}
                 {/* <button
-                  className={`${walletBackgroundColor} rounded-full px-2.5 h-[28px] text-[9px] text-[#028fa3] font-medium flex items-center justify-center`}
+                  className={`${walletBackgroundColor} rounded-full px-2.5 h-[28px] text-[9px] text-[#155EEF] font-medium flex items-center justify-center`}
                   onClick={handleOpenLoginModal}
                 >
                   Event
@@ -485,7 +485,7 @@ export default function CommonHeader(props) {
                   >
                     <FontAwesomeIcon
                       icon={faUser}
-                      className="text-[11px] text-[#028fa3]"
+                      className="text-[11px] text-[#155EEF]"
                     />
                   </button>
                 ) : (
@@ -495,7 +495,7 @@ export default function CommonHeader(props) {
                   >
                     <FontAwesomeIcon
                       icon={faUser}
-                      className="text-[11px] text-[#028fa3]"
+                      className="text-[11px] text-[#155EEF]"
                     />
                   </button>
                 )}
@@ -544,7 +544,7 @@ export default function CommonHeader(props) {
       >
         <div className="relative">
           <button
-            className="absolute top-0 right-0 p-4 text-[#028fa3] text-xl bg-transparent border-none outline-none rounded-tr-lg"
+            className="absolute top-0 right-0 p-4 text-[#155EEF] text-xl bg-transparent border-none outline-none rounded-tr-lg"
             onClick={closePopup}
           >
             &times;

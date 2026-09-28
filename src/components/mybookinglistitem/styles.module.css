@@ -251,7 +251,7 @@
 
 .amountToBePaid {
   margin-right: 10px;
-  color: #028fa3;
+  color: #155EEF;
   /* Adjust margin as needed */
 }
 
@@ -268,11 +268,11 @@
 
 .cancelOption {
   padding: 2%;
-  color: #028fa3;
+  color: #155EEF;
   background-color: #ffffff;
   margin-right: 3%;
   border-radius: 16px;
-  border: 1px solid #028fa3;
+  border: 1px solid #155EEF;
 }
 
 .payButton {
@@ -280,10 +280,10 @@
   padding-left: 3%;
   padding-right: 3%;
   color: #ffffff;
-  background-color: #028fa3;
+  background-color: #155EEF;
   border: none;
   border-radius: 16px;
-  background: var(--Primary-colour, #028fa3);
+  background: var(--Primary-colour, #155EEF);
   box-shadow: 0px 4px 4px 0px rgba(35, 31, 32, 0.35);
 }
 
@@ -327,7 +327,7 @@
 }
 
 .popupContent button {
-  background: #028fa3;
+  background: #155EEF;
   color: #fff;
   border: none;
   padding: 8px 16px;
@@ -336,7 +336,7 @@
   margin-top: 10px;
 }
 .success {
-  color: #028fa3;
+  color: #155EEF;
 }
 
 .bookingstatus {
@@ -345,7 +345,7 @@
 
 .amountPaid {
   margin-right: 10px;
-  color: #028fa3;
+  color: #155EEF;
   /* Adjust margin as needed */
 }
 
@@ -418,7 +418,7 @@
 .closeButton {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #028fa3;
+  background-color: #155EEF;
   color: white;
   border: none;
   border-radius: 5px;

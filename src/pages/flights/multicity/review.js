@@ -550,7 +550,7 @@ export default function FlightReview() {
             <div style={{ display: "flex", alignItems: "center", gap: "5%" }}>
               <FontAwesomeIcon
                 icon={faArrowLeft}
-                style={{ color: "#028fa3" }}
+                style={{ color: "#155EEF" }}
                 className={style.arrowBack}
                 onClick={() => handleGoBack("details")}
               />
@@ -579,7 +579,7 @@ export default function FlightReview() {
             // onClick={() => handleGoBack("details")}
             >
               <span>
-                <span style={{ color: "#028FA3" }} className={style.pencile}>
+                <span style={{ color: "#155EEF" }} className={style.pencile}>
                   <FontAwesomeIcon icon={faPencil} />
                 </span>
               </span>
@@ -815,7 +815,7 @@ export default function FlightReview() {
                     onClick={handleToggleTooltip}
                   >
                     <span
-                      style={{ color: "#028FA3", cursor: "pointer" }}
+                      style={{ color: "#155EEF", cursor: "pointer" }}
                       className={style.pencile}
                     >
                       {/* <FontAwesomeIcon icon={faPencil} /> */}
@@ -853,7 +853,7 @@ export default function FlightReview() {
                       }{" "}
                       Infant{" "}
                     </span>
-                    <span style={{ color: "#028FA3" }}>
+                    <span style={{ color: "#155EEF" }}>
                       {" "}
                       <FontAwesomeIcon icon={faCaretDown} />
                     </span>
@@ -864,7 +864,7 @@ export default function FlightReview() {
                     onClick={handleToggleTooltip}
                   >
                     <span
-                      style={{ color: "#028FA3", cursor: "pointer" }}
+                      style={{ color: "#155EEF", cursor: "pointer" }}
                       className={style.pencile}
                     >
                       {/* <FontAwesomeIcon icon={faPencil} /> */}
@@ -887,7 +887,7 @@ export default function FlightReview() {
                         )}{" "}
                       Traveler
                     </span>
-                    <span style={{ color: "#028FA3" }}>
+                    <span style={{ color: "#155EEF" }}>
                       {" "}
                       <FontAwesomeIcon icon={faCaretDown} />
                     </span>
@@ -927,7 +927,7 @@ export default function FlightReview() {
                     onClick={() => handleGoBack("details")}
                   >
                     <span
-                      style={{ color: "#028FA3", cursor: "pointer" }}
+                      style={{ color: "#155EEF", cursor: "pointer" }}
                       className={style.pencile}
                     >
                       <FontAwesomeIcon icon={faPencil} />

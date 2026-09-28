@@ -21,9 +21,9 @@ const HeaderTimer = () => {
   };
 
   return (
-    <div className="flex items-center p-1 bg-gradient-to-r from-gray-100 to-gray-200 border border-[#028fa3] rounded-md shadow-sm">
-      <span className="text-xs font-medium text-[#028fa3] mr-1">Timer:</span>
-      <span className="text-sm font-semibold text-[#028fa3]">{formatTime(timeLeft)}</span>
+    <div className="flex items-center p-1 bg-gradient-to-r from-gray-100 to-gray-200 border border-[#155EEF] rounded-md shadow-sm">
+      <span className="text-xs font-medium text-[#155EEF] mr-1">Timer:</span>
+      <span className="text-sm font-semibold text-[#155EEF]">{formatTime(timeLeft)}</span>
     </div>
   );
 };

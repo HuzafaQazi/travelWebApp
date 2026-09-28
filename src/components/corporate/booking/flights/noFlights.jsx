@@ -33,7 +33,7 @@ const NoFlights = () => {
         </div>
       </div>
       <div
-        className="mt-[40px] px-3 py-[0.7%] rounded-[15px] bg-[#028FA3] shadow-[0px_4px_4px_#231F2059] cursor-pointer"
+        className="mt-[40px] px-3 py-[0.7%] rounded-[15px] bg-[#155EEF] shadow-[0px_4px_4px_#231F2059] cursor-pointer"
         onClick={() => handleLinkClick("/")}
       >
         <span className="font-roboto text-[20px] font-medium leading-[47px] text-white">

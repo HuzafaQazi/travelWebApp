@@ -1608,7 +1608,7 @@ export default function HomePage() {
                             fill="none"
                             strokeWidth="10"
                             r="35"
-                            stroke="rgba(2, 143, 163, 1)"
+                            stroke="rgba(21, 94, 239, 1)"
                             strokeDasharray="164.93361431346415 56.97787143782138"
                           >
                             <animateTransform

@@ -35,7 +35,7 @@ const ProfileCompletionModal = ({ show, userId }) => {
               <span className="text-2xl mr-3">⚠️</span>
               <div>
                 <p className="text-amber-800 font-semibold text-base mb-1">
-                  Please complete your profile to continue using Qugo Travel
+                  Please complete your profile to continue using WeynGo Travel
                 </p>
                 <p className="text-amber-700 text-sm">
                   We need your basic information to provide you with the best

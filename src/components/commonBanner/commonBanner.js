@@ -383,9 +383,9 @@ export default function CommonBanner({ promotions, onPageLoading }) {
             </div>
           </div>
         </div>
-        <div className={styles.partnersHeader}>Our Esteemed Customers</div>
+        {/* <div className={styles.partnersHeader}>Our Esteemed Customers</div>
         <div className={styles.headingUnderline}></div>
-        <Carousel />
+        <Carousel /> */}
         {/* </main> */}
       </div>
       {routeLoading && <Loader />}

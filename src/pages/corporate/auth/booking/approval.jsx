@@ -828,7 +828,7 @@ const TripCard = ({
         !isTransport && (isWalletAllowed || shouldShowPayButton) && (
           <button
             onClick={handleProceedToPay}
-            className="w-fit px-4 mt-1 flex flex-col items-center bg-[#028fa3] p-2 rounded-full text-white text-xxs sm:text-base"
+            className="w-fit px-4 mt-1 flex flex-col items-center bg-[#155EEF] p-2 rounded-full text-white text-xxs sm:text-base"
           >
             <div>
               <span>Proceed to pay | </span>
@@ -863,7 +863,7 @@ const TripCard = ({
           <button
             onClick={handleProceedToPay}
             disabled={loading}
-            className="w-fit px-4 flex flex-col items-center bg-[#028fa3] p-2 rounded-full text-white text-base"
+            className="w-fit px-4 flex flex-col items-center bg-[#155EEF] p-2 rounded-full text-white text-base"
           >
             {loading ? (
               <>
@@ -886,7 +886,7 @@ const TripCard = ({
           <button
             onClick={showCancelRequestModel}
             disabled={loading}
-            className="w-fit px-4 flex flex-col items-center bg-[#028fa3] p-2 rounded-full text-white text-base"
+            className="w-fit px-4 flex flex-col items-center bg-[#155EEF] p-2 rounded-full text-white text-base"
           >
             {loading ? (
               <>
@@ -1000,7 +1000,7 @@ const TripCard = ({
           </button>
           <button
             onClick={() => openConfirmationModal("approve")}
-            className="w-1/2 bg-[#028FA3] p-2 px-4 text-[#FFFFFF] rounded-full text-xs font-normal mt-1"
+            className="w-1/2 bg-[#155EEF] p-2 px-4 text-[#FFFFFF] rounded-full text-xs font-normal mt-1"
           >
             APPROVE
           </button>
@@ -1014,7 +1014,7 @@ const TripCard = ({
       {pageLoader ? (
         <></>
       ) : (
-        <div className="border-[0.5px] border-[#028FA350] m-2 p-3 rounded-2xl hover:border-[#028FA3] shadow-[0px_4px_4px_0px_#00000040] relative">
+        <div className="border-[0.5px] border-[#155EEF50] m-2 p-3 rounded-2xl hover:border-[#155EEF] shadow-[0px_4px_4px_0px_#00000040] relative">
           {requestType === 2 && (
             <div className="absolute top-[-20px]">
               <button
@@ -1035,7 +1035,7 @@ const TripCard = ({
               {isTransport ? (
                 <FontAwesomeIcon
                   icon={transportIcon}
-                  className="w-[30px] h-[30px] text-[#028fa3]"
+                  className="w-[30px] h-[30px] text-[#155EEF]"
                 />
               ) : (
                 <Image
@@ -1055,7 +1055,7 @@ const TripCard = ({
                 </button>
               )}
               {isTransport && (
-                <span className="bg-[#E8F4FD] text-[#028fa3] text-xs font-medium px-3 py-1 rounded-full ml-2">
+                <span className="bg-[#E8F4FD] text-[#155EEF] text-xs font-medium px-3 py-1 rounded-full ml-2">
                   {getTransportName()}
                 </span>
               )}
@@ -1082,7 +1082,7 @@ const TripCard = ({
                 </button>
               )}
               <div
-                className="text-[#028FA3] ml-auto text-xs sm:text-sm font-medium px-1 cursor-pointer"
+                className="text-[#155EEF] ml-auto text-xs sm:text-sm font-medium px-1 cursor-pointer"
                 onClick={handleViewRequest}
               >
                 View request
@@ -1125,7 +1125,7 @@ const TripCard = ({
                   </span>
                 </div>
                 <div className="relative flex items-center justify-center flex-1">
-                  <span className="absolute px-1 font-normal text-xxs sm:text-xs text-[#028FA3] top-1 transform -translate-y-1/2">
+                  <span className="absolute px-1 font-normal text-xxs sm:text-xs text-[#155EEF] top-1 transform -translate-y-1/2">
                     {durationLabel}
                   </span>
                   <hr className="border-dashed border-black-300 mx-2 mt-4 w-full h-1" />
@@ -1194,7 +1194,7 @@ const TripCard = ({
                           onMouseLeave={() => setShowEmails(false)}
                         >
                           {travelers > 1 && (
-                            <div className="text-xs text-[#028FA3] font-medium  w-fit cursor-pointer">
+                            <div className="text-xs text-[#155EEF] font-medium  w-fit cursor-pointer">
                               +{travelers - 1} travelers
                             </div>
                           )}
@@ -1225,7 +1225,7 @@ const TripCard = ({
                                 onMouseEnter={() => setShowApprovers(true)}
                                 onMouseLeave={() => setShowApprovers(false)}
                               >
-                                <span className="text-[#028fa3] ">
+                                <span className="text-[#155EEF] ">
                                   {" "}
                                   +{remainingApprovers.length} approvers
                                 </span>
@@ -1353,7 +1353,7 @@ const TripCard = ({
                   <button
                     className={`p-2 px-4 rounded-lg text-white transition-colors duration-300 ${
                       confirmationType === "approve"
-                        ? "bg-[#028FA3]"
+                        ? "bg-[#155EEF]"
                         : "bg-red-600 hover:bg-red-800"
                     }`}
                     onClick={
@@ -1704,7 +1704,7 @@ const Trips = () => {
       {showScrollTopButton && (
         <button
           onClick={handleScrollToTop}
-          className="fixed bottom-8 right-8 z-50 bg-gradient-to-r from-[#028fa3] to-[#00b4d8] text-white p-3 rounded-full shadow-md hover:shadow-lg transition duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#028fa3]"
+          className="fixed bottom-8 right-8 z-50 bg-gradient-to-r from-[#155EEF] to-[#00b4d8] text-white p-3 rounded-full shadow-md hover:shadow-lg transition duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#155EEF]"
           aria-label="Scroll to top"
         >
           <FontAwesomeIcon icon={faArrowUp} size="2x" />
@@ -1721,7 +1721,7 @@ const Trips = () => {
               </div>
               <div className="px-3 py-1 sm:px-3">
                 <div className="relative w-fit">
-                  <button className=" absolute top-4 left-2 h-5 w-5 text-gray-600 rounded-lg hover:text-[#028fa3] transition-colors duration-300 transform hover:scale-110">
+                  <button className=" absolute top-4 left-2 h-5 w-5 text-gray-600 rounded-lg hover:text-[#155EEF] transition-colors duration-300 transform hover:scale-110">
                     <FontAwesomeIcon
                       icon={faMagnifyingGlass}
                       className="text-[#878786]"
@@ -1736,7 +1736,7 @@ const Trips = () => {
                   />
                   {searchQuery && (
                     <button
-                      className="absolute top-4 right-2 h-5 w-5 text-gray-600 rounded-lg hover:text-[#028fa3] transition-colors duration-300 transform hover:scale-110"
+                      className="absolute top-4 right-2 h-5 w-5 text-gray-600 rounded-lg hover:text-[#155EEF] transition-colors duration-300 transform hover:scale-110"
                       onClick={handleClearSearch}
                     >
                       <FontAwesomeIcon
@@ -1756,8 +1756,8 @@ const Trips = () => {
                     key={tab.id}
                     className={`${
                       activeTab === tab.requestType
-                        ? "border-b-2 border-[#028fa3] text-[#028fa3]"
-                        : "border-transparent text-gray-500 hover:border-[#028fa3] hover:text-[#028fa3] font-normal"
+                        ? "border-b-2 border-[#155EEF] text-[#155EEF]"
+                        : "border-transparent text-gray-500 hover:border-[#155EEF] hover:text-[#155EEF] font-normal"
                     }  ${style.compInner}   text-medium`}
                     onClick={() => handleTabChange(tab.requestType)}
                   >
@@ -1784,7 +1784,7 @@ const Trips = () => {
                 {(activeTab === 1 || activeTab === 2) && (
                   <div className="relative w-fit sm:w-48" ref={statusRef}>
                     <div
-                      className="w-fit sm:w-48 h-fit sm:h-14 border-1 border-[#028FA340] rounded-full px-4 py-2 flex items-center justify-between cursor-pointer"
+                      className="w-fit sm:w-48 h-fit sm:h-14 border-1 border-[#155EEF40] rounded-full px-4 py-2 flex items-center justify-between cursor-pointer"
                       onClick={toggleStatusDropdown}
                     >
                       <span className="text-[#878786] font-normal text-nowrap text-xs sm:text-sm">
@@ -1798,7 +1798,7 @@ const Trips = () => {
                     </div>
 
                     {isStatusOpen && (
-                      <div className="absolute z-50 mt-1 w-full bg-white border border-[#028FA340] rounded-lg shadow-lg">
+                      <div className="absolute z-50 mt-1 w-full bg-white border border-[#155EEF40] rounded-lg shadow-lg">
                         {[
                           "All",
                           "Approved",
@@ -1810,7 +1810,7 @@ const Trips = () => {
                             key={status}
                             className={`px-4 py-2 cursor-pointer ${
                               selectedStatus === status
-                                ? "text-[#028fa3] font-bold"
+                                ? "text-[#155EEF] font-bold"
                                 : "text-gray-500"
                             }`}
                             onClick={() => handleStatusSelect(status)}
@@ -1825,7 +1825,7 @@ const Trips = () => {
 
                 <div className="relative w-fit sm:w-48" ref={travelRef}>
                   <div
-                    className="w-fit sm:w-48 h-fit sm:h-14 border-1 border-[#028FA340] rounded-full px-4 py-2 flex items-center justify-between cursor-pointer"
+                    className="w-fit sm:w-48 h-fit sm:h-14 border-1 border-[#155EEF40] rounded-full px-4 py-2 flex items-center justify-between cursor-pointer"
                     onClick={toggleDropdown}
                   >
                     <span className="text-[#878786] font-normal text-nowrap text-xs sm:text-sm">
@@ -1839,7 +1839,7 @@ const Trips = () => {
                   </div>
 
                   {isTravelOpen && (
-                    <div className="absolute z-50 mt-1 w-full bg-white border border-[#028FA340] rounded-lg shadow-lg">
+                    <div className="absolute z-50 mt-1 w-full bg-white border border-[#155EEF40] rounded-lg shadow-lg">
                       {[
                         "All",
                         "Flight",
@@ -1852,7 +1852,7 @@ const Trips = () => {
                           key={option}
                           className={`px-4 py-2 cursor-pointer ${
                             selectedOption === option
-                              ? "text-[#028fa3] font-bold"
+                              ? "text-[#155EEF] font-bold"
                               : "text-gray-500"
                           }`}
                           onClick={() => handleOptionSelect(option)}
@@ -1872,7 +1872,7 @@ const Trips = () => {
                     icon={faSpinner}
                     spin
                     size="2x"
-                    color="#028fa3"
+                    color="#155EEF"
                   />
                 </div>
               ) : tripsData.length > 0 ? (

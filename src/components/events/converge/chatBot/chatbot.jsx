@@ -194,7 +194,7 @@ const Chat = ({ isOpen, onClose }) => {
           <div className={style.header}>
             <div className={style.Qugoimage1}>
               <Image src={circle} alt="Profile" className={style.Qugoicon} />
-              <div className={style.chat}>Chat with Qugo</div>
+              <div className={style.chat}>Chat with WeynGo</div>
             </div>
             <div onClick={onClose} className={style.crossmark}>
               &times;

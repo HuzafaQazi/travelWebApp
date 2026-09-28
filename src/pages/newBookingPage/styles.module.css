@@ -40,8 +40,8 @@
 }
 
 .active-circle {
-  color: #028fa3;
-  border: 1px solid #028fa3;
+  color: #155EEF;
+  border: 1px solid #155EEF;
 }
 
 .gap {
@@ -71,7 +71,7 @@
 }
 
 .info-circle .active-info {
-  color: #028fa3;
+  color: #155EEF;
   width: 120%;
 }
 
@@ -108,7 +108,7 @@
 
 .details-head h2 {
   font-style: italic;
-  color: #028fa3;
+  color: #155EEF;
   font-size: 2vw;
   font-weight: 500;
 }
@@ -216,7 +216,7 @@
 .rooms-details {
   display: inline-block;
   padding: 7px 20px;
-  background-color: #028fa3;
+  background-color: #155EEF;
   color: white;
   font-size: 1.5vh;
   font-style: italic;
@@ -231,8 +231,8 @@
 .adult-details {
   display: inline-block;
   padding: 7px 20px;
-  background-color: #028fa336;
-  color: #028fa3;
+  background-color: #155EEF36;
+  color: #155EEF;
   font-size: 1.5vh;
   font-style: italic;
   border: none;
@@ -307,7 +307,7 @@
 }
 
 .valid-button {
-  background-color: #028fa3;
+  background-color: #155EEF;
   padding: 5px 10px;
   border-radius: 4px;
   color: white;
@@ -398,8 +398,8 @@
 .child-button div {
   display: inline-block;
   padding: 7px 20px;
-  background-color: #028fa336;
-  color: #028fa3;
+  background-color: #155EEF36;
+  color: #155EEF;
   font-size: 1.5vh;
   font-style: italic;
   border: none;
@@ -520,7 +520,7 @@
 .rectangle-button {
   padding: 3% 10%;
   font-size: 16px;
-  background-color: #028fa3;
+  background-color: #155EEF;
   color: #fff;
   border: none;
   border-radius: 9px;
@@ -627,7 +627,7 @@
 }
 
 .charges-row {
-  color: #028fa3;
+  color: #155EEF;
 }
 
 .agree-policy {
@@ -640,7 +640,7 @@
 }
 
 .color-text {
-  color: #028fa3;
+  color: #155EEF;
 }
 
 .check-box {
@@ -732,7 +732,7 @@
   font-weight: 400;
   width: 102%;
   margin: 0;
-  color: #028fa3;
+  color: #155EEF;
 }
 
 .left-column .date,
@@ -763,7 +763,7 @@
   left: 47%;
   transform: translate(-50%, -50%);
   font-size: 1vw;
-  color: #028fa3;
+  color: #155EEF;
 }
 
 .room-details {
@@ -787,7 +787,7 @@
 
 .pencil-icon {
   font-size: 1.5vw;
-  color: #028fa3;
+  color: #155EEF;
   margin-left: 10px;
   cursor: pointer;
   /* Add any other styles for the pencil icon */
@@ -872,7 +872,7 @@
 
 .price-head {
   font-size: 1.5vw;
-  color: #028fa3;
+  color: #155EEF;
 }
 
 .columns {
@@ -914,7 +914,7 @@
   font-size: 1.5vw;
   font-family: "Gotham medium";
   /* margin-top: 15%; */
-  color: #028fa3 !important;
+  color: #155EEF !important;
 }
 
 .right-container2 {
@@ -978,7 +978,7 @@
 
 .nounderline-text {
   text-decoration: none;
-  color: #028fa3;
+  color: #155EEF;
 }
 
 /* right card ends */
@@ -1009,7 +1009,7 @@
 }
 
 .walletText {
-    color: #028FA3;
+    color: #155EEF;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
@@ -1082,7 +1082,7 @@
 
   .date {
     font-size: 12px !important;
-    color: #028fa3 !important;
+    color: #155EEF !important;
   }
 
   .time {
@@ -1120,7 +1120,7 @@
   }
 
   .row1 {
-    color: #028fa3;
+    color: #155EEF;
     font-size: 16px;
   }
 

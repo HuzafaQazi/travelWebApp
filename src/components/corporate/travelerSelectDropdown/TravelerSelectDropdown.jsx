@@ -107,20 +107,20 @@ const TravelerSelectDropdown = ({
             size="sm"
             style={{
               color: "#ffffff",
-              backgroundColor: "#028fa3",
+              backgroundColor: "#155EEF",
               padding: "5px",
               borderRadius: "50%",
             }}
           />
           Traveler:
           {selectedTravelers.length === 0 ? (
-            <span className="text-[#028fa3]">Select Travelers</span>
+            <span className="text-[#155EEF]">Select Travelers</span>
           ) : (
             <div className="flex flex-wrap gap-1">
               {selectedTravelers.map((traveler, index) => (
                 <span
                   key={traveler.value}
-                  className="flex items-center gap-1 text-[#028fa3]"
+                  className="flex items-center gap-1 text-[#155EEF]"
                 >
                   {traveler.label}
                   <FontAwesomeIcon
@@ -170,29 +170,29 @@ const TravelerSelectDropdown = ({
               }),
               multiValueLabel: (provided) => ({
                 ...provided,
-                color: "#028fa3",
+                color: "#155EEF",
               }),
               multiValueRemove: (provided) => ({
                 ...provided,
-                color: "#028fa3",
+                color: "#155EEF",
                 ":hover": {
                   backgroundColor: "#b3e5fc",
-                  color: "#028fa3",
+                  color: "#155EEF",
                 },
               }),
               option: (provided, state) => ({
                 ...provided,
                 backgroundColor: state.isFocused ? "#b3e5fc" : "#fff", // Background color on hover (focused state)
-                color: state.isFocused ? "#028fa3" : "#000", // Text color on hover
+                color: state.isFocused ? "#155EEF" : "#000", // Text color on hover
                 ":hover": {
                   backgroundColor: "#b3e5fc", // Background color on hover
-                  color: "#028fa3", // Text color on hover
+                  color: "#155EEF", // Text color on hover
                 },
               }),
             }}
           />
           <button
-            className="bg-[#028fa3] text-white p-2 px-4 rounded-full mt-2"
+            className="bg-[#155EEF] text-white p-2 px-4 rounded-full mt-2"
             onClick={() => setShowTravellerSelection(false)}
           >
             {selectedTravelers.length === 0 ? "Cancel" : "Done"}

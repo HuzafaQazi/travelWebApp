@@ -53,9 +53,9 @@ const SecondPage = ({ popular_packages }) => {
                   <div className={styles.popTopContent}>
                     <NextImage
                       className={styles.popLogo}
-                      src="/img/Qugo Logo white-01.png"
-                      alt="Qugologo"
-                      width={50}
+                      src="/img/weyngo_logo_white.png"
+                      alt="WeynGo logo"
+                      width={65}
                       height={20}
                     />
                     <div className={styles.tripDuration}>

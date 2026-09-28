@@ -642,7 +642,7 @@ export default function HotelListing({ onClose, hotelCode, vendorCode }) {
                                 ? "Adults"
                                 : "Adult"}
                               {/* <button
-                          className="underline text-[#028fa3] font-semibold ml-2"
+                          className="underline text-[#155EEF] font-semibold ml-2"
                           onClick={handleOpenBottomSheet}
                         >
                           Travel Policy
@@ -685,7 +685,7 @@ export default function HotelListing({ onClose, hotelCode, vendorCode }) {
                                   }
                                 }}
                                 className={`p-2 rounded-full cursor-pointer transition-colors duration-300 ease-in-out ${filters.priceSort === "lowHigh"
-                                  ? "text-[#028FA3] text-lg font-semibold pointer-events-none"
+                                  ? "text-[#155EEF] text-lg font-semibold pointer-events-none"
                                   : "text-[#878786] text-lg font-medium "
                                   }`}
                               >
@@ -704,7 +704,7 @@ export default function HotelListing({ onClose, hotelCode, vendorCode }) {
                                   }
                                 }}
                                 className={` p-2 rounded-full cursor-pointer transition-colors duration-300 ease-in-out ${filters.priceSort === "highLow"
-                                  ? "text-[#028FA3] text-lg font-semibold pointer-events-none"
+                                  ? "text-[#155EEF] text-lg font-semibold pointer-events-none"
                                   : "text-[#878786] text-lg font-medium"
                                   }`}
                               >
@@ -740,7 +740,7 @@ export default function HotelListing({ onClose, hotelCode, vendorCode }) {
                                   className="text-gray-400"
                                 />
                               </div>
-                              <button className=" absolute top-4 right-4 h-5 w-5 text-gray-600 rounded-lg hover:text-[#028fa3] transition-colors duration-300 transform hover:scale-110">
+                              <button className=" absolute top-4 right-4 h-5 w-5 text-gray-600 rounded-lg hover:text-[#155EEF] transition-colors duration-300 transform hover:scale-110">
                                 <FontAwesomeIcon
                                   icon={faMagnifyingGlass}
                                   className="text-[#878786]"
@@ -819,7 +819,7 @@ export default function HotelListing({ onClose, hotelCode, vendorCode }) {
                                                 ?.countryname
                                             }
                                             <button
-                                              className="underline ml-2 text-[#028FA3]"
+                                              className="underline ml-2 text-[#155EEF]"
                                               onClick={() =>
                                                 handleViewDetails(hotel)
                                               }
@@ -869,7 +869,7 @@ export default function HotelListing({ onClose, hotelCode, vendorCode }) {
                                             per room
                                           </span>
                                           <button
-                                            className="bg-[#028fa3] w-full whitespace-nowrap mt-2 flex items-center justify-between text-white text-sm p-1.5 px-2 rounded-lg"
+                                            className="bg-[#155EEF] w-full whitespace-nowrap mt-2 flex items-center justify-between text-white text-sm p-1.5 px-2 rounded-lg"
                                             onClick={() =>
                                               handleViewDetails(hotel)
                                             }

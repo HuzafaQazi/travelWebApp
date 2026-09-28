@@ -64,7 +64,7 @@
   width: 9%;
   margin-left: 45%;
   height: 4px;
-  background-color: #028fa3;
+  background-color: #155EEF;
   margin-top: 5px;
 }
 
@@ -245,7 +245,7 @@
   width: 125%;
   height: 3px;
   border-radius: 5px;
-  background-color: #028fa3;
+  background-color: #155EEF;
 }
 
 .activeLink::before {
@@ -257,8 +257,8 @@
   height: 100%;
   background: linear-gradient(
     180deg,
-    rgba(2, 143, 163, 0) 0%,
-    rgba(2, 143, 163, 0.5) 160%
+    rgba(21, 94, 239, 0) 0%,
+    rgba(21, 94, 239, 0.5) 160%
   );
 }
 
@@ -396,7 +396,7 @@
 }
 
 .featureDetails {
-  color: #028fa3;
+  color: #155EEF;
   margin-left: 5%;
   width: fit-content;
 }
@@ -492,7 +492,7 @@
   width: 9%;
   margin-left: 45%;
   height: 4px;
-  background-color: #028fa3;
+  background-color: #155EEF;
   /* margin-bottom: 5%; */
 }
 
@@ -629,7 +629,7 @@
   .closeButton {
     padding: 2% 4%;
     border: none;
-    background: #028fa3;
+    background: #155EEF;
     color: #ffffff;
   }
 
@@ -648,7 +648,7 @@
   }
 
   .bottomSheetPara {
-    color: #028fa3;
+    color: #155EEF;
     font-size: 12px;
   }
 
@@ -694,7 +694,7 @@
     padding: 1% 10%;
     border: none;
     border-radius: 4px;
-    background: #028fa3;
+    background: #155EEF;
     color: #ffffff;
     box-shadow: 0px 4px 4px 0px rgba(35, 31, 32, 0.12);
   }
@@ -707,7 +707,7 @@
   }
 
   .qugoColor {
-    color: #028fa3;
+    color: #155EEF;
     font-weight: 700;
   }
 
@@ -992,7 +992,7 @@
     width: 9%;
     margin-left: 45%;
     height: 4px;
-    background-color: #028fa3;
+    background-color: #155EEF;
     margin-top: 5px;
     position: relative;
   }

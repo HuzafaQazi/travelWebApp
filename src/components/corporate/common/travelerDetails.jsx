@@ -40,14 +40,14 @@ export default function TravelerDetails({
         <div className="font-medium">Traveler Details</div>
         <FontAwesomeIcon
           icon={isOpen ? faCaretUp : faCaretDown}
-          color="#028fa3"
+          color="#155EEF"
           className="cursor-pointer"
         />
       </div>
       {isOpen && (
         <>
           {/* different segments */}
-          <div className="flex gap-2 overflow-x-auto whitespace-nowrap pb-2 scrollbar-thin scrollbar-thumb-rounded scrollbar-thumb-[#028fa3]/50 mt-1 sm:mt-4">
+          <div className="flex gap-2 overflow-x-auto whitespace-nowrap pb-2 scrollbar-thin scrollbar-thumb-rounded scrollbar-thumb-[#155EEF]/50 mt-1 sm:mt-4">
             {bookingDetails ? (
               bookingDetails[0]?.data?.segmentPassengerSsr?.map(
                 (segment, index) => (
@@ -55,8 +55,8 @@ export default function TravelerDetails({
                     key={index}
                     className={
                       index === ssrPassengerIndex
-                        ? "text-white bg-[#028fa3] text-xs sm:text-sm p-2 px-3 rounded-md"
-                        : "text-[#028fa3] border-[1px] border-[#028fa3] p-2 px-3 text-xs rounded-md sm:text-sm"
+                        ? "text-white bg-[#155EEF] text-xs sm:text-sm p-2 px-3 rounded-md"
+                        : "text-[#155EEF] border-[1px] border-[#155EEF] p-2 px-3 text-xs rounded-md sm:text-sm"
                     }
                     onClick={() => handleContainerClick(index)}
                   >
@@ -137,7 +137,7 @@ export default function TravelerDetails({
                           travelerName={travelerName}
                           showTravelerNameInTooltip={false}
                         />
-                        <div className="text-xxxs sm:text-sm text-[#028fa3] whitespace-nowrap overflow-hidden text-ellipsis">
+                        <div className="text-xxxs sm:text-sm text-[#155EEF] whitespace-nowrap overflow-hidden text-ellipsis">
                           {ssrPassenger?.passengerName ?? "-"}
                         </div>
                         <div className="text-xxxs sm:text-xs  text-gray-500 whitespace-nowrap overflow-hidden text-ellipsis">

@@ -13,7 +13,7 @@ const FilterNoResultsMessage = ({ onOpenFilters }) => (
       <div className="md:hidden">
         <button
           onClick={onOpenFilters}
-          className="bg-[#028fa3] text-white px-6 py-2 rounded-md hover:bg-[#027a8c] transition-colors"
+          className="bg-[#155EEF] text-white px-6 py-2 rounded-md hover:bg-[#027a8c] transition-colors"
         >
           Adjust Filters
         </button>

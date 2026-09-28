@@ -1486,7 +1486,7 @@ export default function TwowayListing() {
                             <div className={style.iconcontainer1}>
                               <FontAwesomeIcon
                                 icon={faChevronDown}
-                                style={{ color: "#028FA3" }}
+                                style={{ color: "#155EEF" }}
                                 className={`${style.arrowDesktop} ${rotatedIcons.includes("icon1")
                                   ? style.rotated
                                   : ""
@@ -1509,7 +1509,7 @@ export default function TwowayListing() {
                             <div className={style.iconcontainer1}>
                               <FontAwesomeIcon
                                 icon={faChevronDown}
-                                style={{ color: "#028FA3" }}
+                                style={{ color: "#155EEF" }}
                                 className={`${style.arrowDesktop} ${rotatedIcons.includes("icon2")
                                   ? style.rotated
                                   : ""
@@ -1531,7 +1531,7 @@ export default function TwowayListing() {
                             <div className={style.iconcontainer1}>
                               <FontAwesomeIcon
                                 icon={faChevronDown}
-                                style={{ color: "#028FA3" }}
+                                style={{ color: "#155EEF" }}
                                 className={`${style.arrowDesktop} ${rotatedIcons.includes("icon3")
                                   ? style.rotated
                                   : ""
@@ -1553,7 +1553,7 @@ export default function TwowayListing() {
                             <div className={style.iconcontainer1}>
                               <FontAwesomeIcon
                                 icon={faChevronDown}
-                                style={{ color: "#028FA3" }}
+                                style={{ color: "#155EEF" }}
                                 className={`${style.arrowDesktop} ${rotatedIcons.includes("icon4")
                                   ? style.rotated
                                   : ""
@@ -1607,7 +1607,7 @@ export default function TwowayListing() {
                             <div className={style.iconcontainer1}>
                               <FontAwesomeIcon
                                 icon={faChevronDown}
-                                style={{ color: "#028FA3" }}
+                                style={{ color: "#155EEF" }}
                                 className={`${style.arrowDesktop} ${rotatedInboundIcons.includes("inboundIcon1")
                                   ? style.rotated
                                   : ""
@@ -1632,7 +1632,7 @@ export default function TwowayListing() {
                             <div className={style.iconcontainer1}>
                               <FontAwesomeIcon
                                 icon={faChevronDown}
-                                style={{ color: "#028FA3" }}
+                                style={{ color: "#155EEF" }}
                                 className={`${style.arrowDesktop} ${rotatedInboundIcons.includes("inboundIcon2")
                                   ? style.rotated
                                   : ""
@@ -1657,7 +1657,7 @@ export default function TwowayListing() {
                             <div className={style.iconcontainer1}>
                               <FontAwesomeIcon
                                 icon={faChevronDown}
-                                style={{ color: "#028FA3" }}
+                                style={{ color: "#155EEF" }}
                                 className={`${style.arrowDesktop} ${rotatedInboundIcons.includes("inboundIcon3")
                                   ? style.rotated
                                   : ""
@@ -1682,7 +1682,7 @@ export default function TwowayListing() {
                             <div className={style.iconcontainer1}>
                               <FontAwesomeIcon
                                 icon={faChevronDown}
-                                style={{ color: "#028FA3" }}
+                                style={{ color: "#155EEF" }}
                                 className={`${style.arrowDesktop} ${rotatedInboundIcons.includes("inboundIcon4")
                                   ? style.rotated
                                   : ""
@@ -1785,7 +1785,7 @@ export default function TwowayListing() {
                                 Price
                                 <FontAwesomeIcon
                                   icon={faChevronDown}
-                                  style={{ color: "#028FA3" }}
+                                  style={{ color: "#155EEF" }}
                                   className={`${style.arrowDesktop} ${rotatedIcons.includes("icon1")
                                     ? style.rotated
                                     : ""
@@ -1815,7 +1815,7 @@ export default function TwowayListing() {
                                 <div className={style.iconcontainer1}>
                                   <FontAwesomeIcon
                                     icon={faChevronDown}
-                                    style={{ color: "#028FA3" }}
+                                    style={{ color: "#155EEF" }}
                                     className={`${style.arrowDesktop} ${rotatedIcons.includes("icon2")
                                       ? style.rotated
                                       : ""
@@ -1846,7 +1846,7 @@ export default function TwowayListing() {
                                 <div className={style.iconcontainer1}>
                                   <FontAwesomeIcon
                                     icon={faChevronDown}
-                                    style={{ color: "#028FA3" }}
+                                    style={{ color: "#155EEF" }}
                                     className={`${style.arrowDesktop} ${rotatedIcons.includes("icon3")
                                       ? style.rotated
                                       : ""
@@ -1877,7 +1877,7 @@ export default function TwowayListing() {
                                 <div className={style.iconcontainer1}>
                                   <FontAwesomeIcon
                                     icon={faChevronDown}
-                                    style={{ color: "#028FA3" }}
+                                    style={{ color: "#155EEF" }}
                                     className={`${style.arrowDesktop} ${rotatedIcons.includes("icon4")
                                       ? style.rotated
                                       : ""
@@ -1971,7 +1971,7 @@ export default function TwowayListing() {
                                 Price
                                 <FontAwesomeIcon
                                   icon={faChevronDown}
-                                  style={{ color: "#028FA3" }}
+                                  style={{ color: "#155EEF" }}
                                   className={`${style.arrowDesktop} ${rotatedInboundIcons.includes("inboundIcon1")
                                     ? style.rotated
                                     : ""
@@ -2000,7 +2000,7 @@ export default function TwowayListing() {
                                 Departure
                                 <FontAwesomeIcon
                                   icon={faChevronDown}
-                                  style={{ color: "#028FA3" }}
+                                  style={{ color: "#155EEF" }}
                                   className={`${style.arrowDesktop} ${rotatedInboundIcons.includes("inboundIcon2")
                                     ? style.rotated
                                     : ""
@@ -2029,7 +2029,7 @@ export default function TwowayListing() {
                                 Arrival
                                 <FontAwesomeIcon
                                   icon={faChevronDown}
-                                  style={{ color: "#028FA3" }}
+                                  style={{ color: "#155EEF" }}
                                   className={`${style.arrowDesktop} ${rotatedInboundIcons.includes("inboundIcon3")
                                     ? style.rotated
                                     : ""
@@ -2058,7 +2058,7 @@ export default function TwowayListing() {
                                 Duration
                                 <FontAwesomeIcon
                                   icon={faChevronDown}
-                                  style={{ color: "#028FA3" }}
+                                  style={{ color: "#155EEF" }}
                                   className={`${style.arrowDesktop} ${rotatedInboundIcons.includes("inboundIcon4")
                                     ? style.rotated
                                     : ""
@@ -2406,7 +2406,7 @@ export default function TwowayListing() {
                                 style={{
                                   display: "flex",
                                   gap: "10px",
-                                  color: "#028fa3",
+                                  color: "#155EEF",
                                   whiteSpace: "nowrap",
                                 }}
                               >
@@ -2751,7 +2751,7 @@ export default function TwowayListing() {
                                   style={{
                                     display: "flex",
                                     gap: "10px",
-                                    color: "#028fa3",
+                                    color: "#155EEF",
                                     whiteSpace: "nowrap",
                                   }}
                                 >

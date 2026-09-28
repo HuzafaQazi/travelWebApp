@@ -29,7 +29,7 @@
 .backArrow {
   background-color: #ffffff;
   border: none;
-  color: #028fa3;
+  color: #155EEF;
   font-size: 16px;
 }
 
@@ -65,7 +65,7 @@
 }
 
 .flightsinform:hover {
-  color: #028fa3;
+  color: #155EEF;
 }
 
 .horzontailne {
@@ -154,7 +154,7 @@
 }
 
 .fromToCityName {
-  color: #028fa3;
+  color: #155EEF;
   font-size: 14px;
   font-weight: 500;
   text-wrap: nowrap;
@@ -185,7 +185,7 @@
   text-decoration: underline;
   width: 90%;
   font-size: 12px;
-  color: #028fa3;
+  color: #155EEF;
   margin-top: 1%;
 }
 
@@ -221,7 +221,7 @@
 }
 
 .walletText {
-  color: #028FA3;
+  color: #155EEF;
   font-family: Roboto;
   font-size: 12px;
   font-weight: 500;
@@ -251,8 +251,8 @@
   padding: 1% 3%;
   margin-top: 1%;
   justify-content: space-between;
-  background-color: rgba(2, 143, 163, 0.1);
-  color: #028fa3;
+  background-color: rgba(21, 94, 239, 0.1);
+  color: #155EEF;
   font-size: 18px;
   font-weight: 500;
   border-bottom-left-radius: 15px;
@@ -270,7 +270,7 @@
   border-radius: 15px;
   text-wrap: nowrap;
   font-size: 14px;
-  color: #028fa3;
+  color: #155EEF;
   box-shadow: 0px 4px 4px 0px rgba(145, 178, 228, 0.15);
 }
 
@@ -288,8 +288,8 @@
   width: 35%;
   align-items: center;
   padding: 2% 4%;
-  border: 0.55px solid rgba(2, 143, 163, 1);
-  color: #028fa3;
+  border: 0.55px solid rgba(21, 94, 239, 1);
+  color: #155EEF;
   border-radius: 6px;
   box-shadow: 0px 4px 4px 0px rgba(35, 31, 32, 0.1);
   /* font-size: 3vw; */
@@ -302,7 +302,7 @@
   align-items: center;
   width: 50%;
   border: none;
-  background-color: #028fa3;
+  background-color: #155EEF;
   color: #ffffff;
   border-radius: 6px;
   box-shadow: 0px 4px 4px 0px rgba(35, 31, 32, 0.1);
@@ -325,7 +325,7 @@
   justify-content: space-between;
   padding: 2% 3%;
   color: #ffffff;
-  background: linear-gradient(90deg, #028fa3 0%, #efc007 121.58%);
+  background: linear-gradient(90deg, #155EEF 0%, #efc007 121.58%);
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
 }
@@ -371,7 +371,7 @@
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-  color: #028fa3;
+  color: #155EEF;
 }
 
 .passengerdetail {
@@ -454,7 +454,7 @@
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-  color: #028fa3;
+  color: #155EEF;
   /* text-wrap: nowrap; */
 }
 
@@ -485,7 +485,7 @@
 }
 
 .Economy {
-  color: #028fa3;
+  color: #155EEF;
   font-size: 2.5vw;
 }
 
@@ -498,7 +498,7 @@
   min-width: 42px;
   width: fit-content;
   height: 12px;
-  background: #028fa312;
+  background: #155eef12;
   margin-top: 5px;
 }
 
@@ -509,7 +509,7 @@
   line-height: 14px;
   letter-spacing: 0em;
   text-align: center;
-  color: #028fa3;
+  color: #155EEF;
 }
 
 @keyframes spin {
@@ -566,7 +566,7 @@
 @media (min-width: 768px) {
 
   .walletText {
-    color: #028FA3;
+    color: #155EEF;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
@@ -800,7 +800,7 @@
 
   .totalpassenger {
     font-size: 15px;
-    color: #028fa3;
+    color: #155EEF;
     text-wrap: nowrap;
   }
 

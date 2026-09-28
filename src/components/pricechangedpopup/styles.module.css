@@ -25,7 +25,7 @@
 }
 
 .okButton {
-  background-color: #028fa3;
+  background-color: #155EEF;
   padding: 5px 20px;
   border-radius: 5px;
   color: white;
@@ -34,8 +34,8 @@
 
 .okButton:hover {
   background-color: white;
-  color: #028fa3;
-  border: 1px solid #028fa3;
+  color: #155EEF;
+  border: 1px solid #155EEF;
 }
 
 .priceChanges {

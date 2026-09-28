@@ -1,6 +1,6 @@
 .ssrSelected {
   border: 2px;
-  background: #028fa3 !important;
+  background: #155EEF !important;
   color: white !important;
 }
 
@@ -71,7 +71,7 @@
   /* justify-content: space-between; */
   padding: 2% 2%;
   z-index: 99;
-  background: linear-gradient(90deg, #028fa3 -13.6%, #49585a 106.05%);
+  background: linear-gradient(90deg, #155EEF -13.6%, #49585a 106.05%);
 }
 .fixedHead1 {
   display: flex;
@@ -141,7 +141,7 @@
 .fromToTiming {
   background-color: #ffffff;
   padding: 2% 4%;
-  border: 0.35px solid rgba(2, 143, 163, 0.59);
+  border: 0.35px solid rgba(21, 94, 239, 0.59);
   border-radius: 15px;
   margin: 1%;
 }
@@ -160,7 +160,7 @@
 }
 
 .fromToCityName {
-  color: #028fa3;
+  color: #155EEF;
   font-size: 17px;
   font-weight: 500;
 }
@@ -192,7 +192,7 @@
   flex-direction: column;
   margin-top: 5%;
   padding: 0% 3%;
-  color: #028fa3;
+  color: #155EEF;
   font-size: 18px;
   font-weight: 500;
 }
@@ -237,7 +237,7 @@
   position: absolute;
   left: 8px;
   cursor: pointer;
-  color: #028fa3;
+  color: #155EEF;
 }
 
 .GstBooking {
@@ -247,7 +247,7 @@
 
 .addGuestsBtn {
   width: 28%;
-  background-color: #028fa3;
+  background-color: #155EEF;
   border: none;
   text-wrap: nowrap;
   color: #ffffff;
@@ -263,7 +263,7 @@
 .addPlusIcon {
   padding: 2%;
   border-radius: 50px;
-  color: #028fa3;
+  color: #155EEF;
   background-color: #ffffff;
 }
 
@@ -295,16 +295,16 @@
 
 .passengerBtn {
   padding: 1% 4%;
-  background: rgba(2, 143, 163, 0.08);
+  background: rgba(21, 94, 239, 0.08);
   border-radius: 15px;
-  color: #028fa3;
+  color: #155EEF;
   font-size: 14px;
 }
 
 .contactDetailsHead {
   margin-top: -1%;
   padding: 1% 3%;
-  border-left: 3px solid #028fa3;
+  border-left: 3px solid #155EEF;
 }
 
 .sendDetails {
@@ -369,7 +369,7 @@
   font-weight: 300;
 }
 .shortInput:focus {
-  border: 1px solid #028fa3;
+  border: 1px solid #155EEF;
   outline: none;
 }
 
@@ -398,7 +398,7 @@
   color: black;
 }
 .bigInput:focus {
-  border: 1px solid #028fa3;
+  border: 1px solid #155EEF;
   outline: none;
 }
 
@@ -413,7 +413,7 @@
   color: black;
 }
 .singleInput:focus {
-  border: 1px solid #028fa3;
+  border: 1px solid #155EEF;
   outline: none;
 }
 
@@ -433,7 +433,7 @@
   font-weight: 300;
 }
 .shortInputO:focus {
-  border: 1px solid #028fa3;
+  border: 1px solid #155EEF;
   outline: none;
 }
 .checkboxDisplay {
@@ -507,8 +507,8 @@
   width: 45%;
   padding: 2% 4%;
   background-color: #ffffff;
-  color: #028fa3;
-  border: 1px solid #028fa3;
+  color: #155EEF;
+  border: 1px solid #155EEF;
   border-radius: 10px;
 }
 .city {
@@ -517,7 +517,7 @@
 }
 .text-danger {
   font-size: 10px !important;
-  color: #028fa3;
+  color: #155EEF;
 }
 .proceedBtn {
   display: flex;
@@ -526,7 +526,7 @@
   text-align: center;
   width: 45%;
   padding: 2% 4%;
-  background-color: #028fa3;
+  background-color: #155EEF;
   color: #ffffff;
   border: none;
   border-radius: 10px;
@@ -552,7 +552,7 @@
   border-color: red;
 }
 .leftPart:focus {
-  border: 1px solid #028fa3;
+  border: 1px solid #155EEF;
 }
 .backdrop {
   position: fixed;
@@ -584,7 +584,7 @@
   text-wrap: nowrap;
 }
 .Economy {
-  color: #028fa3;
+  color: #155EEF;
   font-size: 2.5vw;
 }
 .rightpartTicket1 {
@@ -596,7 +596,7 @@
   min-width: 42px;
   width: fit-content;
   height: 12px;
-  background: #028fa312;
+  background: #155eef12;
   margin-left: 15%;
   margin-top: 5px;
 }
@@ -648,7 +648,7 @@
   display: flex;
   flex-direction: column;
   padding: 2% 3%;
-  border-left: 5px solid #028fa3;
+  border-left: 5px solid #155EEF;
   font-size: 2vw;
   margin-top: 2px;
 }
@@ -677,7 +677,7 @@
   width: 115px;
   height: 39px;
   border-radius: 15px;
-  background: #028fa3;
+  background: #155EEF;
   /* border: 1px solid red; */
   box-shadow: 0px 4px 36px 5px #0000000d;
   padding: 1%;
@@ -702,7 +702,7 @@
   line-height: 19px;
   letter-spacing: 0em;
   text-align: center;
-  color: #028fa3;
+  color: #155EEF;
   /* width: 129px;
 height: 19px; */
   /* margin-top: 187px; */
@@ -774,8 +774,8 @@ height: 19px; */
 
 .totalweight:active {
   background: hwb(0 78% 22%);
-  border-left: 3px solid #028fa3;
-  color: #028fa3;
+  border-left: 3px solid #155EEF;
+  color: #155EEF;
 }
 .selectedBaggage {
   display: flex;
@@ -785,7 +785,7 @@ height: 19px; */
 }
 /* .closeIcon
 {
-  background: #028fa3;
+  background: #155EEF;
   color: white;
 } */
 .baggages {
@@ -831,7 +831,7 @@ height: 19px; */
   border-radius: 19px;
   border: 1px;
   margin: 0 auto;
-  border: 1px solid #028fa36e;
+  border: 1px solid #155EEF6e;
   text-wrap: wrap;
 }
 .desert1 {
@@ -875,12 +875,12 @@ height: 19px; */
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
-  color: #028fa3;
+  color: #155EEF;
   width: 14%;
   height: fit-content;
 }
 .button:hover {
-  background-color: #028fa3;
+  background-color: #155EEF;
   color: white;
 }
 .redstar {
@@ -893,7 +893,7 @@ height: 19px; */
   line-height: 14px;
   letter-spacing: 0em;
   text-align: center;
-  color: #028fa3;
+  color: #155EEF;
 }
 .imageofflight {
   font-size: 3.5vw;
@@ -963,7 +963,7 @@ height: 19px; */
     font-size: 1vw;
     line-height: 1;
     height: auto;
-    /* color: #028fa3; */
+    /* color: #155EEF; */
     margin-top: 4%;
   }
 
@@ -993,7 +993,7 @@ height: 19px; */
   }
 
   .headSearch {
-    border-left: 5px solid #028fa3;
+    border-left: 5px solid #155EEF;
     font-size: 1.2vw;
     margin-top: 2px;
   }
@@ -1040,7 +1040,7 @@ height: 19px; */
 
   .contactDetailsHead {
     font-size: 1.2vw;
-    border-left: 5px solid #028fa3;
+    border-left: 5px solid #155EEF;
     font-weight: 500;
   }
 
@@ -1068,7 +1068,7 @@ height: 19px; */
     font-size: 0.8vw;
   }
   .shortInput:focus {
-    border: 1px solid #028fa3;
+    border: 1px solid #155EEF;
     outline: none;
   }
 
@@ -1082,7 +1082,7 @@ height: 19px; */
     font-size: 0.8vw;
   }
   .bigInput:focus {
-    border: 1px solid #028fa3;
+    border: 1px solid #155EEF;
     outline: none;
   }
   .singleInput {
@@ -1095,7 +1095,7 @@ height: 19px; */
     font-size: 0.8vw;
   }
   .singleInput:focus {
-    border: 1px solid #028fa3;
+    border: 1px solid #155EEF;
     outline: none;
   }
 
@@ -1149,7 +1149,7 @@ height: 19px; */
     border: none;
   }
   .singleInputO:focus {
-    border: 1px solid #028fa3;
+    border: 1px solid #155EEF;
     outline: none; /* Optional: Remove the default focus outline */
   }
 

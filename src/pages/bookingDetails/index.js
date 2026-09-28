@@ -719,7 +719,7 @@ export default function BookingDetails(props) {
                     {bookingDetail?.data?.BookingMasterData?.
                       BookingStatus ===
                       "Confirmed" && (
-                        <div className="bg-[#028fa3] cursor-pointer w-fit text-white text-xs md:text-base font-medium py-1 px-2 rounded-lg"
+                        <div className="bg-[#155EEF] cursor-pointer w-fit text-white text-xs md:text-base font-medium py-1 px-2 rounded-lg"
                           onClick={downloadTicket}>
                           <FontAwesomeIcon
                             icon={faCircleDown}
@@ -727,7 +727,7 @@ export default function BookingDetails(props) {
                           />{" "}Voucher</div>)}
                     <div className={style.downloadImageDiv}>
                       {hotelBookingStatus == 'Confirmed' ? (
-                        <a  className="bg-[#028fa3] w-fit text-white text-xs md:text-base font-medium py-1 px-2 rounded-lg"  href="#" onClick={fetchAndDownloadInvoice}>
+                        <a  className="bg-[#155EEF] w-fit text-white text-xs md:text-base font-medium py-1 px-2 rounded-lg"  href="#" onClick={fetchAndDownloadInvoice}>
                           <FontAwesomeIcon
                             icon={faCircleDown}
                             className="text-xs md:text-base"
@@ -906,7 +906,7 @@ export default function BookingDetails(props) {
                               Room {roomIndex + 1} : {room.RoomTypeName}
                             </div>
                           </div>
-                          {new Date() < new Date(room?.CancellationPolicies[0]?.FromDate) && <div style={{ color: "#028fa3" }}>Free cancellation Before {new Date(
+                          {new Date() < new Date(room?.CancellationPolicies[0]?.FromDate) && <div style={{ color: "#155EEF" }}>Free cancellation Before {new Date(
                             room?.CancellationPolicies[0]?.FromDate).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", })}</div>}
                           <div>
                             <div>

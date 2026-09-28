@@ -890,7 +890,7 @@ export default function FlightConfirmation() {
     return (
       <div className={style.fromToDate}>
         {day},{" "}
-        <span style={{ color: "#028fa3" }}>
+        <span style={{ color: "#155EEF" }}>
           {month} {dateDay}
           {dateDay % 10 === 1 && dateDay !== 11
             ? "st"
@@ -1013,7 +1013,7 @@ export default function FlightConfirmation() {
                       }}
                       as={`/walletDetails`}
                       style={{
-                        color: "#028fa3",
+                        color: "#155EEF",
                         textDecoration: "underline",
                       }}
                     >
@@ -1535,7 +1535,7 @@ export default function FlightConfirmation() {
                 <div style={{ width: "35%", color: "#878786" }}>
                   {origin?.airport?.airportName}, {origin?.airport?.countryName}
                   <br />
-                  <span style={{ color: "#028fa3" }}>
+                  <span style={{ color: "#155EEF" }}>
                     Terminal {origin?.airport?.terminal}
                   </span>
                 </div>
@@ -1550,7 +1550,7 @@ export default function FlightConfirmation() {
                   {destination?.airport?.airportName},
                   {destination?.airport?.countryName}
                   <br />
-                  <span style={{ color: "#028fa3" }}>
+                  <span style={{ color: "#155EEF" }}>
                     Terminal {destination?.airport?.terminal}
                   </span>
                 </div>
@@ -1713,7 +1713,7 @@ export default function FlightConfirmation() {
                       {origin?.airport?.airportName},{" "}
                       {origin?.airport?.countryName}
                       <br />
-                      <span style={{ color: "#028fa3" }}>
+                      <span style={{ color: "#155EEF" }}>
                         Terminal {origin?.airport?.terminal}
                       </span>
                     </div>
@@ -1728,7 +1728,7 @@ export default function FlightConfirmation() {
                       {destination?.airport?.airportName},
                       {destination?.airport?.countryName}
                       <br />
-                      <span style={{ color: "#028fa3" }}>
+                      <span style={{ color: "#155EEF" }}>
                         Terminal {destination?.airport?.terminal}
                       </span>
                     </div>

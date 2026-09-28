@@ -96,7 +96,7 @@ export default function TicketReview({ flightDetails, journeyTypeName }) {
         >
           <button
             onClick={onClose}
-            className="bg-white  text-[#028fa3] text-lg ml-2"
+            className="bg-white  text-[#155EEF] text-lg ml-2"
           >
             <FontAwesomeIcon icon={faArrowLeft} />
           </button>
@@ -174,7 +174,7 @@ export default function TicketReview({ flightDetails, journeyTypeName }) {
           return (
             <div
               key={`${index}-${segmentIndex}`}
-              className="border-[1px] border-[#028FA354] mt-2 rounded-lg p-3 pb-4 bg-white"
+              className="border-[1px] border-[#155EEF54] mt-2 rounded-lg p-3 pb-4 bg-white"
             >
               {/* airlines and ways/class */}
               <div className="flex justify-between w-full">
@@ -198,10 +198,10 @@ export default function TicketReview({ flightDetails, journeyTypeName }) {
                   </div>
                 </div>
                 <div className="text-xxxs sm:text-xs text-[#171A19] font-light flex gap-2">
-                  <div className="border-[1px] border-[#028FA375] px-3 py-1 rounded-lg font-medium text-[#868687] flex justify-center items-center">
+                  <div className="border-[1px] border-[#155EEF75] px-3 py-1 rounded-lg font-medium text-[#868687] flex justify-center items-center">
                     {segment?.segment[0]?.journeyTypeName || journeyTypeName}
                   </div>
-                  <div className="border-[1px] border-[#028FA375] px-3 py-1 rounded-md font-medium text-[#868687] flex justify-center items-center">
+                  <div className="border-[1px] border-[#155EEF75] px-3 py-1 rounded-md font-medium text-[#868687] flex justify-center items-center">
                     {segment?.segment[0]?.cabinClassName}
                   </div>
                 </div>
@@ -287,7 +287,7 @@ export default function TicketReview({ flightDetails, journeyTypeName }) {
               {/* airport details */}
               <div className="w-full flex justify-between mt-1">
                 <div>
-                  <div className="text-[#028fa3] text-sm sm:text-lg font-semibold">
+                  <div className="text-[#155EEF] text-sm sm:text-lg font-semibold">
                     {segment.segment[0].origin.airport.airportCode}
                   </div>
                   <div className="text-xxxs sm:text-xs font-medium text-[#868687] leading-[14px] sm:leading-[5px]">
@@ -295,7 +295,7 @@ export default function TicketReview({ flightDetails, journeyTypeName }) {
                   </div>
                 </div>
                 <div className="text-end">
-                  <div className="text-[#028fa3] text-sm sm:text-lg font-semibold">
+                  <div className="text-[#155EEF] text-sm sm:text-lg font-semibold">
                     {
                       segment.segment[segment.segment.length - 1].destination
                         .airport.airportCode
@@ -311,13 +311,13 @@ export default function TicketReview({ flightDetails, journeyTypeName }) {
               </div>
 
               <button
-                className="font-medium underline text-sm hover:underline text-[#028fa3]"
+                className="font-medium underline text-sm hover:underline text-[#155EEF]"
                 onClick={() => handleTabClick("flightDetails", flight, index)}
               >
                 Flight Details
               </button>
               {/* <button
-                className="text-[#028fa3] font-medium hover:underline"
+                className="text-[#155EEF] font-medium hover:underline"
                 onClick={() =>
                   !(
                     loadingFareRules &&

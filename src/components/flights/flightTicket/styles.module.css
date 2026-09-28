@@ -1,7 +1,7 @@
 .fromToTiming {
   background-color: #ffffff;
   padding: 2% 4%;
-  border: 0.35px solid rgba(2, 143, 163, 0.59);
+  border: 0.35px solid rgba(21, 94, 239, 0.59);
   border-radius: 15px;
   margin: 1%;
 }
@@ -23,7 +23,7 @@
 }
 
 .Economy {
-  color: #028fa3;
+  color: #155EEF;
   font-size: 2.5vw;
 }
 
@@ -36,7 +36,7 @@
   min-width: 42px;
   width: fit-content;
   height: 12px;
-  background: #028fa312;
+  background: #155eef12;
   margin-left: 15%;
   /* margin-top: 5px; */
 }
@@ -48,7 +48,7 @@
   line-height: 14px;
   letter-spacing: 0em;
   text-align: center;
-  color: #028fa3;
+  color: #155EEF;
 }
 
 .fromToTime {
@@ -61,7 +61,7 @@
 }
 
 .fromToCityName {
-  color: #028fa3;
+  color: #155EEF;
   font-size: 17px;
   font-weight: 500;
   margin-top: -4%;
@@ -133,7 +133,7 @@
     font-size: 1vw;
     line-height: 2;
     height: auto;
-    /* color: #028fa3; */
+    /* color: #155EEF; */
   }
 
   .fromToCityName {

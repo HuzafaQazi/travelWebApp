@@ -40,7 +40,7 @@ export default function HotelSearchShort() {
               <Image
                 className={style.qugoLogo}
                 src={qugologo}
-                alt="Qugo Logo"
+                alt="WeynGo Logo"
               />
               {showLoginButton ? (
                 <Button className={style.loginbutton} onClick={openPopup}>
@@ -79,7 +79,7 @@ export default function HotelSearchShort() {
                     <Image
                       src={qugoLogo1}
                       className={style.modalheaderlogo}
-                      alt="Unable to load Qugo logo"
+                      alt="WeynGo Logo"
                     />
                   </div>
                   <div>Offers</div>
@@ -87,7 +87,7 @@ export default function HotelSearchShort() {
                 </Modal.Header>
                 <Modal.Body
                   className="rounded"
-                  style={{ backgroundColor: "#028FA3", padding: "40px" }}
+                  style={{ backgroundColor: "#155EEF", padding: "40px" }}
                 >
                   <div
                     style={{
@@ -179,7 +179,7 @@ export default function HotelSearchShort() {
                               className="btn btn-primary btn-rounded"
                               style={{
                                 borderRadius: "50px",
-                                backgroundColor: "#028FA3",
+                                backgroundColor: "#155EEF",
                                 border: "none",
                                 paddingLeft: "24px",
                                 paddingRight: "24px",

@@ -12,7 +12,7 @@ const OfferAndRequest = () => {
           <div className="text-[#1C1C1C] text-lg font-semibold">
             Offers & Updates
           </div>
-          <div className="text-[#028FA3] text-lg font-medium cursor-pointer">
+          <div className="text-[#155EEF] text-lg font-medium cursor-pointer">
             View All{" "}
             <span>
               <FontAwesomeIcon icon={faChevronRight} className="h-4" />{" "}

@@ -46,13 +46,13 @@
 }
 
 .searchButton:hover {
-  color: #028fa3;
+  color: #155EEF;
 }
 
 .searchButton[disabled],
 .searchButton.loading {
-  background-color: rgba(2, 143, 163, 1);
-  color: #028fa3;
+  background-color: rgba(21, 94, 239, 1);
+  color: #155EEF;
   border: none;
 }
 
@@ -127,7 +127,7 @@
   width: 125%;
   height: 3px;
   border-radius: 5px;
-  background-color: #028fa3;
+  background-color: #155EEF;
 }
 
 .navbar-link:active::before {
@@ -139,8 +139,8 @@
   height: 120%;
   background: linear-gradient(
     180deg,
-    rgba(2, 143, 163, 0) 0%,
-    rgba(2, 143, 163, 0.5) 160%
+    rgba(21, 94, 239, 0) 0%,
+    rgba(21, 94, 239, 0.5) 160%
   );
 }
 
@@ -224,7 +224,7 @@ select#rooms:hover option {
 }
 
 .backButton {
-  background-color: rgba(2, 143, 163, 1);
+  background-color: rgba(21, 94, 239, 1);
   color: white;
   font-family: "Roboto";
   border: none;
@@ -238,11 +238,11 @@ select#rooms:hover option {
 }
 
 .backButton:hover {
-  background-color: rgba(2, 143, 163, 0.2);
+  background-color: rgba(21, 94, 239, 0.2);
 }
 
 .backButton:active {
-  background-color: rgba(2, 143, 163, 0.4);
+  background-color: rgba(21, 94, 239, 0.4);
 }
 
 .dropdown-option {
@@ -251,11 +251,11 @@ select#rooms:hover option {
 }
 
 .dropdown-option:hover {
-  background-color: rgba(2, 143, 163, 1);
+  background-color: rgba(21, 94, 239, 1);
 }
 
 .active-option {
-  background-color: rgba(2, 143, 163, 1);
+  background-color: rgba(21, 94, 239, 1);
 }
 
 .searchHotelButton {
@@ -264,7 +264,7 @@ select#rooms:hover option {
 }
 
 .HotelButton {
-  background-color: #0290a3 !important;
+  background-color: #155EEF !important;
   color: #ffffff !important;
   border-radius: 19px 19px 0px 0px;
 }
@@ -277,7 +277,7 @@ select#rooms:hover option {
   width: 125%;
   height: 3px;
   border-radius: 5px;
-  background-color: #028fa3;
+  background-color: #155EEF;
 }
 
 .searchHotelButton::before {
@@ -289,8 +289,8 @@ select#rooms:hover option {
   height: 120%;
   background: linear-gradient(
     180deg,
-    rgba(2, 143, 163, 0) 0%,
-    rgba(2, 143, 163, 0.5) 160%
+    rgba(21, 94, 239, 0) 0%,
+    rgba(21, 94, 239, 0.5) 160%
   );
 }
 
@@ -365,7 +365,7 @@ select#rooms:hover option {
   width: 125%;
   height: 3px;
   border-radius: 5px;
-  background-color: #028fa3;
+  background-color: #155EEF;
 }
 
 .activeLink::before {
@@ -377,8 +377,8 @@ select#rooms:hover option {
   height: 100%;
   background: linear-gradient(
     180deg,
-    rgba(2, 143, 163, 0) 0%,
-    rgba(2, 143, 163, 0.5) 160%
+    rgba(21, 94, 239, 0) 0%,
+    rgba(21, 94, 239, 0.5) 160%
   );
 }
 
@@ -524,8 +524,8 @@ select#rooms:hover option {
   position: absolute;
   width: 10%;
   background-color: white !important;
-  /* color: rgba(2, 143, 163, 1) !important; */
-  color: #028fa3;
+  /* color: rgba(21, 94, 239, 1) !important; */
+  color: #155EEF;
   border: none;
   border-radius: 9px;
   font-size: 1.2rem;
@@ -595,8 +595,8 @@ select#rooms:hover option {
   .searchButton {
     margin-left: 0%;
     width: 40%;
-    background-color: rgba(2, 143, 163, 1);
-    color: #028fa3;
+    background-color: rgba(21, 94, 239, 1);
+    color: #155EEF;
   }
 
   .navFlexContainer {
@@ -609,13 +609,13 @@ select#rooms:hover option {
     flex-direction: column;
     justify-content: space-between;
     padding: 1%;
-    background-color: rgba(2, 143, 163, 1);
+    background-color: rgba(21, 94, 239, 1);
     border-radius: 8px;
   }
 
   .customformInputdates1 {
     width: 114%;
-    background-color: rgba(2, 143, 163, 1);
+    background-color: rgba(21, 94, 239, 1);
     border-radius: 8px;
     /* border-top-right-radius: 0px;
     border-bottom-right-radius: 0px; */
@@ -624,7 +624,7 @@ select#rooms:hover option {
 
   .customformInputdates2 {
     width: 114%;
-    background-color: rgba(2, 143, 163, 1);
+    background-color: rgba(21, 94, 239, 1);
     border-radius: 8px;
     /* border-top-left-radius: 8px;
     border-bottom-left-radius: 8px; */
@@ -646,7 +646,7 @@ select#rooms:hover option {
   /* .inputDestination:hover {
     border: none;
     outline: none;
-    background-color: #028fa3;
+    background-color: #155EEF;
   } */
 
   .dropdown {

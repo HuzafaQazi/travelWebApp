@@ -477,7 +477,7 @@ export default function HotelListing({ onClose, hotelCode, vendorCode }) {
 
           {/* modify section for mob ui */}
           <div className="flex justify-end sm:hidden px-3 py-3 sticky top-0 z-1 sm:z-[99999] w-full bg-[#f6f6f6] shadow-md bg-gradient-to-r from-[#16A2B6] via-[#16A2B6] to-[#041E22]">
-            <div className="text-[#028fa3] bg-white rounded-md ">
+            <div className="text-[#155EEF] bg-white rounded-md ">
               <button
                 onClick={() => setIsDropdownVisible(true)}
                 className="p-2 text-sm px-4"
@@ -619,7 +619,7 @@ export default function HotelListing({ onClose, hotelCode, vendorCode }) {
       {showGoToTop && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-8 right-8 bg-[#028FA3] text-white p-2 rounded-full shadow-lg hover:bg-[#027890] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#028FA3] transition-transform transform hover:scale-105 z-50"
+          className="fixed bottom-8 right-8 bg-[#155EEF] text-white p-2 rounded-full shadow-lg hover:bg-[#027890] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#155EEF] transition-transform transform hover:scale-105 z-50"
           aria-label="Go to top"
         >
           <svg
@@ -745,7 +745,7 @@ export default function HotelListing({ onClose, hotelCode, vendorCode }) {
                 </div>
               </div>
             </div>
-            <div className="text-[#028fa3] bg-white rounded-md">
+            <div className="text-[#155EEF] bg-white rounded-md">
               <button
                 onClick={() => setIsDropdownVisible(true)}
                 className="p-2 text-sm px-4"
@@ -861,7 +861,7 @@ export default function HotelListing({ onClose, hotelCode, vendorCode }) {
                                 }}
                                 className={`p-2 rounded-full cursor-pointer transition-colors duration-300 ease-in-out ${
                                   filters.priceSort === "lowHigh"
-                                    ? "text-[#028FA3] text-xs sm:text-lg font-semibold pointer-events-none"
+                                    ? "text-[#155EEF] text-xs sm:text-lg font-semibold pointer-events-none"
                                     : "text-[#878786] text-xs sm:text-lg font-medium "
                                 }`}
                               >
@@ -881,7 +881,7 @@ export default function HotelListing({ onClose, hotelCode, vendorCode }) {
                                 }}
                                 className={` p-2 rounded-full cursor-pointer transition-colors duration-300 ease-in-out ${
                                   filters.priceSort === "highLow"
-                                    ? "text-[#028FA3] text-xs sm:text-lg font-semibold pointer-events-none"
+                                    ? "text-[#155EEF] text-xs sm:text-lg font-semibold pointer-events-none"
                                     : "text-[#878786] text-xs sm:text-lg font-medium"
                                 }`}
                               >
@@ -897,7 +897,7 @@ export default function HotelListing({ onClose, hotelCode, vendorCode }) {
                           <div className="flex w-full sm:w-fit items-center justify-between mt-2 md:mt-0">
                             <button
                               onClick={() => setIsFiltersOpen(!isFiltersOpen)}
-                              className="flex sm:hidden items-center justify-center border-[#028fa3] text-[#028fa3] bg-white border-1 rounded-full text-sm px-4 py-2"
+                              className="flex sm:hidden items-center justify-center border-[#155EEF] text-[#155EEF] bg-white border-1 rounded-full text-sm px-4 py-2"
                             >
                               Filter
                             </button>
@@ -923,7 +923,7 @@ export default function HotelListing({ onClose, hotelCode, vendorCode }) {
                                   className="text-gray-400"
                                 />
                               </div>
-                              <button className=" absolute top-4 right-4 h-5 w-5 text-gray-600 rounded-lg hover:text-[#028fa3] transition-colors duration-300 transform hover:scale-110">
+                              <button className=" absolute top-4 right-4 h-5 w-5 text-gray-600 rounded-lg hover:text-[#155EEF] transition-colors duration-300 transform hover:scale-110">
                                 <FontAwesomeIcon
                                   icon={faMagnifyingGlass}
                                   className="text-[#878786]"
@@ -1029,7 +1029,7 @@ export default function HotelListing({ onClose, hotelCode, vendorCode }) {
                                                   ?.countryname
                                               }
                                               <button
-                                                className={`underline ml-2 text-[#028FA3] hover:bg-[#027a8c] cursor-pointer`}
+                                                className={`underline ml-2 text-[#155EEF] hover:bg-[#027a8c] cursor-pointer`}
                                                 onClick={() =>
                                                   handleViewDetails(hotel)
                                                 }
@@ -1063,7 +1063,7 @@ export default function HotelListing({ onClose, hotelCode, vendorCode }) {
                                               }
                                             >
                                               <button
-                                                className={`bg-[#028fa3] w-full whitespace-nowrap mt-2 flex items-center justify-between text-white text-xxs sm:text-sm p-1.5 px-2 rounded-lg hover:bg-[#027a8c] cursor-pointer`}
+                                                className={`bg-[#155EEF] w-full whitespace-nowrap mt-2 flex items-center justify-between text-white text-xxs sm:text-sm p-1.5 px-2 rounded-lg hover:bg-[#027a8c] cursor-pointer`}
                                                 onClick={() =>
                                                   handleViewDetails(hotel)
                                                 }
@@ -1151,7 +1151,7 @@ export default function HotelListing({ onClose, hotelCode, vendorCode }) {
                                                 }
                                               >
                                                 <button
-                                                  className={`underline sm:ml-2 text-[#028FA3] cursor-pointer`}
+                                                  className={`underline sm:ml-2 text-[#155EEF] cursor-pointer`}
                                                   onClick={() =>
                                                     handleViewDetails(hotel)
                                                   }
@@ -1186,7 +1186,7 @@ export default function HotelListing({ onClose, hotelCode, vendorCode }) {
                                               }
                                             >
                                               <button
-                                                className={`bg-[#028fa3] w-full text-wrap sm:whitespace-nowrap mt-2 flex items-center justify-between text-white text-xxs sm:text-sm p-1.5 px-2 rounded-lg hover:bg-[#027a8c] cursor-pointer`}
+                                                className={`bg-[#155EEF] w-full text-wrap sm:whitespace-nowrap mt-2 flex items-center justify-between text-white text-xxs sm:text-sm p-1.5 px-2 rounded-lg hover:bg-[#027a8c] cursor-pointer`}
                                                 onClick={() =>
                                                   handleViewDetails(hotel)
                                                 }

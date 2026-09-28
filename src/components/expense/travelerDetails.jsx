@@ -77,7 +77,7 @@ export default function TravelerDetails() {
         <div className="font-medium">Traveler Details</div>
         <FontAwesomeIcon
           icon={isOpen ? faCaretUp : faCaretDown}
-          color="#028fa3"
+          color="#155EEF"
         />
       </div>
 
@@ -91,8 +91,8 @@ export default function TravelerDetails() {
                 onClick={() => setSelectedSegment(idx)}
                 className={`p-2 px-3 rounded-md text-sm ${
                   selectedSegment === idx
-                    ? "bg-[#028fa3] text-white"
-                    : "border border-[#028fa3] text-[#028fa3]"
+                    ? "bg-[#155EEF] text-white"
+                    : "border border-[#155EEF] text-[#155EEF]"
                 }`}
               >
                 {seg.origin} - {seg.destination}
@@ -121,7 +121,7 @@ export default function TravelerDetails() {
                 className="grid grid-cols-7 gap-2 text-center border-b pb-2 text-sm"
               >
                 <div>
-                  <div className="font-medium text-[#028fa3]">
+                  <div className="font-medium text-[#155EEF]">
                     {p.passengerName}
                   </div>
                   <div className="text-xs text-gray-500">{p.passengerEmail}</div>

@@ -50,7 +50,7 @@
   line-height: 20px;
   letter-spacing: 0.10000000149011612px;
   text-align: center;
-  color: #028fa3;
+  color: #155EEF;
 }
 
 .switchContainer {
@@ -75,7 +75,7 @@
 }
 
 .modalheader {
-  background-color: #028fa3;
+  background-color: #155EEF;
 }
 
 .clearIconHome {
@@ -158,7 +158,7 @@
   border: none !important;
   outline: none !important;
   background: transparent;
-  color: #028fa3;
+  color: #155EEF;
   position: absolute;
   top: 0;
   right: 0;
@@ -183,7 +183,7 @@
   align-items: center;
   padding: 5px;
   border-radius: 13px;
-  background: #028fa3;
+  background: #155EEF;
   width: fit-content;
   height: 50px;
   cursor: pointer;
@@ -203,7 +203,7 @@
 
 .walletInfo {
   font-size: 12px;
-  color: rgba(2, 143, 163, 1);
+  color: rgba(21, 94, 239, 1);
   margin-left: 10px;
 }
 
@@ -329,7 +329,7 @@
     padding: 2% 4%;
     border: none;
     background: transparent;
-    color: #028fa3;
+    color: #155EEF;
     position: absolute;
     top: 0;
     right: 0;
@@ -351,7 +351,7 @@
   }
 
   .bottomSheetPara {
-    color: #028fa3;
+    color: #155EEF;
     font-size: 12px;
   }
 
@@ -389,7 +389,7 @@
     padding: 1% 10%;
     border: none;
     border-radius: 4px;
-    background: #028fa3;
+    background: #155EEF;
     color: #ffffff;
     box-shadow: 0px 4px 4px 0px rgba(35, 31, 32, 0.12);
   }
@@ -402,7 +402,7 @@
   }
 
   .qugoColor {
-    color: #028fa3;
+    color: #155EEF;
     font-weight: 700;
   }
 

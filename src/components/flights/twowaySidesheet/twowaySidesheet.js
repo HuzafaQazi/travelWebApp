@@ -2776,7 +2776,7 @@ const TwowaySideSheet = ({ isOpen, onClose, flightData, parentLoader }) => {
             </div>
 
             <div className={style.guestDetailsHead}>
-              <span style={{ marginRight: "8%", color: "#028fa3" }}>
+              <span style={{ marginRight: "8%", color: "#155EEF" }}>
                 Guest Details
               </span>
               {/* <span>Other Details</span> */}
@@ -3108,7 +3108,7 @@ const TwowaySideSheet = ({ isOpen, onClose, flightData, parentLoader }) => {
                                 className={style.pointer}
                                 style={{
                                   backgroundColor: "white",
-                                  color: "#028FA3",
+                                  color: "#155EEF",
                                   fontSize: "20px",
                                 }}
                                 onClick={() =>
@@ -3155,7 +3155,7 @@ const TwowaySideSheet = ({ isOpen, onClose, flightData, parentLoader }) => {
                           className={style.pointer}
                           style={{
                             backgroundColor: "white",
-                            color: "#028FA3",
+                            color: "#155EEF",
                             fontSize: "20px",
                           }}
                           onClick={() =>
@@ -3204,7 +3204,7 @@ const TwowaySideSheet = ({ isOpen, onClose, flightData, parentLoader }) => {
                               className={style.pointer}
                               style={{
                                 backgroundColor: "white",
-                                color: "#028FA3",
+                                color: "#155EEF",
                               }}
                               onClick={() => setBaggageIndex(null)}
                             />
@@ -3299,7 +3299,7 @@ const TwowaySideSheet = ({ isOpen, onClose, flightData, parentLoader }) => {
                               icon={faSquareXmark}
                               style={{
                                 backgroundColor: "white",
-                                color: "#028FA3",
+                                color: "#155EEF",
                               }}
                               onClick={() => setMealIndex(null)}
                             />

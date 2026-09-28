@@ -1444,7 +1444,7 @@ export default function MulticityListing() {
                                   <div className={style.rightpartTicket1}>
                                     <span
                                       className={style.FareDetails1}
-                                    // style={{ color: "#028fa3" }}
+                                    // style={{ color: "#155EEF" }}
                                     >
                                       {/* faretype */}
                                       {flightsRequest?.searchReqData

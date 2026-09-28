@@ -34,6 +34,18 @@ module.exports = {
       },
       colors: {
         'custom-blue': '#028fa3',
+        'weyngo': {
+          'blue': '#155EEF',
+          'vibrant': '#2589FF',
+          'navy': '#071B49',
+          'violet': '#6D28D9',
+          'premium': '#8B2BE2',
+          'accent': '#C026D3',
+          'page': '#F8FAFC',
+          'card': '#FFFFFF',
+          'text': '#0F172A',
+          'muted': '#475569',
+        },
       },
       boxShadow: {
         'blue-300/10': '0px 4px 4px 0px rgba(125, 153, 180, 0.1)',

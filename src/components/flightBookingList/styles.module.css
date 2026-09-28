@@ -64,7 +64,7 @@
 }
 
 .cityName {
-  color: #028fa3;
+  color: #155EEF;
   font-size: 16px;
   font-weight: 400;
 }
@@ -93,7 +93,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #028fa3;
+  color: #155EEF;
   font-weight: 500;
   font-size: 14px;
 }
@@ -106,7 +106,7 @@
 }
 
 .cityName {
-  color: #028fa3;
+  color: #155EEF;
   font-size: 17px;
   font-weight: 500;
 }
@@ -127,11 +127,11 @@
 
 .cancelOption {
   /* padding: 2%; */
-  color: #028fa3;
+  color: #155EEF;
   background-color: #ffffff;
   margin-right: 3%;
   border-radius: 13px;
-  border: 1px solid #028fa3;
+  border: 1px solid #155EEF;
   width: 26%;
   height: 35px;
 }
@@ -146,10 +146,10 @@
   padding-left: 3%;
   padding-right: 3%;
   color: #ffffff;
-  background-color: #028fa3;
+  background-color: #155EEF;
   border: none;
   border-radius: 13px;
-  background: var(--Primary-colour, #028fa3);
+  background: var(--Primary-colour, #155EEF);
   box-shadow: 0px 4px 4px 0px rgba(35, 31, 32, 0.35);
 }
 
@@ -290,11 +290,11 @@
 }
 
 .success {
-  color: #028fa3;
+  color: #155EEF;
 }
 
 .popupContent button {
-  background: #028fa3;
+  background: #155EEF;
   color: #fff;
   border: none;
   padding: 8px 16px;
@@ -379,7 +379,7 @@
 .closeButton {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #028fa3;
+  background-color: #155EEF;
   color: white;
   border: none;
   border-radius: 5px;
@@ -470,7 +470,7 @@
   .amountPaid {
     display: flex;
     justify-content: space-between;
-    color: #028fa3;
+    color: #155EEF;
     font-weight: 500;
     font-size: 14px;
   }
@@ -488,7 +488,7 @@
   }
 
   .cityName {
-    color: #028fa3;
+    color: #155EEF;
     font-size: 14px;
     font-weight: 500;
   }

@@ -97,7 +97,7 @@ const FlightDetails = ({ onClose, handleTabClick, fareQuote }) => {
                 <div className={style.flightDetailsCardContent}>
                   <div className={style.airlinesLogoClass}>
                     <div style={{ display: "flex", gap: "10px" }}>
-                      {/* <FontAwesomeIcon icon={faPlaneUp} color="#028FA3" /> */}
+                      {/* <FontAwesomeIcon icon={faPlaneUp} color="#155EEF" /> */}
                       <Image
                         src={segment.airline.airlineLogoUrl}
                         alt={segment.airline.airlineName}
@@ -166,7 +166,7 @@ const FlightDetails = ({ onClose, handleTabClick, fareQuote }) => {
                       {segment?.origin?.airport?.airportName},{" "}
                       {segment?.origin?.countryName}
                       <br />
-                      <span style={{ color: "#028fa3" }}>
+                      <span style={{ color: "#155EEF" }}>
                         Terminal {segment?.origin?.airport?.terminal}
                       </span>
                     </div>
@@ -182,7 +182,7 @@ const FlightDetails = ({ onClose, handleTabClick, fareQuote }) => {
                       {segment?.destination?.airport?.airportName},{" "}
                       {segment?.destination?.countryName}
                       <br />
-                      <span style={{ color: "#028fa3" }}>
+                      <span style={{ color: "#155EEF" }}>
                         Terminal {segment?.destination?.airport?.terminal}
                       </span>
                     </div>
@@ -201,7 +201,7 @@ const FlightDetails = ({ onClose, handleTabClick, fareQuote }) => {
                             <FontAwesomeIcon
                               icon={faBagShopping}
                               fontSize={15}
-                              color={"#028fa3"}
+                              color={"#155EEF"}
                             />
                           </div>
                           <div
@@ -232,7 +232,7 @@ const FlightDetails = ({ onClose, handleTabClick, fareQuote }) => {
                             <FontAwesomeIcon
                               icon={faSuitcaseRolling}
                               fontSize={15}
-                              color={"#028fa3"}
+                              color={"#155EEF"}
                             />
                           </div>
                           <div

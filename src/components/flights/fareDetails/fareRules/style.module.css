@@ -12,12 +12,12 @@
 }
 
 .mainContainer::-webkit-scrollbar-thumb {
-  background-color: #028fa3;
+  background-color: #155EEF;
   border-radius: 5px;
 }
 
 .mainContainer::-webkit-scrollbar-track {
   top: 2px;
-  background-color: #028fa330;
+  background-color: #155EEF30;
   border-radius: 5px;
 }

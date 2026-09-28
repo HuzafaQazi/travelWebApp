@@ -29,7 +29,7 @@
   width: 100%;
   padding: 2% 2%;
   z-index: 99;
-  background: linear-gradient(90deg, #028fa3 -13.6%, #49585a 106.05%);
+  background: linear-gradient(90deg, #155EEF -13.6%, #49585a 106.05%);
   font-size: 1.5vw;
 
   flex-direction: row;
@@ -70,8 +70,8 @@
   width: 45%;
   padding: 2% 4%;
   background-color: #ffffff;
-  color: #028fa3;
-  border: 1px solid #028fa3;
+  color: #155EEF;
+  border: 1px solid #155EEF;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -80,7 +80,7 @@
   text-align: center;
   width: 45%;
   padding: 2% 4%;
-  background-color: #028fa3;
+  background-color: #155EEF;
   color: #ffffff;
   border: none;
   border-radius: 10px;
@@ -98,7 +98,7 @@
   font-size: 12px;
   background-color: #ffffff;
   border-radius: 15px;
-  border: 0.35px solid #028fa396;
+  border: 0.35px solid #155EEF96;
   box-shadow: 0px 4px 4px 0px #91b2e41a;
 }
 .priceRow {
@@ -149,7 +149,7 @@
   line-height: 35px;
   letter-spacing: 0em;
   text-align: center;
-  color: #028fa3;
+  color: #155EEF;
   /* margin-left: 27px; */
 }
 .travelerdetails {
@@ -159,14 +159,14 @@
   line-height: 19px;
   letter-spacing: 0em;
   text-align: center;
-  color: #028fa3;
+  color: #155EEF;
 }
 .priceRow {
   font-size: 1.2vw;
   margin-top: 0.8%;
 }
 .priceRow1 {
-  color: #028fa3;
+  color: #155EEF;
   font-family: Roboto;
   font-size: 18px;
   font-weight: 500;
@@ -207,7 +207,7 @@
   border-radius: 19px;
   border: 1px;
   margin: 0 auto;
-  border: 1px solid #028fa36e;
+  border: 1px solid #155EEF6e;
 }
 
 .desert1 {
@@ -227,7 +227,7 @@
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
-  color: #028fa3;
+  color: #155EEF;
   width: 14%;
   height: fit-content;
 }
@@ -256,7 +256,7 @@
   font-size: 18px;
 }
 .button:hover {
-  background-color: #028fa3;
+  background-color: #155EEF;
   color: white;
 }
 

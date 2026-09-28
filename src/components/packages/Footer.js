@@ -6,17 +6,17 @@ const Footer = () => {
     <div className={styles["footer-container"]}>
       <footer className={styles.footer}>
         <div className={styles.column + " " + styles["logo-column"]}>
-          <h3>About QuGo</h3>
+          <h3>About WeynGo</h3>
           <Image
-            src="/img/Qugo Logo white-01.png"
-            alt="Company Logo"
+            src="/img/weyngo_logo_white.png"
+            alt="WeynGo Logo"
             className={styles.logo}
             width={300}
-            height={300}
+            height={100}
           />
           <p className={styles["company-description"]}>
-            QuGo provides the best deals, customized tour packages, and more
-            from the best travel agency in Bangalore. Thinking of travel? QuGo
+            WeynGo provides the best deals, customized tour packages, and more
+            from the best travel agency in Bangalore. Thinking of travel? WeynGo
             provides the best deals, customized tour packages, and more from the
             best deals, customized tour packages, and more from the
           </p>
@@ -143,9 +143,9 @@ const Footer = () => {
       <div className={styles["endlogo-mobile"]}>
         <center>
           <Image
-            src="/img/qugo-footer-logo-mobile.png"
-            alt=""
-            width={90}
+            src="/img/weyngo_logo_white.png"
+            alt="WeynGo Logo"
+            width={120}
             height={40}
           />
         </center>

@@ -92,7 +92,7 @@ export default function FareSummary({
         <div>Rs. {formatPrice(ssrFare)}</div>
       </div>
 
-      <div className="p-2 py-3 flex w-full justify-between mt-1 rounded-md text-base sm:text-lg bg-[#028FA30F] text-[#028fa3]">
+      <div className="p-2 py-3 flex w-full justify-between mt-1 rounded-md text-base sm:text-lg bg-[#155EEF0F] text-[#155EEF]">
         <div className="font-semibold">Price</div>
         <div>Rs. {formatPrice(totalFare)}</div>
       </div>

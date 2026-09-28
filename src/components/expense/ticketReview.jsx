@@ -125,11 +125,11 @@ export default function TicketReview() {
               {/* AIRPORTS */}
               <div className="flex justify-between mt-2 text-xs">
                 <div>
-                  <div className="font-semibold text-[#028fa3]">{dep.airport.airportCode}</div>
+                  <div className="font-semibold text-[#155EEF]">{dep.airport.airportCode}</div>
                   <div className="text-gray-600">{dep.airport.airportName}</div>
                 </div>
                 <div className="text-right">
-                  <div className="font-semibold text-[#028fa3]">{arr.airport.airportCode}</div>
+                  <div className="font-semibold text-[#155EEF]">{arr.airport.airportCode}</div>
                   <div className="text-gray-600">{arr.airport.airportName}</div>
                 </div>
               </div>

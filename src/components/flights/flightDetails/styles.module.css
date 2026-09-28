@@ -12,7 +12,7 @@
 }
 
 .flightFareDetailsHead {
-  color: #028fa3;
+  color: #155EEF;
   width: 90%;
   margin-left: 5%;
   font-size: 14px;
@@ -22,7 +22,7 @@
 }
 
 .flightFareDetailsActive {
-  background: rgba(2, 143, 163, 0.07);
+  background: rgba(21, 94, 239, 0.07);
   padding: 1% 5%;
   border-radius: 15px;
   font-weight: 500;
@@ -56,7 +56,7 @@
 
 .citiesRefund {
   width: 100%;
-  background-color: #028fa3;
+  background-color: #155EEF;
   display: flex;
   justify-content: space-between;
   color: #ffffff;
@@ -89,7 +89,7 @@
 .fromToTime {
   font-size: 3vw;
   font-weight: 500;
-  color: #028fa3;
+  color: #155EEF;
   height: 20px;
 }
 
@@ -145,8 +145,8 @@
   margin-bottom: 3%;
   margin-left: 1%;
   padding: 2%;
-  color: #028fa3;
-  background-color: rgba(2, 143, 163, 0.08);
+  color: #155EEF;
+  background-color: rgba(21, 94, 239, 0.08);
   text-align: center;
   border-radius: 10px;
 }
@@ -161,7 +161,7 @@
   .fromToTime {
     font-size: 1vw;
     font-weight: 500;
-    color: #028fa3;
+    color: #155EEF;
     height: 20px;
   }
 

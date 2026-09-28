@@ -45,31 +45,31 @@ const DraggableTimer = () => {
   return (
     <Draggable position={position} onDrag={handleDrag}>
       <div
-        className="absolute p-4 bg-gradient-to-br from-gray-100 to-gray-200 border-2 border-[#028fa3] rounded-xl shadow-lg z-50 cursor-move transition-all duration-300 hover:shadow-xl"
+        className="absolute p-4 bg-gradient-to-br from-gray-100 to-gray-200 border-2 border-[#155EEF] rounded-xl shadow-lg z-50 cursor-move transition-all duration-300 hover:shadow-xl"
         // style={{ transform: 'translate(-50%, -50%)', top: '50%', left: '50%' }}
       >
-        <h2 className="text-2xl font-bold text-[#028fa3] text-center mb-3 tracking-wide">Timer</h2>
-        <div className="text-5xl font-extrabold text-[#028fa3] text-center mb-5 bg-white/80 rounded-lg py-3 px-6 shadow-inner">
+        <h2 className="text-2xl font-bold text-[#155EEF] text-center mb-3 tracking-wide">Timer</h2>
+        <div className="text-5xl font-extrabold text-[#155EEF] text-center mb-5 bg-white/80 rounded-lg py-3 px-6 shadow-inner">
           {formatTime(timeLeft)}
         </div>
         <div className="flex justify-center gap-3">
           <button
             onClick={startTimer}
-            className="px-4 py-2 bg-[#028fa3] text-white rounded-lg hover:bg-[#026e7f] transition-colors disabled:bg-[#028fa3]/50 disabled:cursor-not-allowed"
+            className="px-4 py-2 bg-[#155EEF] text-white rounded-lg hover:bg-[#026e7f] transition-colors disabled:bg-[#155EEF]/50 disabled:cursor-not-allowed"
             disabled={isRunning}
           >
             Start
           </button>
           <button
             onClick={pauseTimer}
-            className="px-4 py-2 bg-[#028fa3] text-white rounded-lg hover:bg-[#026e7f] transition-colors disabled:bg-[#028fa3]/50 disabled:cursor-not-allowed"
+            className="px-4 py-2 bg-[#155EEF] text-white rounded-lg hover:bg-[#026e7f] transition-colors disabled:bg-[#155EEF]/50 disabled:cursor-not-allowed"
             disabled={!isRunning}
           >
             Pause
           </button>
           <button
             onClick={resetTimer}
-            className="px-4 py-2 bg-[#028fa3] text-white rounded-lg hover:bg-[#026e7f] transition-colors"
+            className="px-4 py-2 bg-[#155EEF] text-white rounded-lg hover:bg-[#026e7f] transition-colors"
           >
             Reset
           </button>

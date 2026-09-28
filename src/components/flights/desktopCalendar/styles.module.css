@@ -58,7 +58,7 @@
 }
 
 .dateHighlight {
-  color: #028fa3;
+  color: #155EEF;
   font-weight: 500;
   font-size: 1.4vw;
 }
@@ -89,15 +89,15 @@
 
 .cancelBtn {
   background-color: transparent;
-  border: 1px solid #028fa3;
+  border: 1px solid #155EEF;
   padding: 1% 7%;
-  color: #028fa3;
+  color: #155EEF;
   font-weight: 500;
   border-radius: 8px;
 }
 
 .doneBtn {
-  background-color: #028fa3;
+  background-color: #155EEF;
   color: #ffffff;
   padding: 1% 10%;
   border: none;

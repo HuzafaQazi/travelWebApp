@@ -78,7 +78,7 @@ const FareRule = ({ isOpen, onClose, fareRules, isLoading }) => {
               <FontAwesomeIcon
                 icon={faSpinner}
                 spin
-                className="text-2xl text-[#028FA3]"
+                className="text-2xl text-[#155EEF]"
               />
             </div>
           ) : fareRules?.length === 0 ? (
@@ -105,7 +105,7 @@ const FareRule = ({ isOpen, onClose, fareRules, isLoading }) => {
                         key={index}
                         className={`text-lg font-semibold cursor-pointer ${
                           activeTab === index
-                            ? "text-[#028FA3] border-b-2 border-[#028FA3]"
+                            ? "text-[#155EEF] border-b-2 border-[#155EEF]"
                             : "text-[#878786]"
                         }`}
                         onClick={() => setActiveTab(index)}
@@ -130,7 +130,7 @@ const FareRule = ({ isOpen, onClose, fareRules, isLoading }) => {
 
                             <div className="p-3 border border-[#82828250] rounded-md mb-4">
                               <div className="border-b border-[#82828250] pb-2 mb-2">
-                                <div className="text-[#028FA3] text-base font-medium">
+                                <div className="text-[#155EEF] text-base font-medium">
                                   {rule.airline}: {rule.origin} -{" "}
                                   {rule.destination}
                                 </div>
@@ -151,7 +151,7 @@ const FareRule = ({ isOpen, onClose, fareRules, isLoading }) => {
                         )}
 
                         <div className="p-3 w-full border border-[#82828250] rounded-md">
-                          <div className="text-[#028FA3] text-base font-medium mb-2">
+                          <div className="text-[#155EEF] text-base font-medium mb-2">
                             {rule.airline}: {rule.origin} - {rule.destination}
                           </div>
                           <div className="text-base text-[#828282] font-semibold mb-2">

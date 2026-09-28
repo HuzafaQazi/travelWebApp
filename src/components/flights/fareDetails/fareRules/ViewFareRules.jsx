@@ -84,7 +84,7 @@ const FareRule = ({ isOpen, onClose, fareRules, isLoading }) => {
             <FontAwesomeIcon
               icon={faSpinner}
               spin
-              className="text-xl text-[#028FA3]"
+              className="text-xl text-[#155EEF]"
             />
           </div>
         ) : fareRules?.length === 0 ? (
@@ -101,7 +101,7 @@ const FareRule = ({ isOpen, onClose, fareRules, isLoading }) => {
                     key={index}
                     className={`text-sm font-medium ${
                       activeTab === index
-                        ? "text-[#028FA3] border-b-2 border-[#028FA3]"
+                        ? "text-[#155EEF] border-b-2 border-[#155EEF]"
                         : "text-gray-400"
                     }`}
                     onClick={() => setActiveTab(index)}
@@ -120,7 +120,7 @@ const FareRule = ({ isOpen, onClose, fareRules, isLoading }) => {
                     {/* Fare Inclusions */}
                     {rule?.fareInclusions?.length > 0 && (
                       <div className="border border-gray-200 rounded-md p-3">
-                        <div className="text-[#028FA3] font-medium mb-2">
+                        <div className="text-[#155EEF] font-medium mb-2">
                           Fare Inclusions / Benefits
                         </div>
                         <div className="grid grid-rows-2 sm:grid-cols-2 gap-2 text-xxs sm:text-sm text-gray-600">
@@ -147,7 +147,7 @@ const FareRule = ({ isOpen, onClose, fareRules, isLoading }) => {
 
                     {/* Fare Rule Details */}
                     <div className="border border-gray-200 rounded-md p-3">
-                      <div className="text-[#028FA3] font-medium mb-1">
+                      <div className="text-[#155EEF] font-medium mb-1">
                         {rule.airline}: {rule.origin} - {rule.destination}
                       </div>
 
@@ -181,7 +181,7 @@ const FareRule = ({ isOpen, onClose, fareRules, isLoading }) => {
                         {shouldShowButton && (
                           <button
                             onClick={() => setIsExpanded(!isExpanded)}
-                            className="mt-2 text-[#028FA3] hover:text-[#026d7d] text-xs sm:text-sm font-semibold transition-colors"
+                            className="mt-2 text-[#155EEF] hover:text-[#026d7d] text-xs sm:text-sm font-semibold transition-colors"
                           >
                             {isExpanded ? "▲ View Less" : "▼ View More"}
                           </button>

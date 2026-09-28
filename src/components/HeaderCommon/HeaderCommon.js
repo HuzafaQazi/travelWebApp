@@ -12,10 +12,10 @@ import axios, {
 } from "@/utils/axios/axios";
 import Signin from "@/pages/login";
 import styles from "./styles.module.css";
-import qugoLogo from "../../../public/img/Qugo Logo white-01 2 2.png";
-import corporate from "../../../public/img/Qugo Corporate black.png";
+import qugoLogo from "../../../public/img/weyngo_logo.png";
+import corporate from "../../../public/img/weyngo_logo.png";
 import profileLogo from "../../../src/images/profile.png";
-import mobQugoLogo from "../../../public/img/Qugo Logo mobile.png";
+import mobQugoLogo from "../../../public/img/weyngo_logo.png";
 import { useRouter } from "next/router";
 import { Modal } from "react-bootstrap";
 import { Nav, Tab, Form } from "react-bootstrap";
@@ -356,13 +356,13 @@ export default function HeaderCommon({ isAuthRequired = true }) {
           <Image
             className={styles.qugoLogo}
             src={qugoLogo}
-            alt="qugoLogo"
+            alt="WeynGo Logo"
             onClick={goToHome}
           />
           <Image
             className={styles.mobLogo}
             src={mobQugoLogo}
-            alt="mobqugoLogo"
+            alt="WeynGo Logo"
             onClick={goToHome}
           />
         </div>
@@ -413,7 +413,7 @@ export default function HeaderCommon({ isAuthRequired = true }) {
           </button>
 
           <div
-            className="bg-[#028fa3] text-white p-[8px] cursor-pointer text-lg mx- items-center rounded-lg shadow-lg"
+            className="bg-[#155EEF] text-white p-[8px] cursor-pointer text-lg mx- items-center rounded-lg shadow-lg"
             onClick={handleOpenLoginModal}
           >
             Event
@@ -500,7 +500,7 @@ export default function HeaderCommon({ isAuthRequired = true }) {
             <Image
               src={qugoLogo}
               className={styles.modalheaderlogo}
-              alt="Unable to load Qugo logo"
+              alt="Unable to load WeynGo logo"
             />
           </div>
           <div>Offers</div>
@@ -508,7 +508,7 @@ export default function HeaderCommon({ isAuthRequired = true }) {
         </Modal.Header>
         <Modal.Body
           className="rounded"
-          style={{ backgroundColor: "#028FA3", padding: "40px" }}
+          style={{ backgroundColor: "#155EEF", padding: "40px" }}
         >
           <div
             style={{
@@ -583,7 +583,7 @@ export default function HeaderCommon({ isAuthRequired = true }) {
                       className="btn btn-primary btn-rounded"
                       style={{
                         borderRadius: "50px",
-                        backgroundColor: "#028FA3",
+                        backgroundColor: "#155EEF",
                         border: "none",
                         paddingLeft: "24px",
                         paddingRight: "24px",

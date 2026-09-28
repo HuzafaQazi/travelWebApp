@@ -397,7 +397,7 @@ export default function AIChatWidget() {
                 AI Booking Assistant
               </div>
               <div className="text-blue-200 text-xs leading-tight">
-                {isCorporate ? "Corporate account" : "Qugo account"} · Flights &
+                {isCorporate ? "Corporate account" : "WeynGo account"} · Flights &
                 more
               </div>
             </div>

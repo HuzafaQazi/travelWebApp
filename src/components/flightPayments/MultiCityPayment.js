@@ -377,7 +377,7 @@ export default function MulticityConfirmation() {
               <div style={{ width: "35%", color: "#878786" }}>
                 {origin?.airport?.airportName}, {origin?.airport?.countryName}
                 <br />
-                <span style={{ color: "#028fa3" }}>
+                <span style={{ color: "#155EEF" }}>
                   Terminal {origin?.airport?.terminal}
                 </span>
               </div>
@@ -392,7 +392,7 @@ export default function MulticityConfirmation() {
                 {destination?.airport?.airportName},
                 {destination?.airport?.countryName}
                 <br />
-                <span style={{ color: "#028fa3" }}>
+                <span style={{ color: "#155EEF" }}>
                   Terminal {destination?.airport?.terminal}
                 </span>
               </div>

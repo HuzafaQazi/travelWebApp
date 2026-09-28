@@ -150,19 +150,19 @@ const HotelReview = () => {
         <div className="border-b border-t p-2 px-0">
           <div className="relative flex items-center">
             <div className="text-left">
-              <span className="block font-medium text-[#028FA3]">Check-in</span>
+              <span className="block font-medium text-[#155EEF]">Check-in</span>
               <span className="block font-semibold">{checkInDate}</span>
             </div>
 
             <div className="relative flex-1 text-center">
-              <span className="absolute top-0 text-xs text-[#028FA3]">
+              <span className="absolute top-0 text-xs text-[#155EEF]">
                 {stayDuration}
               </span>
               <hr className="border-dashed border-black mx-2 w-full h-1" />
             </div>
 
             <div className="text-right">
-              <span className="block font-medium text-[#028FA3]">Check-out</span>
+              <span className="block font-medium text-[#155EEF]">Check-out</span>
               <span className="block font-semibold">{checkOutDate}</span>
             </div>
           </div>
@@ -195,7 +195,7 @@ const HotelReview = () => {
 
           {/* PRICE SECTION */}
           {/* <div className="mt-4 border-b pb-2">
-            <h4 className="text-[#028fa3] font-semibold text-lg">
+            <h4 className="text-[#155EEF] font-semibold text-lg">
               Price Breakup
             </h4>
 
@@ -225,7 +225,7 @@ const HotelReview = () => {
           {/* Final Price */}
           {/* <div className="mt-2 flex justify-between">
             <span className="text-lg font-semibold">Total Payable</span>
-            <span className="text-lg font-semibold text-[#028fa3]">
+            <span className="text-lg font-semibold text-[#155EEF]">
               ₹ {formatPrice(totalPayable)}
             </span>
           </div> */}

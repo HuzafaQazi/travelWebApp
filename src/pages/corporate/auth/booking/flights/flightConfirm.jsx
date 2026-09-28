@@ -798,7 +798,7 @@ export default function FlightConfirm() {
                     <div className="flex flex-col items-center ">
                       {bookingStatus.toLowerCase() !== "confirmed" && (
                         <button
-                          className="text-white bg-[#028fa3] text-xs p-2 px-4 rounded-md"
+                          className="text-white bg-[#155EEF] text-xs p-2 px-4 rounded-md"
                           onClick={handleRefundStatusClick}
                         >
                           Refund Status
@@ -862,7 +862,7 @@ export default function FlightConfirm() {
                     <div className="flex justify-center gap-2">
                       {userType === 1 && (
                         <button
-                          className="bg-[#028fa3]  text-white flex gap-1 justify-center items-center text-base font-medium p-1 px-2 rounded-lg"
+                          className="bg-[#155EEF]  text-white flex gap-1 justify-center items-center text-base font-medium p-1 px-2 rounded-lg"
                           onClick={fetchAndDownloadInvoice}
                           disabled={downloading}
                         >
@@ -888,7 +888,7 @@ export default function FlightConfirm() {
                       )}
                       {bookingStatus.toLowerCase() !== "failed" && (
                         <button
-                          className="bg-[#028fa3]  text-white flex gap-1 justify-center items-center text-base font-medium p-1 px-2 rounded-lg"
+                          className="bg-[#155EEF]  text-white flex gap-1 justify-center items-center text-base font-medium p-1 px-2 rounded-lg"
                           onClick={fetchAndDownloadTicket}
                           disabled={downloading1}
                         >
@@ -919,7 +919,7 @@ export default function FlightConfirm() {
 
               {/* approver details */}
               {approvalData && approvalData.length > 0 && (
-                <div className="border-[1px] border-[#028FA32E] shadow-[6px_6px_30px_0px_#7D99B40D] rounded-xl mt-3 p-3">
+                <div className="border-[1px] border-[#155EEF2E] shadow-[6px_6px_30px_0px_#7D99B40D] rounded-xl mt-3 p-3">
                   {approvalData && (
                     <ApproverDetails
                       travellers={approvalData}
@@ -930,18 +930,18 @@ export default function FlightConfirm() {
               )}
 
               {/* booking details */}
-              <div className="border-[1px] border-[#028FA32E] shadow-[6px_6px_30px_0px_#7D99B40D] rounded-xl mt-3 p-3">
+              <div className="border-[1px] border-[#155EEF2E] shadow-[6px_6px_30px_0px_#7D99B40D] rounded-xl mt-3 p-3">
                 <div className="text-sm font-semibold">Booking Details</div>
                 <div className="flex flex-col sm:flex-row gap-1 sm:gap-5 mt-2 sm:mt-0">
                   <div className="flex items-center text-xs font-medium">
                     Booking ID:
-                    <div className="text-[#028FA3] font-semibold">
+                    <div className="text-[#155EEF] font-semibold">
                       {bookingDetails?.data[0]?.data.bookingId}
                     </div>
                   </div>
                   <div className="flex items-center text-xs font-medium">
                     Booked on:
-                    <div className="text-[#028fa3] font-semibold">
+                    <div className="text-[#155EEF] font-semibold">
                       {new Date(
                         bookingDetails?.data[0]?.data.bookedDate,
                       ).toLocaleTimeString([], {
@@ -1038,7 +1038,7 @@ export default function FlightConfirm() {
                                   >
                                     <div
                                       key={segmentIndex}
-                                      className="border-[1px] border-[#028FA32E] shadow-[6px_6px_30px_0px_#7D99B40D] rounded-xl mt-3 p-3"
+                                      className="border-[1px] border-[#155EEF2E] shadow-[6px_6px_30px_0px_#7D99B40D] rounded-xl mt-3 p-3"
                                     >
                                       <div className="text-base font-medium mb-2">
                                         Flight Details
@@ -1070,7 +1070,7 @@ export default function FlightConfirm() {
                                         {booking?.data?.pnr && (
                                           <div className="flex text-xxs sm:text-base items-center font-semibold">
                                             PNR :
-                                            <span className="ml-1 font-semibold text-[#028fa3]">
+                                            <span className="ml-1 font-semibold text-[#155EEF]">
                                               <div>
                                                 {segment.airlinePNR &&
                                                 segment.airlinePNR.trim() !== ""
@@ -1081,7 +1081,7 @@ export default function FlightConfirm() {
                                           </div>
                                         )}
                                         <div className="flex items-center gap-2">
-                                          <div className="border-[1px] text-xxxs sm:text-base rounded-md border-[#028FA32E] shadow-[6px_6px_30px_0px_#7D99B40D] p-2">
+                                          <div className="border-[1px] text-xxxs sm:text-base rounded-md border-[#155EEF2E] shadow-[6px_6px_30px_0px_#7D99B40D] p-2">
                                             {booking?.data?.flightItinerary
                                               ?.journeyTypeCode === "1"
                                               ? "One Way"
@@ -1093,14 +1093,14 @@ export default function FlightConfirm() {
                                                   ? "Multi City"
                                                   : "Unknown"}
                                           </div>
-                                          <div className="border-[1px] text-xxxs sm:text-base rounded-md border-[#028FA32E] box-shadow-[6px_6px_30px_0px_#7D99B40D] p-2">
+                                          <div className="border-[1px] text-xxxs sm:text-base rounded-md border-[#155EEF2E] box-shadow-[6px_6px_30px_0px_#7D99B40D] p-2">
                                             {segment?.cabinClassName}
                                           </div>
                                         </div>
                                       </div>
                                       <div className="flex justify-between items-center mt-2">
                                         <div className="w-2/6 self-baseline">
-                                          <div className="text-[#028fa3] text-xs sm:text-lg font-medium">
+                                          <div className="text-[#155EEF] text-xs sm:text-lg font-medium">
                                             {new Date(
                                               segment.origin.depTime,
                                             ).toLocaleTimeString([], {
@@ -1148,7 +1148,7 @@ export default function FlightConfirm() {
                                               {segment.baggage}
                                             </span>{" "}
                                             |
-                                            <span className="ml-1 text-[#028fa3] font-medium">
+                                            <span className="ml-1 text-[#155EEF] font-medium">
                                               {booking?.data?.flightItinerary
                                                 .nonRefundable
                                                 ? "Non Refundable"
@@ -1157,7 +1157,7 @@ export default function FlightConfirm() {
                                           </div>
                                         </div>
                                         <div className="w-2/6 text-end self-baseline">
-                                          <div className="text-[#028fa3] text-xs sm:text-lg">
+                                          <div className="text-[#155EEF] text-xs sm:text-lg">
                                             {new Date(
                                               segment.destination.arrTime,
                                             ).toLocaleTimeString([], {
@@ -1222,7 +1222,7 @@ export default function FlightConfirm() {
               )}
 
               {/* price details */}
-              <div className="border-[1px] border-[#028FA32E] shadow-[6px_6px_30px_0px_#7D99B40D] rounded-md mt-3 p-3">
+              <div className="border-[1px] border-[#155EEF2E] shadow-[6px_6px_30px_0px_#7D99B40D] rounded-md mt-3 p-3">
                 <div className="flex items-center gap-5">
                   <div className="text-base font-medium">Price Details</div>
                 </div>
@@ -1257,7 +1257,7 @@ export default function FlightConfirm() {
                         </div>
                       </div>
                     )}
-                    <div className="p-2 py-3 flex w-full justify-between mt-1 rounded-md text-lg bg-[#028FA30F] text-[#028fa3]">
+                    <div className="p-2 py-3 flex w-full justify-between mt-1 rounded-md text-lg bg-[#155EEF0F] text-[#155EEF]">
                       <div>Total</div>
                       <div>Rs.{formatPrice(paymentData?.totalAmount)}</div>
                     </div>
@@ -1267,7 +1267,7 @@ export default function FlightConfirm() {
 
               {/* ff details */}
 
-              {/* <div className="border-[1px] border-[#028FA32E] shadow-[6px_6px_30px_0px_#7D99B40D] rounded-md p-3 mt-3 bg-white">
+              {/* <div className="border-[1px] border-[#155EEF2E] shadow-[6px_6px_30px_0px_#7D99B40D] rounded-md p-3 mt-3 bg-white">
                 <h2 className="text-base sm:text-lg font-bold mb-3">FF Details</h2>
                 {bookingDetails?.data[0]?.data?.segmentPassengerSsr?.length > 0 &&
                   bookingDetails?.data[0]?.data?.segmentPassengerSsr?.[ssrPassengerIndex]?.ssr
@@ -1281,7 +1281,7 @@ export default function FlightConfirm() {
                             key={index}
                             onClick={() => setSelectedPassengerIndex(index)}
                             className={`px-2 py-1 rounded ${selectedPassengerIndex === index
-                                ? "bg-[#028fa3] text-white"
+                                ? "bg-[#155EEF] text-white"
                                 : "bg-gray-200 text-gray-700 hover:bg-gray-300"
                               }`}
                           >
@@ -1354,7 +1354,7 @@ export default function FlightConfirm() {
               </div> */}
 
               {passengersWithFF.length > 0 && (
-                <div className="border-[1px] border-[#028FA32E] shadow-[6px_6px_30px_0px_#7D99B40D] rounded-md p-3 mt-3 bg-white">
+                <div className="border-[1px] border-[#155EEF2E] shadow-[6px_6px_30px_0px_#7D99B40D] rounded-md p-3 mt-3 bg-white">
                   <h2 className="text-base sm:text-lg font-bold mb-3">
                     FF Details
                   </h2>
@@ -1367,7 +1367,7 @@ export default function FlightConfirm() {
                         onClick={() => setSelectedPassengerIndex(index)}
                         className={`px-2 py-1 rounded ${
                           selectedPassengerIndex === index
-                            ? "bg-[#028fa3] text-white"
+                            ? "bg-[#155EEF] text-white"
                             : "bg-gray-200 text-gray-700 hover:bg-gray-300"
                         }`}
                       >
@@ -1428,13 +1428,13 @@ export default function FlightConfirm() {
               )}
 
               {/* traveler details */}
-              <div className="border-[1px] border-[#028FA32E] shadow-[6px_6px_30px_0px_#7D99B40D] rounded-md mt-3 p-3">
+              <div className="border-[1px] border-[#155EEF2E] shadow-[6px_6px_30px_0px_#7D99B40D] rounded-md mt-3 p-3">
                 <TravelerDetails bookingDetails={bookingDetails?.data} />
               </div>
 
               {/* GST details */}
 
-              <div className="border-[1px] border-[#028FA32E] shadow-[6px_6px_30px_0px_#7D99B40D] rounded-md mt-3 p-3 bg-white">
+              <div className="border-[1px] border-[#155EEF2E] shadow-[6px_6px_30px_0px_#7D99B40D] rounded-md mt-3 p-3 bg-white">
                 <GSTDetails
                   companyName={
                     bookingDetails?.data[0]?.data?.companyGstDetails
@@ -1482,11 +1482,11 @@ export default function FlightConfirm() {
                 <div className="text-[#171A19CC] font-semibold text-lg">
                   Error in payment process. Please try again
                 </div>
-                <div className="flex gap-[100px] w-fit px-4 mb-4 mt-4 rounded-full py-2 bg-[#028FA30D]">
-                  <div className="text-[#028FA3] font-semibold text-base">
+                <div className="flex gap-[100px] w-fit px-4 mb-4 mt-4 rounded-full py-2 bg-[#155EEF0D]">
+                  <div className="text-[#155EEF] font-semibold text-base">
                     Amount to be paid
                   </div>
-                  <div className="text-[#028FA3] font-semibold text-base">
+                  <div className="text-[#155EEF] font-semibold text-base">
                     ₹ {formatPrice(paymentData.totalAmount)}
                   </div>
                 </div>
@@ -1494,14 +1494,14 @@ export default function FlightConfirm() {
                 <div className="flex w-1/3 gap-10">
                   <button
                     onClick={redirectHome}
-                    className="border-1 border-[#028fa3] w-full text-[#028fa3] text-sm p-3 rounded-lg"
+                    className="border-1 border-[#155EEF] w-full text-[#155EEF] text-sm p-3 rounded-lg"
                   >
                     Homepage
                   </button>
 
                   <button
                     onClick={retryPayment}
-                    className="bg-[#028fa3] w-full text-white text-sm p-3 mt-5 rounded-lg"
+                    className="bg-[#155EEF] w-full text-white text-sm p-3 mt-5 rounded-lg"
                   >
                     Retry
                   </button>
@@ -1569,7 +1569,7 @@ export default function FlightConfirm() {
                         <div className="mt-4 flex justify-center">
                           <button
                             onClick={handlePayment}
-                            className="bg-[#028fa3] text-white px-4 py-2 rounded-lg"
+                            className="bg-[#155EEF] text-white px-4 py-2 rounded-lg"
                           >
                             {paymentData?.totalPayableAmount > 0
                               ? `Proceed to pay | Rs. ${formatPrice(

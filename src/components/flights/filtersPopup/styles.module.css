@@ -80,7 +80,7 @@
 }
 
 .activeLink {
-  /* border: 1px solid #028fa3; */
+  /* border: 1px solid #155EEF; */
   border-radius: 15px;
   font-size: 12px;
   padding: 4px;
@@ -243,7 +243,7 @@
   width: 100%;
   margin-top: 2%;
   background-color: #ffffff;
-  color: #028fa3;
+  color: #155EEF;
   padding: 2%;
   display: flex;
   justify-content: center;
@@ -253,7 +253,7 @@
 
 .modifySection {
   width: 100%;
-  background-color: #028fa3;
+  background-color: #155EEF;
   padding-top: 2%;
   padding-bottom: 2%;
   padding-left: 2%;
@@ -261,7 +261,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(90deg, #028fa3 -13.6%, #49585a 106.05%);
+  background: linear-gradient(90deg, #155EEF -13.6%, #49585a 106.05%);
 }
 
 .flightDetails {
@@ -278,7 +278,7 @@
 
 .modifyButton {
   border: none;
-  color: #028fa3;
+  color: #155EEF;
   padding: 8%;
   padding-left: 28%;
   padding-right: 28%;
@@ -302,9 +302,9 @@
   justify-content: center;
   gap: 8px;
   width: 18%;
-  border: 0.55px solid #028fa3;
-  color: #028fa3;
-  background: rgba(2, 143, 163, 0.06);
+  border: 0.55px solid #155EEF;
+  color: #155EEF;
+  background: rgba(21, 94, 239, 0.06);
   box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.03);
   padding: 2%;
   /* border: none; */
@@ -443,8 +443,8 @@
   padding-bottom: 2%;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  color: #028fa3;
-  background-color: rgba(2, 143, 163, 0.11);
+  color: #155EEF;
+  background-color: rgba(21, 94, 239, 0.11);
 }
 
 .fromToTiming {
@@ -457,7 +457,7 @@
 .fromToTime {
   font-size: 18px;
   font-weight: 500;
-  color: #028fa3;
+  color: #155EEF;
   height: 20px;
 }
 
@@ -487,7 +487,7 @@
   display: flex;
   font-size: 10px;
   gap: 10px;
-  color: #028fa3;
+  color: #155EEF;
 }
 
 .verticalRule {
@@ -504,14 +504,14 @@
   padding: 2%;
   border-radius: 4px;
   border: none;
-  background-color: #028fa3;
+  background-color: #155EEF;
   color: #ffffff;
   box-shadow: 0px 4px 4px 0px #231f201f;
 }
 
 .seatsLeftDetails {
   font-size: 10px;
-  color: #028fa3;
+  color: #155EEF;
 }
 
 .headFiltersBottom {
@@ -523,7 +523,7 @@
   height: 25px;
   border: 1px solid #878786;
   border-radius: 10px;
-  background-color: #028fa3;
+  background-color: #155EEF;
   color: white;
 }
 
@@ -531,7 +531,7 @@
   width: 98%;
   margin-left: 1%;
   padding: 3%;
-  box-shadow: 0px 4px 4px 0px rgba(2, 143, 163, 0.13);
+  box-shadow: 0px 4px 4px 0px rgba(21, 94, 239, 0.13);
 }
 
 .depDetails {
@@ -547,7 +547,7 @@
 }
 
 .timeBoxes {
-  box-shadow: 0px 4px 4px 0px rgba(2, 143, 163, 0.13);
+  box-shadow: 0px 4px 4px 0px rgba(21, 94, 239, 0.13);
   width: 20%;
   font-size: 10px;
   text-align: center;
@@ -571,7 +571,7 @@
   margin-left: 1%;
   margin-top: 2%;
   padding: 3%;
-  box-shadow: 0px 4px 4px 0px rgba(2, 143, 163, 0.13);
+  box-shadow: 0px 4px 4px 0px rgba(21, 94, 239, 0.13);
 }
 
 .stopsContainer {
@@ -579,7 +579,7 @@
   margin-left: 1%;
   margin-top: 2%;
   padding: 3%;
-  box-shadow: 0px 4px 4px 0px rgba(2, 143, 163, 0.13);
+  box-shadow: 0px 4px 4px 0px rgba(21, 94, 239, 0.13);
 }
 
 .stopsSwitches {
@@ -590,7 +590,7 @@
 }
 
 .stops {
-  color: #028fa3;
+  color: #155EEF;
   width: fit-content;
   border: 0.55px dashed var(--Text-colour, #878786);
   text-wrap: nowrap;
@@ -620,7 +620,7 @@
   margin-left: 1%;
   margin-top: 2%;
   padding: 3%;
-  box-shadow: 0px 4px 4px 0px rgba(2, 143, 163, 0.13);
+  box-shadow: 0px 4px 4px 0px rgba(21, 94, 239, 0.13);
 }
 
 .cabinContainer {
@@ -628,7 +628,7 @@
   margin-left: 1%;
   margin-top: 2%;
   padding: 3%;
-  box-shadow: 0px 4px 4px 0px rgba(2, 143, 163, 0.13);
+  box-shadow: 0px 4px 4px 0px rgba(21, 94, 239, 0.13);
 }
 
 .carrierContainer {
@@ -636,7 +636,7 @@
   margin-left: 1%;
   margin-top: 2%;
   padding: 3%;
-  box-shadow: 0px 4px 4px 0px rgba(2, 143, 163, 0.13);
+  box-shadow: 0px 4px 4px 0px rgba(21, 94, 239, 0.13);
 }
 
 .layoverContainer {
@@ -644,7 +644,7 @@
   margin-left: 1%;
   margin-top: 2%;
   padding: 3%;
-  box-shadow: 0px 4px 4px 0px rgba(2, 143, 163, 0.13);
+  box-shadow: 0px 4px 4px 0px rgba(21, 94, 239, 0.13);
 }
 
 .checkboxRow {
@@ -671,7 +671,7 @@
   margin-left: 1%;
   margin-top: 2%;
   padding: 3%;
-  box-shadow: 0px 4px 4px 0px rgba(2, 143, 163, 0.13);
+  box-shadow: 0px 4px 4px 0px rgba(21, 94, 239, 0.13);
 }
 
 .greyText {
@@ -723,12 +723,12 @@
 .backArrow {
   background-color: #ffffff;
   border: none;
-  color: #028fa3;
+  color: #155EEF;
   font-size: 16px;
 }
 
 .flightFareDetailsHead {
-  color: #028fa3;
+  color: #155EEF;
   width: 90%;
   margin-left: 5%;
   font-size: 14px;
@@ -738,7 +738,7 @@
 }
 
 .flightFareDetailsActive {
-  background: rgba(2, 143, 163, 0.07);
+  background: rgba(21, 94, 239, 0.07);
   padding: 1% 5%;
   border-radius: 15px;
   font-weight: 500;
@@ -803,7 +803,7 @@
 
 .citiesRefund {
   width: 100%;
-  background-color: #028fa3;
+  background-color: #155EEF;
   display: flex;
   justify-content: space-between;
   color: #ffffff;
@@ -820,8 +820,8 @@
   margin-bottom: 3%;
   margin-left: 1%;
   padding: 2%;
-  color: #028fa3;
-  background-color: rgba(2, 143, 163, 0.08);
+  color: #155EEF;
+  background-color: rgba(21, 94, 239, 0.08);
   text-align: center;
   border-radius: 10px;
 }
@@ -840,7 +840,7 @@
   padding-top: 3%;
   background: var(
     --Gradient,
-    linear-gradient(90deg, #028fa3 0%, #efc007 121.58%)
+    linear-gradient(90deg, #155EEF 0%, #efc007 121.58%)
   );
   display: flex;
   justify-content: flex-end;
@@ -861,7 +861,7 @@
   padding-left: 2%;
   width: 20%;
   height: fit-content;
-  /* border-left: 3px solid #028fa3; */
+  /* border-left: 3px solid #155EEF; */
 }
 
 .cabinClassFacility {
@@ -895,7 +895,7 @@
 .FareDetailsSelectBtn {
   border: none;
   border-radius: 4px;
-  background-color: #028fa3;
+  background-color: #155EEF;
   color: #fff;
   padding: 5% 0%;
   font-size: 12px;
@@ -938,7 +938,7 @@
 }
 
 .selected {
-  background-color: #028fa3;
+  background-color: #155EEF;
   color: white;
   border-radius: 10px;
   width: 50%;
@@ -955,7 +955,7 @@
   width: 100%;
   font-weight: 500;
   background-color: white;
-  color: #028fa3;
+  color: #155EEF;
   border: 0.5px solid;
   font-size: 18px;
   text-wrap: nowrap;
@@ -1123,7 +1123,7 @@
   }
 
   .selected {
-    background-color: #028fa3;
+    background-color: #155EEF;
     /* Change to the desired background color for the selected state */
     color: white;
     border-radius: 10px;

@@ -1,22 +1,23 @@
 .holidays {
-  background-color: #ffffff;
+  background-color: #F8FAFC;
   margin-top: 3%;
   text-align: center;
 }
 
 .topHeading {
-  color: black;
+  color: #071B49;
   font-variant: small-caps;
   margin-bottom: 1%;
   font-size: 2vw;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .headingUnderline {
   width: 9%;
   margin-left: 45%;
   height: 4px;
-  background-color: #028fa3;
+  background: linear-gradient(90deg, #155EEF 0%, #6D28D9 100%);
+  border-radius: 2px;
   margin-bottom: 10px;
 }
 
@@ -64,11 +65,13 @@
 .button {
   font-size: 1.1vw;
   padding: 4% 8%;
-  background: #028fa3;
+  background: linear-gradient(90deg, #155EEF 0%, #6D28D9 100%);
   border: none;
-  border-radius: 5px;
+  border-radius: 6px;
   color: #ffffff;
-  box-shadow: 2px 6px 12px 0px rgba(0, 0, 0, 0.17);
+  box-shadow: 2px 6px 12px 0px rgba(21, 94, 239, 0.25);
+  cursor: pointer;
+  transition: opacity 0.2s ease;
 }
 
 .column3Img {
@@ -307,10 +310,16 @@
 .sendEnquiryBtn {
   padding: 2% 5%;
   font-size: 15px;
-  background: #028fa3;
+  background: linear-gradient(90deg, #155EEF 0%, #6D28D9 100%);
   color: #ffffff;
   border: none;
-  border-radius: 3px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.sendEnquiryBtn:hover {
+  opacity: 0.92;
 }
 
 .readMore {

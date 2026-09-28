@@ -42,7 +42,7 @@ const CustomValueContainer = (props) => {
           <span className="overflow-hidden text-ellipsis whitespace-nowrap max-w-[70%] text-[#000000] font-medium">
             {displayValue}
           </span>
-          <span className="text-[#028fa3] font-medium ml-[1px]">
+          <span className="text-[#155EEF] font-medium ml-[1px]">
             {countDisplay}
           </span>
         </>
@@ -584,7 +584,7 @@ const SelectTravellers = ({
             maxAllowedTravelers === 1 && selectedTravelers.length === 1
               ? "cursor-not-allowed"
               : "cursor-pointer"
-          }  text-[#028fa3] hover:text-[#01707d] transition-colors duration-200 rounded-full hover:bg-[#028fa3]/10`}
+          }  text-[#155EEF] hover:text-[#01707d] transition-colors duration-200 rounded-full hover:bg-[#155EEF]/10`}
           title="View Travelers"
           disabled={maxAllowedTravelers === 1 && selectedTravelers.length === 1}
         >
@@ -616,7 +616,7 @@ const SelectTravellers = ({
                   <div className="mt-4 flex gap-3 justify-end">
                     <button
                       onClick={() => setShowConfirmDialog(false)}
-                      className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#028fa3]"
+                      className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#155EEF]"
                     >
                       Cancel
                     </button>
@@ -691,8 +691,8 @@ const SelectTravellers = ({
                             className="flex items-center justify-between p-2 bg-gray-50 rounded-lg hover:bg-gray-100 transition-all duration-200"
                           >
                             <div className="flex items-center space-x-3">
-                              <div className="h-10 w-10 rounded-full bg-[#028fa3]/10 flex items-center justify-center">
-                                <span className="text-[#028fa3] font-medium text-lg">
+                              <div className="h-10 w-10 rounded-full bg-[#155EEF]/10 flex items-center justify-center">
+                                <span className="text-[#155EEF] font-medium text-lg">
                                   {traveler.label.charAt(0)}
                                 </span>
                               </div>
@@ -727,7 +727,7 @@ const SelectTravellers = ({
                     <div className="mt-6 flex justify-end">
                       <button
                         onClick={() => setShowTravelersList(false)}
-                        className="px-6 py-2.5 bg-[#028fa3] text-white font-medium rounded-lg hover:bg-[#01707d] transition-all duration-200 shadow-sm hover:shadow"
+                        className="px-6 py-2.5 bg-[#155EEF] text-white font-medium rounded-lg hover:bg-[#01707d] transition-all duration-200 shadow-sm hover:shadow"
                       >
                         Close
                       </button>

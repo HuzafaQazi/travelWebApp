@@ -48,7 +48,7 @@ const CommonReview = () => {
         <div className="border-b border-t p-2 px-0">
           <div className="relative flex items-center">
             <div className="text-left ">
-              <span className="block font-medium text-sm sm:text-base text-[#028FA3]">
+              <span className="block font-medium text-sm sm:text-base text-[#155EEF]">
                 Check-in
               </span>
               <span className="block font-semibold text-xs sm:text-sm text-[#171A19]">
@@ -57,7 +57,7 @@ const CommonReview = () => {
             </div>
             <div className="relative flex items-center justify-center flex-1">
               <span
-                className={`absolute px-2 font-normal text-xxs sm:text-xs text-[#028FA3]  ${
+                className={`absolute px-2 font-normal text-xxs sm:text-xs text-[#155EEF]  ${
                   isReviewPage ? "-top-0" : "-top-0 sm:-top-2"
                 } 2xl:-top-2 transform -translate-y-1/2`}
               >
@@ -66,7 +66,7 @@ const CommonReview = () => {
               <hr className="border-dashed border-black-300 mx-2 w-full h-1" />
             </div>
             <div className="text-right ">
-              <span className="block font-medium text-sm sm:text-base text-[#028FA3]">
+              <span className="block font-medium text-sm sm:text-base text-[#155EEF]">
                 Check-out
               </span>
               <span className="block font-semibold text-xs sm:text-sm text-[#171A19]">
@@ -113,7 +113,7 @@ const CommonReview = () => {
 
           {/* price breakup */}
           <div className="mt-3 border-b pb-2">
-            <span className="text-[#028fa3] font-semibold text-lg">
+            <span className="text-[#155EEF] font-semibold text-lg">
               Price Breakup
             </span>
             <div className="flex justify-between text-[#4A4A4A] text-sm mt-2">
@@ -146,14 +146,14 @@ const CommonReview = () => {
           {currentPage === "confirm" ? (
             <div className="mt-2 flex justify-between">
               <span className="text-lg font-semibold">Total Paid</span>
-              <span className="text-lg font-semibold text-[#028fa3]">
+              <span className="text-lg font-semibold text-[#155EEF]">
                 ₹ {formatPrice(priceBreakup.totalAmount.toFixed(2))}
               </span>
             </div>
           ) : (
             <div className="mt-2 flex justify-between">
               <span className="text-lg font-semibold">Total Payable</span>
-              <span className="text-lg font-semibold text-[#028fa3]">
+              <span className="text-lg font-semibold text-[#155EEF]">
                 ₹ {formatPrice(totalPayable.toFixed(2))}
               </span>
             </div>

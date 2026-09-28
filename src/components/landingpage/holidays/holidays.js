@@ -151,7 +151,7 @@ export default function Holidays({ holidays_by_theme, group_tours }) {
             <div className={styles.column2}>
               <div className={styles.row1}>EXPLORE</div>
               <div className={styles.row2}>HOLIDAYS</div>
-              <div className={styles.row1}>By QuGo Themes</div>
+              <div className={styles.row1}>By WeynGo Themes</div>
               <div className={styles.row3}>
                 Choose from carefully <br /> designed packages.
               </div>

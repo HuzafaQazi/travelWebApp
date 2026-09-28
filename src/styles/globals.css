@@ -2,6 +2,34 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
+:root {
+  /* WeynGo Colors */
+  --weyngo-primary-blue: #155EEF;
+  --weyngo-vibrant-blue: #2589FF;
+  --weyngo-deep-navy: #071B49;
+  --weyngo-violet-purple: #6D28D9;
+  --weyngo-premium-purple: #8B2BE2;
+  --weyngo-special-accent: #C026D3;
+  --weyngo-white: #FFFFFF;
+  --weyngo-page-bg: #F8FAFC;
+  --weyngo-card-bg: #FFFFFF;
+  --weyngo-hero-overlay: rgba(7, 27, 73, 0.72);
+  --weyngo-text-main: #0F172A;
+  --weyngo-text-secondary: #475569;
+  --weyngo-text-muted: #94A3B8;
+  --weyngo-border-light: #E2E8F0;
+
+  /* WeynGo Gradients */
+  --weyngo-search-gradient: linear-gradient(90deg, #155EEF 0%, #6D28D9 100%);
+  --weyngo-underline-gradient: linear-gradient(90deg, #155EEF 0%, #6D28D9 100%);
+  --weyngo-cta-gradient: linear-gradient(90deg, #155EEF 0%, #6D28D9 100%);
+  --weyngo-logo-flow: linear-gradient(90deg, #155EEF 0%, #2589FF 35%, #6D28D9 75%, #8B2BE2 100%);
+
+  /* WeynGo Fonts */
+  --weyngo-font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --weyngo-font-secondary: 'Roboto', sans-serif;
+}
+
 * {
   font-family: "Roboto";
   padding: 0;

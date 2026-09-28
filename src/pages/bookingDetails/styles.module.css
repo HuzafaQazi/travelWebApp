@@ -90,7 +90,7 @@
 .closeButton {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #028fa3;
+  background-color: #155EEF;
   color: white;
   border: none;
   border-radius: 5px;
@@ -288,7 +288,7 @@
   font-size: 18px;
   line-height: 22px;
   text-transform: uppercase;
-  color: #028fa3;
+  color: #155EEF;
   margin-bottom: 10px;
 }
 
@@ -343,7 +343,7 @@
 .hotelDetailsData {
   display: flex;
   justify-content: flex-end;
-  background: rgba(2, 143, 163, 0.06);
+  background: rgba(21, 94, 239, 0.06);
   /* drop-shadow-smaller */
 
   box-shadow: 2px 2px 4px rgba(86, 144, 198, 0.11),
@@ -421,7 +421,7 @@
   font-size: 20px;
   line-height: 24px;
 
-  color: #028fa3;
+  color: #155EEF;
 }
 
 .perVillaPrice,
@@ -533,7 +533,7 @@
 }
 
 .charges-row {
-  color: #028FA3;
+  color: #155EEF;
 }
 
 
@@ -587,11 +587,11 @@ align-items: center;
 
 .cancelOption {
 padding: 2%;
-color: #028FA3;
+color: #155EEF;
 background-color: #ffffff;
 margin-right: 3%;
 border-radius: 16px;
-border: 1px solid #028FA3;
+border: 1px solid #155EEF;
 }
 
 .payButton {
@@ -599,17 +599,17 @@ padding: 2%;
 padding-left: 3%;
 padding-right: 3%;
 color: #ffffff;
-background-color: #028FA3;
+background-color: #155EEF;
 border: none;
 border-radius: 16px;
-background: var(--Primary-colour, #028FA3);
+background: var(--Primary-colour, #155EEF);
 box-shadow: 0px 4px 4px 0px rgba(35, 31, 32, 0.35);
 }
 
 .refundstatus {
 padding-top: 1%;
 width: 100%;
-color:  #028FA3;
+color:  #155EEF;
 border: none;
 cursor: pointer;
 text-decoration: underline;
@@ -634,7 +634,7 @@ padding: 20px;
 }
 
 .popupContent button {
-background: #028fa3;
+background: #155EEF;
 color: #fff;
 border: none;
 padding: 8px 16px;
@@ -643,7 +643,7 @@ cursor: pointer;
 margin-top: 10px;
 }
 .success {
-color: #028FA3;
+color: #155EEF;
 }
 .container {
 position: relative;

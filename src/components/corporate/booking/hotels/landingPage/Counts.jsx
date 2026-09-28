@@ -58,7 +58,7 @@ const Counts = ({ handleRedirect }) => {
             <button
               key={index}
               onClick={() => handleRedirect(item.requestType)}
-              className="flex flex-col items-center sm:items-start justify-center text-center w-full text-nowrap py-4 px-2 bg-white border-1 border-[#028fa350] rounded-lg hover:shadow-[0_4px_4px_rgba(2,143,163,0.3)] transition-shadow duration-200"
+              className="flex flex-col items-center sm:items-start justify-center text-center w-full text-nowrap py-4 px-2 bg-white border-1 border-[#155EEF50] rounded-lg hover:shadow-[0_4px_4px_rgba(21, 94, 239,0.3)] transition-shadow duration-200"
             >
               <span className="text-base sm:text-3xl font-bold">
                 {item.count}

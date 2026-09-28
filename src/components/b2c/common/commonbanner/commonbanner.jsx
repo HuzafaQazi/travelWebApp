@@ -147,23 +147,23 @@ export default function CommonBanner({ promotions, onPageLoading }) {
 
           {/* Fixed Tab Section */}
           <div className="relative z-40 w-full mx-auto px-1 sm:px-8 mt-10 sm:mt-10">
-            <div className="bg-[#0000006b] w-full rounded-xl shadow-lg padding-banner">
+            <div className="bg-[rgba(7,27,73,0.72)] backdrop-blur-sm w-full rounded-xl shadow-xl padding-banner border border-white/10">
               {/* Tab Navigation */}
-              <div className="flex justify-between items-center gap-3 border-b border-gray-300 mb-6">
+              <div className="flex justify-between items-center gap-3 border-b border-white/20 mb-6">
                 <div className="flex w-full overflow-x-auto scrollbar-none">
                   {/* Flights Tab */}
                   <button
                     className={`${
                       activeTab === 1
-                        ? "border-b-2 border-[#028fa3] text-[#028fa3] font-bold"
-                        : "text-[#1C1C1C] text-white hover:text-[#028fa3]"
+                        ? "border-b-2 border-[#2589FF] text-[#2589FF] font-bold"
+                        : "text-white hover:text-[#2589FF]"
                     } px-4 py-3 flex gap-3 items-center text-sm sm:text-base whitespace-nowrap transition-colors duration-200`}
                     onClick={() => setActiveTab(1)}
                   >
                     <FontAwesomeIcon
                       icon={faPlane}
                       className={`w-5 h-5 sm:w-6 sm:h-6 ${
-                        activeTab === 1 ? "text-[#028fa3]" : "text-white"
+                        activeTab === 1 ? "text-[#2589FF]" : "text-white"
                       }`}
                     />
                     <span>Flights</span>
@@ -173,8 +173,8 @@ export default function CommonBanner({ promotions, onPageLoading }) {
                   <button
                     className={`${
                       activeTab === 2
-                        ? "border-b-2 border-[#028fa3] text-[#028fa3] font-bold"
-                        : "text-[#1C1C1C] text-white hover:text-[#028fa3]"
+                        ? "border-b-2 border-[#2589FF] text-[#2589FF] font-bold"
+                        : "text-white hover:text-[#2589FF]"
                     } px-4 py-3 flex gap-3 items-center text-sm sm:text-base whitespace-nowrap transition-colors duration-200`}
                     onClick={() => setActiveTab(2)}
                   >
@@ -198,15 +198,15 @@ export default function CommonBanner({ promotions, onPageLoading }) {
                   <button
                     className={`${
                       activeTab === 3
-                        ? "border-b-2 border-[#028fa3] text-[#028fa3] font-bold"
-                        : "text-[#1C1C1C] text-white hover:text-[#028fa3]"
+                        ? "border-b-2 border-[#2589FF] text-[#2589FF] font-bold"
+                        : "text-white hover:text-[#2589FF]"
                     } px-4 py-3 flex gap-3 items-center text-sm sm:text-base whitespace-nowrap transition-colors duration-200`}
                     onClick={() => setActiveTab(3)}
                   >
                     <FontAwesomeIcon
                       icon={faMapMarkerAlt}
                       className={`w-5 h-5 sm:w-6 sm:h-6 ${
-                        activeTab === 3 ? "text-[#028fa3]" : "text-white"
+                        activeTab === 3 ? "text-[#2589FF]" : "text-white"
                       }`}
                     />
                     <span>Packages</span>
@@ -419,20 +419,20 @@ export default function CommonBanner({ promotions, onPageLoading }) {
                 src={feature.src}
                 alt={`feature ${index + 1}`}
               />
-              <div className="ml-5 text-teal-600">
-                <h3 className="text-[1.3vw] font-bold mb-0">{feature.title}</h3>
-                <p className="text-[1vw] max-w-max mb-2">{feature.desc}</p>
+              <div className="ml-5">
+                <h3 className="text-[1.3vw] font-bold mb-0 text-[#071B49]">{feature.title}</h3>
+                <p className="text-[1vw] max-w-max mb-2 text-[#475569]">{feature.desc}</p>
               </div>
             </div>
           ))}
         </div>
 
         {/* Customers Section */}
-        <div className="text-center text-xl md:text-[2vw] font-medium text-black small-caps mt-[3%]">
+        {/* <div className="text-center text-xl md:text-[2vw] font-medium text-black small-caps mt-[3%]">
           Our Esteemed Customers
         </div>
         <div className="w-[9%] h-1 bg-teal-600 mx-auto mt-1"></div>
-        <Carousel />
+        <Carousel /> */}
       </div>
       {routeLoading && <Loader />}
 

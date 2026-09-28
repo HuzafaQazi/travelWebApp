@@ -50,7 +50,7 @@ export default function RequestUpdate() {
         {!approverStatus ? (
           <>
             <div className="w-full h-full flex items-center justify-center">
-              <FontAwesomeIcon icon={faSpinner} spin color="#028fa3" size="2xl"/>
+              <FontAwesomeIcon icon={faSpinner} spin color="#155EEF" size="2xl"/>
             </div>
           </>
         ) : (

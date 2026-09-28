@@ -137,8 +137,10 @@
 }
 
 .qugoLogo {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: auto;
+  max-height: 48px;
+  object-fit: contain;
 }
 
 .maintext {
@@ -379,8 +381,9 @@
 
   .qugoLogo {
     width: 100px;
-    height: 85px;
-
+    height: auto;
+    max-height: 40px;
+    object-fit: contain;
   }
 
   .smileicon1 {

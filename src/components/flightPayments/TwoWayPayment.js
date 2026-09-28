@@ -540,7 +540,7 @@ export default function TwowayConfirmation({
                 {outboundOrigin?.airport?.airportName},{" "}
                 {outboundOrigin?.airport?.countryName}
                 <br />
-                <span style={{ color: "#028fa3" }}>
+                <span style={{ color: "#155EEF" }}>
                   Terminal {outboundOrigin?.airport?.terminal}
                 </span>
               </div>
@@ -555,7 +555,7 @@ export default function TwowayConfirmation({
                 {outboundDestination?.airport?.airportName},
                 {outboundDestination?.airport?.countryName}
                 <br />
-                <span style={{ color: "#028fa3" }}>
+                <span style={{ color: "#155EEF" }}>
                   Terminal {outboundDestination?.airport?.terminal}
                 </span>
               </div>
@@ -899,7 +899,7 @@ export default function TwowayConfirmation({
                 {inboundOrigin?.airport?.airportName},{" "}
                 {inboundOrigin?.airport?.countryName}
                 <br />
-                <span style={{ color: "#028fa3" }}>
+                <span style={{ color: "#155EEF" }}>
                   Terminal {inboundOrigin?.airport?.terminal}
                 </span>
               </div>
@@ -914,7 +914,7 @@ export default function TwowayConfirmation({
                 {inboundDestination?.airport?.airportName},{" "}
                 {inboundDestination?.airport?.countryName}
                 <br />
-                <span style={{ color: "#028fa3" }}>
+                <span style={{ color: "#155EEF" }}>
                   Terminal {inboundDestination?.airport?.terminal}
                 </span>
               </div>

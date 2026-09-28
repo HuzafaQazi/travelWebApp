@@ -136,7 +136,7 @@ export default function FareSummary() {
       </div>
 
       {/* FINAL TOTAL */}
-      <div className="mt-3 bg-[#028FA30F] p-3 rounded flex justify-between items-center text-[#028fa3] font-bold text-lg">
+      <div className="mt-3 bg-[#155EEF0F] p-3 rounded flex justify-between items-center text-[#155EEF] font-bold text-lg">
         <span>Total Payable</span>
         <span>₹ {formatPrice(grandTotal)}</span>
       </div>

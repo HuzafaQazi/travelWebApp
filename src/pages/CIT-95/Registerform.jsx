@@ -1628,7 +1628,7 @@ const JubileeAlumniForm = () => {
                 width={100}
                 height={100}
                 src={Clogo}
-                alt="qugoLogo"
+                alt="Coimbatore Institute of Technology logo"
               />
             </div>
 
@@ -1641,7 +1641,7 @@ const JubileeAlumniForm = () => {
                 <Image
                   className={style.qugoLogo}
                   src={qugoImage}
-                  alt="qugoLogo"
+                  alt="WeynGo Logo"
                 />
               </div>
             </div>

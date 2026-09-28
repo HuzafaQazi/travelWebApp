@@ -110,8 +110,8 @@ const ActivateEmail = () => {
       <div className="container">
         <div className="header">
           <img
-            src="https://qa-qugoimages.qugo.io/img/logo/Qugo_Corporate_Logo.png"
-            alt="QuGo Logo"
+            src="/img/weyngo_logo.png"
+            alt="WeynGo Logo"
           />
           <h1>
             {bookingDetails.getTravelCategory()} Request by {employeeName}

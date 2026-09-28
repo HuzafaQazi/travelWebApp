@@ -120,7 +120,7 @@ export default function Meals({
                 key={index}
                 className={`${
                   activeSegment === index
-                    ? "border-[#028fa3] text-[#028fa3]"
+                    ? "border-[#155EEF] text-[#155EEF]"
                     : "text-gray-900"
                 } px-4 py-2 border-b`}
                 onClick={() => setActiveSegment(index)}
@@ -140,7 +140,7 @@ export default function Meals({
                   key={index}
                   className={`flex rounded-md min-w-28 sm:min-w-36 flex-col gap-2 items-center p-2 ${
                     travelerIndex === index
-                      ? "text-[#028fa3] border border-[#028FA32B]"
+                      ? "text-[#155EEF] border border-[#155EEF2B]"
                       : " border-[1px] border-[#0000000F] bg-custom-shadow1"
                   }`}
                   onClick={() => setTravelerIndex(index)}
@@ -153,7 +153,7 @@ export default function Meals({
                         }`.trim()
                       : `Passenger ${index + 1}`}
                   </div>
-                  <div className="bg-[#028FA30F] text-xxs sm:text-sm rounded-full p-1 px-3">
+                  <div className="bg-[#155EEF0F] text-xxs sm:text-sm rounded-full p-1 px-3">
                     {getMealName(index)}
                   </div>
                 </div>
@@ -177,7 +177,7 @@ export default function Meals({
                   key={mealIndex}
                   className={`
                     relative flex text-xs sm:text-base items-center justify-between
-                    mt-3 p-2 border-[1px] border-[#028FA36E] rounded-md 
+                    mt-3 p-2 border-[1px] border-[#155EEF6E] rounded-md 
                     cursor-pointer
                   `}
                   onClick={(e) => handleMealClick(e, mealItem)}
@@ -197,7 +197,7 @@ export default function Meals({
                       <span
                         className={`w-5 h-5 border border-black rounded-full cursor-pointer ${
                           isSelected(mealItem)
-                            ? "bg-[#028fa3] border-[#028fa3]"
+                            ? "bg-[#155EEF] border-[#155EEF]"
                             : ""
                         }`}
                       ></span>

@@ -500,7 +500,7 @@ export default function Confirmbooking() {
                     <div className={styles.invoiceButton}>
                       <Button
                         style={{
-                          backgroundColor: "#028FA3",
+                          backgroundColor: "#155EEF",
                           fontSize: "9px",
                           padding: "0px",
                           border: "none",

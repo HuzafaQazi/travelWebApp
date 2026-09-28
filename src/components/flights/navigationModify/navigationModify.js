@@ -1010,7 +1010,7 @@ const NavigationModify = ({
                         <div className="font-semibold text-nowrap">
                           <FontAwesomeIcon
                             icon={faPlaneDeparture}
-                            color="#028fa3"
+                            color="#155EEF"
                             size="xs"
                             className="mr-2"
                           />
@@ -1074,7 +1074,7 @@ const NavigationModify = ({
                         <div className="font-semibold text-nowrap">
                           <FontAwesomeIcon
                             icon={faPlaneDeparture}
-                            color="#028fa3"
+                            color="#155EEF"
                             size="xs"
                             className="mr-2"
                           />
@@ -1275,7 +1275,7 @@ const NavigationModify = ({
                         <div className="font-semibold text-nowrap">
                           <FontAwesomeIcon
                             icon={faPlaneDeparture}
-                            color="#028fa3"
+                            color="#155EEF"
                             size="xs"
                             className="mr-2"
                           />
@@ -1337,7 +1337,7 @@ const NavigationModify = ({
                         <div className="font-semibold text-nowrap">
                           <FontAwesomeIcon
                             icon={faPlaneDeparture}
-                            color="#028fa3"
+                            color="#155EEF"
                             size="xs"
                             className="mr-2"
                           />
@@ -1550,7 +1550,7 @@ const NavigationModify = ({
                             <div className="font-semibold text-nowrap">
                               <FontAwesomeIcon
                                 icon={faPlaneDeparture}
-                                color="#028fa3"
+                                color="#155EEF"
                                 size="xs"
                                 className="mr-2"
                               />
@@ -1614,7 +1614,7 @@ const NavigationModify = ({
                             <div className="font-semibold text-nowrap">
                               <FontAwesomeIcon
                                 icon={faPlaneDeparture}
-                                color="#028fa3"
+                                color="#155EEF"
                                 size="xs"
                                 className="mr-2"
                               />
@@ -1746,7 +1746,7 @@ const NavigationModify = ({
                                     <div className="font-semibold text-nowrap">
                                       <FontAwesomeIcon
                                         icon={faPlaneDeparture}
-                                        color="#028fa3"
+                                        color="#155EEF"
                                         size="xs"
                                         className="mr-2"
                                       />
@@ -1827,7 +1827,7 @@ const NavigationModify = ({
                                     <div className="font-semibold text-nowrap">
                                       <FontAwesomeIcon
                                         icon={faPlaneDeparture}
-                                        color="#028fa3"
+                                        color="#155EEF"
                                         size="xs"
                                         className="mr-2"
                                       />
@@ -2049,7 +2049,7 @@ const NavigationModify = ({
                 <h2
                   className={styles.calenderHeading}
                   style={{
-                    color: "#028fa3",
+                    color: "#155EEF",
                     height: "fit-content",
                   }}
                 >
@@ -2128,7 +2128,7 @@ const NavigationModify = ({
                   </div>
                 ) : null}
               </div>
-              <hr style={{ color: "#028fa3" }} />
+              <hr style={{ color: "#155EEF" }} />
 
               <Calendar
                 onChange={handleCalendarChange}
@@ -2152,7 +2152,7 @@ const NavigationModify = ({
                 }
                 maxDate={maxDate}
               />
-              <hr style={{ color: "#028fa3" }} />
+              <hr style={{ color: "#155EEF" }} />
             </div>
           </>
         )}
@@ -2195,7 +2195,7 @@ const NavigationModify = ({
                     >
                       <FontAwesomeIcon
                         icon={faMinus}
-                        style={{ color: " #028fa3" }}
+                        style={{ color: " #155EEF" }}
                       />
                     </button>
                     <span className={styles.numInsideToggle} id="counterAdults">
@@ -2207,7 +2207,7 @@ const NavigationModify = ({
                     >
                       <FontAwesomeIcon
                         icon={faPlus}
-                        style={{ color: " #028fa3" }}
+                        style={{ color: " #155EEF" }}
                       />
                     </button>
                   </div>
@@ -2224,7 +2224,7 @@ const NavigationModify = ({
                     >
                       <FontAwesomeIcon
                         icon={faMinus}
-                        style={{ color: " #028fa3" }}
+                        style={{ color: " #155EEF" }}
                       />
                     </button>
                     <span className={styles.numInsideToggle} id="counterChild">
@@ -2236,7 +2236,7 @@ const NavigationModify = ({
                     >
                       <FontAwesomeIcon
                         icon={faPlus}
-                        style={{ color: " #028fa3" }}
+                        style={{ color: " #155EEF" }}
                       />
                     </button>
                   </div>
@@ -2255,7 +2255,7 @@ const NavigationModify = ({
                     >
                       <FontAwesomeIcon
                         icon={faMinus}
-                        style={{ color: " #028fa3" }}
+                        style={{ color: " #155EEF" }}
                       />
                     </button>
                     <span
@@ -2270,7 +2270,7 @@ const NavigationModify = ({
                     >
                       <FontAwesomeIcon
                         icon={faPlus}
-                        style={{ color: " #028fa3" }}
+                        style={{ color: " #155EEF" }}
                       />
                     </button>
                   </div>

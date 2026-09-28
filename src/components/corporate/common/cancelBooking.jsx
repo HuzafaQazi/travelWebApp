@@ -108,7 +108,7 @@ export default function CancelBooking({ isOpen, onClose, onCancelRequest }) {
           </div>
           <div className="w-full flex items-center justify-center mt-5">
             <button
-              className="px-4 py-2 bg-[#028fa3] text-white rounded-md"
+              className="px-4 py-2 bg-[#155EEF] text-white rounded-md"
               onClick={() => {
                 // Add cancellation logic here
                 closeModal();

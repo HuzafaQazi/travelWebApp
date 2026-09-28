@@ -410,7 +410,7 @@ export default function ApprovalStatus() {
     if (pricingData && pricingData?.priceDifference) {
       return (
         <button
-          className="w-fit px-4 mt-5 flex flex-col items-center bg-[#028fa3] p-2 rounded-full text-white peer-checked:pointer-events-auto"
+          className="w-fit px-4 mt-5 flex flex-col items-center bg-[#155EEF] p-2 rounded-full text-white peer-checked:pointer-events-auto"
           type="button"
           onClick={() => setIsRequestModalOpen(true)}
         >
@@ -432,7 +432,7 @@ export default function ApprovalStatus() {
     ) {
       return (
         <button
-          className="w-fit px-4 mt-5 flex flex-col items-center bg-[#028fa3] p-2 rounded-full text-white peer-checked:pointer-events-auto"
+          className="w-fit px-4 mt-5 flex flex-col items-center bg-[#155EEF] p-2 rounded-full text-white peer-checked:pointer-events-auto"
           type="button"
           onClick={handlePayment}
           disabled={proceedPaymentBtnLoader}
@@ -941,7 +941,7 @@ export default function ApprovalStatus() {
                   userDetails?.userId === approvalData?.userId && (
                     <div className="w-full">
                       <button
-                        className="bg-[#028fa3] w-full text-white text-sm p-3 mt-2 sm:mt-5 rounded-lg"
+                        className="bg-[#155EEF] w-full text-white text-sm p-3 mt-2 sm:mt-5 rounded-lg"
                         onClick={openCancelModal}
                       >
                         Cancel Request
@@ -951,7 +951,7 @@ export default function ApprovalStatus() {
                 {approvalData?.approvalStatus === "Declined" && (
                   <div className="w-full">
                     <button
-                      className="bg-[#028fa3] w-full text-white text-sm p-3 mt-5 rounded-lg"
+                      className="bg-[#155EEF] w-full text-white text-sm p-3 mt-5 rounded-lg"
                       onClick={() => router.push("/corporate/auth/booking")}
                     >
                       Go to Homepage

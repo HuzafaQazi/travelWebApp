@@ -1496,7 +1496,7 @@ const Filters = ({
           >
             <div className="sm:static sticky top-0 left-0 right-0 w-full p-2 pt-2 bg-white flex flex-col justify-between z-[9] mt-2 rounded-md bg-opacity-1">
               <div className="">
-                <h2 className="text-base" style={{ color: "#028fa3" }}>
+                <h2 className="text-base" style={{ color: "#155EEF" }}>
                   Filters for your best search
                 </h2>
               </div>
@@ -1506,7 +1506,7 @@ const Filters = ({
                     <button
                       className={`px-4 text-xs py-2 w-1/2 rounded-md transition-colors ${
                         activeTab === "departure"
-                          ? "bg-[#028fa3] text-white"
+                          ? "bg-[#155EEF] text-white"
                           : "bg-gray-200 text-gray-700 hover:bg-gray-300"
                       }`}
                       onClick={() => {
@@ -1519,7 +1519,7 @@ const Filters = ({
                     <button
                       className={`px-4 text-xs py-2 w-1/2 rounded-md transition-colors ${
                         activeTab === "return"
-                          ? "bg-[#028fa3] text-white"
+                          ? "bg-[#155EEF] text-white"
                           : "bg-gray-200 text-gray-700 hover:bg-gray-300"
                       }`}
                       onClick={() => {
@@ -1555,8 +1555,8 @@ const Filters = ({
                           onClick={() => setSelectedIndex(index)}
                           className={`w-1/3 min-w-fit font-medium text-base text-nowrap p-1 m-1 rounded-lg ${
                             selectedIndex === index
-                              ? "bg-[#028fa3] text-white"
-                              : "bg-white text-[#028fa3] border-[1px] border-[#028fa3]"
+                              ? "bg-[#155EEF] text-white"
+                              : "bg-white text-[#155EEF] border-[1px] border-[#155EEF]"
                           }`}
                         >
                           {originCity}
@@ -1573,7 +1573,7 @@ const Filters = ({
               className={`h-full ${isFooterNear ? "sm:h-[0px]" : "sm:h-[350px]"} overflow-y-auto pb-20 sm:pb-0 sm:overflow-y-scroll sm:[&::-webkit-scrollbar]:hidden`}
             >
             <div className="h-full  pb-20 sm:pb-0">
-              <div className="w-[98%] ml-1 mt-2 p-[3%] shadow-[0px_4px_4px_0px] shadow-[rgba(2,143,163,0.13)] bg-white rounded-sm cursor-pointer">
+              <div className="w-[98%] ml-1 mt-2 p-[3%] shadow-[0px_4px_4px_0px] shadow-[rgba(21, 94, 239,0.13)] bg-white rounded-sm cursor-pointer">
                 <div>Flight Policy</div>
                 <div className="mt-3">
                   <label className="inline-flex items-center cursor-pointer">
@@ -1586,7 +1586,7 @@ const Filters = ({
                       }
                       onChange={handleInPolicyToggle}
                     />
-                    <div className="relative w-11 h-6 bg-gray-200 peer-focus:outline-none rounded-full peer dark:bg-[#E5E1E2] peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#028fa3]"></div>
+                    <div className="relative w-11 h-6 bg-gray-200 peer-focus:outline-none rounded-full peer dark:bg-[#E5E1E2] peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#155EEF]"></div>
                     <span className="ms-3 text-[#171A19CC] font-normal text-base">
                       In policy fares only
                     </span>
@@ -1596,7 +1596,7 @@ const Filters = ({
               {/* price container */}
 
          
-              <div className="w-[98%] ml-1 mt-2 p-[3%] shadow-[0px_4px_4px_0px] shadow-[rgba(2,143,163,0.13)] bg-white rounded-sm cursor-pointer">
+              <div className="w-[98%] ml-1 mt-2 p-[3%] shadow-[0px_4px_4px_0px] shadow-[rgba(21, 94, 239,0.13)] bg-white rounded-sm cursor-pointer">
                 <div>Price</div>
                 <div style={{ marginLeft: "9%", marginRight: "9%" }}>
                   <Slider
@@ -1622,7 +1622,7 @@ const Filters = ({
                 </div>
               </div>
               {/* stops container */}
-              <div className="w-[98%] ml-[1%] mt-[2%] p-[3%] shadow-[0_4px_4px_0px] shadow-[rgba(2,143,163,0.13)] bg-white rounded-sm">
+              <div className="w-[98%] ml-[1%] mt-[2%] p-[3%] shadow-[0_4px_4px_0px] shadow-[rgba(21, 94, 239,0.13)] bg-white rounded-sm">
                 <div>Stops</div>
                 <div className="flex flex-col mt-[4%]">
                   {Array.from(
@@ -1638,7 +1638,7 @@ const Filters = ({
                       return (
                         <>
                           <label
-                            className="text-[#028fa3] w-fit text-nowrap py-[1%]  rounded-sm text-sm font-medium flex whitespace-nowrap cursor-pointer"
+                            className="text-[#155EEF] w-fit text-nowrap py-[1%]  rounded-sm text-sm font-medium flex whitespace-nowrap cursor-pointer"
                             key={index}
                           >
                             <input
@@ -1742,7 +1742,7 @@ const Filters = ({
 
                         {/* Apply button */}
                         <button
-                          className="px-11 py-2 border-1 border-[#028fa3] text-[#028fa3] text-base font-semibold rounded"
+                          className="px-11 py-2 border-1 border-[#155EEF] text-[#155EEF] text-base font-semibold rounded"
                           onClick={handleApplyTimeframe}
                         >
                           APPLY TIMEFRAME
@@ -1833,7 +1833,7 @@ const Filters = ({
 
                         {/* Apply button */}
                         <button
-                          className="px-11 py-2 border-1 border-[#028fa3] text-[#028fa3] text-base font-semibold rounded"
+                          className="px-11 py-2 border-1 border-[#155EEF] text-[#155EEF] text-base font-semibold rounded"
                           onClick={handleApplyTimeframe}
                         >
                           APPLY TIMEFRAME
@@ -1890,7 +1890,7 @@ const Filters = ({
                     <div className="mt-2">
                       <button
                         onClick={handleShowMoreAirlines}
-                        className="text-[#028fa3] text-sm cursor-pointer"
+                        className="text-[#155EEF] text-sm cursor-pointer"
                       >
                         {showMoreAirlines
                           ? "See Less"
@@ -1998,7 +1998,7 @@ const Filters = ({
                         <button
                           // onClick={handleShowMore}
                            onClick={() => handleShowMore(selectedIndex)}
-                          className="text-[#028fa3] text-sm cursor-pointer"
+                          className="text-[#155EEF] text-sm cursor-pointer"
                         >
                           {showMoreLayovers[selectedIndex]
                             ? "See Less"
@@ -2169,7 +2169,7 @@ const Filters = ({
                 </button>
                 <button
                   className="w-[90%] rounded-sm p-[2%] text-white"
-                  style={{ backgroundColor: "#028FA3" }}
+                  style={{ backgroundColor: "#155EEF" }}
                   onClick={() =>
                     wayType && wayType === "multicity"
                       ? applyMultiCityFilters(true)
